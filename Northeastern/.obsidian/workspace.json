@@ -25,10 +25,14 @@
             "id": "2c4ed9be85033d81",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Investments/Margin Account & Short Selling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Margin Account & Short Selling"
             }
           }
         ],
@@ -170,12 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Investments/Margin Account & Short Selling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Margin Account & Short Selling"
             }
           },
           {
@@ -231,13 +236,14 @@
   },
   "active": "2c4ed9be85033d81",
   "lastOpenFiles": [
+    "Investments/Risk & Return.md",
+    "Investments/Asset Classes.md",
+    "Investments/Margin Account & Short Selling.md",
+    "Investments/Investments.md",
     "Dashboard.md",
     "Algorithms/Algorithms.md",
-    "Investments/Investments.md",
-    "Investments/Risk & Return.md",
     "Investments/Asset Classes/Priority Claims in Liquidation.md",
     "Investments/Asset Classes/Asset Classes.md",
-    "Investments/Asset Classes.md",
     "Investments/Asset Classes/Stocks.md",
     "Investments/Asset Classes/Fixed-Income Securities.md",
     "Investments/Asset Classes/Money Market Instruments.md",
@@ -258,7 +264,6 @@
     "Algorithms/Sorts/Merge Sort.md",
     "Mobile Application Development/Swift.md",
     "Algorithms/Divide and Conquer.md",
-    "Algorithms/Binary Search/Binary Search.md",
     "Algorithms/Sorts",
     "Dashboard.html",
     "Untitled.base",
