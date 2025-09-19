@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a821be515626d3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Investments/Asset Classes/Asset Classes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Asset Classes"
+            }
+          },
+          {
+            "id": "1e45023ef06c4078",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Investments/Risk & Return.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Risk & Return"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f77c74148e9d4807",
+    "type": "split",
+    "children": [
+      {
+        "id": "20a1c3baba77a932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d303bee17d04e5c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12b8c7fb810fa4a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b1760277af92cad7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e5e007fa11ba0980",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "046515525f656390",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "right": {
+    "id": "5bc0e3f334a5a346",
+    "type": "split",
+    "children": [
+      {
+        "id": "035cf1acfa7f2df2",
+        "type": "tabs",
+        "dimension": 64.71861471861472,
+        "children": [
+          {
+            "id": "410b9d6523b59103",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algorithms/Recurrences.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Recurrences"
+            }
+          },
+          {
+            "id": "276fc66e4d88d5d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algorithms/Recurrences.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Recurrences"
+            }
+          },
+          {
+            "id": "3fb4200ae50be426",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc7bb1bbfb921b7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dashboard"
+            }
+          },
+          {
+            "id": "b2db5d30fc56584e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "84928c600d56166b",
+        "type": "tabs",
+        "dimension": 35.28138528138528,
+        "children": [
+          {
+            "id": "8f0b4b55cc2624b6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "pinned": true,
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1e45023ef06c4078",
+  "lastOpenFiles": [
+    "Investments/Asset Classes.md",
+    "Investments/Asset Classes/Asset Classes.md",
+    "Investments/Asset Classes",
+    "Investments/Risk & Return/Risk & Return.md",
+    "Investments/Risk & Return/Risk-Free Assets.md",
+    "Investments/Risk & Return/Sharpe Ratio.md",
+    "Investments/Risk & Return/Risk, Variance, and Standard Deviation.md",
+    "Investments/Risk & Return.md",
+    "Investments/Risk & Return/Historical Risk & Return.md",
+    "Investments/Risk & Return/Holding Period & Annualized Returns.md",
+    "Algorithms/Sorts/Quick Sort.md",
+    "Investments/Risk & Return/Percent Returns.md",
+    "Investments/Risk & Return/Dollar Returns.md",
+    "Investments/Risk & Return/Arithmetic vs Geometric Averages.md",
+    "Investments/Risk & Return/Average Returns.md",
+    "Investments/Investments.md",
+    "Investments/Risk & Return",
+    "Mobile Application Development/Mobile Application Development.md",
+    "Algorithms/Sorts/Merge Sort.md",
+    "Mobile Application Development/Swift.md",
+    "Algorithms/Divide and Conquer.md",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Binary Search/Binary Search.md",
+    "Algorithms/Graphs/Graphs.md",
+    "Algorithms/Sorts/Sorts.md",
+    "Algorithms/Mergesort.md",
+    "Algorithms/Times/Linear Time.md",
+    "Algorithms/Sorts",
+    "Algorithms/Order Statistics.md",
+    "Dashboard.html",
+    "Untitled.base",
+    "Images/Mobile Application Development/Creating Applications",
+    "Images/Computer Systems/Register.png",
+    "Images/Computer Systems",
+    "Images/Investments/Screenshot 2025-09-09 at 3.31.59 PM.png",
+    "Images/Investments",
+    "Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
+    "Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
+    "Images/Mobile Application Development/Untitled",
+    "Images/Mobile Application Development",
+    "Images/Mobile Application Development/Creating Applications/IMG-20250915001921570.png",
+    "Untitled.canvas"
+  ]
+}

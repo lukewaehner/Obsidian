@@ -1,0 +1,51 @@
+ ## Class: Computer Systems
+---
+[Course Website](https://khoury-cs3650.github.io)
+## Topic: Introduction
+- Fundamentals
+	- Using terminal heavily
+	- Assembly Language x86-64 (intel architecture)
+	- Coding in C
+	- Compiler toolchain
+
+- CPU Virtualization
+	- Process
+	
+- Memory Virtualization
+	- Protection
+	- Efficient use of main memory
+
+- Concurrency
+	- Threads, processes, locks, semaphores
+	- Parallelism
+
+- Persistence
+	- Storage Devices
+	- File Systems
+
+- Other
+	- Debugging
+	- Instrumentation
+---
+## Notes:
+- [[Number Bases]]
+    
+- [[CPU Basics]]
+    
+- [[x86_64 Architecture]]
+	
+- [[Assembly Instructions]]
+    
+- [[Assembly & Compilation Pipeline]]
+    
+- [[Assembly Programming]]
+    
+- [[Data & Registers]]
+	
+- [[Assembly File Structure]]
+---
+## Links to Other Topics:
+
+---
+## Summary:
+- 

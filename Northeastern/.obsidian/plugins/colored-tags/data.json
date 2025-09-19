@@ -1,0 +1,31 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "new": 1,
+    "algorithms": 2,
+    "sorting": 3,
+    "divide-and-conquer": 4,
+    "stable": 5,
+    "Unique-Syntax": 6,
+    "unique-syntax": 7,
+    "tags": 8,
+    "investments": 9,
+    "risk": 10,
+    "return": 11,
+    "class": 12,
+    "returns": 13,
+    "percent": 14,
+    "assets": 15,
+    "interestbearing": 16
+  },
+  "_version": 3
+}
