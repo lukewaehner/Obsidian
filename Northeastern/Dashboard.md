@@ -4,10 +4,11 @@
 
 ---
 ## Tasks
-- [ ] Resume
-- [ ] Submit Swift Assignment + Finish Extra Credit
-- [x] Assembly Calculator
-- [ ] Algo Notes + Problem Set
+- [ ] Finish NUWorks
+- [ ] Algo Problem Set ⏫ 
+- [ ] Algo Notes - 1x
+- [ ] Computer Systems Notes - 2x
+- [ ] Investments Notes - 1x
 ---
 ## Classes:
 [[Algorithms]]
