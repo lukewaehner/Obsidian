@@ -25,7 +25,12 @@
     "returns": 13,
     "percent": 14,
     "assets": 15,
-    "interestbearing": 16
+    "interestbearing": 16,
+    "screens": 17,
+    "ui": 18,
+    "navigation": 19,
+    "multipage": 20,
+    "margincall": 21
   },
   "_version": 3
 }

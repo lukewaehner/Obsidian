@@ -4,5 +4,6 @@
 - [[Stocks]]
 ## Key Concepts
 - [[Priority Claims in Liquidation]]
+- [[Preferred Equity]]
 
 ---
