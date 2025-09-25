@@ -22,7 +22,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Dashboard.md",
+        "pattern": "Dashboard.canvas",
         "patternType": "STRICT"
       }
     ],

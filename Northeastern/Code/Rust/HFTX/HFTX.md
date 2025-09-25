@@ -1,7 +1,7 @@
 
 ---
 [[Exporting Modules]]
-[[Structs]]
+[[Code/Rust/HFTX/Structs]]
 [[Implementation]]
 [[Derives]]
 [[Copying]]
@@ -13,7 +13,7 @@
 [[PriceLevels]]
 [[Pattern Matching & Control Flow]]
 [[Result & Option Error Handling]]
-[[Collections]]
+[[Code/Rust/HFTX/Collections/Collections]]
 [[Iterators]]
 [[Invariants]]
 [[Testing]]

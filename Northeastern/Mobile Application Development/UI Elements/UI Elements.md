@@ -2,3 +2,4 @@
 [[UIButton]]
 [[UITextField]]
 [[UIAlertController]]
+[[UIImageView]]

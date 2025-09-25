@@ -32,17 +32,11 @@
     
 - [[CPU Basics]]
     
-- [[x86_64 Architecture]]
-	
-- [[Assembly Instructions]]
-    
-- [[Assembly & Compilation Pipeline]]
-    
-- [[Assembly Programming]]
-    
 - [[Data & Registers]]
 	
-- [[Assembly File Structure]]
+- [[Assembly]]
+	
+- [[C]] 
 ---
 ## Links to Other Topics:
 

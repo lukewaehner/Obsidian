@@ -22,7 +22,7 @@
 
 ## Related Topics
 
-[[Swift]]
+[[Swift Syntax]]
 [[Creating Applications]]
 [[Writing UI]]
 [[Navigation Controller]]

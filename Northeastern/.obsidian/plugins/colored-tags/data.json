@@ -30,7 +30,9 @@
     "ui": 18,
     "navigation": 19,
     "multipage": 20,
-    "margincall": 21
+    "margincall": 21,
+    "important": 22,
+    "memory": 23
   },
   "_version": 3
 }
