@@ -32,5 +32,5 @@ Mathematical Foundation
 - [[Recurrences]]
 - [[Divide and Conquer]]
 - [[Sorts]]
-- [[Dynamic Programming]]
+- [[Algorithms/Dynamic Programming]]
 - 

@@ -15,4 +15,5 @@
 
 ---
 ## References
-[[Basics]]
+[[Computer Systems/C/Basics/Basics|Basics]]
+[[Pointers]]

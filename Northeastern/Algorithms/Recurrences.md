@@ -1,6 +1,4 @@
----
-## Topic:
----
+
 ---
 ## Core Idea
 
@@ -9,7 +7,7 @@
 - General form:
 - $$
 	\begin{aligned}
-    T(n)=\text{cost of recursive calls}+\text{cost of extra work} \\
+    T(n)=\text{cost of recursive calls}+\text{cost of extra work} \\
     \end{aligned}
     $$
 ---
@@ -58,26 +56,16 @@ $$
         
     - Add up totals across levels.
         
-3. **Master Theorem** (shortcut for divide & conquer)  
+3. **[[Master Theorem]]** (shortcut for divide & conquer)  
     Works for recurrences of the form:
     $$
-    T(n) = aT(\frac{a}{b})+f(n)
+    T(n) = aT\left(\frac{n}{b}\right)+f(n)
     $$
     - $a$: number of subproblems
-        
     - $b$: input size shrink factor
-        
     - $f(n)$: extra work outside recursion
-        
     
-    Compare $f(n)$ to $n^{\log_b a}$:
-    
-    - Case 1: $If f(n)=O(n^{log_b​a−\epsilon}),\text{ total} = \theta(n^{\log_{b}a})$.
-        
-    - Case 2: If $f(n)=\Theta(n^{\log_ba}),\text{ total} = \Theta(n^{log_b a}\log{n})$.
-        
-    - Case 3: If $f(n)=\Omega(n^{\log_ba}),\text{ total}=\Theta(f(n))$
-        
+    See [[Master Theorem]] for complete details and proof.
 
 ---
 
@@ -88,7 +76,7 @@ $$
 Recurrence:
 
 $$
-T(n) = T(\frac{n}{2})+1
+T(n) = T\left(\frac{n}{2}\right)+1
 $$
 
 - Each step does constant work and halves the problem.
@@ -97,7 +85,7 @@ $$
     
 - Total = $\Theta(\log n)$.
 
-> [[Binary Search]]
+> [[Algorithms/Binary Search/Binary Search]]
 
 ### Merge Sort
 

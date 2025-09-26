@@ -36,7 +36,7 @@ class FirstScreenView: UIView {
 		NSLayoutConstraint.activate([
 			label.topAnchor.constraint(equalTo:
 				 self.safeAreaLayoutGuide.topAnchor, constant: 32),
-			laabel.enterXAnchor.constraint(equalTo: 
+			label.centerXAnchor.constraint(equalTo: 
 				self.safeAreaLayoutGuide.centerXAnchor)
 		])
 	}
