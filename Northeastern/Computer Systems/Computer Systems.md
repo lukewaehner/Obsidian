@@ -1,4 +1,4 @@
- ## Class: Computer Systems
+
 ---
 [Course Website](https://khoury-cs3650.github.io)
 ## Topic: Introduction
@@ -10,7 +10,7 @@
 
 - CPU Virtualization
 	- Process
-	
+
 - Memory Virtualization
 	- Protection
 	- Efficient use of main memory
@@ -38,8 +38,3 @@
 	
 - [[C]] 
 ---
-## Links to Other Topics:
-
----
-## Summary:
-- 

@@ -1,5 +1,3 @@
-# Address-of Operator
-
 The address-of operator (`&`) gets the memory address of a variable.
 
 ## The & Operator

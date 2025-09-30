@@ -1,4 +1,3 @@
-# Arrays
 
 Arrays in C are collections of elements of the same type stored in contiguous memory locations.
 
@@ -38,8 +37,13 @@ Arrays can be initialized at declaration:
 float nums[4] = { 0.1, 3.14, 1.5, 3214 };
 
 printf("2nd element: %f\\n", nums[1]); // prints 3.14
+
+int nums[4] = { 1 };
+printf("1st element: %f\n", nums[0]); // prints 1
+printf("2st element: %f\n", nums[1]); // prints 0
 ```
 
+> Any numbers not initialized, eg `nums[1...3]` get zeroed out.
 ## Memory Layout
 
 ```

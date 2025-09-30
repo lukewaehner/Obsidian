@@ -8,8 +8,12 @@ Welcome to the C pointers hub. Pointers are one of the most powerful and importa
 [[Pointer Declaration]]
 [[Dereferencing]]
 [[Address-of Operator]]
+[[Pointer Arithmetic]]
 [[Pointer to Pointer]]
 [[Pointer Safety]]
+[[Example Code]]
+[[Pointers with Arrays]]
+[[Allocating Memory]]
 
 ---
 

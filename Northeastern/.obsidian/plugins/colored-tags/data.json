@@ -32,7 +32,8 @@
     "multipage": 20,
     "margincall": 21,
     "important": 22,
-    "memory": 23
+    "memory": 23,
+    "arrays": 24
   },
   "_version": 3
 }

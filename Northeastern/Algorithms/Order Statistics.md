@@ -1,6 +1,3 @@
----
-## Topic:
----
 
 ---
 ## Basics
@@ -33,16 +30,51 @@
 ---
 ## Pivot and Conquer
 - Pick a pivot element $p$. It can be any element
-- Split array into everything $\lt p$ (Left), everything $=p$ (Middle), everything $\gt p$ (Right)
+- Split array into everything $< p$ (Left), everything $= p$ (Middle), everything $> p$ (Right)
 - This is $\Theta(n)$. [[Divide and Conquer]]
 - Let $\ell, m, r$ be the sizes of *Left, Middle and Right*
 - We need to know where the rank *k* is compared to $\ell, m, r$
 - If $k \leq \ell$. then rank $k$ element is on the left: recurse in *Left*
-- If $\ell \lt k \leq \ell + m$, elements in the *Middle*, that is $p$ is the $k^{th}$ order statistic.
-- If $k \gt \ell + m$, then rank $k$ element is in the right half.
-- So we recurse on *Right*, to find $k^{'th}$ order statistic where $k' = k - \ell - m$
+- If $\ell < k \leq \ell + m$, elements in the *Middle*, that is $p$ is the $k^{th}$ order statistic.
+- If $k > \ell + m$, then rank $k$ element is in the right half.
+- So we recurse on *Right*, to find $k'$ order statistic where $k' = k - \ell - m$
 
 ---
 ## Good and Bad Pivots
 
+**Bad Pivot:** If we always pick the minimum or maximum as pivot, one side gets $n-1$ elements and the other gets 0. This gives us the recurrence:
+$$T(n) = T(n-1) + \Theta(n) = \Theta(n^2)$$
+
+**Good Pivot:** If we can guarantee that each recursive call has at most $\alpha n$ elements for some constant $\alpha < 1$, then:
+$$T(n) = T(\alpha n) + \Theta(n) = \Theta(n)$$
+
+**Random Pivot (Quickselect):** 
+- Pick pivot uniformly at random
+- Expected running time is $\Theta(n)$
+- But worst case is still $\Theta(n^2)$
+
+**Key Insight:** We need a deterministic way to find a "good enough" pivot in linear time.
+
+---
 ## Median of Medians
+
+**Goal:** Find a pivot that guarantees at least $\frac{n}{4}$ elements on each side (approximately).
+
+**Algorithm:**
+1. **Divide** array into groups of 5 elements each
+2. **Find median** of each group (takes constant time per group)
+3. **Recursively find** the median of these medians
+4. **Use this median-of-medians as pivot**
+
+**Analysis:**
+- Step 1: $\frac{n}{5}$ groups
+- Step 2: $O(1)$ per group → $O(n)$ total
+- Step 3: Recursive call on $\frac{n}{5}$ elements
+- Step 4: At least $\frac{n}{4}$ elements are ≤ pivot, at least $\frac{n}{4}$ elements are ≥ pivot
+
+**Recurrence:**
+$$T(n) = T\left(\frac{n}{5}\right) + T\left(\frac{3n}{4}\right) + \Theta(n)$$
+
+Since $\frac{1}{5} + \frac{3}{4} = \frac{19}{20} < 1$, this gives us $T(n) = \Theta(n)$.
+
+**Result:** Deterministic linear-time selection algorithm!
