@@ -11,6 +11,8 @@ Welcome to the C programming basics hub. This section covers fundamental concept
 [[Data Types]]
 [[Declaration vs Definition]]
 [[Arrays]]
+[[Computer Systems/C/Basics/Structs|Structs]]
+[[Typedef]]
 
 ---
 

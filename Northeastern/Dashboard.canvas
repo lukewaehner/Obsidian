@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"f4b68125f78093f5","type":"text","text":"### Todo\n---\n- [ ] Code Signal assessment\n- [ ] Systems Lab\n- [ ] Algo studying\n- [ ] Finish [[Interview Prep|Linked List]]","x":-80,"y":-180,"width":316,"height":280},
+		{"id":"f4b68125f78093f5","type":"text","text":"### Todo\n---\n- [ ] Code Signal assessment\n- [ ] Finish Systems Lab\n- [ ] Algo Videos\n- [ ] Finish [[Interview Prep|Linked List]]","x":-80,"y":-180,"width":316,"height":280},
 		{"id":"d624f287916a496f","type":"file","file":"Semesters/Fall 2025.md","x":-520,"y":-180,"width":400,"height":280}
 	],
 	"edges":[]

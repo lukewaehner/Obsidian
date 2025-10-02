@@ -16,6 +16,30 @@ The users sees the Stack from above the Stack, the user will see Screen 2 now. W
 
 > Storyboard tasks are done, all code from now
 ---
+### Right Side Button
+
+```swift
+override func viewDidLoad() {
+	super.viewDidLoad()
+	navigationItem.rightBarButtonItem = UIBarButtonItem (
+		barButtonSystemOtem: .add, target: self,
+		action: #selector(onRightBarButtonTapped)
+		)
+}
+
+@objc func onRightBarButtonTapped() {
+	// Whatever is needed here
+}
+```
+### Title
+
+```swift
+override func viewDidLoad() {
+	super.viewDidLoad()
+	navigationItem.title = "Title"
+}
+```
+---
 
 [[Adding Another Page]]
 [[Adding Elements On Another Screen]]

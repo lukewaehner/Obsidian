@@ -200,33 +200,33 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [x] front() - get the value of the front item ✅ 2025-09-27
         - [x] back() - get the value of the end item ✅ 2025-09-27
         - [x] insert(index, value) - insert value at index, so the current item at that index is pointed to by the new item at the index ✅ 2025-09-28
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
+        - [x] erase(index) - removes node at given index ✅ 2025-09-30
+        - [x] value_n_from_end(n) - returns the value of the node at the nth position from the end of the list ✅ 2025-09-30
+        - [x] reverse() - reverses the list ✅ 2025-09-30
+        - [x] remove_value(value) - removes the first item in the list with this value ✅ 2025-09-30
+    - [x] Doubly-linked List ✅ 2025-10-01
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
-    - [ ] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU)
-    - [ ] Will not implement. Implementing with the array is trivial
+    - [x] [[Review] Stacks in 3 minutes (video)](https://youtu.be/KcT3aVgrrpU) ✅ 2025-09-30
+    - [x] Will not implement. Implementing with the array is trivial ✅ 2025-09-30
 
 - ### Queue
     - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
     - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
-    - [ ] Implement using linked-list, with tail pointer:
+    - [x] Implement using linked-list, with tail pointer: ✅ 2025-10-01
         - enqueue(value) - adds value at a position at the tail
         - dequeue() - returns value and removes least recently added element (front)
         - empty()
-    - [ ] Implement using a fixed-sized array:
+    - [x] Implement using a fixed-sized array: ✅ 2025-10-01
         - enqueue(value) - adds item at end of available storage
         - dequeue() - returns value and removes least recently added element
         - empty()
         - full()
-    - [ ] Cost:
+    - [x] Cost: ✅ 2025-10-01
         - a bad implementation using a linked list where you enqueue at the head and dequeue at the tail would be O(n)
             because you'd need the next to last element, causing a full traversal of each dequeue
         - enqueue: O(1) (amortized, linked list and array [probing])

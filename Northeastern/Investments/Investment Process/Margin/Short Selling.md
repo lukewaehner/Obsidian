@@ -14,5 +14,5 @@ Selling borrowed securities with intent to repurchase later at a lower price.
 - [[Short Constraints]]
 - [[Long-Short Funds]]
 ## Related
-- [[Investments/Investment Process/Margin]]
+- [[Margin]]
 - [[Primary Market]] (contrast)

@@ -14,6 +14,7 @@ Welcome to the C pointers hub. Pointers are one of the most powerful and importa
 [[Example Code]]
 [[Pointers with Arrays]]
 [[Allocating Memory]]
+[[Pointers with Structs]]
 
 ---
 

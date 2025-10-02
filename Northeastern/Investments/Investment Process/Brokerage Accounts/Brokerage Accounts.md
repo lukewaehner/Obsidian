@@ -14,5 +14,5 @@ Accounts that allow investors to buy and sell securities through brokers.
 - [[Cash Account]]
 - [[Margin Account]]
 ## Related
-- [[Investments/Investment Process/Margin]]
+- [[Margin]]
 - [[Order Types]]

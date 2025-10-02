@@ -80,7 +80,7 @@ In ShowViewController.swift we can enable to action.
 }
 ```
 
-**Write later**
+- **Write this function later**
 
 ---
 First, we want to send the mood back to the first screen, we need to ask
@@ -107,13 +107,15 @@ class ViewController: UIViewController {
 		
 		if let unwrappedMessage = textFieldMessage.text {
 			if !unwrappedMessage.isEmpty {
-				showViewController.messageFromFirstScreen = unwrappedMessage
+				showViewController.messageFromFirstScreen =
+				 unwrappedMessage
 			}
 			// Passing through itself to the next object for ref
 			showViewController.delegate = self
 		}
 		// send to stack
-		navigationController?.pushViewController(showViewController, animated: true)
+	navigationController?.pushViewController(
+		showViewController, animated: true)
 	}
 }
 ```

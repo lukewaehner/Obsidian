@@ -33,7 +33,11 @@
     "margincall": 21,
     "important": 22,
     "memory": 23,
-    "arrays": 24
+    "arrays": 24,
+    "margin": 25,
+    "define": 26,
+    "pragma": 27,
+    "include": 28
   },
   "_version": 3
 }
