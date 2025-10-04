@@ -1,5 +1,3 @@
-# Pointer to Pointer
-
 Pointers can point to other pointers, creating multiple levels of indirection.
 
 ## Double Pointer Declaration

@@ -1,5 +1,3 @@
-# Pointer Declaration
-
 How to declare and initialize pointers in C.
 
 ## Declaration Syntax

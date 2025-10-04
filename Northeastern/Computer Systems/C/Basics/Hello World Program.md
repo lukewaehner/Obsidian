@@ -1,5 +1,3 @@
-# Hello World Program
-
 The basic structure of a C program demonstrated through the classic "Hello, World!" example.
 
 ## Code Example

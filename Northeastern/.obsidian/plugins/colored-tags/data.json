@@ -37,7 +37,8 @@
     "margin": 25,
     "define": 26,
     "pragma": 27,
-    "include": 28
+    "include": 28,
+    "structs": 29
   },
   "_version": 3
 }

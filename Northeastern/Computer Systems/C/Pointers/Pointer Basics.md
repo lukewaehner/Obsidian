@@ -1,5 +1,3 @@
-# Pointer Basics
-
 A pointer is a special variable that holds the memory address of another variable.
 
 ## What is a Pointer?

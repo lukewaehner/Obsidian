@@ -1,10 +1,8 @@
-# Pointer Safety
-
 Common dangers when working with pointers and how to avoid them.
 
 ## The Uninitialized Pointer Danger
 
-**❌ Dangerous Code:**
+**Dangerous Code:**
 ```c
 int main(int argc, char **argv) {
     int x = 12;
@@ -20,7 +18,7 @@ int main(int argc, char **argv) {
 
 ## Safe Initialization
 
-**✅ Safe Code:**
+**Safe Code:**
 ```c
 int main(int argc, char **argv) {
     int x = 12;

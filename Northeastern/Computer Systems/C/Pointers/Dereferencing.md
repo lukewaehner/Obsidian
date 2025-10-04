@@ -1,4 +1,3 @@
-# Dereferencing
 
 Dereferencing is the process of getting the value that a pointer points to.
 

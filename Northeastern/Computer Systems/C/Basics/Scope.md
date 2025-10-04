@@ -1,5 +1,3 @@
-# Scope
-
 Scope in C determines where variables are accessible within your program.
 
 ## Block Scope

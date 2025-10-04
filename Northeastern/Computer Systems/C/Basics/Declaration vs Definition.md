@@ -1,5 +1,3 @@
-# Declaration vs Definition
-
 Understanding the difference between declaring and defining functions is crucial in C programming.
 
 ## Function Declaration
