@@ -1,0 +1,73 @@
+
+/* ==== Frosted Glass for Obsidian ==== */
+/* Tweak these to taste */
+:root {
+  --fg-blur: 12px;          /* blur strength */
+  --fg-opacity: 0.78;       /* panel transparency (0–1) */
+  --fg-sidebar-opacity: 0.70;
+  --fg-saturation: 160%;    /* optional pop to colors behind */
+}
+
+/* Main content panes */
+.workspace-split.mod-root .workspace-leaf,
+.view-content,
+.markdown-reading-view,
+.markdown-source-view {
+  background-color: rgb(20 20 20 / var(--fg-opacity)) !important; /* dark theme base */
+  backdrop-filter: blur(var(--fg-blur)) saturate(var(--fg-saturation));
+  -webkit-backdrop-filter: blur(var(--fg-blur)) saturate(var(--fg-saturation));
+}
+
+/* Sidebars, ribbons, tabs */
+.workspace-ribbon,
+.workspace-tabs,
+.workspace-tab-container,
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split,
+.nav-files-container,
+.nav-folder-title,
+.nav-header,
+.mod-right-split .workspace-tabs {
+  background-color: rgb(20 20 20 / var(--fg-sidebar-opacity)) !important;
+  backdrop-filter: blur(var(--fg-blur)) saturate(var(--fg-saturation));
+  -webkit-backdrop-filter: blur(var(--fg-blur)) saturate(var(--fg-saturation));
+}
+
+/* Status bar */
+.status-bar {
+  background-color: rgb(20 20 20 / 0.6) !important;
+  backdrop-filter: blur(calc(var(--fg-blur) * 0.8));
+  -webkit-backdrop-filter: blur(calc(var(--fg-blur) * 0.8));
+  border-top: 1px solid rgb(255 255 255 / 0.06);
+}
+
+/* Command palette & modals */
+.modal,
+.suggester,
+.prompt,
+.dropdown {
+  background-color: rgb(20 20 20 / 0.75) !important;
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1px solid rgb(255 255 255 / 0.06);
+  border-radius: 12px;
+}
+
+/* Optional: subtle borders for separation */
+.workspace-leaf,
+.workspace-tabs {
+  border: 1px solid rgb(255 255 255 / 0.06);
+  border-radius: 10px;
+}
+
+/* ---- Light theme adjustments ---- */
+.theme-light :is(
+  .workspace-leaf,
+  .view-content,
+  .markdown-reading-view,
+  .markdown-source-view
+){
+  background-color: rgb(245 245 245 / var(--fg-opacity)) !important;
+}
+.theme-light :is(
+  .workspa
