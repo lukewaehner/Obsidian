@@ -101,4 +101,4 @@ addq $12, -16(%rbp)   ; b += 12
 `# n -> %rsi fact:   enter $0, $0   ; body   leave   ret`
 
 (Use call to `fact` recursively; push args and handle base case)
-See: [[Memory & Addressing]]
+See: [[Computer Systems/Assembly/Memory & Addressing]]

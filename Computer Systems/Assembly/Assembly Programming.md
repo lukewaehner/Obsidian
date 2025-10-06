@@ -13,5 +13,5 @@
 
 See: [[Number Bases]] and [[Data & Registers]]
 See: [[Assembly Instructions]] for detailed instruction syntax.
-See: [[Memory & Addressing]]
+See: [[Computer Systems/Assembly/Memory & Addressing]]
 See: [[Stack & Functions]]

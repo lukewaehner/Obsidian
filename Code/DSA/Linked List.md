@@ -1,5 +1,3 @@
-# Linked List
-
 ## What is a Linked List?
 
 A **linked list** is a linear data structure where elements (nodes) are stored in non-contiguous memory locations. Each node contains:

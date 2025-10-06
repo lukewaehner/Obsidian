@@ -17,4 +17,4 @@
 ## Links
 - [[CPU Basics]]
 - [[Assembly & Compilation Pipeline]]
-- [[Memory & Addressing]]
+- [[Computer Systems/Assembly/Memory & Addressing]]

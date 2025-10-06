@@ -15,13 +15,13 @@ They want to see:
 
 Expect the prompt to be:
 
-|**Structure**|**Core operations**|**Edge cases to mention**|
-|---|---|---|
-|**Dynamic Array (ArrayList)**|append, get, resize|resizing when full/empty|
-|**HashMap (Separate Chaining)**|put, get, delete|duplicate keys, hash collisions|
-|**Queue (Circular Array)**|enqueue, dequeue|wrap-around, full vs empty|
-|**Stack**|push, pop|underflow|
-|**LRU Cache**|get, put|eviction policy, capacity 0|
+| **Structure**                   | **Core operations** | **Edge cases to mention**       |
+| ------------------------------- | ------------------- | ------------------------------- |
+| **Dynamic Array (ArrayList)**   | append, get, resize | resizing when full/empty        |
+| **HashMap (Separate Chaining)** | put, get, delete    | duplicate keys, hash collisions |
+| **Queue (Circular Array)**      | enqueue, dequeue    | wrap-around, full vs empty      |
+| **Stack**                       | push, pop           | underflow                       |
+| **LRU Cache**                   | get, put            | eviction policy, capacity 0     |
   
 
 > “Implement a simplified version of X in your preferred language and explain your design as you go.”
