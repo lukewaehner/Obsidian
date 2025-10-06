@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Dashboard.canvas",
+                "viewState": {
+                  "x": -119.04959801849978,
+                  "y": 73.87892179567369,
+                  "zoom": -0.39574899287426724
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f77c74148e9d4807",
+    "type": "split",
+    "children": [
+      {
+        "id": "20a1c3baba77a932",
+        "type": "tabs",
+        "dimension": 65.08474576271186,
+        "children": [
+          {
+            "id": "d303bee17d04e5c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12b8c7fb810fa4a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b1760277af92cad7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e5e007fa11ba0980",
+        "type": "tabs",
+        "dimension": 34.91525423728813,
+        "children": [
+          {
+            "id": "5a4947990cd941af",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5
+  },
+  "right": {
+    "id": "5bc0e3f334a5a346",
+    "type": "split",
+    "children": [
+      {
+        "id": "035cf1acfa7f2df2",
+        "type": "tabs",
+        "dimension": 61.853448275862064,
+        "children": [
+          {
+            "id": "410b9d6523b59103",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Code/DSA/Hashtable.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Hashtable"
+            }
+          },
+          {
+            "id": "276fc66e4d88d5d6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dashboard"
+            }
+          },
+          {
+            "id": "3fb4200ae50be426",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc7bb1bbfb921b7c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dashboard"
+            }
+          },
+          {
+            "id": "561e870921599e6f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "84928c600d56166b",
+        "type": "tabs",
+        "dimension": 38.146551724137936,
+        "children": [
+          {
+            "id": "8f0b4b55cc2624b6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "pinned": true,
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Second Brain/Mobile Application Development/UI Elements/UITableView/UITableView.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops/While Loop.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops/Skipping a Loop.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops/Repeat Loop.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops/Loops.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops/For Loop.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops/Break Loop.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Creating DataTypes/Structs.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Creating DataTypes/Creating DataTypes.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Creating DataTypes/Classes.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections/Tuples.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections/Sorting Arrays.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections/Sets.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections/Dictionaries.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections/Arrays.md",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections/Collections.md",
+    "Second Brain/Mobile Application Development/Navigation Controller/Multi Screen Handling/Sending Data Between Screens.md",
+    "Second Brain/Mobile Application Development/Navigation Controller/Multi Screen Handling/Multi Screen Handling.md",
+    "Second Brain/Mobile Application Development/Navigation Controller/Multi Screen Handling/Sending Data Back.md",
+    "Second Brain/Mobile Application Development/Navigation Controller/Multi Screen Handling/Linking Screens Together.md",
+    "Second Brain/Mobile Application Development/Writing UI/Writing UI.md",
+    "Second Brain/Mobile Application Development/Writing UI/Setting Constraints.md",
+    "Second Brain/Mobile Application Development/Writing UI/Passing Data.md",
+    "Second Brain/Mobile Application Development/Writing UI/Examples.md",
+    "Second Brain/Mobile Application Development/Writing UI/Creating Variables.md",
+    "Second Brain/Mobile Application Development/UI Elements/UITextField.md",
+    "Second Brain/Mobile Application Development/UI Elements/UITableView",
+    "Second Brain/Mobile Application Development/Swift Syntax/Loops",
+    "Second Brain/Mobile Application Development/Swift Syntax/Creating DataTypes",
+    "Second Brain/Mobile Application Development/Swift Syntax/Collections",
+    "Second Brain/Mobile Application Development/Navigation Controller/Multi Screen Handling",
+    "Second Brain/Mobile Application Development/Writing UI",
+    "Second Brain/Mobile Application Development/UI Elements",
+    "Second Brain/Mobile Application Development/Separate View From The Controller",
+    "Second Brain/Mobile Application Development/Swift Syntax",
+    "Second Brain/Mobile Application Development/Navigation Controller",
+    "Second Brain/Dashboard.canvas",
+    "Second Brain/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
+    "Second Brain/Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
+    "Second Brain/Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
+    "Second Brain/Images/Investments/Screenshot 2025-09-09 at 3.31.59 PM.png",
+    "Second Brain/Images/Computer Systems/Register.png",
+    "Dashboard.canvas",
+    "Northeastern/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
+    "Northeastern/Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
+    "Northeastern/Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
+    "Northeastern/Images/Investments/Screenshot 2025-09-09 at 3.31.59 PM.png",
+    "Northeastern/Images/Computer Systems/Register.png",
+    "Northeastern/Dashboard.canvas"
+  ]
+}

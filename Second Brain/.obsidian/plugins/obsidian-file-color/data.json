@@ -28,30 +28,5 @@
       "value": "#bb9af7"
     }
   ],
-  "fileColors": [
-    {
-      "path": "Computer Systems",
-      "color": "SlGDFhaXBEh-I0lM1LV7l"
-    },
-    {
-      "path": "Co-Op Search",
-      "color": "CmfJPJYN0Don0Qvb1-ib6"
-    },
-    {
-      "path": "Mobile Application Development",
-      "color": "TF8uolhlY75m10SMlXy-Q"
-    },
-    {
-      "path": "Investments",
-      "color": "eGtwLUBOPElCpq_wQ88mG"
-    },
-    {
-      "path": "Algorithms",
-      "color": "9awuB9pxt3yYCl4C7AvFi"
-    },
-    {
-      "path": "Semesters/Fall 2025.md",
-      "color": "CmfJPJYN0Don0Qvb1-ib6"
-    }
-  ]
+  "fileColors": []
 }

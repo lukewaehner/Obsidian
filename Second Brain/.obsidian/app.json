@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "autoConvertHtml": true,
+  "foldHeading": false,
+  "vimMode": false
+}

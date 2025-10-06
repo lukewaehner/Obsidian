@@ -33,25 +33,5 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  },
-  "Investments": {
-    "iconName": "LiChartLine",
-    "iconColor": "#9ece6a"
-  },
-  "Computer Systems": {
-    "iconName": "SiArchlinux",
-    "iconColor": "#7aa2f7"
-  },
-  "Co-Op Search": {
-    "iconName": "LiNewspaper",
-    "iconColor": "#7dcfff"
-  },
-  "Algorithms": {
-    "iconName": "BoBxSort",
-    "iconColor": "#bb9af7"
-  },
-  "Mobile Application Development": {
-    "iconName": "SiIos",
-    "iconColor": "#f7768e"
   }
 }
