@@ -1,6 +1,0 @@
-[[UILabel]]
-[[UIButton]]
-[[UITextField]]
-[[UIAlertController]]
-[[UIImageView]]
-[[UITableView]]

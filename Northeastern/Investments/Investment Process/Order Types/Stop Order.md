@@ -1,3 +1,0 @@
-- Becomes a market order once trigger price is hit
-- Stop buy @ $5 per share (when market price is $4.50)
-	- This can signal that the stock is growing, don't buy right on a downturn

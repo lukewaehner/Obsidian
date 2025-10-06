@@ -1,1 +1,0 @@
-See [[Multi Screen Handling]]
