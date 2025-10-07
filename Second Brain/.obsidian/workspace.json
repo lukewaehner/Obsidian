@@ -11,17 +11,15 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard.canvas",
-                "viewState": {
-                  "x": -119.04959801849978,
-                  "y": 73.87892179567369,
-                  "zoom": -0.39574899287426724
-                }
+                "file": "Computer Systems/Processes/Processes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Dashboard"
+              "icon": "lucide-file",
+              "title": "Processes"
             }
           }
         ]
@@ -228,6 +226,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Code/Code.md",
+    "Dashboard.canvas",
     "Second Brain/Mobile Application Development/UI Elements/UITableView/UITableView.md",
     "Second Brain/Mobile Application Development/Swift Syntax/Loops/While Loop.md",
     "Second Brain/Mobile Application Development/Swift Syntax/Loops/Skipping a Loop.md",
@@ -253,7 +253,6 @@
     "Second Brain/Mobile Application Development/Writing UI/Passing Data.md",
     "Second Brain/Mobile Application Development/Writing UI/Examples.md",
     "Second Brain/Mobile Application Development/Writing UI/Creating Variables.md",
-    "Second Brain/Mobile Application Development/UI Elements/UITextField.md",
     "Second Brain/Mobile Application Development/UI Elements/UITableView",
     "Second Brain/Mobile Application Development/Swift Syntax/Loops",
     "Second Brain/Mobile Application Development/Swift Syntax/Creating DataTypes",
@@ -270,7 +269,6 @@
     "Second Brain/Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
     "Second Brain/Images/Investments/Screenshot 2025-09-09 at 3.31.59 PM.png",
     "Second Brain/Images/Computer Systems/Register.png",
-    "Dashboard.canvas",
     "Northeastern/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
     "Northeastern/Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
     "Northeastern/Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
