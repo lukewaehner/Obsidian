@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Algorithms  ",
+      "color": {
+        "a": 1,
+        "rgb": 12294903
+      }
+    },
+    {
+      "query": "path:\"Co-Op Search\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8245247
+      }
+    },
+    {
+      "query": "path:\"Computer Systems\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8037111
+      }
+    },
+    {
+      "query": "path:Investments  ",
+      "color": {
+        "a": 1,
+        "rgb": 10407530
+      }
+    },
+    {
+      "query": "path:\"Mobile Application Development\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16217742
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.15413004557292,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.3979452700684397,
+  "close": true
+}

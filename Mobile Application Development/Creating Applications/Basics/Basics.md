@@ -1,0 +1,7 @@
+[[New Xcode Project]]
+[[AppDelegate]]
+[[Constraints and Alignments]]
+[[Safe Area]]
+[[SceneDelegate]]
+[[ViewController]]
+[[Xcode Panes]]

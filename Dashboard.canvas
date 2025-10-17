@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"f4b68125f78093f5","type":"text","text":"### Todo\n---\n- [ ] Systems Project (Thurs)\n- [ ] Study algo\n- [ ] $ minimum ETF vs MF participate\n- [ ] EAR formula for convert to annualized val participate\n- [ ] An option is like a ticket -> can go to something, dont have to. Participate","x":-80,"y":-180,"width":316,"height":340},
+		{"id":"d624f287916a496f","type":"file","file":"Semesters/Fall 2025.md","x":-520,"y":-180,"width":400,"height":340}
+	],
+	"edges":[]
+}
