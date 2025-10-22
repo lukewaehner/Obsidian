@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/Processes/Processes.md",
+                "file": "Computer Systems/Processes/File IO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Processes"
+              "title": "File IO"
             }
           }
         ],
@@ -223,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,9 +243,10 @@
   },
   "active": "e49c185dd03db66f",
   "lastOpenFiles": [
-    "Computer Systems/Processes/Creating New Processes.md",
-    "Computer Systems/Computer Systems.md",
     "Computer Systems/Processes/Processes.md",
+    "Computer Systems/Processes/Creating New Processes.md",
+    "Computer Systems/Processes/File IO.md",
+    "Computer Systems/Computer Systems.md",
     "Images/Computer Systems/Processes/Processes",
     "Images/Computer Systems/Processes",
     "Images/Computer Systems/Processes/Processes/IMG-20251022125104271.png",
@@ -272,7 +274,6 @@
     "Mobile Application Development/Swift Syntax/Variables.md",
     "Mobile Application Development/UI Elements/UITableView/Custom UITableViewCell.md",
     "Mobile Application Development/Creating Applications/Building Table View Apps/Detail Display Screen.md",
-    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
     "Mobile Application Development/Creating Applications/Communicate Over the Internet",
     "Mobile Application Development/Creating Applications/Basics",
     "Northeastern/Computer Systems",

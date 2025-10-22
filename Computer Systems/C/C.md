@@ -18,4 +18,4 @@
 [[Computer Systems/C/Basics/Basics|Basics]]
 [[Pointers]]
 [[The Preprocessor]]
-[[File IO]]
+[[Computer Systems/C/File IO]]
