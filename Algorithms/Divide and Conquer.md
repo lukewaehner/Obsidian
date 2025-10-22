@@ -20,5 +20,4 @@
 ## Summarize Divide and Conquer for Sorting
 - Sorting can benefit greatly from Div & Conq
 - Naively O(n^2) time by comparing all pairs of elements
-- With D-C we reduce it to $O(n \log{n})$ time. ([[Merge Sort]], [[Quick Sort]])
-- 
+- With D-C we reduce it to $O(n \log{n})$ time. ([[Merge Sort]], [[Quick Sort]]) 

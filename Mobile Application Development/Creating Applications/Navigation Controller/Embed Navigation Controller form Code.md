@@ -40,3 +40,4 @@ Then, delete Main.storyboard
 	7. Expand Item 0
 	8. Delete the row: Storyboard Name (value: Main)
 	9. Find Main storyboard file base name or Main interface. Delete the value (set to empty)
+		1. Target -> General -> Info

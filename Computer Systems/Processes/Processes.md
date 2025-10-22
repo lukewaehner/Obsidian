@@ -1,33 +1,27 @@
 
 ---
 
-Async
+A **process** is any running instance of a program.
+- python `app.py`, `ls`, `chrome`
+- Own memory space, own system resources (PID, stack, registers)
 
-Sync
+A **Daemon** is a background process running without user interaction
+- Starts at boot typically, runs until shotudown
+- Often now terminal (detatched from stdin/stdout/stderr)
+- `cron`, `sshd`
 
-Exceptions
-- Traps
-- Sync - seg faults, aborts
+A **Service** is a managed **daemon** 
+- Controlled by a service manager like `systemd`, `launchd`
+- Manager handles stop, start, restart, auto-restart policies
+- Linux: `systemctl start sshd.service`
 
-```c
-#include <stdio.h>
-#include <assert.h>
+---
 
-int main(int argc, char **argv) {
+## CPU and Processes
+- Each CPU core performs an instruction at a time, done as part of the **fetch-decode-execute cycle**
 
-	printf("Before forking. PID=%d\n", getpid());
-	
-	pid_t child = fork();
-	
-	printf("After forking. Fork returned %d. PID=%d\n", child, getpid());
-	
-	if(child == 0) {
-		printf("Only printed in child process.\n");
-		exit(0);
-	} else {
-		pritf("Only printed in parent process.\n");
-	}
-	
-	return 0;
-}
-```
+![[IMG-20251022125104271.png|350x450]]
+- If you have a 4 core CPU, there are 4 FDE cycles going on at the same time
+---
+
+## Time Sharing & Limited Execution
