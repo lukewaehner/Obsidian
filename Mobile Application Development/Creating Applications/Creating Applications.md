@@ -10,7 +10,5 @@
 ## Workflows
 - [[Building Table View Apps]] - Creating multi-screen apps with UITableView
 - [[Multi Screen Handling]]
-- [[Communicate Over the Internet]]
-- 
 
 ---

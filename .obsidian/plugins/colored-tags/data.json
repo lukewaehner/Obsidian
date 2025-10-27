@@ -109,7 +109,13 @@
     "data-structures": 97,
     "hashtable": 98,
     "hashmap": 99,
-    "search": 100
+    "search": 100,
+    "computer-systems": 101,
+    "file-io": 102,
+    "unix": 103,
+    "system-calls": 104,
+    "processes": 105,
+    "file-descriptors": 106
   },
   "_version": 3
 }

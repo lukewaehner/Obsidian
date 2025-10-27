@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f558f31941fda419",
+        "id": "b9d864eb85db5a4b",
         "type": "tabs",
         "children": [
           {
-            "id": "faaca1997cf1fe81",
+            "id": "03ed25a062fa9735",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/Computer Systems.md",
+                "file": "Mobile Application Development/UI Elements/UITableView/Adding Accessory Buttons.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Computer Systems"
+              "title": "Adding Accessory Buttons"
             }
           }
         ]
@@ -99,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "right": {
     "id": "5bc0e3f334a5a346",
@@ -224,46 +225,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "faaca1997cf1fe81",
+  "active": "03ed25a062fa9735",
   "lastOpenFiles": [
-    "Investments/Investment Process/Investment Process.md",
-    "Code/OOD/Examples/Practice Exam Questions.md",
-    "Investments/Investment Process/Brokerage Accounts/Brokerage Accounts.md",
-    "Investments/Risk & Return/Risk & Return.md",
-    "Investments/Asset Classes/Asset Classes.md",
-    "Investments/Investments.md",
-    "Computer Systems/Computer Systems.md",
-    "Code/Code.md",
-    "Code/OOD/OOD.md",
-    "Code/OOD/Encapsulation and Invariants.md",
-    "Code/OOD/Examples/MVC Text UI System.md",
-    "Code/OOD/Examples/Simple Code Examples.md",
-    "Code/OOD/Examples/Design Patterns Examples.md",
-    "Code/OOD/Examples/Calculator Controller System.md",
-    "Code/OOD/Examples/Chess Pieces System.md",
-    "Code/OOD/Examples/MVC Complete.md",
-    "Code/OOD/Examples/Design Patterns.md",
-    "Code/OOD/Examples/Calculator Controller.md",
-    "Code/OOD/Examples/Chess Pieces.md",
-    "Code/OOD/Examples/Burrito System.md",
-    "Code/OOD/Examples",
-    "Code/OOD/Examples Index.md",
-    "Code/OOD/Intro.md",
-    "Code/OOD/Java Safari.md",
-    "Code/OOD/Model, View, and Controller.md",
-    "Code/OOD/Views.md",
-    "Code/OOD/Command Design Pattern.md",
+    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
+    "Mobile Application Development/UI Elements/UITableView/Adding Accessory Buttons.md",
+    "Mobile Application Development/UI Elements/UI Elements.md",
+    "Mobile Application Development/Creating Applications/Creating Applications.md",
+    "Mobile Application Development/Separate View From The Controller/Separate View From The Controller.md",
+    "Mobile Application Development/Communicate Over the Internet/Communicate Over the Internet.md",
+    "Mobile Application Development/Communicate Over the Internet/JSON.md",
+    "Mobile Application Development/Communicate Over the Internet/Async Await.md",
+    "Mobile Application Development/Mobile Application Development.md",
     "Dashboard.canvas",
+    "Code/Code.md",
+    "Northeastern/Class Planning.md",
+    "Mobile Application Development/Communicate Over the Internet/App Transport Security.md",
+    "Mobile Application Development/API/README.md",
+    "Mobile Application Development/API",
+    "Computer Systems/Processes/File IO.md",
+    "Computer Systems/Processes/File Descriptors.md",
+    "Computer Systems/C/File IO.md",
+    "Computer Systems/C/The Preprocessor/The Preprocessor.md",
+    "Computer Systems/C/Pointers/Pointers.md",
+    "Computer Systems/C/C.md",
+    "Computer Systems/Assembly/Assembly.md",
+    "Computer Systems/CPU Basics.md",
+    "Computer Systems/Processes/Processes.md",
+    "Computer Systems/Processes/Creating New Processes.md",
+    "Computer Systems/Stack & Functions.md",
+    "Computer Systems/Number Bases.md",
+    "Computer Systems/Data & Registers.md",
+    "Code/OOD/Examples",
     "Code/OOD",
     "Images/Computer Systems/Processes/Processes",
     "Images/Computer Systems/Processes",
     "Images/Computer Systems/Processes/Processes/IMG-20251022125104271.png",
     "Algorithms/Untitled",
-    "Mobile Application Development/Creating Applications/Communicate Over the Internet",
+    "Mobile Application Development/Communicate Over the Internet",
     "Mobile Application Development/Creating Applications/Basics",
     "Northeastern/Computer Systems",
     "Northeastern",
-    "Investments/New",
     "Images/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251007153934747.png",
     "Second Brain/Dashboard.canvas",
     "Second Brain/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
