@@ -3,18 +3,18 @@
 Cheat Sheet:
 ### Movement
 
-|Keys|Action|
-|---|---|
-|`h` / `l`|Left / Right|
-|`j` / `k`|Down / Up|
-|`w` / `e`|Start / End of next word|
-|`b` / `ge`|Start / End of previous word|
-|`{` / `}`|Paragraph up / down|
-|`0` / `^`|Line start / first non-blank|
-|`$`|Line end|
-|`gg` / `G`|File start / end|
-|`Ctrl-d` / `Ctrl-u`|Half-page down / up|
-|`Ctrl-o` / `Ctrl-i`|Jump back / forward in history|
+| Keys                | Action                         |
+| ------------------- | ------------------------------ |
+| `h` / `l`           | Left / Right                   |
+| `j` / `k`           | Down / Up                      |
+| `w` / `e`           | Start / End of next word       |
+| `b` / `ge`          | Start / End of previous word   |
+| `{` / `}`           | Paragraph up / down            |
+| `0` / `^`           | Line start / first non-blank   |
+| `$`                 | Line end                       |
+| `gg` / `G`          | File start / end               |
+| `Ctrl-d` / `Ctrl-u` | Half-page down / up            |
+| `Ctrl-o` / `Ctrl-i` | Jump back / forward in history |
 
 ---
 
