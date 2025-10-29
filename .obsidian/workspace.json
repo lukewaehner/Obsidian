@@ -21,8 +21,54 @@
               "icon": "lucide-file",
               "title": "Adding Accessory Buttons"
             }
+          },
+          {
+            "id": "411c9667d869bc9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mobile Application Development/Communicate Over the Internet/Communicate Over the Internet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Communicate Over the Internet"
+            }
+          },
+          {
+            "id": "94ac9b1e2d7ec6c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Algorithms.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Algorithms"
+            }
+          },
+          {
+            "id": "214b5fdeb55b707c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mobile Application Development/Creating Applications/Navigation Controller/Embed Navigation Controller form Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Embed Navigation Controller form Code"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "5bc0e3f334a5a346",
@@ -225,15 +270,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "03ed25a062fa9735",
+  "active": "214b5fdeb55b707c",
   "lastOpenFiles": [
-    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
+    "Semesters/Fall 2025.md",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Exam.md",
+    "Ryan.md",
+    "Mobile Application Development/Communicate Over the Internet/Communicate Over the Internet.md",
+    "Mobile Application Development/Communicate Over the Internet/JSON.md",
     "Mobile Application Development/UI Elements/UITableView/Adding Accessory Buttons.md",
+    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
     "Mobile Application Development/UI Elements/UI Elements.md",
     "Mobile Application Development/Creating Applications/Creating Applications.md",
     "Mobile Application Development/Separate View From The Controller/Separate View From The Controller.md",
-    "Mobile Application Development/Communicate Over the Internet/Communicate Over the Internet.md",
-    "Mobile Application Development/Communicate Over the Internet/JSON.md",
     "Mobile Application Development/Communicate Over the Internet/Async Await.md",
     "Mobile Application Development/Mobile Application Development.md",
     "Dashboard.canvas",
@@ -251,10 +300,6 @@
     "Computer Systems/Assembly/Assembly.md",
     "Computer Systems/CPU Basics.md",
     "Computer Systems/Processes/Processes.md",
-    "Computer Systems/Processes/Creating New Processes.md",
-    "Computer Systems/Stack & Functions.md",
-    "Computer Systems/Number Bases.md",
-    "Computer Systems/Data & Registers.md",
     "Code/OOD/Examples",
     "Code/OOD",
     "Images/Computer Systems/Processes/Processes",

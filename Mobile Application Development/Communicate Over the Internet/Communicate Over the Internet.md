@@ -1,5 +1,3 @@
-# Communicate Over the Internet
-
 iOS apps can talk to a server over the Internet. We will use remote APIs, fetch data from a server, and send data to a server using those APIs.
 
 ---
@@ -9,6 +7,8 @@ iOS apps can talk to a server over the Internet. We will use remote APIs, fetch 
 We need to pass messages around, so we will use Hyper Text Transfer Protocol - [[HTTP]]
 
 We have a **Client** and a **Server** that send requests back to each other.
+
+We can pass data around with [[JSON]]t
 
 ---
 

@@ -33,3 +33,4 @@ Mathematical Foundation
 - [[Sorts]]
 - [[Dynamic Programming]]
 - [[Greedy]]
+- [[Exam]]
