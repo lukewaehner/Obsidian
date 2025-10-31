@@ -21,6 +21,16 @@
               "icon": "lucide-file",
               "title": "PS4"
             }
+          },
+          {
+            "id": "2f16bbe9a4b57536",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -99,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "right": {
     "id": "5bc0e3f334a5a346",
@@ -226,8 +237,8 @@
   },
   "active": "e1e67a05be2ff36b",
   "lastOpenFiles": [
-    "Dashboard.canvas",
     "Algorithms/PS4.md",
+    "Dashboard.canvas",
     "Mobile Application Development/UI Elements/UIAlertController.md",
     "Mobile Application Development/Creating Applications/Navigation Controller/Embed Navigation Controller form Code.md",
     "Semesters/Fall 2025.md",
