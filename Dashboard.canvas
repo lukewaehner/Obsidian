@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"f4b68125f78093f5","type":"text","text":"### Todo\n---\n- [ ] Systems Project (Thurs)\n- [ ] Study algo","x":-80,"y":-180,"width":316,"height":340},
+		{"id":"f4b68125f78093f5","type":"text","text":"### Todo\n---\n- [ ] Systems Project (Thurs)\n- [ ] Study algo\n- [ ] Finance Participation:\n\t- [ ] -1000 prie for bond with PV function is an outflow (answered)\n\t- [ ] helped with defining the variables for rate, nper, pmt fv\n\t- [ ] Asked what not including Face Value does on default","x":-80,"y":-180,"width":316,"height":340},
 		{"id":"d624f287916a496f","type":"file","file":"Semesters/Fall 2025.md","x":-520,"y":-180,"width":400,"height":340}
 	],
 	"edges":[]

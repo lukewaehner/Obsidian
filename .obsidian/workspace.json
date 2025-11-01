@@ -31,8 +31,26 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "e9cf5497b93c63ee",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Dashboard.canvas",
+                "viewState": {
+                  "x": -142,
+                  "y": -10,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Dashboard"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -235,7 +253,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1e67a05be2ff36b",
+  "active": "e9cf5497b93c63ee",
   "lastOpenFiles": [
     "Algorithms/PS4.md",
     "Dashboard.canvas",
