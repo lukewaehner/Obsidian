@@ -15,5 +15,6 @@
   "obsidian-tasks-plugin",
   "homepage",
   "obsidian-html-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "codeblock-export"
 ]

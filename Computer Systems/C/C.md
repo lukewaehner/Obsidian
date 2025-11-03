@@ -19,4 +19,5 @@
 [[Pointers]]
 [[The Preprocessor]]
 [[Computer Systems/C/File IO]]
-[[../Memory Management/Memory Management|Memory Management]] - malloc(), free(), and heap management
+[[Memory Virtualization|Memory Virtualization]] - malloc(), free(), and heap management
+[[../Concurrency/Concurrency|Concurrency]] - Threads, fork(), synchronization in C

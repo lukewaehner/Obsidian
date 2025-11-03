@@ -5,17 +5,17 @@
 - Fundamentals
 	- Using terminal heavily
 	- Assembly Language x86-64 (intel architecture)
-	- Coding in C
+	- Coding in [[C]]
 	- Compiler toolchain
 
 - CPU Virtualization
 	- Process
 
-- Memory Virtualization
+- [[Memory Virtualization]]
 	- Protection
 	- Efficient use of main memory
 
-- Concurrency
+- [[Concurrency]]
 	- Threads, processes, locks, semaphores
 	- Parallelism
 
@@ -38,7 +38,9 @@
 	
 - [[C]] 
 	
-- [[Memory Management/Memory Management|Memory Management]] - Heap allocation, free lists, fragmentation
-
 - [[Processes]]
+	
+- [[Memory Virtualization]]
+	
+- [[Concurrency]]
 ---
