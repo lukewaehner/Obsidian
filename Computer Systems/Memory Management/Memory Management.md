@@ -17,6 +17,7 @@ See: [[Free List]]
 - [[Splitting]] - Breaking large chunks into smaller allocations
 - [[Coalescing]] - Merging adjacent free chunks back together
 - [[Headers and Metadata]] - Tracking allocation information
+- [[Growing the Heap]] - Getting more memory
 
 ### Allocation Strategies
 Different approaches to selecting which free chunk to use:
