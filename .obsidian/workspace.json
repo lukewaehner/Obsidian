@@ -186,7 +186,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "84928c600d56166b",
@@ -226,7 +227,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4aad0ec5ead07a4c",
+  "active": "6f9f6b3474c33831",
   "lastOpenFiles": [
     "Dashboard.canvas",
     "Algorithms/PS4.md",
