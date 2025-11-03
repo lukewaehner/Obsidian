@@ -1,4 +1,4 @@
-# Bond Funds
+
 
 Mutual funds that invest primarily in fixed-income securities, offering income generation with varying risk levels.
 

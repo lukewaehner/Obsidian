@@ -1,4 +1,4 @@
-# Target Date Funds
+
 
 **Definition:** Lifecycle funds that automatically adjust asset allocation based on an anticipated retirement date.
 

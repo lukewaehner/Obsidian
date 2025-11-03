@@ -1,4 +1,4 @@
-# Notification Center
+
 
 > **Note:** Not to be confused with push notifications
 

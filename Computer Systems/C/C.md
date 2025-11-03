@@ -19,3 +19,4 @@
 [[Pointers]]
 [[The Preprocessor]]
 [[Computer Systems/C/File IO]]
+[[../Memory Management/Memory Management|Memory Management]] - malloc(), free(), and heap management

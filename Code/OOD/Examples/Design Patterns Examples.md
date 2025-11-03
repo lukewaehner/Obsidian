@@ -1,4 +1,4 @@
-# Design Patterns Examples
+
 
 Quick reference examples for common OOD design patterns.
 

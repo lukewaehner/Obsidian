@@ -1,4 +1,4 @@
-# Chess Pieces System
+
 
 # ♟️ Chess Pieces — Object-Oriented Design Notes
 

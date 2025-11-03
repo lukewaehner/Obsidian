@@ -1,4 +1,4 @@
-# Greedy Algorithm Pattern
+
 
 ## What is a Greedy Algorithm?
 A greedy algorithm builds a solution by making locally optimal choices at each step:

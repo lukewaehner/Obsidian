@@ -1,4 +1,4 @@
-# Greedy Stays Ahead Proof Technique
+
 
 ## Overview
 

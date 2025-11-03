@@ -1,0 +1,310 @@
+{
+  "entries": [
+    {
+      "bytes": 2495,
+      "first_line": "# File Descriptors",
+      "relpath": "Computer Systems/Processes/File Descriptors.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 1738,
+      "first_line": "# External Fragmentation",
+      "relpath": "Computer Systems/Memory Management/External Fragmentation.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4193,
+      "first_line": "# Best Fit",
+      "relpath": "Computer Systems/Memory Management/Best Fit.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3258,
+      "first_line": "# Free List",
+      "relpath": "Computer Systems/Memory Management/Free List.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4972,
+      "first_line": "# Headers and Metadata",
+      "relpath": "Computer Systems/Memory Management/Headers and Metadata.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 6011,
+      "first_line": "# Next Fit",
+      "relpath": "Computer Systems/Memory Management/Next Fit.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4217,
+      "first_line": "# Coalescing",
+      "relpath": "Computer Systems/Memory Management/Coalescing.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 9584,
+      "first_line": "# Slab Allocator",
+      "relpath": "Computer Systems/Memory Management/Slab Allocator.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5497,
+      "first_line": "# Allocation Strategies",
+      "relpath": "Computer Systems/Memory Management/Allocation Strategies.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3055,
+      "first_line": "# Splitting",
+      "relpath": "Computer Systems/Memory Management/Splitting.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 1972,
+      "first_line": "# Internal Fragmentation",
+      "relpath": "Computer Systems/Memory Management/Internal Fragmentation.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5729,
+      "first_line": "# First Fit",
+      "relpath": "Computer Systems/Memory Management/First Fit.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 7209,
+      "first_line": "# Segregated Lists",
+      "relpath": "Computer Systems/Memory Management/Segregated Lists.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 8745,
+      "first_line": "# Buddy Allocation",
+      "relpath": "Computer Systems/Memory Management/Buddy Allocation.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4916,
+      "first_line": "# Worst Fit",
+      "relpath": "Computer Systems/Memory Management/Worst Fit.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 1014,
+      "first_line": "# Control Flow",
+      "relpath": "Computer Systems/C/Basics/Control Flow.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 1110,
+      "first_line": "# Data Types",
+      "relpath": "Computer Systems/C/Basics/Data Types.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2023,
+      "first_line": "# Greedy Algorithm Pattern",
+      "relpath": "Algorithms/Greedy/Greedy Algorithm Pattern.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4812,
+      "first_line": "# Greedy vs Dynamic Programming",
+      "relpath": "Algorithms/Greedy/Greedy vs Dynamic Programming.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2650,
+      "first_line": "# Interval Scheduling Problem",
+      "relpath": "Algorithms/Greedy/Interval Scheduling Problem.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4250,
+      "first_line": "# Greedy Stays Ahead Proof Technique",
+      "relpath": "Algorithms/Greedy/Greedy Stays Ahead Proof Technique.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3369,
+      "first_line": "# Earliest Finish Time Rule",
+      "relpath": "Algorithms/Greedy/Earliest Finish Time Rule.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4746,
+      "first_line": "# Design Patterns Examples",
+      "relpath": "Code/OOD/Examples/Design Patterns Examples.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3241,
+      "first_line": "# MVC Text UI System",
+      "relpath": "Code/OOD/Examples/MVC Text UI System.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5813,
+      "first_line": "# Burrito System",
+      "relpath": "Code/OOD/Examples/Burrito System.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4094,
+      "first_line": "# Chess Pieces System",
+      "relpath": "Code/OOD/Examples/Chess Pieces System.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 7666,
+      "first_line": "# Simple Code Examples",
+      "relpath": "Code/OOD/Examples/Simple Code Examples.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3317,
+      "first_line": "# Calculator Controller System",
+      "relpath": "Code/OOD/Examples/Calculator Controller System.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 6191,
+      "first_line": "# Practice Exam Questions",
+      "relpath": "Code/OOD/Examples/Practice Exam Questions.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 431,
+      "first_line": "# App Transport Security",
+      "relpath": "Mobile Application Development/Communicate Over the Internet/App Transport Security.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 361,
+      "first_line": "# AppDelegate",
+      "relpath": "Mobile Application Development/Creating Applications/Basics/AppDelegate.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3770,
+      "first_line": "# Notification Center",
+      "relpath": "Mobile Application Development/Creating Applications/Notification Center/Notification Center.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2295,
+      "first_line": "# Closed Funds vs Closed-End Funds",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/Closed Funds vs Closed-End Funds.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3051,
+      "first_line": "# NAV Calculation",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/NAV Calculation.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2537,
+      "first_line": "# Net Asset Value (NAV)",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/Net Asset Value (NAV).md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2339,
+      "first_line": "# Closed-End Funds",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/Closed-End Funds.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 1647,
+      "first_line": "# Investment Companies",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/Investment Companies.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 4070,
+      "first_line": "# Closed-End Fund Discount Phenomenon",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/Closed-End Fund Discount Phenomenon.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 1989,
+      "first_line": "# Open-End Funds",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Structure/Open-End Funds.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 7560,
+      "first_line": "# Expense Ratio",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fees & Costs/Expense Ratio.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5753,
+      "first_line": "# 12b-1 Fees",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fees & Costs/12b-1 Fees.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 6583,
+      "first_line": "# Operating Expenses",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fees & Costs/Operating Expenses.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3193,
+      "first_line": "# Front-End Load",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fees & Costs/Front-End Load.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 6685,
+      "first_line": "# Turnover Rate",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fees & Costs/Turnover Rate.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5461,
+      "first_line": "# Back-End Load",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fees & Costs/Back-End Load.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2800,
+      "first_line": "# Money Market Mutual Funds (MMMFs)",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Money Market Mutual Funds (MMMFs).md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 3618,
+      "first_line": "# Breaking the Buck",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Breaking the Buck.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5677,
+      "first_line": "# Target Date Funds",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Target Date Funds.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 2887,
+      "first_line": "# Fund Prospectus",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Operations/Fund Prospectus.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 7115,
+      "first_line": "# Share Classes",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Operations/Share Classes.md",
+      "timestamp": "20251103-134547"
+    },
+    {
+      "bytes": 5609,
+      "first_line": "# Bond Funds",
+      "relpath": "Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Bond Funds/Bond Funds.md",
+      "timestamp": "20251103-134547"
+    }
+  ]
+}

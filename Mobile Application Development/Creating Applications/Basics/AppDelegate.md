@@ -1,4 +1,4 @@
-# AppDelegate
+
 
 **Concept**  
 - Manages **application lifecycle**.  

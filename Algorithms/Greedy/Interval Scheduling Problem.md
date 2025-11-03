@@ -1,4 +1,4 @@
-# Interval Scheduling Problem
+
 
 ## Problem Definition
 

@@ -1,4 +1,4 @@
-# Fund Prospectus
+
 
 **Definition:** The legal document that mutual funds are required by law to provide to any investor who wishes to purchase shares.
 

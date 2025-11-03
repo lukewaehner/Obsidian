@@ -1,4 +1,4 @@
-# Closed-End Fund Discount Phenomenon
+
 
 **The Puzzle:** [[Closed-End Funds]] typically trade at prices below their [[Net Asset Value (NAV)]], often substantially, and this discount is largely unexplained despite extensive research.
 

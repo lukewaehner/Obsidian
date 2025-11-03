@@ -4,20 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "8923ad90be2b1b1d",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "4aad0ec5ead07a4c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Computer Systems/Memory Management/Internal Fragmentation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Internal Fragmentation"
+            }
+          },
+          {
+            "id": "0762f7ee63fe81e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Systems/Memory Management/Coalescing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Coalescing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,35 +239,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4aad0ec5ead07a4c",
+  "active": "0762f7ee63fe81e5",
   "lastOpenFiles": [
-    "Dashboard.canvas",
-    "Algorithms/PS4.md",
-    "Mobile Application Development/UI Elements/UIAlertController.md",
-    "Mobile Application Development/Creating Applications/Navigation Controller/Embed Navigation Controller form Code.md",
-    "Semesters/Fall 2025.md",
-    "Algorithms/Algorithms.md",
-    "Algorithms/Exam.md",
-    "Ryan.md",
-    "Mobile Application Development/Communicate Over the Internet/Communicate Over the Internet.md",
-    "Mobile Application Development/Communicate Over the Internet/JSON.md",
-    "Mobile Application Development/UI Elements/UITableView/Adding Accessory Buttons.md",
-    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
-    "Mobile Application Development/UI Elements/UI Elements.md",
-    "Mobile Application Development/Creating Applications/Creating Applications.md",
-    "Mobile Application Development/Separate View From The Controller/Separate View From The Controller.md",
-    "Mobile Application Development/Communicate Over the Internet/Async Await.md",
-    "Mobile Application Development/Mobile Application Development.md",
-    "Code/Code.md",
-    "Northeastern/Class Planning.md",
-    "Mobile Application Development/Communicate Over the Internet/App Transport Security.md",
-    "Mobile Application Development/API/README.md",
-    "Mobile Application Development/API",
-    "Computer Systems/Processes/File IO.md",
+    "Computer Systems/Memory Management/Buddy Allocation.md",
+    "Computer Systems/Memory Management/Allocation Strategies.md",
+    "Computer Systems/Memory Management/Best Fit.md",
+    "Computer Systems/Memory Management/Memory Management.md",
+    "Computer Systems/Concurrency",
+    "Computer Systems/Memory Management/First Fit.md",
+    "Computer Systems/Memory Management/External Fragmentation.md",
+    "Computer Systems/Memory Management/Coalescing.md",
+    "Code/OOD/OOD.md",
+    "Code/OOD/Examples/Burrito System.md",
+    "Code/OOD/Command Design Pattern.md",
+    "Code/OOD/Controllers and Mocks.md",
+    "Computer Systems/Memory Management/Internal Fragmentation.md",
+    "Computer Systems/Memory Management/Slab Allocator.md",
+    "Computer Systems/Memory Management/Next Fit.md",
+    "Computer Systems/Memory Management/Segregated Lists.md",
+    "Computer Systems/Memory Management/Worst Fit.md",
+    "Computer Systems/Memory Management/Headers and Metadata.md",
+    "Computer Systems/Computer Systems.md",
+    "Test.md",
+    "Computer Systems/Memory Management/Splitting.md",
+    "Computer Systems/Memory Management/Free List.md",
+    "Computer Systems/Memory Management",
     "Computer Systems/Processes/File Descriptors.md",
-    "Computer Systems/C/File IO.md",
-    "Computer Systems/C/The Preprocessor/The Preprocessor.md",
-    "Computer Systems/C/Pointers/Pointers.md",
+    "Computer Systems/Processes/File IO.md",
+    "Computer Systems/Processes/Processes.md",
+    "Algorithms/Algorithms.md",
+    "Dashboard.canvas",
+    "Mobile Application Development/API",
     "Code/OOD/Examples",
     "Code/OOD",
     "Images/Computer Systems/Processes/Processes",
@@ -255,8 +278,6 @@
     "Algorithms/Untitled",
     "Mobile Application Development/Communicate Over the Internet",
     "Mobile Application Development/Creating Applications/Basics",
-    "Northeastern/Computer Systems",
-    "Northeastern",
     "Images/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251007153934747.png",
     "Second Brain/Dashboard.canvas",
     "Second Brain/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",

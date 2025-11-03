@@ -1,4 +1,4 @@
-# Simple Code Examples
+
 
 Quick reference code snippets demonstrating OOD concepts.
 

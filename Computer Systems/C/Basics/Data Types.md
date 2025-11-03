@@ -1,4 +1,4 @@
-# Data Types
+
 
 C provides several built-in data types for storing different kinds of information.
 

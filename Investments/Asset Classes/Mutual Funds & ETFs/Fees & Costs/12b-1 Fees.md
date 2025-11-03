@@ -1,4 +1,4 @@
-# 12b-1 Fees
+
 
 **Definition:** Annual fees charged by mutual funds to pay for marketing and distribution costs.
 

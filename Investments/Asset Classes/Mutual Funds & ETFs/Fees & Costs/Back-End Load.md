@@ -1,4 +1,4 @@
-# Back-End Load
+
 
 **Definition:** An "exit" fee charged when redeeming (selling) mutual fund shares.
 

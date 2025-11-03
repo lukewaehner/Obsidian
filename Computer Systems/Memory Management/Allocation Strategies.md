@@ -1,0 +1,191 @@
+
+
+When the [[Free List]] has multiple chunks that could satisfy a request, which one should the allocator choose? Different **allocation strategies** make different trade-offs between speed, fragmentation, and simplicity.
+
+## The Core Question
+
+Given this free list:
+```
+head -> [10 bytes] -> [30 bytes] -> [20 bytes] -> NULL
+```
+
+And a request for 15 bytes, which chunk should we use?
+
+## The Strategies
+
+### [[Best Fit]]
+**Choose the smallest chunk that fits.**
+- Request 15 bytes → use 20-byte chunk
+- **Goal**: Minimize wasted space
+- **Cost**: Must search entire list
+
+### [[Worst Fit]]
+**Choose the largest chunk available.**
+- Request 15 bytes → use 30-byte chunk  
+- **Goal**: Leave large chunks free
+- **Cost**: Must search entire list
+
+### [[First Fit]]
+**Choose the first chunk that fits.**
+- Request 15 bytes → use 30-byte chunk (assuming it's first found)
+- **Goal**: Minimize search time
+- **Cost**: May pollute start of list
+
+### [[Next Fit]]
+**Continue searching from where you left off.**
+- Like first fit, but remembers last position
+- **Goal**: Spread allocations evenly
+- **Cost**: Similar to first fit
+
+## Comparison Table
+
+| Strategy | Search Cost | Fragmentation | List Pollution | Notes |
+|----------|-------------|---------------|----------------|-------|
+| **Best Fit** | O(n) - full scan | Lower | Minimal | Leaves tiny unusable chunks |
+| **Worst Fit** | O(n) - full scan | Higher | Minimal | Research shows poor performance |
+| **First Fit** | O(k) - stop early | Medium | Beginning | Fast but may pollute list head |
+| **Next Fit** | O(k) - stop early | Medium | Distributed | Similar to first fit but spreads load |
+
+## Detailed Example
+
+Starting free list:
+```
+head -> [10B] -> [30B] -> [20B] -> NULL
+```
+
+### Request: 15 bytes
+
+**Best Fit:**
+```
+head -> [10B] -> [30B] -> [5B] -> NULL
+                           ^
+                           20-15=5 left over
+```
+- Searched all 3 chunks
+- Used 20B chunk (smallest that fits)
+- Left with 5B chunk (small, potentially unusable)
+
+**Worst Fit:**
+```
+head -> [10B] -> [15B] -> [20B] -> NULL
+                  ^
+                  30-15=15 left over
+```
+- Searched all 3 chunks
+- Used 30B chunk (largest available)
+- Left with larger 15B chunk (more useful)
+
+**First Fit:**
+```
+head -> [10B] -> [15B] -> [20B] -> NULL
+                  ^
+                  30-15=15 left over
+```
+- Stopped at first fit (30B)
+- Same result as worst fit in this case
+- But only searched 2 chunks
+
+**Next Fit:**
+- Same as first fit on first allocation
+- On subsequent allocations, continues from last position
+
+## Performance Optimizations
+
+### List Ordering
+
+The way the [[Free List]] is ordered dramatically affects performance:
+
+#### Address-Ordered
+```
+head -> [addr:100] -> [addr:500] -> [addr:1000] -> NULL
+```
+- **Helps**: [[Coalescing]] (O(1) instead of O(n))
+- **Helps**: Reduces fragmentation
+- **Hurts**: Insertion is O(n)
+
+#### Size-Ordered (Ascending)
+```
+head -> [10B] -> [20B] -> [30B] -> NULL
+```
+- **Helps**: Best fit becomes O(k) - stop at first fit!
+- **Hurts**: Insertion is O(n)
+- **Hurts**: First fit becomes worst fit
+
+#### Size-Ordered (Descending)
+```
+head -> [30B] -> [20B] -> [10B] -> NULL
+```
+- **Helps**: Worst fit becomes O(1) - just take head!
+- **Helps**: First fit might be better
+- **Hurts**: Insertion is O(n)
+
+#### Unordered (LIFO)
+```
+head -> [most recently freed] -> [...] -> NULL
+```
+- **Helps**: O(1) insertion
+- **Helps**: Good locality (recently freed → soon reused)
+- **Hurts**: Coalescing is O(n)
+- **Hurts**: All strategies require full search
+
+## Real-World Considerations
+
+### Workload Matters
+No strategy is universally best. Performance depends on:
+- **Request size distribution**: Mostly small? Mostly large? Varied?
+- **Allocation patterns**: Sequential? Random? Clustered?
+- **Lifetime patterns**: Short-lived? Long-lived? Mixed?
+
+### Hybrid Approaches
+Production allocators often combine strategies:
+- Use [[Segregated Lists]] for common sizes
+- Use first fit for general-purpose allocations
+- Use address ordering for easy coalescing
+
+### Advanced Strategies
+Beyond basic strategies:
+- **Buddy allocation**: [[Buddy Allocation]] - strict power-of-two sizes
+- **Segregated free lists**: [[Segregated Lists]] - multiple lists by size class
+- **Slab allocation**: [[Slab Allocator]] - pre-initialized object caches
+
+## Code Example: First Fit
+
+```c
+void *first_fit_malloc(size_t size) {
+    node_t *current = head;
+    
+    // Search for first chunk that fits
+    while (current != NULL) {
+        if (current->size >= size) {
+            // Found one! Split if necessary
+            if (current->size > size + MIN_SPLIT) {
+                split_chunk(current, size);
+            }
+            remove_from_list(current);
+            return (void *)current;
+        }
+        current = current->next;
+    }
+    
+    return NULL;  // No fit found
+}
+```
+
+## Key Takeaways
+
+1. **No perfect strategy** - depends on workload
+2. **Speed vs. fragmentation** trade-off is fundamental
+3. **List ordering** can dramatically improve strategy performance
+4. **Hybrid approaches** work best in practice
+5. **Coalescing** is often more important than strategy choice
+
+## Related Concepts
+
+- [[Free List]] - The structure being searched
+- [[Splitting]] - What happens after choosing a chunk
+- [[External Fragmentation]] - What we're trying to minimize
+- [[Segregated Lists]] - Alternative to single-list strategies
+
+---
+
+*Different policies for choosing which free chunk to allocate*

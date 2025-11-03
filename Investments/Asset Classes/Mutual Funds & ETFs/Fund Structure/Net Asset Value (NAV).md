@@ -1,4 +1,4 @@
-# Net Asset Value (NAV)
+
 
 **Definition:** The net value of the assets held by a mutual fund divided by the number of shares outstanding.
 

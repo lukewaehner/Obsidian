@@ -1,4 +1,4 @@
-# Turnover Rate
+
 
 **Definition:** The ratio of trading activity in a portfolio to the assets of the portfolio, measuring the fraction of the portfolio that is "replaced" every year.
 

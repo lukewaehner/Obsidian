@@ -1,4 +1,4 @@
-# Closed Funds vs Closed-End Funds
+
 
 **Critical Distinction:** These terms sound similar but refer to completely different concepts.
 

@@ -1,4 +1,4 @@
-# Money Market Mutual Funds (MMMFs)
+
 
 **Definition:** Mutual funds that specialize in [[Money Market Instruments]], designed to function like cash accounts.
 

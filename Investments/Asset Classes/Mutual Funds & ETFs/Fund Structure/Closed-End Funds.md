@@ -1,4 +1,4 @@
-# Closed-End Funds
+
 
 **Definition:** An investment company with a fixed number of shares that are bought and sold by investors only in the open market (like stocks).
 

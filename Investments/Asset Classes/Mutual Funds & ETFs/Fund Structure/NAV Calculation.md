@@ -1,4 +1,4 @@
-# NAV Calculation
+
 
 Detailed examples and practice problems for calculating [[Net Asset Value (NAV)]].
 

@@ -1,4 +1,4 @@
-# Earliest Finish Time Rule
+
 
 ## The Rule
 

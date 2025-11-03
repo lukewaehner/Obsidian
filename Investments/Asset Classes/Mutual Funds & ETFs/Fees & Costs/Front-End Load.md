@@ -1,4 +1,4 @@
-# Front-End Load
+
 
 **Definition:** A commission or sales charge paid when purchasing mutual fund shares.
 

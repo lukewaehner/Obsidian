@@ -1,4 +1,4 @@
-# Open-End Funds
+
 
 **Definition:** An investment company that stands ready to buy and sell shares in itself to investors at any time, at [[Net Asset Value (NAV)]].
 

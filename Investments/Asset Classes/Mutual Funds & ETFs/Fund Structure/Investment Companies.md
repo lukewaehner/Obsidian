@@ -1,4 +1,4 @@
-# Investment Companies
+
 
 **Definition:** A business that specializes in pooling funds from individual investors and making investments on their behalf.
 

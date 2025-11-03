@@ -1,4 +1,4 @@
-# Share Classes
+
 
 **Definition:** Different versions of the same mutual fund with varying fee structures, designed for different types of investors and investment time horizons.
 

@@ -1,4 +1,4 @@
-# Operating Expenses
+
 
 **Definition:** Annual costs incurred by a mutual fund in operating and managing the portfolio.
 

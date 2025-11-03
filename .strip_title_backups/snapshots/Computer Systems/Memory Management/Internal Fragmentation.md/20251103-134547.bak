@@ -1,0 +1,66 @@
+# Internal Fragmentation
+
+Internal fragmentation occurs when an allocator gives out **more memory than requested**, resulting in wasted space *within* the allocated chunk.
+
+## The Problem
+
+```
+Requested: 100 bytes
+Allocated: 128 bytes (power-of-two allocator)
+Wasted: 28 bytes (internal fragmentation)
+```
+
+The 28 unused bytes are "lost" inside the allocation - the user can't use them, and the allocator can't reclaim them until the entire chunk is freed.
+
+## Common Causes
+
+### 1. Alignment Requirements
+Allocators often round up to specific boundaries:
+- Word alignment (4 or 8 bytes)
+- Cache line alignment (64 bytes)
+- Page alignment (4096 bytes)
+
+### 2. Fixed-Size Allocators
+Systems that only allocate specific sizes:
+- [[Buddy Allocation]] - Only power-of-two sizes (64, 128, 256...)
+- [[Slab Allocator]] - Fixed object sizes
+- [[Segregated Lists]] - Predetermined size classes
+
+### 3. Metadata Overhead
+Space used by [[Headers and Metadata]] adds to each allocation, technically a form of internal fragmentation.
+
+## Example: Buddy Allocation
+
+Request: 7 KB  
+Allocation: 8 KB (next power of two)  
+Internal fragmentation: 1 KB wasted
+
+## Trade-offs
+
+**Advantages of allowing internal fragmentation:**
+- Faster allocation (no searching)
+- Simpler memory management
+- Better coalescing (fixed sizes align)
+
+**Disadvantages:**
+- Memory waste
+- Can be significant for many small allocations
+
+## Contrast with External Fragmentation
+
+| Type | Location | Cause |
+|------|----------|-------|
+| **Internal** | Inside allocated blocks | Allocating more than needed |
+| **External** | Between allocated blocks | Variable-sized allocation patterns |
+
+See: [[External Fragmentation]]
+
+## Related Concepts
+
+- [[Buddy Allocation]] - Suffers from internal fragmentation
+- [[Segregated Lists]] - Balance between internal and external fragmentation
+- [[Allocation Strategies]] - Some strategies have less internal fragmentation
+
+---
+
+*The cost of simple, fast allocation schemes*

@@ -1,4 +1,4 @@
-# Greedy vs Dynamic Programming
+
 
 ## Key Differences
 

@@ -1,4 +1,4 @@
-# Expense Ratio
+
 
 **Definition:** The total annual costs of owning a mutual fund, expressed as a percentage of average fund assets.
 

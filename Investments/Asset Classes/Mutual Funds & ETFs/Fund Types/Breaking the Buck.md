@@ -1,4 +1,4 @@
-# Breaking the Buck
+
 
 **Definition:** When a [[Money Market Mutual Funds (MMMFs)|Money Market Mutual Fund's]] [[Net Asset Value (NAV)]] falls below $1.00 per share.
 
