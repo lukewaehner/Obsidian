@@ -1,5 +1,3 @@
-# Bond Pricing
-
 Bond pricing is based on the **present value** of all future cash flows. A bond's price is the sum of the present value of its coupon payments and the present value of its par value at maturity.
 
 ## Core Principle

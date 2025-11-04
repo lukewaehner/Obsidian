@@ -1,5 +1,3 @@
-# Bond Basics
-
 A **bond** is a debt security - essentially an IOU from the issuer to the bondholder. Understanding the basic structure and components of bonds is fundamental to fixed-income investing.
 
 ## What is a Bond?

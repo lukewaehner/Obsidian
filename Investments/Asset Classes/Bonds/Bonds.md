@@ -1,5 +1,3 @@
-# Bonds
-
 **Bonds** are fixed-income securities representing debt obligations. When you buy a bond, you're lending money to the issuer in exchange for periodic interest payments and the return of principal at maturity.
 
 ## What is a Bond?

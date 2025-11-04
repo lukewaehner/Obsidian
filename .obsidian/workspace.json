@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Code.md",
+                "file": "Investments/Asset Classes/Bonds/Bond Pricing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Code"
+              "title": "Bond Pricing"
             }
           }
         ]
@@ -223,11 +223,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f9f6b3474c33831",
+  "active": "77779d4fa78812d3",
   "lastOpenFiles": [
+    "Investments/Asset Classes/Asset Classes.md",
     "Investments/Asset Classes/Bonds/Bond Pricing.md",
     "Investments/Asset Classes/Bonds/Bond Basics.md",
     "Investments/Asset Classes/Bonds/Bonds.md",
+    "Investments/Investment Process/Investment Process.md",
+    "Investments/Exercises/Exercises.md",
+    "Investments/Derivatives/Derivatives.md",
+    "Code/Code.md",
     "Investments/Asset Classes/Bonds",
     "Investments/Derivatives/Options/Option Payoff Calculations.md",
     "Untitled.md",
@@ -238,11 +243,9 @@
     "Investments/Derivatives/Options/Options.md",
     "Investments/Derivatives/Options",
     "Investments/Derivatives/Futures Contracts.md",
-    "Investments/Derivatives/Derivatives.md",
     "Investments/Derivatives",
     "Test.md",
     "Test_snippet(1).py",
-    "Code/Code.md",
     "Dashboard.canvas",
     "Test_snippet.py",
     "Code/OOD/Controllers and Mocks.md",
@@ -256,9 +259,6 @@
     "Code/Java/Java.md",
     "Computer Systems/Concurrency/Concurrency.md",
     "Computer Systems/Concurrency/Processes vs Threads.md",
-    "Computer Systems/Concurrency/Concurrency vs Parallelism.md",
-    "Computer Systems/Computer Systems.md",
-    "Computer Systems/Memory Virtualization/Memory Virtualization.md",
     "Computer Systems/Concurrency",
     "Computer Systems/Memory Virtualization",
     "Mobile Application Development/API",
