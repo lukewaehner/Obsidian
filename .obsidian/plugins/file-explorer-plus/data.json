@@ -22,7 +22,7 @@
         "name": "",
         "active": true,
         "type": "FILES",
-        "pattern": "Dashboard.canvas",
+        "pattern": "No file.canvas",
         "patternType": "STRICT"
       }
     ],
