@@ -4,15 +4,15 @@ Bond pricing is based on the **present value** of all future cash flows. A bond'
 
 **A bond is worth the present value of its future cash flows**, discounted at the appropriate interest rate.
 
-```
-Bond Value = PV(Coupons) + PV(Par Value)
+```python
+Bond Value = SUM(PV(Coupons)) + PV(Par Value)
 ```
 
 ## The Bond Pricing Formula
 
 ### Annual Coupon Convention:
 
-```
+```rust
 Bond Value = Σ(t=1 to T) [Coupon / (1+r)^t] + [Par Value / (1+r)^T]
 
 Where:
