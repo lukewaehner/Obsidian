@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust/Rust.md",
+                "file": "Algorithms/Dynamic Programming/Knapsack Problem.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Rust"
+              "title": "Knapsack Problem"
             }
           },
           {
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Rust/Rust.md",
+                "file": "Algorithms/Dynamic Programming/Knapsack Problem.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rust"
+              "title": "Backlinks for Knapsack Problem"
             }
           },
           {
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Rust/Rust.md",
+                "file": "Algorithms/Dynamic Programming/Knapsack Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rust"
+              "title": "Outgoing links from Knapsack Problem"
             }
           },
           {
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Rust/Rust.md",
+                "file": "Algorithms/Dynamic Programming/Knapsack Problem.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rust"
+              "title": "Outline of Knapsack Problem"
             }
           },
           {
@@ -241,8 +241,15 @@
   },
   "active": "5ca96b7a05c4a0a6",
   "lastOpenFiles": [
-    "Code/Code.md",
+    "Algorithms/Dynamic Programming/DP Introduction.md",
+    "Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "Algorithms/Graphs/Graphs.md",
+    "Algorithms/Graphs/Graph Representations.md",
+    "Algorithms/Graphs/Depth First Search.md",
+    "Algorithms/Graphs/Binary Search Trees.md",
     "Algorithms/Graphs/Basic Graph Facts.md",
+    "Code/Rust/Rust.md",
+    "Code/Code.md",
     "Algorithms/Algorithms.md",
     "Mobile Application Development/Mobile Application Development.md",
     "Investments/Investments.md",
@@ -253,7 +260,6 @@
     "Code/React",
     "Code/Ruby/Ruby.md",
     "Code/Ruby",
-    "Code/Rust/Rust.md",
     "Test Snippets.md",
     "Algorithms/Binary Search Trees/BST Applications.md",
     "Algorithms/Binary Search Trees/Self-Balancing BSTs.md",
@@ -264,12 +270,6 @@
     "Algorithms/Binary Search Trees/Binary Search Trees.md",
     "Algorithms/Binary Search Trees",
     "Algorithms/Bellman-Ford Algorithm.md",
-    "Algorithms/Dijkstra's Algorithm.md",
-    "Algorithms/Topological Ordering.md",
-    "Algorithms/Depth First Search.md",
-    "Algorithms/Binary Search Trees.md",
-    "Test Output.md",
-    "Code/Rust/HFTX/Collections/Collections.md",
     "Dashboard.canvas",
     "Computer Systems/C/Basics/Hello World Program_snippet.c",
     "Investments/Capital Allocation",

@@ -1,9 +1,6 @@
 ---
 tags: [algorithms, dynamic-programming, optimization, knapsack]
 ---
-
-# Knapsack Problem
-
 ## Problem Definition
 
 ### Input
