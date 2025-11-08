@@ -112,7 +112,7 @@ int main(int argc, char **argv) {
 ## Pointer Safety:
 
 ```c
-// ❌ DANGEROUS - Uninitialized pointer
+//  DANGEROUS - Uninitialized pointer
 int main(int argc, char **argv) {
     int x = 12;
     int *pi;  // Contains random value
@@ -122,7 +122,7 @@ int main(int argc, char **argv) {
     return 0;
 }
 
-// ✅ SAFE - Properly initialized
+//  SAFE - Properly initialized
 int main(int argc, char **argv) {
     int x = 12;
     int *pi = NULL;  // Initialize to NULL

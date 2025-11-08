@@ -261,19 +261,19 @@ Total per use: 1200 cycles (40% faster!)
 
 ## Advantages
 
-✅ **Eliminates redundant initialization**: Huge win for complex objects  
-✅ **Fast allocation**: O(1) from partial slabs  
-✅ **Fast deallocation**: O(1) to free list  
-✅ **Reduced fragmentation**: Objects of same type together  
-✅ **Cache coloring**: Better CPU cache utilization  
-✅ **Memory reclamation**: Can return empty slabs under pressure
+ **Eliminates redundant initialization**: Huge win for complex objects  
+ **Fast allocation**: O(1) from partial slabs  
+ **Fast deallocation**: O(1) to free list  
+ **Reduced fragmentation**: Objects of same type together  
+ **Cache coloring**: Better CPU cache utilization  
+ **Memory reclamation**: Can return empty slabs under pressure
 
 ## Disadvantages
 
-❌ **Complexity**: Much more complex than simple allocators  
-❌ **Memory overhead**: Metadata for caches and slabs  
-❌ **Only for known types**: Need to create cache for each type  
-❌ **Kernel-specific**: Not useful for general-purpose malloc
+ **Complexity**: Much more complex than simple allocators  
+ **Memory overhead**: Metadata for caches and slabs  
+ **Only for known types**: Need to create cache for each type  
+ **Kernel-specific**: Not useful for general-purpose malloc
 
 ## Real-World Usage
 

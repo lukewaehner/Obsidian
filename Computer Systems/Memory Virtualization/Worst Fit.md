@@ -83,17 +83,17 @@ Then worst fit becomes **O(1)** - just take the head!
 
 ## Advantages
 
-✅ **Leaves large leftover chunks**: Avoids tiny fragments  
-✅ **Simple intuition**: Use the biggest available  
-✅ **Can be O(1)**: With descending size-ordered list
+ **Leaves large leftover chunks**: Avoids tiny fragments  
+ **Simple intuition**: Use the biggest available  
+ **Can be O(1)**: With descending size-ordered list
 
 ## Disadvantages
 
-❌ **Slow**: Must search entire list (unless optimized)  
-❌ **Wastes large chunks**: Splits big chunks for small requests  
-❌ **Research shows it performs poorly**: Empirically bad in practice  
-❌ **Increases fragmentation**: Contrary to intuition  
-❌ **High overhead**: Still need to search whole list
+ **Slow**: Must search entire list (unless optimized)  
+ **Wastes large chunks**: Splits big chunks for small requests  
+ **Research shows it performs poorly**: Empirically bad in practice  
+ **Increases fragmentation**: Contrary to intuition  
+ **High overhead**: Still need to search whole list
 
 ## Why Worst Fit Fails in Practice
 
@@ -164,8 +164,8 @@ Worst Fit: Uses 200B → Leftover: 170B
 
 Next request: 150B
 
-Best Fit:  Uses 200B ✓
-Worst Fit: Uses 170B → Fails ✗ (only has 170B, need 150B + header)
+Best Fit:  Uses 200B 
+Worst Fit: Uses 170B → Fails  (only has 170B, need 150B + header)
            OR barely fits but left with tiny fragment
 ```
 

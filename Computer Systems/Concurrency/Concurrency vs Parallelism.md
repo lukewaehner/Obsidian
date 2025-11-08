@@ -172,13 +172,13 @@ for (int i = 0; i < 4; i++) {
 
 ## Common Misconceptions
 
-### ❌ "Concurrency requires multiple cores"
+###  "Concurrency requires multiple cores"
 **Wrong!** Concurrency is about structure and interaction, works fine on single core.
 
-### ❌ "Parallelism is just concurrency on multiple cores"  
+###  "Parallelism is just concurrency on multiple cores"  
 **Not quite!** Parallelism is about simultaneous execution. You can have parallel operations that don't interact (not concurrent in nature).
 
-### ❌ "Threading = parallelism"
+###  "Threading = parallelism"
 **Not always!** Threads enable concurrency. Whether they run in parallel depends on hardware and OS scheduling.
 
 ## Key Insights

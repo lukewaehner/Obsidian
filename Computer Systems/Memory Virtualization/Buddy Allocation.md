@@ -254,17 +254,17 @@ void buddy_free(buddy_allocator_t *a, void *ptr, size_t size) {
 
 ## Advantages
 
-✅ **Fast coalescing**: O(1) to find buddy (XOR operation)  
-✅ **Simple**: Clear structure, easy to implement  
-✅ **Predictable**: Always power-of-two sizes  
-✅ **No external fragmentation within size class**: Same-sized blocks
+ **Fast coalescing**: O(1) to find buddy (XOR operation)  
+ **Simple**: Clear structure, easy to implement  
+ **Predictable**: Always power-of-two sizes  
+ **No external fragmentation within size class**: Same-sized blocks
 
 ## Disadvantages
 
-❌ **Internal fragmentation**: 7 KB request → 8 KB allocated (1 KB wasted)  
-❌ **Can waste up to 50%** per allocation  
-❌ **Not flexible**: Only power-of-two sizes  
-❌ **Complex for general-purpose use**: Better alternatives exist
+ **Internal fragmentation**: 7 KB request → 8 KB allocated (1 KB wasted)  
+ **Can waste up to 50%** per allocation  
+ **Not flexible**: Only power-of-two sizes  
+ **Complex for general-purpose use**: Better alternatives exist
 
 ## Internal Fragmentation Example
 

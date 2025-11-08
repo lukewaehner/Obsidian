@@ -95,14 +95,14 @@ Different [[Allocation Strategies]] choose differently:
 ## Trade-offs
 
 **Splitting too aggressively:**
-- ❌ More [[External Fragmentation]]
-- ❌ Longer [[Free List]] to search
-- ❌ More overhead from many small chunks
+-  More [[External Fragmentation]]
+-  Longer [[Free List]] to search
+-  More overhead from many small chunks
 
 **Not splitting enough:**
-- ❌ More [[Internal Fragmentation]] (waste inside allocations)
-- ✅ Faster allocation (shorter free list)
-- ✅ Less external fragmentation
+-  More [[Internal Fragmentation]] (waste inside allocations)
+-  Faster allocation (shorter free list)
+-  Less external fragmentation
 
 ## Related Concepts
 

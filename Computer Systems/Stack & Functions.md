@@ -67,7 +67,7 @@ addq $12, -16(%rbp)   ; b += 12
 
 ### Writing Functions (Assembly Design Recipe)
 
-> 📎 see also `[[Assembly Instructions]]` and `[[Assembly Programming]]`
+>  see also `[[Assembly Instructions]]` and `[[Assembly Programming]]`
 
 **Structure:**
 

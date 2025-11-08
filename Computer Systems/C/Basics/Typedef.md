@@ -69,9 +69,9 @@ compare_fn my_comparator = &my_compare_function;
 
 | Feature | `typedef` | `#define` |
 |---------|-----------|-----------|
-| Type checking | ✅ Yes | ❌ No (text substitution) |
+| Type checking |  Yes |  No (text substitution) |
 | Scope | Follows C scoping rules | Global (preprocessor) |
-| Multiple declarations | ✅ Allowed | ❌ Error |
+| Multiple declarations |  Allowed |  Error |
 | Best for | Type aliases | Constants, macros |
 
 **Prefer `typedef` for type definitions** as it provides better type safety.

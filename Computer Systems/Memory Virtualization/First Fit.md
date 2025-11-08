@@ -113,16 +113,16 @@ head -> [addr:100] -> [addr:500] -> [addr:1000] -> NULL
 
 ## Advantages
 
-✅ **Fast**: Stops at first fit, no exhaustive search  
-✅ **Simple**: Easy to implement and understand  
-✅ **Effective**: With address ordering, often best overall strategy  
-✅ **Good locality**: Recently freed chunks reused quickly (cache-friendly)
+ **Fast**: Stops at first fit, no exhaustive search  
+ **Simple**: Easy to implement and understand  
+ **Effective**: With address ordering, often best overall strategy  
+ **Good locality**: Recently freed chunks reused quickly (cache-friendly)
 
 ## Disadvantages
 
-❌ **List pollution**: Beginning of list fills with small fragments  
-❌ **Unpredictable**: Performance depends on list structure  
-❌ **Not optimal space usage**: May miss better fits later in list
+ **List pollution**: Beginning of list fills with small fragments  
+ **Unpredictable**: Performance depends on list structure  
+ **Not optimal space usage**: May miss better fits later in list
 
 ## First Fit Variants
 

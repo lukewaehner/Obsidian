@@ -223,7 +223,7 @@ void *mem = mmap(NULL, 1000, ...);
 | **Thread safety** | Thread-safe | Not thread-safe |
 | **Minimum size** | 1 page (4 KB) | 1 byte |
 | **Speed** | Slower (system call overhead) | Faster (simple) |
-| **Modern use** | ✅ Preferred | ⚠️ Legacy |
+| **Modern use** |  Preferred | ️ Legacy |
 
 ## How malloc Uses mmap
 

@@ -150,16 +150,16 @@ Just traverse the list - neighbors in memory are adjacent in list.
 ## Trade-offs
 
 **With aggressive coalescing:**
-- ✅ Less [[External Fragmentation]]
-- ✅ Larger contiguous chunks available
-- ❌ More overhead on free()
-- ❌ More complex implementation
+-  Less [[External Fragmentation]]
+-  Larger contiguous chunks available
+-  More overhead on free()
+-  More complex implementation
 
 **Without coalescing:**
-- ✅ Faster free() operation
-- ✅ Simpler implementation
-- ❌ Severe [[External Fragmentation]]
-- ❌ Failed allocations despite free space
+-  Faster free() operation
+-  Simpler implementation
+-  Severe [[External Fragmentation]]
+-  Failed allocations despite free space
 
 ## Related Concepts
 

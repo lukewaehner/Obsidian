@@ -173,14 +173,14 @@ Too much → wasted memory in underused classes
 
 ### 2. Size Class Granularity
 **Fine-grained** (many size classes):
-- ✅ Less internal fragmentation
-- ❌ More lists to manage
-- ❌ More memory overhead
+-  Less internal fragmentation
+-  More lists to manage
+-  More memory overhead
 
 **Coarse-grained** (few size classes):
-- ✅ Simpler implementation
-- ✅ Less metadata overhead
-- ❌ More internal fragmentation
+-  Simpler implementation
+-  Less metadata overhead
+-  More internal fragmentation
 
 ### 3. Large Allocations
 Segregated lists work best for **small, common sizes**. Large allocations should use a different strategy (general-purpose allocator or direct page allocation).

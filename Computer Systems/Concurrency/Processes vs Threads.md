@@ -27,11 +27,11 @@ Process Memory Layout:
 ```
 
 **Each process owns:**
-- ✓ Code (program instructions)
-- ✓ Data (global variables)
-- ✓ Heap (dynamically allocated memory)
-- ✓ Stack (function calls, local variables)
-- ✓ Registers (CPU state)
+-  Code (program instructions)
+-  Data (global variables)
+-  Heap (dynamically allocated memory)
+-  Stack (function calls, local variables)
+-  Registers (CPU state)
 
 ### Thread
 A thread is a **lightweight unit within a process**:
@@ -56,13 +56,13 @@ Process with 3 Threads:
 ```
 
 **Each thread owns:**
-- ✓ Stack (separate function call stack)
-- ✓ Registers (separate CPU state)
+-  Stack (separate function call stack)
+-  Registers (separate CPU state)
 
 **All threads share:**
-- ✓ Code (same program instructions)
-- ✓ Data (same global variables)
-- ✓ Heap (same dynamically allocated memory)
+-  Code (same program instructions)
+-  Data (same global variables)
+-  Heap (same dynamically allocated memory)
 
 ## Key Differences
 
@@ -78,10 +78,10 @@ global = 20;  // Does NOT affect Process 1!
 ```
 
 Processes have **complete isolation**:
-- ✅ Can't accidentally corrupt each other's memory
-- ✅ Crash in one process doesn't affect others
-- ❌ Difficult to share data (need IPC mechanisms)
-- ❌ Expensive to create and switch between
+-  Can't accidentally corrupt each other's memory
+-  Crash in one process doesn't affect others
+-  Difficult to share data (need IPC mechanisms)
+-  Expensive to create and switch between
 
 **Threads:**
 ```c
@@ -95,10 +95,10 @@ printf("%d\n", global);  // Prints 20
 ```
 
 Threads have **shared memory**:
-- ✅ Easy to share data (just use shared variables)
-- ✅ Lightweight to create and switch between
-- ❌ Can corrupt each other's data (race conditions)
-- ❌ Crash in one thread kills entire process
+-  Easy to share data (just use shared variables)
+-  Lightweight to create and switch between
+-  Can corrupt each other's data (race conditions)
+-  Crash in one thread kills entire process
 
 ## Visual Example: Counter Program
 
@@ -150,7 +150,7 @@ pthread_join(thread, NULL);
 
 ### Use Processes When:
 
-✅ **Need isolation**
+ **Need isolation**
 ```c
 // Web server forking for each request
 pid_t child = fork();
@@ -160,7 +160,7 @@ if (child == 0) {
 }
 ```
 
-✅ **Running different programs**
+ **Running different programs**
 ```c
 // Execute external command
 if (fork() == 0) {
@@ -169,17 +169,17 @@ if (fork() == 0) {
 }
 ```
 
-✅ **Security boundaries**
+ **Security boundaries**
 - Separate user processes can't access each other
 - Privilege separation (drop privileges in child)
 
-✅ **Fault isolation**
+ **Fault isolation**
 - One process crash doesn't take down others
 - Example: Chrome uses process-per-tab
 
 ### Use Threads When:
 
-✅ **Need to share data easily**
+ **Need to share data easily**
 ```c
 // Worker threads sharing a task queue
 queue_t *tasks = create_queue();  // Shared by all threads
@@ -190,7 +190,7 @@ pthread_create(&t3, NULL, worker, tasks);
 // All workers access same queue
 ```
 
-✅ **Need lightweight creation**
+ **Need lightweight creation**
 ```c
 // Quickly spawn many workers
 for (int i = 0; i < 1000; i++) {
@@ -199,14 +199,14 @@ for (int i = 0; i < 1000; i++) {
 // Creating 1000 processes would be much slower!
 ```
 
-✅ **Responsive UI**
+ **Responsive UI**
 ```c
 // GUI: UI thread + background worker thread
 pthread_create(&worker, NULL, long_computation, NULL);
 // UI thread stays responsive while worker computes
 ```
 
-✅ **Parallel computation**
+ **Parallel computation**
 ```c
 // Matrix multiplication using 4 threads
 for (int i = 0; i < 4; i++) {

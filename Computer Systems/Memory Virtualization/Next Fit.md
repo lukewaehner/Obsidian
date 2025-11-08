@@ -103,17 +103,17 @@ Less repeated work checking small chunks!
 
 ## Advantages
 
-✅ **Spreads allocations evenly**: Avoids head pollution  
-✅ **Fast**: Like first fit, stops at first match  
-✅ **Good locality**: Recent frees near cursor are found quickly  
-✅ **Simple**: Minor modification to first fit
+ **Spreads allocations evenly**: Avoids head pollution  
+ **Fast**: Like first fit, stops at first match  
+ **Good locality**: Recent frees near cursor are found quickly  
+ **Simple**: Minor modification to first fit
 
 ## Disadvantages
 
-❌ **Breaks up large chunks**: May fragment large contiguous regions  
-❌ **Cache unfriendly**: Jumps around memory more  
-❌ **Similar performance to first fit**: Not dramatically better  
-❌ **More complex free()**: Need to handle cursor invalidation
+ **Breaks up large chunks**: May fragment large contiguous regions  
+ **Cache unfriendly**: Jumps around memory more  
+ **Similar performance to first fit**: Not dramatically better  
+ **More complex free()**: Need to handle cursor invalidation
 
 ## Performance
 

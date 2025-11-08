@@ -143,8 +143,8 @@ int main(int argc, char **argv) {
 
 | Declaration | Memory Location | Mutable? |
 |-------------|----------------|----------|
-| `char name1[] = "CS3650"` | Stack (local variable) | ✅ Yes |
-| `char *name4 = "CS3650"` | Read-only data segment | ❌ No |
+| `char name1[] = "CS3650"` | Stack (local variable) |  Yes |
+| `char *name4 = "CS3650"` | Read-only data segment |  No |
 
 When you create a pointer to a string literal (`char *ptr = "text"`), that string is stored in read-only memory. Any attempt to modify it will cause a **segmentation fault**.
 

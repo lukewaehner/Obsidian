@@ -26,14 +26,18 @@
             "id": "948974f4c45d4583",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Code/Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Code"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Code/Rust/Rust.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Rust"
             }
           },
           {
@@ -145,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Code/Rust/Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Rust"
             }
           },
           {
@@ -173,12 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Code/Rust/Rust.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Rust"
             }
           },
           {
@@ -232,8 +239,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "948974f4c45d4583",
+  "active": "5ca96b7a05c4a0a6",
   "lastOpenFiles": [
+    "Code/Code.md",
+    "Algorithms/Graphs/Basic Graph Facts.md",
+    "Algorithms/Algorithms.md",
+    "Mobile Application Development/Mobile Application Development.md",
+    "Investments/Investments.md",
+    "Computer Systems/Computer Systems.md",
+    "Co-Op Search/Co-Op Search.md",
+    "Investments/Capital Allocation/Capital Allocation.md",
+    "Code/React/React.md",
+    "Code/React",
+    "Code/Ruby/Ruby.md",
+    "Code/Ruby",
     "Code/Rust/Rust.md",
     "Test Snippets.md",
     "Algorithms/Binary Search Trees/BST Applications.md",
@@ -251,26 +270,14 @@
     "Algorithms/Binary Search Trees.md",
     "Test Output.md",
     "Code/Rust/HFTX/Collections/Collections.md",
-    "Code/Rust/HFTX/Collections/Vec.md",
-    "Code/Rust/HFTX/HFTX.md",
-    "Code/Rust/HFTX/Invariants.md",
-    "Code/Rust/HFTX/Logging.md",
     "Dashboard.canvas",
-    "Computer Systems/Concurrency/Threads.md",
-    "Computer Systems/Concurrency/Processes vs Threads.md",
-    "Mobile Application Development/Mobile Application Development.md",
-    "Computer Systems/Computer Systems.md",
-    "Computer Systems/C/Basics/Hello World Program.md",
     "Computer Systems/C/Basics/Hello World Program_snippet.c",
-    "Computer Systems/C/Basics/Basics.md",
     "Investments/Capital Allocation",
     "Investments/Asset Classes/Bonds",
     "Investments/Derivatives/Options",
     "Investments/Derivatives",
     "Test_snippet(1).py",
     "Test_snippet.py",
-    "Code/OOD/Controllers and Mocks_snippet.java",
-    "Computer Systems/Concurrency",
     "Images/Computer Systems/Processes/Processes/IMG-20251022125104271.png",
     "Images/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251007153934747.png",
     "Second Brain/Dashboard.canvas",

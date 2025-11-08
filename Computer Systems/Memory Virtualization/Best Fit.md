@@ -19,10 +19,10 @@ head -> [10B] -> [30B] -> [20B] -> [50B] -> NULL
 **Request: 15 bytes**
 
 Best fit examines all chunks:
-- 10B: too small ❌
-- 30B: fits (30 >= 15) ✓
-- 20B: fits (20 >= 15) ✓  ← **SMALLEST that fits**
-- 50B: fits (50 >= 15) ✓
+- 10B: too small 
+- 30B: fits (30 >= 15) 
+- 20B: fits (20 >= 15)   ← **SMALLEST that fits**
+- 50B: fits (50 >= 15) 
 
 **Result**: Allocate from 20B chunk
 
@@ -85,16 +85,16 @@ Then best fit becomes **first fit** - stop at first chunk that fits!
 
 ## Advantages
 
-✅ **Better space utilization**: Chooses tightest fit  
-✅ **Preserves large chunks**: Doesn't waste big chunks on small requests  
-✅ **Intuitive**: Makes logical sense  
-✅ **Can be optimized**: O(k) with size-ordered list
+ **Better space utilization**: Chooses tightest fit  
+ **Preserves large chunks**: Doesn't waste big chunks on small requests  
+ **Intuitive**: Makes logical sense  
+ **Can be optimized**: O(k) with size-ordered list
 
 ## Disadvantages
 
-❌ **Slow**: Must search entire list (unless optimized)  
-❌ **Creates tiny fragments**: Often leaves very small unusable chunks  
-❌ **More fragmentation than expected**: Counter-intuitively, can increase [[External Fragmentation]]
+ **Slow**: Must search entire list (unless optimized)  
+ **Creates tiny fragments**: Often leaves very small unusable chunks  
+ **More fragmentation than expected**: Counter-intuitively, can increase [[External Fragmentation]]
 
 ## The Fragmentation Problem
 
