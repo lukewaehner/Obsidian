@@ -1,4 +1,4 @@
-## Class: Algorithms
+
 ---
 ## Topic: What height can a drone fall without breaking apart?
 ---

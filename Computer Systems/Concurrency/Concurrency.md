@@ -39,8 +39,6 @@ When multiple executions access shared resources:
 - **Deadlock**: Circular waiting for resources
 - **Coordination**: Ensuring operations happen in correct order
 
-Future topics: [[Locks and Mutexes]], [[Semaphores]], [[Condition Variables]]
-
 ### Debugging
 - **Non-deterministic**: Same program, different results each run
 - **Heisenbugs**: Bugs that disappear when you try to observe them
@@ -61,12 +59,12 @@ if (child == 0) {
 ```
 
 **Characteristics:**
-- ✅ Complete isolation
-- ✅ Can't corrupt each other's memory
-- ❌ Expensive to create
-- ❌ Difficult to share data
+- Complete isolation
+- Can't corrupt each other's memory
+- Expensive to create
+- Difficult to share data
 
-### Thread-Based
+### [[Threads|Thread]]-Based
 Using threads within a single process:
 ```c
 pthread_t thread;
@@ -75,10 +73,10 @@ pthread_join(thread, NULL);
 ```
 
 **Characteristics:**
-- ✅ Lightweight creation
-- ✅ Easy data sharing
-- ❌ No isolation - can corrupt shared memory
-- ❌ Requires careful synchronization
+- Lightweight creation
+- Easy data sharing
+- No isolation - can corrupt shared memory
+- Requires careful synchronization
 
 See: [[Processes vs Threads]] for detailed comparison
 
@@ -135,7 +133,7 @@ Executions communicate by sending messages:
 
 As we explore concurrency, we'll cover:
 1. **Fundamentals**: [[Concurrency vs Parallelism]], [[Processes vs Threads]]
-2. **Thread APIs**: Creating and managing threads
+2. **Thread APIs**: Creating and managing threads [[Threads]]
 3. **Synchronization**: Locks, semaphores, condition variables
 4. **Classic Problems**: Producer-consumer, readers-writers, dining philosophers
 5. **Advanced Topics**: Lock-free programming, memory models

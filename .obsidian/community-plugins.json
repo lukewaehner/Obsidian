@@ -8,7 +8,6 @@
   "obsidian-file-color",
   "colored-tags",
   "file-explorer-note-count",
-  "code-styler",
   "file-explorer-plus",
   "omnisearch",
   "cmdr",
@@ -16,5 +15,6 @@
   "homepage",
   "obsidian-html-plugin",
   "obsidian-git",
-  "codeblock-export"
+  "code-styler",
+  "codeblock-runner"
 ]

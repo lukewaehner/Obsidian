@@ -1,4 +1,3 @@
-# Mergesort
 #sorting #divide-and-conquer #stable
 
 ## TL;DR

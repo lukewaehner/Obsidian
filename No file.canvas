@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"f4b68125f78093f5","type":"text","text":"### Todo\n---\n- [ ] Systems Project (Thurs)\n- [ ] Learn graphs better\n- [ ] Options + Bonds\n- [ ] Systems -> File IO, Virtual Memory","x":-80,"y":-180,"width":316,"height":360},
-		{"id":"d624f287916a496f","type":"file","file":"Semesters/Fall 2025.md","x":-520,"y":-180,"width":400,"height":360}
-	],
-	"edges":[]
-}
