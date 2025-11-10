@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Algorithms.md",
-                "mode": "source",
+                "file": "Computer Systems/Concurrency/Threads.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Algorithms"
+              "title": "Threads"
             }
           },
           {
@@ -131,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Algorithms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algorithms"
+              "title": "Backlinks"
             }
           },
           {
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Algorithms"
+              "title": "Outgoing links"
             }
           },
           {
@@ -179,13 +177,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Algorithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Algorithms"
+              "title": "Outline"
             }
           },
           {
@@ -239,13 +236,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ca96b7a05c4a0a6",
+  "active": "5a4947990cd941af",
   "lastOpenFiles": [
-    "Co-Op Search/Co-Op Search.md",
+    "Computer Systems/Concurrency/Threads.md",
+    "Computer Systems/Concurrency/Concurrency vs Parallelism.md",
+    "Computer Systems/Concurrency/Processes vs Threads.md",
+    "Computer Systems/Concurrency/Concurrency.md",
+    "Computer Systems/C/C.md",
     "Computer Systems/Computer Systems.md",
+    "Algorithms/Algorithms.md",
+    "Co-Op Search/Co-Op Search.md",
     "Investments/Investments.md",
     "Code/Code.md",
-    "Algorithms/Algorithms.md",
     "Algorithms/Dynamic Programming/Dynamic Programming.md",
     "Algorithms/Dynamic Programming/Knapsack Problem.md",
     "Algorithms/Dynamic Programming/DP Introduction.md",
@@ -264,11 +266,6 @@
     "Test Snippets.md",
     "Algorithms/Binary Search Trees/BST Applications.md",
     "Algorithms/Binary Search Trees/Self-Balancing BSTs.md",
-    "Algorithms/Binary Search Trees/Tree Rotations.md",
-    "Algorithms/Binary Search Trees/BST Time Complexity.md",
-    "Algorithms/Binary Search Trees/BST Operations.md",
-    "Algorithms/Binary Search Trees/BST Definition.md",
-    "Algorithms/Binary Search Trees/Binary Search Trees.md",
     "Algorithms/Binary Search Trees",
     "Dashboard.canvas",
     "Computer Systems/C/Basics/Hello World Program_snippet.c",

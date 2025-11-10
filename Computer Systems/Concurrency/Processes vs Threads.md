@@ -1,5 +1,3 @@
-# Processes vs Threads
-
 **Processes** and **threads** are two fundamental approaches to concurrent execution. Understanding their differences is critical for choosing the right concurrency model.
 
 ## Memory Layout Comparison
