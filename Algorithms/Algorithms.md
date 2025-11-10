@@ -1,8 +1,6 @@
-# CS3000 - Algorithms and Data
-
 **Course Focus**: Design, analysis, and correctness of algorithms using mathematical foundations and various algorithmic paradigms.
 
-## 📚 Core Topics
+## Core Topics
 
 ### Mathematical Foundations
 - **Proof Techniques**: Induction, contradiction, correctness proofs
@@ -97,7 +95,7 @@ Modeling pairwise relationships between entities.
 - [[Depth First Search]] - DFS, edge classification
 - [[Topological Ordering]] - Ordering DAGs
 
-## 💡 Key Concepts
+## Key Concepts
 
 **Algorithm Design**:
 1. Understand the problem
@@ -114,7 +112,7 @@ Modeling pairwise relationships between entities.
 - O(n²) - Quadratic
 - O(2ⁿ) - Exponential
 
-## 🔗 Related Courses
+## Related Courses
 - [[Computer Systems]] - Low-level implementation
 - [[DSA]] - Data structures in practice
 
