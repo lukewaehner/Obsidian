@@ -1,8 +1,6 @@
-# Investments
-
 **Focus**: Financial markets, investment analysis, portfolio management, and derivatives pricing with emphasis on quantitative methods and risk management.
 
-## 📚 Core Topics
+##  Core Topics
 
 ### Fundamental Concepts
 
