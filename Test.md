@@ -1,0 +1,4 @@
+```python
+while(True):
+	continue
+```

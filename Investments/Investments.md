@@ -238,26 +238,6 @@ Where d₁, d₂ involve stock price, strike, volatility, time, rate
 - Performance attribution
 - Risk measurement
 
-## 🔗 Related Topics
-
-### Academic Connections
-- [[Algorithms]] - Optimization techniques
-- [[Computer Systems]] - High-frequency trading systems
-- [[Code]] - Financial software development
-
-### Professional Applications
-- **Full Stack Engineering**: Building financial platforms
-- **Fintech**: Technology + finance intersection
-- **Quantitative Analysis**: Algorithmic trading
-- **Risk Management**: Financial engineering
-
-### Career Relevant
-- [[Co-Op Search]] - Finance and fintech positions
-- **Personal Projects**: Order book exchange (Rust)
-- **Professional Experience**: Riverside Financial internship
-
-## 📚 Practice & Application
-
 ### [[Exercises]]
 Problem sets and practice problems
 - Bond pricing calculations
@@ -273,7 +253,7 @@ Problem sets and practice problems
 - Risk hedging techniques
 - Performance evaluation
 
-## 💼 Career Connections
+## Career Connections
 
 ### Fintech Focus
 - **Order Matching Engines**: High-performance trading systems

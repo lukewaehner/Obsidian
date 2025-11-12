@@ -112,10 +112,6 @@ Modeling pairwise relationships between entities.
 - O(n²) - Quadratic
 - O(2ⁿ) - Exponential
 
-## Related Courses
-- [[Computer Systems]] - Low-level implementation
-- [[DSA]] - Data structures in practice
-
 ---
 
 **Course Number**: CS3000

@@ -1,5 +1,3 @@
-# CS4520 - Mobile Application Development
-
 **Course Focus**: Principles and hands-on practice of iOS mobile application development using Swift, including UI design, system-level programming, and rapid prototyping.
 
 *Office hours through Khoury Office Hours App*
@@ -228,20 +226,12 @@ Visual and interactive elements:
 
 ### Programming Foundations
 - [[Swift Syntax]] - Language fundamentals
-- [[Code]] - General programming hub
-- [[OOD]] - Object-oriented design patterns
 
 ### Mobile Development
 - Platform-specific considerations
 - App lifecycle management
 - Memory management
 - Performance optimization
-
-### Other Development
-- [[React]] - Web frontend (similar component concepts)
-- [[Computer Systems]] - Low-level understanding
-- [[Algorithms]] - Efficient code implementation
-
 ## 📖 Learning Resources
 
 ### Official Documentation

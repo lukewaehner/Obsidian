@@ -1,5 +1,3 @@
-# Concurrency vs Parallelism
-
 **Concurrency** and **parallelism** are related but distinct concepts that are often confused. Understanding the difference is crucial for designing concurrent systems.
 
 ## Definitions

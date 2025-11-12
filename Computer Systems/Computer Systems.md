@@ -168,14 +168,6 @@ Writing bug-free systems code
 - Memory safety
 - Thread safety
 - Resource management
-
-##  Related Topics
-
-### From Other Courses
-- [[Algorithms]] - Algorithm implementation efficiency
-- [[DSA]] - Data structure implementation
-- [[OOD]] - Higher-level design patterns
-
 ### Advanced Topics
 - Operating system implementation
 - Network systems

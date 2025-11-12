@@ -47,84 +47,53 @@ int main(int argc, char **argv) {
 ## Locks
 
 ```c
-// !> Multi-threaded sum using a single global variable and mutexes
-
-/** 
- * Usage
- *
- * ./sum <from> <to>
- */
+// Multi-threaded sum using a single global variable and mutexes
+#include <assert.h>
+#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <sys/wait.h>
-#include <unistd.h>
-
-#include <pthread.h>
-
-#include <assert.h>
-long sum = 0;
-pthread_mutex_t sum_lock = PTHREAD_MUTEX_INITIALIZER;
+static long sum = 0;
+static pthread_mutex_t sum_lock = PTHREAD_MUTEX_INITIALIZER;
 
 typedef struct {
   long from;
   long to;
 } sum_args_t;
 
-long sum_from_to(long from, long to) {
-
+static void sum_from_to(long from, long to) {
+  if (from > to) return;
   for (long i = from; i <= to; ++i) {
-    // enter if allowed, lock entry
-    //while (sum_lock) { /* wait */ };
-    //sum_lock = 1;
     pthread_mutex_lock(&sum_lock);
-    sum += i; // not performed atomically
+    sum += i;
     pthread_mutex_unlock(&sum_lock);
-    //sum_lock = 0; //unlock
-    // unlock entry, and exit
-
-    // movq sum, %rax
-    // addq %rcx, %rax
-    // movq %rax, sum
-//
-//   sum        Thread 1          Thread 2
-//   100        read 100          ---
-//   100        add 12 to 100
-//   112        write 112 to sum
-//   112        read 112 from sum 
-//   112        ---               read 112 from sum
-//   112                          add 52 to 112
-//   164                          write 164 to sum
-//   164        add 13 112        ---
-//   125        write 125 to sum
   }
-  fprintf(stderr, "Completed %ld to %ld\n", from, to);
+  fprintf(stdout, "Completed %ld to %ld\n", from, to);
 }
 
-void *sum_thread(void *args) {
-  sum_args_t *sum_args = args;
-  sum_from_to(sum_args->from, sum_args->to);
+static void *sum_thread(void *args) {
+  sum_args_t *a = (sum_args_t *)args;
+  sum_from_to(a->from, a->to);
   return NULL;
 }
 
 int main(int argc, char **argv) {
   assert(argc >= 3);
 
-  long from = atol(argv[1]);
-  long to = atol(argv[2]);
+  long from = strtol(argv[1], NULL, 10);
+  long to   = strtol(argv[2], NULL, 10);
+
+  // split correctly at midpoint of [from, to]
+  long mid = from + (to - from) / 2;
 
   pthread_t th;
+  sum_args_t a = {.from = from, .to = mid};
+  assert(0 == pthread_create(&th, NULL, sum_thread, &a));
 
-  sum_args_t sum_args = { .from = from, .to = to / 2 };
-  // perform sum of 'from' to 'to / 2' in helper thread 
-  assert(0 == pthread_create(&th, NULL, sum_thread, &sum_args));
-
-  // perform sum of  '(to / 2) + 1' to 'to'
-  sum_from_to(to / 2 + 1, to);
+  sum_from_to(mid + 1, to);
 
   assert(0 == pthread_join(th, NULL));
   printf("%ld\n", sum);
-
   return 0;
 }
 ```

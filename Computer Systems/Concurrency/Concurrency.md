@@ -36,8 +36,12 @@ Two fundamental approaches to concurrent execution:
 ### Synchronization
 When multiple executions access shared resources:
 - **Race conditions**: Unpredictable results from interleaved operations
-- **Deadlock**: Circular waiting for resources
+- **[[Deadlocks|Deadlock]]**: Circular waiting for resources
 - **Coordination**: Ensuring operations happen in correct order
+
+**Synchronization Primitives:**
+- [[Mutex Locks]] - Mutual exclusion for protecting shared data
+- [[Semaphores]] - Counting primitives for signaling and resource control
 
 ### Debugging
 - **Non-deterministic**: Same program, different results each run
@@ -110,7 +114,11 @@ Executions communicate by sending messages:
 ### Correctness
 - Ensuring operations are **atomic** when they need to be
 - Preventing **race conditions** on shared data
-- Avoiding **deadlock** and **livelock**
+- Avoiding **[[Deadlocks|deadlock]]** and **livelock**
+
+**Key Tools:**
+- [[Mutex Locks]] - For mutual exclusion and protecting critical sections
+- [[Semaphores]] - For signaling and coordinating between threads
 
 ### Performance
 - Minimizing **contention** for locks
@@ -134,9 +142,10 @@ Executions communicate by sending messages:
 As we explore concurrency, we'll cover:
 1. **Fundamentals**: [[Concurrency vs Parallelism]], [[Processes vs Threads]]
 2. **Thread APIs**: Creating and managing threads [[Threads]]
-3. **Synchronization**: Locks, semaphores, condition variables
-4. **Classic Problems**: Producer-consumer, readers-writers, dining philosophers
-5. **Advanced Topics**: Lock-free programming, memory models
+3. **Synchronization**: [[Mutex Locks]], [[Semaphores]], condition variables
+4. **Problems**: [[Deadlocks]] and classic synchronization problems
+5. **Classic Problems**: Producer-consumer, readers-writers, dining philosophers
+6. **Advanced Topics**: Lock-free programming, memory models
 
 ## Key Takeaways
 
