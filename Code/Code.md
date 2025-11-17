@@ -100,6 +100,7 @@ Professional development skills:
 - Code organization and architecture
 - Testing and debugging
 - Version control (git)
+- [[Career Prep]]
 
 ### 4. Interview Preparation
 Technical interview readiness:

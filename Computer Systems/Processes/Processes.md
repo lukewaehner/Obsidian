@@ -11,8 +11,8 @@ A **process** is any running instance of a program.
 - Own memory space, own system resources (PID, stack, registers)
 
 A **Daemon** is a background process running without user interaction
-- Starts at boot typically, runs until shotudown
-- Often now terminal (detatched from stdin/stdout/stderr)
+- Starts at boot typically, runs until shutdown
+- Often now terminal (detached from stdin/stdout/stderr)
 - `cron`, `sshd`
 
 A **Service** is a managed **daemon** 

@@ -126,3 +126,26 @@
 	padding: 0.5em 1.5em;
 	cursor: pointer;
 }
+
+/* React Component Rendering */
+.codeblock-runner-output .react-container {
+	width: 100%;
+	margin: 1em 0;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	overflow: hidden;
+	background: var(--background-primary);
+}
+
+.codeblock-runner-output .react-iframe {
+	width: 100%;
+	height: 500px;
+	border: none;
+	display: block;
+	background: var(--background-primary);
+}
+
+.codeblock-runner-output .output-box-info {
+	border-left: 4px solid var(--color-blue);
+	background-color: rgba(0, 123, 255, 0.05);
+}

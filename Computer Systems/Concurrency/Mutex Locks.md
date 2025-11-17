@@ -1,4 +1,4 @@
-A **mutex** (mutual exclusion lock) is a synchronization primitive that protects shared resources by ensuring only one thread can access the critical section at a time.
+A p**mutex** (mutual exclusion lock) is a synchronization primitive that protects shared resources by ensuring only one thread can access the critical section at a time.
 
 ## Core Concept
 

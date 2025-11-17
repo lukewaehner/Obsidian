@@ -4,43 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4f0be85d3e12b96b",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "aa87abe37baa3a73",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Dashboard.canvas",
-                "viewState": {
-                  "x": -142,
-                  "y": 23.6382568359375,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Dashboard"
-            }
-          },
-          {
-            "id": "fcf2766286eb6f7e",
+            "id": "8710eaf07b396013",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/Concurrency/Processes vs Threads.md",
+                "file": "Computer Systems/Processes/Processes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Processes vs Threads"
+              "title": "Processes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,35 +225,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fcf2766286eb6f7e",
+  "active": "8710eaf07b396013",
   "lastOpenFiles": [
-    "Computer Systems/Concurrency/Deadlocks.md",
-    "Computer Systems/Concurrency/Semaphores.md",
-    "Computer Systems/Concurrency/Mutex Locks.md",
-    "Computer Systems/Concurrency/Threads.md",
-    "Computer Systems/Concurrency/Processes vs Threads.md",
-    "Computer Systems/Concurrency/Concurrency vs Parallelism.md",
-    "Computer Systems/Computer Systems.md",
+    "Code/Interview Prep/Smartleaf.md~",
+    "Mobile Application Development/Communicate Over the Internet/Async Await.md",
+    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
+    "Mobile Application Development/Creating Applications/Building Table View Apps/Building Table View Apps.md",
+    "Mobile Application Development/UI Elements/UITableView/UITableView Setup.md",
+    "Computer Systems/Processes/Processes.md",
+    "Investments/Derivatives/Derivatives.md",
     "Dashboard.canvas",
-    "Test.md",
+    "Mobile Application Development/Creating Applications/Navigation Controller/Multi Screen Handling/Linking Screens Together.md",
+    "Computer Systems/Exam 2.md",
+    "Mobile Application Development/Writing UI/Button Action.md",
+    "Computer Systems/Concurrency/Mutex Locks.md",
+    "Computer Systems/Kernels/Kernels.md",
+    "Computer Systems/Kernels/bootmain.c.md",
+    "Computer Systems/Kernels/bootasm.s.md",
+    "Computer Systems/Kernels/XV6 Boot Sequence.md",
+    "Computer Systems/Kernels/MBR.md",
+    "Computer Systems/Kernels/POST.md",
+    "Computer Systems/Kernels/BIOS.md",
+    "Computer Systems/Kernels/OS Boot Process.md",
+    "Computer Systems/Kernels/System Calls.md",
+    "Computer Systems/Kernels/Monolithic Kernel.md",
+    "Computer Systems/Kernels/Kernel Architecture.md",
     "Code/Code.md",
-    "Mobile Application Development/Mobile Application Development.md",
-    "Algorithms/Algorithms.md",
-    "Code/DSA/DSA.md",
-    "Investments/Investments.md",
+    "Code/Career Prep.md",
     "Code/React/React.md",
-    "Computer Systems/Concurrency/Concurrency.md",
-    "Computer Systems/C/C.md",
-    "Co-Op Search/Co-Op Search.md",
-    "Algorithms/Dynamic Programming/Dynamic Programming.md",
-    "Algorithms/Dynamic Programming/Knapsack Problem.md",
-    "Algorithms/Dynamic Programming/DP Introduction.md",
-    "Algorithms/Graphs/Graphs.md",
-    "Algorithms/Graphs/Graph Representations.md",
-    "Algorithms/Graphs/Depth First Search.md",
-    "Algorithms/Graphs/Binary Search Trees.md",
-    "Algorithms/Graphs/Basic Graph Facts.md",
-    "Code/Rust/Rust.md",
+    "Code/Interview Prep/Smartleaf.md",
+    "Computer Systems/Kernels",
     "Code/React",
     "Code/Ruby",
     "Algorithms/Binary Search Trees",
@@ -280,7 +264,6 @@
     "Investments/Derivatives/Options",
     "Investments/Derivatives",
     "Test_snippet(1).py",
-    "Test_snippet.py",
     "Images/Computer Systems/Processes/Processes/IMG-20251022125104271.png",
     "Images/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251007153934747.png",
     "Second Brain/Dashboard.canvas",

@@ -14,6 +14,6 @@
 
 ## Workflow
 
-See [[Building Table View Apps]] for complete implementation process.
+- See [[Building Table View Apps]] for complete implementation process.
 
 ---
