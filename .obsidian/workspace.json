@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/Processes/Processes.md",
+                "file": "Computer Systems/Processes/File IO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Processes"
+              "title": "File IO"
             }
           }
         ]
@@ -207,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,18 +224,64 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "floating": {
+    "id": "c8f9e91376d536a6",
+    "type": "floating",
+    "children": [
+      {
+        "id": "bf240ed43d18e475",
+        "type": "window",
+        "children": [
+          {
+            "id": "341886b319faefc8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d9718c8964c7411d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Systems/Exam 2.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Exam 2"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 759,
+        "y": 43,
+        "width": 743,
+        "height": 930,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "8710eaf07b396013",
   "lastOpenFiles": [
+    "Computer Systems/Exam 2.md",
+    "Computer Systems/Processes/File IO.md",
+    "Computer Systems/Processes/File Descriptors.md",
+    "Computer Systems/Processes/Creating New Processes.md",
+    "Computer Systems/Processes/Processes.md",
+    "Computer Systems.zip",
+    "Computer Systems/Computer Systems.md",
+    "Computer Systems/Processes/Untitled.md",
+    "Dashboard.canvas",
     "Code/Interview Prep/Smartleaf.md~",
     "Mobile Application Development/Communicate Over the Internet/Async Await.md",
     "Mobile Application Development/UI Elements/UITableView/UITableView.md",
     "Mobile Application Development/Creating Applications/Building Table View Apps/Building Table View Apps.md",
     "Mobile Application Development/UI Elements/UITableView/UITableView Setup.md",
-    "Computer Systems/Processes/Processes.md",
     "Investments/Derivatives/Derivatives.md",
-    "Dashboard.canvas",
     "Mobile Application Development/Creating Applications/Navigation Controller/Multi Screen Handling/Linking Screens Together.md",
-    "Computer Systems/Exam 2.md",
     "Mobile Application Development/Writing UI/Button Action.md",
     "Computer Systems/Concurrency/Mutex Locks.md",
     "Computer Systems/Kernels/Kernels.md",
@@ -249,11 +294,6 @@
     "Computer Systems/Kernels/OS Boot Process.md",
     "Computer Systems/Kernels/System Calls.md",
     "Computer Systems/Kernels/Monolithic Kernel.md",
-    "Computer Systems/Kernels/Kernel Architecture.md",
-    "Code/Code.md",
-    "Code/Career Prep.md",
-    "Code/React/React.md",
-    "Code/Interview Prep/Smartleaf.md",
     "Computer Systems/Kernels",
     "Code/React",
     "Code/Ruby",
@@ -262,8 +302,6 @@
     "Investments/Capital Allocation",
     "Investments/Asset Classes/Bonds",
     "Investments/Derivatives/Options",
-    "Investments/Derivatives",
-    "Test_snippet(1).py",
     "Images/Computer Systems/Processes/Processes/IMG-20251022125104271.png",
     "Images/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251007153934747.png",
     "Second Brain/Dashboard.canvas",

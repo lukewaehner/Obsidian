@@ -58,8 +58,7 @@ while (1) {
 }
 ```
 
-> How dow e get control back from a non-cooperating program?
-
+> How do we get control back from a non-cooperating program?
 ---
 
 ## Interrupts
