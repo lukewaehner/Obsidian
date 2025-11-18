@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8710eaf07b396013",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Systems/Processes/File IO.md",
+                "file": "Computer Systems/Exam 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "File IO"
+              "title": "Exam 2"
             }
           }
         ]
@@ -99,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "right": {
     "id": "5bc0e3f334a5a346",
@@ -224,48 +225,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "c8f9e91376d536a6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "bf240ed43d18e475",
-        "type": "window",
-        "children": [
-          {
-            "id": "341886b319faefc8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d9718c8964c7411d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Computer Systems/Exam 2.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Exam 2"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 759,
-        "y": 43,
-        "width": 743,
-        "height": 930,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "8710eaf07b396013",
+  "active": "6f9f6b3474c33831",
   "lastOpenFiles": [
+    "Dashboard.canvas",
     "Computer Systems/Exam 2.md",
     "Computer Systems/Processes/File IO.md",
     "Computer Systems/Processes/File Descriptors.md",
@@ -274,7 +236,6 @@
     "Computer Systems.zip",
     "Computer Systems/Computer Systems.md",
     "Computer Systems/Processes/Untitled.md",
-    "Dashboard.canvas",
     "Code/Interview Prep/Smartleaf.md~",
     "Mobile Application Development/Communicate Over the Internet/Async Await.md",
     "Mobile Application Development/UI Elements/UITableView/UITableView.md",
