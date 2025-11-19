@@ -73,17 +73,21 @@ int main(int argc, char **argv) {
 
 ### SYSTEM CALLS
 
-**wait()**
+**wait()**:
 - Parent waits for child process to finish
 - Print line will NOT wait until child finishes execution
 
-**exec()**
+**exec()**:
 - After fork, run different program with exec()
 - **PID** → Stays the same
 - **Address space** → Replaced with new program
 - **Code, heap, stack, globals** → Discarded
 - **Open FDs** → Usually preserved unless marked closed-on-exec
 - **exec() will NOT return** in child process (code after exec won't run UNLESS error occurs)
+
+### Shared Memory
+- Processes are COW, so all virtual pages are duplicated on creation
+- Attempting to write to anything, will then cause a private physical page to be duplicated to reduce memory duplication overhead
 
 ---
 # FILE I/O
@@ -255,3 +259,12 @@ fstat(fd, &sb);          // Using file descriptor
 - **Buffered vs Unbuffered I/O:**
   - `read()`/`write()` = unbuffered (direct system calls)
   - `fread()`/`fwrite()` = buffered (stdio library functions)
+
+---
+# Virtual Memory
+---
+- Translate Virtual Addresses to Physical Addresses
+- Page table holds Virtual Page Number -> Physical Page Address translation units
+- Offsets are stored as the same for direct recovery
+- Page table holds virtual -> physical maps with R/W/X permission bits
+- Pages are 4KB in size
