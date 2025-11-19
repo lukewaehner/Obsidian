@@ -1,25 +1,7 @@
-Processes:
-	Process management
-	Creating processes
-	Understanding system calls
-	How the OS manages a process, behavior that is available
-	Memory access, what is available and what is not
-
-Virtual Memory Management:
-	Paging
-	Address Translation
-	
-
 Concurrency:
 	What is shared between threads vs processes
 	Basic mechanics of mutexes
-
-File I/O:
-
 Some Kernels.
-
-
-No repeats from Exam 1, but assumed knowing C + Assembly, state of stack at this point, etc.
 
 ---
 # PROCESSES
@@ -261,10 +243,255 @@ fstat(fd, &sb);          // Using file descriptor
   - `fread()`/`fwrite()` = buffered (stdio library functions)
 
 ---
-# Virtual Memory
+# VIRTUAL MEMORY
 ---
-- Translate Virtual Addresses to Physical Addresses
-- Page table holds Virtual Page Number -> Physical Page Address translation units
-- Offsets are stored as the same for direct recovery
-- Page table holds virtual -> physical maps with R/W/X permission bits
-- Pages are 4KB in size
+
+**Purpose:** Translate Virtual Addresses to Physical Addresses
+
+**Key Concept:** Each process has its own virtual address space, giving the illusion of having all memory to itself
+
+### VIRTUAL ADDRESS STRUCTURE
+
+**Address Breakdown:**
+- Virtual Address = **Virtual Page Number (VPN)** + **Offset**
+- **VPN** → Used to index into page table
+- **Offset** → Position within the page (stays the same in physical address)
+
+**Example (4KB pages):**
+- 32-bit address = 20 bits VPN + 12 bits offset
+- 12 bits offset = 2^12 = 4096 bytes = 4KB page size
+
+### PAGE TABLES
+
+**Structure:**
+- Maps Virtual Page Number → Physical Page Number (PPN) / Physical Frame Number (PFN)
+- Each process has its own page table
+- Stored in kernel memory
+
+**Page Table Entry (PTE) contains:**
+- **Valid/Present bit** → Page is in physical memory
+- **Physical Page Number (PPN)** → Location in physical memory
+- **Permission bits:**
+  - **R** (Read) - Can read from page
+  - **W** (Write) - Can write to page
+  - **X** (Execute) - Can execute code from page
+- **Dirty bit** → Page has been modified
+- **Reference/Access bit** → Page has been accessed (for replacement algorithms)
+
+### ADDRESS TRANSLATION PROCESS
+
+1. Extract VPN from virtual address
+2. Use VPN to index into page table
+3. Check valid bit - if 0, **page fault** occurs
+4. Check permission bits - if violation, **segmentation fault**
+5. Get PPN from PTE
+6. Combine PPN + Offset = Physical Address
+
+**Formula:**
+```
+Physical Address = (PPN × Page_Size) + Offset
+```
+
+### PAGING DETAILS
+
+**Page Size:** Typically 4KB (4096 bytes)
+
+**Page Fault:**
+- Occurs when valid bit = 0 (page not in memory)
+- OS handles by:
+  1. Finding page on disk
+  2. Loading page into physical memory
+  3. Updating page table entry
+  4. Restarting instruction
+
+**Demand Paging:**
+- Pages loaded into memory only when needed (on first access)
+- Not all pages of a process need to be in memory at once
+
+**TLB (Translation Lookaside Buffer):**
+- Hardware cache for page table entries
+- Speeds up address translation
+- Stores recent VPN → PPN translations
+- TLB hit = fast translation, TLB miss = access page table
+
+### MULTI-LEVEL PAGE TABLES
+
+**Purpose:** Reduce memory overhead of large page tables
+
+**Structure:**
+- Instead of one large page table, use hierarchy
+- Virtual address split into: **Level 1 index** + **Level 2 index** + **Offset**
+- Only allocate page tables for regions actually used
+
+**Benefits:**
+- Saves memory (don't need to allocate entire page table)
+- Only create second-level tables when needed
+
+### MEMORY PROTECTION
+
+**Permission Bits Enforce:**
+- **Code segment:** R + X (read and execute, no write)
+- **Data segment:** R + W (read and write, no execute)
+- **Stack/Heap:** R + W (read and write, no execute)
+
+**Protection Violations:**
+- Writing to read-only page → **Segmentation fault**
+- Executing non-executable page → **Segmentation fault**
+- Accessing invalid page → **Page fault**
+
+**Isolation:**
+- Each process has separate page table
+- Cannot access another process's memory
+- Kernel memory protected from user processes
+
+### SHARED MEMORY BETWEEN PROCESSES
+
+**Copy-on-Write (COW):**
+- After `fork()`, parent and child share same physical pages
+- Pages marked read-only in both processes
+- On write attempt:
+  1. Page fault occurs
+  2. OS creates private copy of page
+  3. Updates page table to point to new copy
+  4. Marks new page as writable
+- **Benefit:** Reduces memory overhead - only copy pages that are modified
+
+**Explicit Shared Memory:**
+- Multiple processes can map same physical pages
+- Page tables point to same physical memory
+- Used for IPC (Inter-Process Communication)
+- Must use synchronization (mutexes, semaphores)
+
+**Shared Libraries:**
+- Code pages of libraries (like libc) shared between processes
+- Read-only pages can be safely shared
+- Reduces memory usage across system
+
+---
+### CONCURRENCY VS PARALLELISM
+
+**Concurrency:**
+- Happenings at the same time through interleaving
+- Sharing resources
+- Example: 2 queues for a single coffee machine
+
+**Parallelism:**
+- Happening at the same time, progressing independently
+- Example: 2 coffee machines, one for each line
+- **Parallelism is a subset of concurrency**
+
+### CONCURRENCY MODELS
+
+**Process-Based:**
+- Fork different processes with own private address space
+- Sharing is explicitly requested
+- Heavy overhead
+
+**Event-Based:**
+- Manually interleaves logical flows
+- Polls for events
+- All flows share same address space
+- Uses I/O multiplexing
+
+**Thread-Based:**
+- Kernel automatically interleaves multiple logical flows
+- Each flow shares the same address space
+- Hybrid of process and event-based
+
+### THREADS
+
+**Why Threads?**
+- Processes are heavy, sharing information is difficult
+- Threads are lightweight processes
+- Separate threads of execution within same address space
+
+**What Threads Share:**
+- **Heap** - Shared
+- **Data segment** - Shared
+- **Code segment** - Shared
+- **Page table** - Shared
+- **File descriptors** - Shared
+- **Stack** - NOT shared (each thread has own stack)
+- **Registers** - NOT shared (separate register state)
+
+**Benefits:**
+- Cheaper to create than processes
+- Faster to switch between them
+- Faster to reap when done
+- Can still run on separate cores
+
+### SHARED DATA: THREADS VS PROCESSES
+
+| Variable Type              | fork() (Processes) | Threads    |
+| -------------------------- | ------------------ | ---------- |
+| **Global variables**       | Not shared         | Shared     |
+| **Local variables**        | Not shared         | Not shared |
+| **Local static variables** | Not shared         | Shared     |
+| **Heap (malloc)**          | Not shared (COW)   | Shared     |
+
+**Note:** Forked processes only share memory that is `mmap`'d with `MAP_SHARED`
+
+### POSIX THREADS (pthreads)
+
+**pthread_create() - Create a thread**
+```c
+int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
+                   void *(*start_routine)(void *), void *arg);
+```
+**Arguments:**
+- `thread` - Thread handle pointer (which thread to use)
+- `attr` - Attributes (NULL is default)
+- `start_routine` - Function pointer (takes single void* argument)
+- `arg` - Argument supplied to start routine
+
+**Other Thread Functions:**
+- `pthread_join()` - Wait for thread to complete (like `wait()` for processes)
+- `pthread_self()` - Get current thread ID
+- `pthread_cancel()` - Cancel a thread
+
+### CONCURRENCY ISSUES
+
+**Data Race:**
+- Two threads read, modify, and update same data without synchronization
+- No ordering or locks to protect shared data
+- Results in unpredictable behavior
+
+**Deadlock:**
+- Thread 1 locks Mutex A, needs Mutex B
+- Thread 2 locks Mutex B, needs Mutex A
+- Both threads wait forever for the other's mutex
+- **Prevention:** Always acquire locks in same order
+
+### MUTEXES (MUTUAL EXCLUSION)
+
+**Purpose:** Provide atomic access to shared data
+
+**Key Operations:**
+- Atomic wait + lock
+- Atomic unlock
+
+**POSIX Mutex Functions:**
+```c
+pthread_mutex_t mutex;
+
+pthread_mutex_init(&mutex, NULL);      // Create/initialize mutex
+pthread_mutex_lock(&mutex);            // Lock mutex (blocks if already locked)
+pthread_mutex_unlock(&mutex);          // Unlock mutex
+pthread_mutex_trylock(&mutex);         // Attempt lock (returns immediately)
+```
+
+**Usage Pattern:**
+```c
+pthread_mutex_lock(&mutex);
+// Critical section - access shared data
+pthread_mutex_unlock(&mutex);
+```
+
+**Important:**
+- Always unlock what you lock
+- Keep critical sections short
+- Avoid nested locks (can cause deadlock)
+
+---
+# XV6
+---
