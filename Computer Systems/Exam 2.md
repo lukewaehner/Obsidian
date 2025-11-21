@@ -1,9 +1,3 @@
-Concurrency:
-	What is shared between threads vs processes
-	Basic mechanics of mutexes
-Some Kernels.
-
----
 # PROCESSES
 ---
 
@@ -491,7 +485,125 @@ pthread_mutex_unlock(&mutex);
 - Always unlock what you lock
 - Keep critical sections short
 - Avoid nested locks (can cause deadlock)
+---
+# KERNELS & XV6
+---
+
+**Key Concepts:**
+- Modern OS sets up hardware to work for it
+- OS depends on interrupts to stay in control (clock, I/O)
+- OS relies on HW support for memory management
+
+### PRIVILEGE MODES
+
+**Kernel Mode (Privileged):**
+- Certain operations only available in kernel mode
+- Full hardware access
+- Direct memory access
+
+**User Mode (Unprivileged):**
+- Run as much code as possible in user mode
+- Limited hardware access
+- Must request kernel services
+
+**Context Switching:**
+- Switching between modes is expensive
+- User-mode software eventually needs to ask kernel for services
 
 ---
-# XV6
+
+## KERNEL ARCHITECTURES
+
+### MONOLITHIC KERNELS
+
+**Structure:**
+- Lives as single binary - single code base
+- All code runs in privileged mode
+- New device drivers compiled into kernel binary, OS reloaded
+
+**Modern Approach:**
+- Drivers dynamically loaded into running kernel (module-based)
+
+**Advantages:**
+- Minimizes context switching
+- Usually single code base
+- Better performance
+
+**Disadvantages:**
+- Large codebase (Linux has 40M+ lines)
+- Poor isolation and robustness
+- Bug in driver can damage entire OS (Blue Screen of Death)
+
+### MICROKERNELS
+
+**Structure:**
+- Kernel in privileged mode is small (only essentials)
+- Device drivers run in unprivileged user space
+- Drivers act as servers - userspace programs with some privileged access
+
+**Advantages:**
+- Smaller code base
+- Better modularity and configurability
+- Easier to add new components
+- Driver bug does NOT bring down entire OS
+
+**Disadvantages:**
+- Performance penalty
+- Many more context switches for message passing between drivers
+
+### HYBRID KERNELS
+
+**Structure:**
+- Really a monolithic kernel, structured somewhat like microkernel
+- Or a bigger microkernel
+- Most code still runs in kernel space for performance
+
+**Notes:**
+- Often dismissed as PR stunt for monolithic kernel
+- Examples: Windows NT series (modern Windows 10), OS/2, XNU (macOS)
+
 ---
+
+## BOOT PROCESS & BOOTLOADERS
+
+### BOOT SEQUENCE
+
+**1. Power Button Pressed**
+- Motherboard powers up
+
+**2. BIOS Execution**
+- BIOS lives on chip in motherboard
+- Copied to RAM at address 0xFF
+- `jmp 0xFF` written to RAM at 0xFFFF0 where CPU starts executing
+
+**3. BIOS - Load User Settings**
+- Loads settings from volatile memory on motherboard
+- Backed by small battery
+
+**4. BIOS - Hardware Initialization**
+- Basic hardware checks and initialization:
+  - CPU, memory, keyboard, mouse, graphics, HDD
+  - Interrupt handlers
+  - Run BIOSes on additional hardware
+  - Test everything (POST - Power-On Self-Test)
+
+**5. Bootstrap Sequence**
+- Scan bootable devices (HDDs, CD/DVD-ROM, USB, Network)
+- Find bootable Master Boot Record (MBR)
+- Load code from MBR and jump to it
+
+### MASTER BOOT RECORD (MBR)
+
+**Structure:**
+- 512 bytes at very beginning of storage device
+- Contains partition table (up to 4 entries)
+- 446 bytes of executable code
+
+**Purpose:**
+- Not enough space for full OS (only 446 bytes)
+- MBR code loads code that loads code that loads OS (bootloader)
+- Small bootloader in MBR
+- Each partition might have its own bootloader
+
+**Modern Standard:**
+- GRUB is standard bootloader nowadays

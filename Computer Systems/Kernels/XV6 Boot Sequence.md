@@ -1,6 +1,4 @@
 
-# XV6 Boot Sequence
-
 XV6 is a teaching operating system developed at MIT. Its boot sequence follows a specific chain of code execution.
 
 ## Boot Chain

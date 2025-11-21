@@ -11,15 +11,17 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Systems/Exam 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Dashboard.canvas",
+                "viewState": {
+                  "x": -142,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Exam 2"
+              "icon": "lucide-layout-dashboard",
+              "title": "Dashboard"
             }
           }
         ]
@@ -99,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "5bc0e3f334a5a346",
@@ -227,35 +228,35 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Computer Systems/Exam 2 - Reformatted.md",
-    "Dashboard.canvas",
     "Computer Systems/Exam 2.md",
-    "Computer Systems/Processes/File IO.md",
-    "Computer Systems/Processes/File Descriptors.md",
+    "Computer Systems/Exam 2 Integration Summary.md",
+    "Computer Systems/Memory Virtualization/External Fragmentation.md",
+    "Computer Systems/Memory Virtualization/First Fit.md",
+    "Computer Systems/Memory Virtualization/Free List.md",
+    "Computer Systems/Memory Virtualization/Growing the Heap.md",
+    "Computer Systems/Memory Virtualization/Internal Fragmentation.md",
+    "Computer Systems/Memory Virtualization/Memory Protection.md",
+    "Computer Systems/Memory Virtualization/Memory Virtualization.md",
+    "Computer Systems/Memory Virtualization/Segregated Lists.md",
     "Computer Systems/Processes/Creating New Processes.md",
+    "Computer Systems/Memory Virtualization/Shared Memory.md",
+    "Computer Systems/Memory Virtualization/Paging.md",
+    "Computer Systems/Memory Virtualization/Page Tables.md",
     "Computer Systems/Processes/Processes.md",
-    "Computer Systems.zip",
+    "Computer Systems/Number Bases.md",
+    "Computer Systems/Exam 2 - Reformatted.md",
+    "Computer Systems/Memory Virtualization/Virtual Address Translation.md",
+    "Computer Systems/Data & Registers.md",
+    "Computer Systems/CPU Basics.md",
     "Computer Systems/Computer Systems.md",
-    "Computer Systems/Processes/Untitled.md",
-    "Code/Interview Prep/Smartleaf.md~",
-    "Mobile Application Development/Communicate Over the Internet/Async Await.md",
-    "Mobile Application Development/UI Elements/UITableView/UITableView.md",
-    "Mobile Application Development/Creating Applications/Building Table View Apps/Building Table View Apps.md",
-    "Mobile Application Development/UI Elements/UITableView/UITableView Setup.md",
-    "Investments/Derivatives/Derivatives.md",
-    "Mobile Application Development/Creating Applications/Navigation Controller/Multi Screen Handling/Linking Screens Together.md",
-    "Mobile Application Development/Writing UI/Button Action.md",
-    "Computer Systems/Concurrency/Mutex Locks.md",
+    "Code/Code.md",
+    "Co-Op Search/Co-Op Search.md",
     "Computer Systems/Kernels/Kernels.md",
-    "Computer Systems/Kernels/bootmain.c.md",
-    "Computer Systems/Kernels/bootasm.s.md",
-    "Computer Systems/Kernels/XV6 Boot Sequence.md",
     "Computer Systems/Kernels/MBR.md",
-    "Computer Systems/Kernels/POST.md",
-    "Computer Systems/Kernels/BIOS.md",
-    "Computer Systems/Kernels/OS Boot Process.md",
-    "Computer Systems/Kernels/System Calls.md",
-    "Computer Systems/Kernels/Monolithic Kernel.md",
+    "Computer Systems/Kernels/XV6 Boot Sequence.md",
+    "Dashboard.canvas",
+    "Computer Systems.zip",
+    "Code/Interview Prep/Smartleaf.md~",
     "Computer Systems/Kernels",
     "Code/React",
     "Code/Ruby",
