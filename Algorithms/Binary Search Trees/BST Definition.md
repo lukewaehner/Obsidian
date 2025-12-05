@@ -1,4 +1,4 @@
-# BST Definition
+
 
 ## What is a Binary Search Tree?
 

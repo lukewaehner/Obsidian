@@ -2,7 +2,7 @@
 
 *Office hours through Khoury Office Hours App*
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 1. **Mobile Development Principles**: Core concepts of mobile app architecture and design
 2. **iOS Programming**: Build practical iOS applications using Swift
@@ -11,14 +11,14 @@
 5. **Rapid Prototyping**: Design and iterate on applications quickly
 6. **Device Features**: Utilize basic and advanced iPhone/iPad capabilities
 
-## 🏫 Teaching Philosophy
+## Teaching Philosophy
 
 - **Learn Anywhere**: Online-first, flexible learning environment
 - **Workshop Style**: Lecture time dedicated to weekly assignments
 - **Guided Practice**: In-class guidance rather than traditional lecturing
 - **Project-Based**: Learning through building real applications
 
-## 📚 Core Topics
+## Core Topics
 
 ### Swift Programming
 **[[Swift Syntax]]** - iOS programming language

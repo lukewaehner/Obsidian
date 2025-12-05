@@ -1,0 +1,92 @@
+
+
+A disk is divided into fixed-size blocks, typically 4KB. Blocks are sequential from 0 to N-1 for a partition of size N*4K.
+
+---
+
+## Regions
+
+Blocks store different types of data organized into regions:
+
+### 1. Data Blocks
+
+The majority of blocks store actual file content.
+
+### 2. Inodes (File Metadata)
+
+Index nodes store information about files:
+- Which data blocks belong to a file
+- Size
+- Owner
+- Access permissions
+
+Inodes are stored in an **inode table** with multiple inodes per block.
+
+See: [[Inodes]]
+
+### 3. Free Space Bitmaps
+
+Blocks at the beginning track which blocks are free using a bitmap:
+- `1` = block is in use
+- `0` = block is free
+
+Separate bitmaps track free data blocks and free inodes.
+
+### 4. Superblock (File System Metadata)
+
+Information about the file system itself:
+- File type (.py, .rs, .html, .txt)
+- Number of inodes in the file system
+- Number of data blocks
+- Beginning of the inode table
+
+The superblock is critical when mounting a file system.
+
+---
+
+## Disk Layout Example
+
+```
++------------+------------+------------+------------+------------+
+| Superblock | Inode      | Data       | Inode      | Data       |
+|            | Bitmap     | Bitmap     | Table      | Blocks     |
++------------+------------+------------+------------+------------+
+     ^            ^            ^            ^            ^
+     |            |            |            |            |
+  FS info    Free inodes  Free blocks   Metadata    File data
+```
+
+---
+
+## Code Example: Reading Superblock Info
+
+```c
+#include <stdio.h>
+#include <sys/statvfs.h>
+
+int main() {
+    struct statvfs stat;
+    
+    if (statvfs("/", &stat) == 0) {
+        printf("Block size: %lu bytes\n", stat.f_bsize);
+        printf("Total blocks: %lu\n", stat.f_blocks);
+        printf("Free blocks: %lu\n", stat.f_bfree);
+        printf("Total inodes: %lu\n", stat.f_files);
+        printf("Free inodes: %lu\n", stat.f_ffree);
+    }
+    
+    return 0;
+}
+```
+
+---
+
+## Related
+
+- [[File Systems]]
+- [[Inodes]]
+- [[Storage Devices]]
+
+---
+
+#computer-systems #file-systems #disk-organization

@@ -1,5 +1,3 @@
-# Option Terminology
-
 A comprehensive reference for key terms and concepts used in options trading. Understanding this terminology is essential for navigating options markets.
 
 ## Contract Fundamentals

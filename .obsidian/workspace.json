@@ -11,20 +11,49 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard.canvas",
-                "viewState": {
-                  "x": -142,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "Archive/Corporate Finance/Risk and Return/Beta and CAPM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Dashboard"
+              "icon": "lucide-file",
+              "title": "Beta and CAPM"
+            }
+          },
+          {
+            "id": "a8eed814931abb4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Investments/Final.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Final"
+            }
+          },
+          {
+            "id": "09b06d2117574c85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Archive.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Archive"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,56 +255,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "09b06d2117574c85",
   "lastOpenFiles": [
-    "Computer Systems/Exam 2.md",
-    "Computer Systems/Exam 2 Integration Summary.md",
-    "Computer Systems/Memory Virtualization/External Fragmentation.md",
-    "Computer Systems/Memory Virtualization/First Fit.md",
-    "Computer Systems/Memory Virtualization/Free List.md",
-    "Computer Systems/Memory Virtualization/Growing the Heap.md",
-    "Computer Systems/Memory Virtualization/Internal Fragmentation.md",
-    "Computer Systems/Memory Virtualization/Memory Protection.md",
-    "Computer Systems/Memory Virtualization/Memory Virtualization.md",
-    "Computer Systems/Memory Virtualization/Segregated Lists.md",
-    "Computer Systems/Processes/Creating New Processes.md",
-    "Computer Systems/Memory Virtualization/Shared Memory.md",
-    "Computer Systems/Memory Virtualization/Paging.md",
-    "Computer Systems/Memory Virtualization/Page Tables.md",
-    "Computer Systems/Processes/Processes.md",
-    "Computer Systems/Number Bases.md",
-    "Computer Systems/Exam 2 - Reformatted.md",
-    "Computer Systems/Memory Virtualization/Virtual Address Translation.md",
-    "Computer Systems/Data & Registers.md",
-    "Computer Systems/CPU Basics.md",
-    "Computer Systems/Computer Systems.md",
-    "Code/Code.md",
-    "Co-Op Search/Co-Op Search.md",
-    "Computer Systems/Kernels/Kernels.md",
-    "Computer Systems/Kernels/MBR.md",
-    "Computer Systems/Kernels/XV6 Boot Sequence.md",
+    "Algorithms/Algorithms.md",
+    "Algorithms/Archive.md",
+    "Investments/Investments.md",
+    "Maggie.md",
+    "Investments/Final.md",
+    "Archive/Corporate Finance/Risk and Return/Beta and CAPM.md",
+    "Investments/Valuation Metrics/Valuation Metrics.md",
+    "Investments/Asset Classes/Asset Classes.md",
+    "Investments/Asset Classes/Bonds/Bond Pricing.md",
+    "Archive/Financial Accounting/Adjusting Entries/Accrued Interest.md",
+    "Investments/Asset Classes/Bonds/Bonds.md",
+    "Investments/Asset Classes/Fixed-Income Securities.md",
+    "Investments/Behavioral Finance/Behavioral Finance.md",
+    "Investments/Capital Asset Pricing Model/Capital Asset Pricing Model.md",
+    "Images/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model",
+    "Images/Investments/Capital Asset Pricing Model",
+    "Images/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251203135623004.png",
+    "Investments/Behavioral Finance/Arbitrage.md",
+    "Investments/Behavioral Finance/House Money Effect.md",
+    "Investments/Behavioral Finance/Framing Effect.md",
+    "Investments/Behavioral Finance/Loss Aversion.md",
+    "Investments/Behavioral Finance/Prospect Theory.md",
+    "Investments/Behavioral Finance/Attention and Heuristics.md",
+    "Investments/Behavioral Finance/Anchoring Bias.md",
+    "Investments/Behavioral Finance/Recency Bias.md",
+    "Investments/Behavioral Finance/Gamblers Fallacy.md",
+    "Investments/Behavioral Finance/Representativeness Bias.md",
+    "Investments/Behavioral Finance/Confirmation Bias.md",
+    "Investments/Behavioral Finance/Overconfidence Bias.md",
+    "Investments/Capital Asset Pricing Model",
+    "Investments/Behavioral Finance",
     "Dashboard.canvas",
-    "Computer Systems.zip",
-    "Code/Interview Prep/Smartleaf.md~",
-    "Computer Systems/Kernels",
-    "Code/React",
-    "Code/Ruby",
-    "Algorithms/Binary Search Trees",
-    "Computer Systems/C/Basics/Hello World Program_snippet.c",
-    "Investments/Capital Allocation",
-    "Investments/Asset Classes/Bonds",
-    "Investments/Derivatives/Options",
+    "Archive/Managerial Accounting",
+    "Archive",
+    "Images/Investments/Efficient Market Hypothesis/Efficient Market Hypothesis",
+    "Images/Investments/Efficient Market Hypothesis",
+    "Images/Investments/Efficient Market Hypothesis/Efficient Market Hypothesis/IMG-20251201230052501.png",
+    "Code/Databases/Entity-Relationship Diagrams",
+    "Code/Databases/Keys and Constraints",
+    "Images/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251201221700269.png",
+    "Images/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251201221700252.png",
+    "Images/Investments/Capital Allocation/Capital Allocation/IMG-20251121160924017.png",
     "Images/Computer Systems/Processes/Processes/IMG-20251022125104271.png",
     "Images/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251007153934747.png",
     "Second Brain/Dashboard.canvas",
     "Second Brain/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
     "Second Brain/Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
     "Second Brain/Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
-    "Second Brain/Images/Investments/Screenshot 2025-09-09 at 3.31.59 PM.png",
-    "Second Brain/Images/Computer Systems/Register.png",
-    "Northeastern/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
-    "Northeastern/Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
-    "Northeastern/Images/Investments/Screenshot 2025-09-09 at 3.33.14 PM.png",
     "Northeastern/Dashboard.canvas"
   ]
 }

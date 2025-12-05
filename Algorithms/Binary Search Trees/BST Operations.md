@@ -1,4 +1,4 @@
-# BST Operations
+
 
 ## Three Primary Operations
 

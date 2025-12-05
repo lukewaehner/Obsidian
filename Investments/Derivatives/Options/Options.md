@@ -1,5 +1,3 @@
-# Options
-
 **Options** are derivative contracts that give the owner the **right, but not the obligation**, to buy or sell an underlying asset at a specified price within a set time period. This flexibility distinguishes options from [[../Futures Contracts|futures contracts]].
 
 ## Core Definition
@@ -266,17 +264,17 @@ Usually better to sell option than exercise early:
 ## Connections to Other Topics
 
 ### Underlying Assets
-- [[../Asset Classes/Stocks|Stocks]] - Most common underlying
-- [[../Asset Classes/Bonds|Bonds]] - Bond options exist
+- [[Stocks]] - Most common underlying
+- [[Bonds]] - Bond options exist
 - Indices, commodities, currencies
 
 ### Risk Management
-- [[../Risk & Return/Risk|Portfolio Risk]] - Options for hedging
+- [[Portfolio Risk]] - Options for hedging
 - Asymmetric risk profiles
 - [[Put Options|Protective puts]] as portfolio insurance
 
 ### Valuation
-- [[../Valuation Metrics/Valuation Metrics|Option Pricing Models]]
+- [[Option Payoff Calculations]]
 - Black-Scholes formula
 - Greeks (Delta, Gamma, Theta, Vega, Rho)
 

@@ -1,5 +1,3 @@
-# Option Payoff Calculations
-
 Formulas and step-by-step examples for calculating option profits and losses. Understanding these calculations is essential for evaluating option strategies.
 
 ## Key Principles

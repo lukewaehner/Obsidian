@@ -1,0 +1,116 @@
+
+
+When a file is too large for direct block pointers, file systems use indirect pointers to address more blocks.
+
+---
+
+## The Problem
+
+An inode has a limited number of direct pointers. With 15 pointers and 4KB blocks, you can only address 60KB directly.
+
+---
+
+## Single Indirection
+
+One pointer in the inode points to a **data block containing more pointers** (an indirect block).
+
+**Calculation:**
+- 14 direct pointers
+- 1 indirect pointer to a block of pointers
+- Block size: 4KB, Pointer size: 4 bytes
+- Pointers per indirect block: 4096 / 4 = 1024
+
+**Total addressable:** 14 + 1024 = 1038 blocks = ~4MB
+
+```
+Inode                    Indirect Block         Data Blocks
++--------+              +------------+          +--------+
+| direct |------------->| data block |          |        |
++--------+              +------------+          +--------+
+| direct |------------->| data block |          |        |
++--------+              +------------+          +--------+
+|  ...   |              |    ...     |          |  ...   |
++--------+              +------------+          +--------+
+|indirect|--+           +------------+          +--------+
++--------+  |                                   |        |
+            |           +------------+          +--------+
+            +---------->|  ptr  |----|--------->|        |
+                        +------------+          +--------+
+                        |  ptr  |----|--------->|        |
+                        +------------+          +--------+
+                        |  ...  |
+                        +------------+
+```
+
+---
+
+## Double Indirection
+
+A pointer points to a block of pointers, each pointing to another block of pointers.
+
+**Additional capacity:** 1024 * 1024 = 1,048,576 blocks
+
+**Total with single + double:** 1038 + 1,048,576 blocks = ~4GB
+
+```
+Inode           1st Level          2nd Level          Data
++--------+     +--------+         +--------+        +------+
+|double  |---->|  ptr   |-------->|  ptr   |------->| data |
++--------+     +--------+         +--------+        +------+
+               |  ptr   |--+      |  ptr   |------->| data |
+               +--------+  |      +--------+        +------+
+               |  ...   |  |      |  ...   |
+               +--------+  |      +--------+
+                           |
+                           |      +--------+        +------+
+                           +----->|  ptr   |------->| data |
+                                  +--------+        +------+
+                                  |  ptr   |------->| data |
+                                  +--------+        +------+
+```
+
+---
+
+## Triple Indirection
+
+Three levels of indirection for even larger files.
+
+**Additional capacity:** 1024 * 1024 * 1024 = over 1 billion blocks
+
+---
+
+## Summary Table
+
+| Level  | Additional Blocks | Cumulative Max Size |
+| ------ | ----------------- | ------------------- |
+| Direct | 14                | 56 KB               |
+| Single | 1,024             | ~4 MB               |
+| Double | 1,048,576         | ~4 GB               |
+| Triple | 1,073,741,824     | ~4 TB               |
+
+---
+
+## Extents (Alternative Approach)
+
+If a file is stored as contiguous blocks, pointing to each separately is wasteful.
+
+Some file systems use **extents**: a pointer together with a size in blocks.
+
+```
+Traditional:  ptr -> block1, ptr -> block2, ptr -> block3, ptr -> block4
+Extent:       ptr -> block1, length = 4
+```
+
+This is more efficient for large contiguous files.
+
+---
+
+## Related
+
+- [[Inodes]]
+- [[Blocks and Regions]]
+- [[File Systems]]
+
+---
+
+#computer-systems #file-systems #indexing

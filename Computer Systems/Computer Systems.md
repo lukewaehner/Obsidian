@@ -1,5 +1,3 @@
-# CS3650 - Computer Systems
-
 **Course Focus**: Understanding how computer systems work from the ground up - assembly language, C programming, operating system concepts, and hardware-software interaction.
 
  [Course Website](https://khoury-cs3650.github.io)
@@ -190,6 +188,9 @@ Writing bug-free systems code
 - [[Processes]] - Process management
 - [[Memory Virtualization]] - Virtual memory
 - [[Concurrency]] - Parallel programming
+
+### Exams
+- [[Computer Systems/Exam 2]]
 
 ---
 

@@ -1,4 +1,4 @@
-# Binary Search Trees
+
 
 Map of Binary Search Trees concepts and related topics.
 
@@ -17,7 +17,7 @@ Map of Binary Search Trees concepts and related topics.
 ## Related Topics
 
 - [[Depth First Search]] - Tree traversal
-- [[Binary Search]] - Related search technique
+- [[Algorithms/Binary Search/Binary Search|Binary Search]] - Related search technique
 - [[Heaps]] - Alternative priority queue implementation
 
 ---

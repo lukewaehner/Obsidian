@@ -1,5 +1,3 @@
-# Futures Contracts
-
 A **futures contract** is an agreement made today regarding the terms of a trade that will take place at a specified future date. Unlike options, futures contracts create an **obligation** to execute the trade.
 
 ## Definition

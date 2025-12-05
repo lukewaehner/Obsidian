@@ -1,4 +1,4 @@
-# Derivatives
+
 
 **Derivatives** are financial assets derived from existing traded assets, rather than securities originally issued by businesses or governments to raise capital. They are contracts whose value depends on the performance of an underlying asset.
 

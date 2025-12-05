@@ -1,5 +1,3 @@
-# Call Options
-
 A **call option** gives the owner the **right to BUY** an underlying asset at a specified strike price. Call options are used when you expect the asset price to rise.
 
 ## Definition
@@ -143,7 +141,7 @@ Breakeven point: Strike + Premium = $185 + $3.40 = $188.40
 
 ## Call Option Buyer: Risk and Reward
 
-### Limited Losses ✓
+### Limited Losses
 ```
 Maximum Loss = Premium × 100 × Contracts
 
@@ -160,7 +158,7 @@ Even if stock goes to $0, you lose only $3,400!
 - Can choose NOT to exercise
 - Walk away losing only the premium
 
-### Unlimited Gains ✓
+### Unlimited Gains
 ```
 Gains = (Market Price - Strike Price - Premium) × 100 × Contracts
 
@@ -192,7 +190,7 @@ Max Gain = $3.40 × 100 × 10 = $3,400
 Best case: Option expires worthless, keep entire premium
 ```
 
-### Unlimited Losses ⚠️
+### Unlimited Losses
 ```
 Loss = (Market Price - Strike Price - Premium) × 100 × Contracts
 
@@ -398,20 +396,20 @@ At expiration, stock at $48
 ## Common Mistakes
 
 ### 1. Confusing Right with Obligation
-❌ "I must exercise my call option"
-✓ "I can choose to exercise if profitable"
+- "I must exercise my call option"
+- "I can choose to exercise if profitable"
 
 ### 2. Forgetting Contract Size
-❌ "Premium is $3.40, so I pay $3.40"
-✓ "Premium is $3.40/share, I pay $340 per contract"
+- "Premium is $3.40, so I pay $3.40"
+- "Premium is $3.40/share, I pay $340 per contract"
 
 ### 3. Exercising Early (Usually Wrong)
-❌ Exercising American call before expiration
-✓ Selling the option retains time value
+- Exercising American call before expiration
+- Selling the option retains time value
 
 ### 4. Ignoring Breakeven
-❌ "Stock above strike, I profit!"
-✓ "Stock must be above strike + premium to profit"
+- "Stock above strike, I profit!"
+- "Stock must be above strike + premium to profit"
 
 ## Related Concepts
 

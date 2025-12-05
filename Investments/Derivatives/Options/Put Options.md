@@ -1,5 +1,3 @@
-# Put Options
-
 A **put option** gives the owner the **right to SELL** an underlying asset at a specified strike price. Put options are used when you expect the asset price to fall, or to protect against downside risk.
 
 ## Definition

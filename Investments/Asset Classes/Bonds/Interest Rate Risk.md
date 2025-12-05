@@ -1,12 +1,8 @@
 Interest rate risk is the potential loss in a bond’s market value when interest rates change.
 
-  
-
 **Mechanism:**
 
 A bond’s price equals the present value of its future coupons and principal. As market interest rates r rise, those future payments are discounted at a higher rate, reducing the bond’s price. Conversely, if rates fall, prices rise.
-
-  
 
 **Key points:**
 

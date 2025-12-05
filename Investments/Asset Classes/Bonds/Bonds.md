@@ -10,14 +10,14 @@ Bonds are one of the three major asset classes, alongside equities and derivativ
 
 ## Core Bond Concepts
 
-### [[Bond Basics]]
+### [[Investments/Asset Classes/Bonds/Bond Basics]]
 Understanding the fundamental structure:
 - Face value (par value)
 - Coupon payments
 - Maturity date
 - Bond issuers (government, corporate, municipal)
 
-### [[Bond Terminology]]
+### Bond Terminology
 Essential terms for bond investing:
 - Coupon rate vs current yield vs YTM
 - Clean price vs dirty price
@@ -44,7 +44,7 @@ The internal rate of return of a bond:
 - Most important yield measure
 - Inverse relationship with price
 
-### [[Premium, Par, and Discount Bonds]]
+### Premium, Par, and Discount Bonds
 Understanding bond pricing relationships:
 - **Premium**: Price > Par, Coupon > YTM
 - **Par**: Price = Par, Coupon = YTM  
@@ -64,7 +64,7 @@ Key Insight: A 30-year bond is much more sensitive to
 interest rate changes than a 1-year bond
 ```
 
-### [[Accrued Interest]]
+### Accrued Interest
 Trading between coupon dates:
 - Buyer compensates seller for earned interest
 - Invoice price = Flat price + Accrued interest
@@ -72,26 +72,26 @@ Trading between coupon dates:
 
 ## Special Bond Types
 
-### [[Callable Bonds]]
+### Callable Bonds
 Bonds the issuer can repurchase:
 - Call price and call protection period
 - Yield to Call (YTC) instead of YTM
 - Premium bonds more likely to be called
 - Common when interest rates fall (refinancing)
 
-### [[Convertible Bonds]]
+### Convertible Bonds
 Bonds exchangeable for stock:
 - Specified number of shares
 - Combines debt and equity features
 - Valuable conversion option
 
-### [[Inflation-Protected Bonds (TIPS)]]
+### Inflation-Protected Bonds (TIPS)
 Bonds adjusted for inflation:
 - Par value increases with CPI
 - Real return protection
 - Coupon payment grows with par value
 
-### [[Zero-Coupon Bonds]]
+### Zero-Coupon Bonds
 Bonds with no periodic coupons:
 - Sell at deep discount
 - Single payment at maturity
@@ -99,13 +99,13 @@ Bonds with no periodic coupons:
 
 ## Bond Risks
 
-### [[Interest Rate Risk]]
+### Interest Rate Risk
 Risk from changing interest rates:
 - Affects all bonds
 - Longer maturity = higher risk
 - Can't avoid unless holding to maturity
 
-### [[Default Risk and Credit Ratings]]
+### Default Risk and Credit Ratings
 Risk that issuer won't pay:
 - Credit ratings: AAA to D
 - Investment grade vs junk bonds
@@ -159,12 +159,12 @@ Government-sponsored enterprises:
 
 ## Yield Measures Comparison
 
-| Yield Type | Formula | Use Case |
-|------------|---------|----------|
-| **Coupon Rate** | Annual Coupon / Par Value | Fixed at issuance |
+| Yield Type        | Formula                      | Use Case              |
+| ----------------- | ---------------------------- | --------------------- |
+| **Coupon Rate**   | Annual Coupon / Par Value    | Fixed at issuance     |
 | **Current Yield** | Annual Coupon / Market Price | Simple income measure |
-| **YTM** | IRR of all cash flows | Most comprehensive |
-| **YTC** | IRR to call date | For callable bonds |
+| **YTM**           | IRR of all cash flows        | Most comprehensive    |
+| **YTC**           | IRR to call date             | For callable bonds    |
 
 ### Relationships:
 ```
