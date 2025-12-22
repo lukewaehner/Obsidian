@@ -24,7 +24,7 @@ The recurrence $T(n) = aT(n/b) + f(n)$ can be solved as follows:
 The Master Theorem can also be stated in the more common form by comparing $f(n)$ with $n^{\log_b a}$:
 
 - **Case 1:** If $f(n) = O(n^{\log_b a - \epsilon})$ for some $\epsilon > 0$, then $T(n) = \Theta(n^{\log_b a})$
-- **Case 2:** If $f(n) = \Theta(n^{\log_b a})$, then $T(n) = \Theta(n^{\log_b a} \log n)$  
+- **Case 2:** If $f(n) = \Theta(n^{\log_b a})$, then $T(n) = \Theta(n^{\log_b a} \log n)$  1
 - **Case 3:** If $f(n) = \Omega(n^{\log_b a + \epsilon})$ for some $\epsilon > 0$, and $a \cdot f(n/b) \leq c \cdot f(n)$ for some $c < 1$, then $T(n) = \Theta(f(n))$
 
 ## Examples

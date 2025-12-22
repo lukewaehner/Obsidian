@@ -30,24 +30,32 @@ Links:
 ---
 Work:
 
-| Date  | Time Logged | Completion                                                           |
-| ----- | ----------- | -------------------------------------------------------------------- |
-| 12/25 | 2:30        | JS Typing, Global Config Setup, Set StudentData, Upload Meeting data |
-|       |             |                                                                      |
+| Date  | Time Logged | Completion                                                              |
+| ----- | ----------- | ----------------------------------------------------------------------- |
+| 11/25 | 4:30        | JS Typing, Global Config Setup, Set StudentData, Upload Meeting data    |
+| 11/26 | 6:30        | Email Menu, Email functionality                                         |
+| 11/28 | 2:00        | Menu Improvements, Refactor                                             |
+| 11/29 | 6:00        | Switched to Sidebar Rendering, Logic improvements, API Exposing, UI Dev |
+| 11/30 | 1:30        | Timezone logic improvements, tags to delegate between advisors          |
+| 12/2  | 8:00        | Forward + Backward Email Queue, Cache, File Structuring + Refactors     |
+| 12/18 | 2:00        | Planning + Supplemental Check added for Queue                           |
 
-Todo:
-- Email Latest Progress + Menu Bar Activaiton
-	- Hook all students off StudentData Sheet -> push to menu bar
-	- Pass URL of student sheet through menu bar to sendMeetingNotesEmail function
-	- Open student sheet, grab date / time + meeting notes, format into email, send to email associated with StudentSheet F5
-- Review Work / Reviewed emails. Review Work to designated consultant, Reviewed to student + parents
 
 Add extra features:
-- Make student sidebar manager sorted alphabetically
-- Add in ApplicationTracker: Check supplemental status for Needs Review
-- Setup outbound email template to match student meeting notes template
-- Share resources (google docs) from Tasks -> Your Shared Folder on Home Page, overwrite with <Name - Document> on tasks page, stop new overwrites with this
+- [x] Make student sidebar manager sorted alphabetically ✅ 2025-12-18
+- [x] Add in ApplicationTracker: Check supplemental status for Needs Review ✅ 2025-12-18
+- [ ] Setup outbound email template to match student meeting notes template
+- [ ] Share resources (google docs) from Tasks -> Your Shared Folder on Home Page, overwrite with <Name - Document> on tasks page, stop new overwrites with this
 
 Done
 - [x] Email Automation ✅ 2025-12-03
 - [ ] Share tools with students
+
+| 4:30        |
+| ----------- |
+| 6:30        |
+| 2:00        |
+| 6:00        |
+| 1:30        |
+| 8:00        |
+| 2:00        |

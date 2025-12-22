@@ -1,4 +1,3 @@
-
 ### Asymptotic
 Ratio / limit test
 $$\lim_{n\to\infty} \frac{f(n)}{g(n)} = 0 \implies f(n) = O(g(n))$$
