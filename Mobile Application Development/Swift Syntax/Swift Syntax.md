@@ -6,12 +6,12 @@
 - File -> New -> Playground. Select Blank
 
 ---
-[[Variables]]
+[[Mobile Application Development/Swift Syntax/Variables]]
 [[Mobile Application Development/Swift Syntax/Collections/Collections|Collections]]
 [[Operators]]
 [[Conditionals]]
 [[Loops]]
-[[Functions]]
+[[Mobile Application Development/Swift Syntax/Functions]]
 [[Closures]]
 [[Optionals]]
 [[Creating DataTypes]]

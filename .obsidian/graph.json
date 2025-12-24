@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "path:Investments  ",
+      "query": "path:Archive/Finance  ",
       "color": {
         "a": 1,
         "rgb": 10407530
@@ -41,9 +41,30 @@
         "a": 1,
         "rgb": 16217742
       }
+    },
+    {
+      "query": "tag:#ruby  ",
+      "color": {
+        "a": 1,
+        "rgb": 11150115
+      }
+    },
+    {
+      "query": "path:Code/Rust  ",
+      "color": {
+        "a": 1,
+        "rgb": 12477475
+      }
+    },
+    {
+      "query": "path:Code/Databases  ",
+      "color": {
+        "a": 1,
+        "rgb": 7887520
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.15413004557292,
@@ -53,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.34554466324111754,
+  "scale": 0.29342608364294454,
   "close": true
 }

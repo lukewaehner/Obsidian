@@ -65,4 +65,4 @@ for (initializer; condition; updater) {
 
 ## Related Topics
 - [[Scope]]
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]

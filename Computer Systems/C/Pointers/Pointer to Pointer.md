@@ -63,6 +63,6 @@ void modify_pointer(int **pp) {
 - [[Pointer Basics]]
 - [[Dereferencing]]
 - [[Address-of Operator]]
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]
 
 #important #memory

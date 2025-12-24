@@ -21,5 +21,5 @@ int main(int argc, char**argv) {
 - **`return 0;`** - Indicates successful program execution
 
 ## Related Topics
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]
 - [[Data Types]]

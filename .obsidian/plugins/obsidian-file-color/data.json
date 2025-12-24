@@ -41,6 +41,41 @@
       "id": "2OEvdrkLPC_Uj362HdDJ2",
       "name": "Balanced Blue",
       "value": "#52b8e0"
+    },
+    {
+      "id": "u1zExG7FjTr4bTn0WZHs-",
+      "name": "Dark Red",
+      "value": "#aa2323"
+    },
+    {
+      "id": "-CsfwEHkvMqX5_BsH8rOH",
+      "name": "Orange",
+      "value": "#be6423"
+    },
+    {
+      "id": "l6FVIkIZlTy47t2rxaE3K",
+      "name": " Cool Gray",
+      "value": "#969ba5"
+    },
+    {
+      "id": "HLtLgSPc_pzbdvYdBOQcr",
+      "name": "Dark Teal",
+      "value": "#3c7d78"
+    },
+    {
+      "id": "HIwj2lozIVCnuLRgdB_04",
+      "name": "Deep Purple",
+      "value": "#785aa0"
+    },
+    {
+      "id": "wb_YoQwKrzXYtxThAWYAX",
+      "name": "Olive",
+      "value": "#87965a"
+    },
+    {
+      "id": "eJczs-EvTnQooJXoviLPo",
+      "name": "Soft Gold",
+      "value": "#c8aa5f"
     }
   ],
   "fileColors": [
@@ -53,7 +88,7 @@
       "color": "SlGDFhaXBEh-I0lM1LV7l"
     },
     {
-      "path": "Investments",
+      "path": "Archive/Finance/Investments",
       "color": "eD4N8rcfY8wd8aKNfVd7k"
     },
     {
@@ -63,6 +98,18 @@
     {
       "path": "Co-Op Search",
       "color": "2OEvdrkLPC_Uj362HdDJ2"
+    },
+    {
+      "path": "Code/Ruby",
+      "color": "u1zExG7FjTr4bTn0WZHs-"
+    },
+    {
+      "path": "Code/Rust",
+      "color": "-CsfwEHkvMqX5_BsH8rOH"
+    },
+    {
+      "path": "Code/Databases",
+      "color": "HIwj2lozIVCnuLRgdB_04"
     }
   ]
 }

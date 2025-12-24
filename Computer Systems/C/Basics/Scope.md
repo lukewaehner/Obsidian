@@ -26,5 +26,5 @@ int main() {
 ```
 
 ## Related Topics
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]
 - [[Control Flow]]

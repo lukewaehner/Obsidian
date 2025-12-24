@@ -6,7 +6,7 @@ Welcome to the C programming basics hub. This section covers fundamental concept
 
 [[Hello World Program]]
 [[Scope]]
-[[Functions]]
+[[Computer Systems/C/Basics/Functions]]
 [[Control Flow]]
 [[Data Types]]
 [[Declaration vs Definition]]

@@ -56,4 +56,4 @@ nums[0]  nums[1]  nums[2]  nums[3]
 ## Related Topics
 - [[Data Types]]
 - [[Scope]]
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]

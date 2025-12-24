@@ -41,6 +41,6 @@ unsigned int positive_only = 100;
 ```
 
 ## Related Topics
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]
 - [[Arrays]]
 - [[Hello World Program]]

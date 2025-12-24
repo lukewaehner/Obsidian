@@ -45,5 +45,5 @@ double pow(double base, int exp) {
 | Usually in headers | Usually in source files |
 
 ## Related Topics
-- [[Functions]]
+- [[Computer Systems/C/Basics/Functions]]
 - [[Scope]]
