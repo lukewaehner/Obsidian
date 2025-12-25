@@ -27,6 +27,6 @@ When you have a pointer, it stores the address (like `0x104`) rather than the ac
 ## Related Topics
 - [[Pointer Declaration]]
 - [[Address-of Operator]]
-- [[Arrays]]
+- [[Computer Systems/C/Basics/Arrays]]
 
 #important #memory

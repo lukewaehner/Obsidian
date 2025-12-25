@@ -33,5 +33,5 @@ int add(int a, int b) {
 
 ## Related Topics
 - [[Declaration vs Definition]]
-- [[Data Types]]
+- [[Computer Systems/C/Basics/Data Types]]
 - [[Hello World Program]]

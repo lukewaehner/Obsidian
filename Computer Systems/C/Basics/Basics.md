@@ -8,9 +8,9 @@ Welcome to the C programming basics hub. This section covers fundamental concept
 [[Scope]]
 [[Computer Systems/C/Basics/Functions]]
 [[Control Flow]]
-[[Data Types]]
+[[Computer Systems/C/Basics/Data Types]]
 [[Declaration vs Definition]]
-[[Arrays]]
+[[Computer Systems/C/Basics/Arrays]]
 [[Computer Systems/C/Basics/Structs|Structs]]
 [[Typedef]]
 

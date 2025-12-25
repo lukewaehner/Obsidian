@@ -86,6 +86,6 @@ compare_fn my_comparator = &my_compare_function;
 ---
 
 **Related Notes:**
-- [[Structs]] - User-defined data types
-- [[Data Types]] - Overview of C data types
+- [[Computer Systems/C/Basics/Structs]] - User-defined data types
+- [[Computer Systems/C/Basics/Data Types]] - Overview of C data types
 - [[Pointers]] - Pointer type aliases

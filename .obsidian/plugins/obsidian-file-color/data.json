@@ -80,7 +80,7 @@
   ],
   "fileColors": [
     {
-      "path": "Algorithms",
+      "path": "Code/Topics/Algorithms",
       "color": "9awuB9pxt3yYCl4C7AvFi"
     },
     {
@@ -100,15 +100,15 @@
       "color": "2OEvdrkLPC_Uj362HdDJ2"
     },
     {
-      "path": "Code/Ruby",
+      "path": "Code/Languages/Ruby",
       "color": "u1zExG7FjTr4bTn0WZHs-"
     },
     {
-      "path": "Code/Rust",
+      "path": "Code/Languages/Rust",
       "color": "-CsfwEHkvMqX5_BsH8rOH"
     },
     {
-      "path": "Code/Databases",
+      "path": "Code/Topics/Databases",
       "color": "HIwj2lozIVCnuLRgdB_04"
     }
   ]

@@ -82,4 +82,4 @@ Writing `struct` repeatedly can be verbose. See [[Typedef]] for how to create ty
 **Related Notes:**
 - [[Typedef]] - Creating type aliases
 - [[Pointers with Structs]] - Working with struct pointers
-- [[Data Types]] - Overview of C data types
+- [[Computer Systems/C/Basics/Data Types]] - Overview of C data types

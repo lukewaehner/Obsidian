@@ -50,12 +50,3 @@ Add extra features:
 Done
 - [x] Email Automation ✅ 2025-12-03
 - [ ] Share tools with students
-
-| 4:30        |
-| ----------- |
-| 6:30        |
-| 2:00        |
-| 6:00        |
-| 1:30        |
-| 8:00        |
-| 2:00        |

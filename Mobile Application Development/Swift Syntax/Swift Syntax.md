@@ -10,7 +10,7 @@
 [[Mobile Application Development/Swift Syntax/Collections/Collections|Collections]]
 [[Operators]]
 [[Conditionals]]
-[[Loops]]
+[[Mobile Application Development/Swift Syntax/Loops/Loops]]
 [[Mobile Application Development/Swift Syntax/Functions]]
 [[Closures]]
 [[Optionals]]

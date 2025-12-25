@@ -96,7 +96,7 @@ Pointer arithmetic supports:
 
 ## Common Use with Arrays
 
-Pointer arithmetic is most commonly used with [[Arrays]]:
+Pointer arithmetic is most commonly used with [[Computer Systems/C/Basics/Arrays]]:
 
 ```c
 int nums[4] = {10, 20, 30, 40};
@@ -148,7 +148,7 @@ See [[Pointer Safety]] for more details on avoiding these issues.
 
 - [[Pointer Basics]] - foundational pointer concepts
 - [[Dereferencing]] - accessing values through pointers
-- [[Arrays]] - primary use case for pointer arithmetic
+- [[Computer Systems/C/Basics/Arrays]] - primary use case for pointer arithmetic
 - [[Pointer to Pointer]] - arithmetic with multi-level pointers
 - [[Example Code]] - complete code demonstration
 - [[Pointer Safety]] - avoiding pointer arithmetic pitfalls

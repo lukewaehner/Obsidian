@@ -22,4 +22,4 @@ int main(int argc, char**argv) {
 
 ## Related Topics
 - [[Computer Systems/C/Basics/Functions]]
-- [[Data Types]]
+- [[Computer Systems/C/Basics/Data Types]]

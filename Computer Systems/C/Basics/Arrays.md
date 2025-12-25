@@ -54,6 +54,6 @@ nums[0]  nums[1]  nums[2]  nums[3]
 ```
 
 ## Related Topics
-- [[Data Types]]
+- [[Computer Systems/C/Basics/Data Types]]
 - [[Scope]]
 - [[Computer Systems/C/Basics/Functions]]

@@ -187,7 +187,14 @@
     "development": 175,
     "react": 176,
     "javascript": 177,
-    "typescript": 178
+    "typescript": 178,
+    "code": 179,
+    "ood": 180,
+    "design-patterns": 181,
+    "solid": 182,
+    "languages": 183,
+    "tools": 184,
+    "cs-fundamentals": 185
   },
   "_version": 3
 }
