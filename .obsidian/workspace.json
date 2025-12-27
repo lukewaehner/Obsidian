@@ -4,41 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4c3b9defd248908f",
         "type": "tabs",
         "children": [
           {
-            "id": "00d23174e7a4fa36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Languages/Ruby/Ruby.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Ruby"
-            }
-          },
-          {
-            "id": "1fbd27d48e59afde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Languages/Ruby/Enumeration.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Enumeration"
-            }
-          },
-          {
-            "id": "ea23d4a45713a0d4",
+            "id": "0052a4ebb691cd02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,37 +23,22 @@
             }
           },
           {
-            "id": "72bf382eef1d8827",
+            "id": "51a0419d38cc508e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Methods.md",
+                "file": "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Methods"
-            }
-          },
-          {
-            "id": "967a04dc4b887a40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Tools/Zsh/Keybinds.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Keybinds"
+              "title": "Composition"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Tools/Zsh/Keybinds.md",
+                "file": "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Keybinds"
+              "title": "Outgoing links from Composition"
             }
           },
           {
@@ -285,36 +240,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "967a04dc4b887a40",
+  "active": "51a0419d38cc508e",
   "lastOpenFiles": [
-    "README.md",
-    "Code/Languages/Ruby/Methods.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Class Methods and Variables.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Object Oriented Programming.md",
+    "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
+    "Code/Languages/Ruby/Project Management/Project Management.md",
+    "Code/Languages/Ruby/Project Management",
+    "Code/Languages/Ruby/Object Oriented Programming/Method Visibility.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Rails.md",
+    "Code/Languages/Ruby/Nested Collections.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Encapsulation.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Modules as Mixins.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Inheritance.md",
+    "Code/Languages/Ruby/Object Oriented Programming",
+    "Code/Languages/Ruby/Arrays.md",
     "Code/Languages/Ruby/Enumerating Predicates.md",
+    "Code/Languages/Ruby/Ruby.md",
+    "Code/Languages/Languages.md",
+    "Dashboard.canvas",
+    "Code/Languages/Ruby/Enumeration.md",
+    "Code/Languages/Ruby/Methods.md",
+    "Maggie.md",
+    "Home.md",
+    "README.md",
+    "Archive/Archive.md",
+    "Code/Tools/Zsh/Keybinds.md",
     "Code/Tools/Tools.md",
     "Code/Tools/Zsh/Zsh.md",
-    "Code/Tools/Zsh/Keybinds.md",
     "Code/Tools/Zsh",
     "Code/Tools/Neovim/Neovim.md",
-    "Code/Languages/Languages.md",
-    "Maggie.md",
-    "Code/Languages/Ruby/Enumeration.md",
-    "Code/Languages/Ruby/Ruby.md",
-    "Code/Languages/Ruby/Loops.md",
-    "Code/Topics/Topics.md",
-    "Code/Topics/Algorithms/Algorithms.md",
-    "Code/Languages/Ruby/Hashes.md",
-    "Code/Languages/Rust/HFTX/PriceLevels.md",
-    "Code/Languages/Rust/Common Crates.md",
-    "Code/Languages/Rust/Unsafe.md",
-    "Code/Languages/Rust/Macros.md",
-    "Code/Languages/Rust/Cargo.md",
-    "Code/Languages/Rust/Async Await.md",
-    "Code/Languages/Rust/Concurrency.md",
-    "Code/Topics/Algorithms/Bellman-Ford Algorithm.md",
-    "Code/Topics/Algorithms/Archive.md",
-    "Code/Languages/Rust/Strings.md",
-    "Code/Languages/Rust/HFTX/Domain Types.md",
-    "Dashboard.canvas",
     "Images/Code/Topics/Computer Systems/Processes/Processes/IMG-20251224201244606.png",
     "Images/Code/Topics/Computer Systems/Data & Registers/IMG-20251224201244603.png",
     "Images/Code/Topics/Computer Systems/Processes/Processes",
@@ -324,8 +281,6 @@
     "Images/Code/Topics",
     "Images/Code",
     "Code/Topics",
-    "Code/Tools",
-    "Code/Languages",
     "Images/Archive/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251223193053131.png",
     "Images/Archive/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices/IMG-20251223193053140.png",
     "Images/Archive/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053271.png",

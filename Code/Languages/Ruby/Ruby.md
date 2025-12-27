@@ -23,13 +23,28 @@ Ruby is a dynamic, object-oriented programming language designed for developer h
 
 - [[Basic Datatypes]] - See Here
 
-## Control Flow
+## Collections
 
-*Coming soon*
+- [[Arrays]] — Ordered, indexed collections
+- [[Hashes]] — Key-value collections
+- [[Nested Collections]] — Multidimensional arrays and hashes
+- [[Enumeration]] — Iteration and transformation methods
+- [[Enumerating Predicates]] — Boolean tests on collections
 
 ## Object-Oriented Programming
 
-*Coming soon*
+- [[Object Oriented Programming]] — OOP concepts overview
+
+Core concepts:
+- [[Inheritance]] — Single inheritance, super, method overriding
+- [[Modules as Mixins]] — include, extend, prepend
+- [[Encapsulation]] — public, private, protected
+- [[Polymorphism]] — Duck typing and flexible interfaces
+
+Class design:
+- [[Class Methods and Variables]] — self, @@, singleton methods
+- [[Method Visibility]] — Access control deep dive
+- [[Composition]] — Building objects from other objects
 
 ## Frameworks
 

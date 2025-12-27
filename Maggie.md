@@ -39,14 +39,12 @@ Work:
 | 11/30 | 1:30        | Timezone logic improvements, tags to delegate between advisors          |
 | 12/2  | 8:00        | Forward + Backward Email Queue, Cache, File Structuring + Refactors     |
 | 12/18 | 2:00        | Planning + Supplemental Check added for Queue                           |
+| 12/27 | 3:00        | Email Template Update, Sharing Functionality                            |
 
 
 Add extra features:
 - [x] Make student sidebar manager sorted alphabetically ✅ 2025-12-18
 - [x] Add in ApplicationTracker: Check supplemental status for Needs Review ✅ 2025-12-18
-- [ ] Setup outbound email template to match student meeting notes template
-- [ ] Share resources (google docs) from Tasks -> Your Shared Folder on Home Page, overwrite with <Name - Document> on tasks page, stop new overwrites with this
-
-Done
-- [x] Email Automation ✅ 2025-12-03
-- [ ] Share tools with students
+- [x] Setup outbound email template to match student meeting notes template
+- [x] Share resources (google docs) from Tasks -> Your Shared Folder on Home Page, overwrite with <Name - Document> on tasks page, stop new overwrites with this
+- [ ] Test Sharing Function ⏳ 2025-12-29 
