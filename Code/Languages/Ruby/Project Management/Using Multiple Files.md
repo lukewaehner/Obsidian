@@ -41,6 +41,18 @@ require_relative 'sort/merge_sort'
 ### require
 `require(string)` If the feature is an absolute path (starts with `'/'`), the feature will be loaded directly with the absolute path
 
+```ruby
+# In main.rb
+require './lib/sort'
+
+# In sort.rb
+require './lib/sort/bubble_sort'
+require './lib/sort/bogo_sort'
+```
+
+`$LOAD_PATH`
+Looks for files in the global variable which defines
+
 ## Key Concepts
 
 Explain the important ideas.

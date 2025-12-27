@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
+                "file": "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Polymorphism"
+              "title": "Using Multiple Files"
             }
           }
         ]
@@ -99,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "5bc0e3f334a5a346",
@@ -136,12 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
+                "file": "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Polymorphism"
+              "title": "Outgoing links from Using Multiple Files"
             }
           },
           {
@@ -227,23 +226,23 @@
   },
   "active": "51a0419d38cc508e",
   "lastOpenFiles": [
+    "Code/Languages/Ruby/Object Oriented Programming/Object Oriented Programming.md",
+    "Code/Languages/Ruby/Ruby.md",
+    "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
     "Code/Languages/Ruby/Object Oriented Programming/Modules as Mixins.md",
     "Code/Languages/Ruby/Object Oriented Programming/Method Visibility.md",
     "Code/Languages/Ruby/Object Oriented Programming/Inheritance.md",
     "Code/Languages/Ruby/Object Oriented Programming/Encapsulation.md",
     "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
     "Code/Languages/Ruby/Object Oriented Programming/Class Methods and Variables.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Object Oriented Programming.md",
     "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
     "Code/Languages/Ruby/Project Management/Project Management.md",
     "Code/Languages/Ruby/Project Management",
-    "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
     "Code/Languages/Ruby/Frameworks/Rails/Rails.md",
     "Code/Languages/Ruby/Nested Collections.md",
     "Code/Languages/Ruby/Object Oriented Programming",
     "Code/Languages/Ruby/Arrays.md",
     "Code/Languages/Ruby/Enumerating Predicates.md",
-    "Code/Languages/Ruby/Ruby.md",
     "Code/Languages/Languages.md",
     "Dashboard.canvas",
     "Code/Languages/Ruby/Enumeration.md",
