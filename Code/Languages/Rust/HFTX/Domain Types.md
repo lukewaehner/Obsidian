@@ -22,3 +22,5 @@ pub struct Order {
 }
 ```
 - `Trade` mirrors minimal copyable fields
+
+[[HFTX]]

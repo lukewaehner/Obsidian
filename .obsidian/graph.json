@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Algorithms  ",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "path:\"Co-Op Search\"  ",
+      "query": "path:\"Professional Tools\"  ",
       "color": {
         "a": 1,
         "rgb": 8245247
@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "path:Archive/Finance  ",
+      "query": "path:Archive  ",
       "color": {
         "a": 1,
         "rgb": 10407530
@@ -50,14 +50,14 @@
       }
     },
     {
-      "query": "path:Code/Rust  ",
+      "query": "path:\"Rust\"",
       "color": {
         "a": 1,
         "rgb": 12477475
       }
     },
     {
-      "query": "path:Code/Databases  ",
+      "query": "path:\"Databases\" ",
       "color": {
         "a": 1,
         "rgb": 7887520
@@ -74,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1909963748490965,
-  "close": true
+  "scale": 0.10232204970373915,
+  "close": false
 }

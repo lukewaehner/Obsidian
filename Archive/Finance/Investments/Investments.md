@@ -283,3 +283,4 @@ Problem sets and practice problems
 [[Investment Process]]
 [[Risk & Return]]
 [[Valuation Metrics]]
+[[Capital Asset Pricing Model]]

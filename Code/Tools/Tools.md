@@ -11,6 +11,7 @@ Development tools, editors, and utilities.
 ## Editors
 
 - [[Neovim]] — Modal text editor and IDE
+- [[Zsh]] - A list of zsh information
 
 ## See Also
 

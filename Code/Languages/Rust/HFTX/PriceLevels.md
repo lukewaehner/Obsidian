@@ -20,3 +20,5 @@ pub fn pop_best(&mut self) -> Option<Order> { /* pop from best level; prune empt
 pub fn add(&mut self, o: Order) { /* push_back at level */ }
 
 ```
+
+[[HFTX]]

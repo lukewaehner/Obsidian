@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBriefcase",
+      "LiArchive",
+      "LiCode",
       "SiIos",
-      "SiApple",
-      "BoBxSort",
-      "LiNewspaper",
-      "SiArchlinux"
+      "SiApple"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,5 +33,8 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Code": "LiCode",
+  "Archive": "LiArchive",
+  "Professional Tools": "LiBriefcase"
 }

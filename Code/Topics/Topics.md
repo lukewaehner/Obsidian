@@ -14,6 +14,8 @@ Computer science fundamentals and concepts.
 - [[OOD]] — Object-Oriented Design principles
 - [[Databases]] — Storage, queries, and data modeling
 - [[Algorithms]] — Algorithm Styles, Efficiency, Space + Time Complexity
+- [[Mobile Application Development]] - Swift + Mobile App Building with UIKit
+- [[Computer Systems]] - C + Low Level Programming
 
 ## Career
 
