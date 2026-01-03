@@ -8,21 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51a0419d38cc508e",
+            "id": "21d6556a47b28df8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
+                "file": "Code/Languages/Ruby/Files and Serialization/Files and Serialization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Using Multiple Files"
+              "title": "Files and Serialization"
+            }
+          },
+          {
+            "id": "eeeddd0274ae64c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Languages/Ruby/Pattern Matching.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Pattern Matching"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
+                "file": "Code/Languages/Ruby/Pattern Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Using Multiple Files"
+              "title": "Outgoing links from Pattern Matching"
             }
           },
           {
@@ -224,8 +240,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51a0419d38cc508e",
+  "active": "eeeddd0274ae64c6",
   "lastOpenFiles": [
+    "Code/Languages/Ruby/Project Management/Project Management.md",
+    "Code/Languages/Ruby/Pattern Matching.md",
+    "Code/Languages/Ruby/Files and Serialization/Files and Serialization.md",
+    "Code/Languages/Ruby/Files and Serialization/YAML in Ruby.md",
+    "Code/Languages/Ruby/Files and Serialization/Serialization.md",
+    "Code/Languages/Ruby/Files and Serialization/JSON in Ruby.md",
+    "Code/Languages/Ruby/Files and Serialization/File IO.md",
+    "Code/Languages/Ruby/Files and Serialization/IO In Ruby.md",
+    "Code/Tools/Zsh/Keybinds.md",
+    "Code/Tools/Zsh/Zsh.md",
+    "Code/Languages/Ruby/Project Management/asdfasdfa.md",
+    "Code/Languages/Ruby/Basic Datatypes/Basic Datatypes.md",
+    "Code/Languages/Ruby/Files and Serialization",
+    "Code/Languages/Ruby/Project Management/Require and Require Relative.md",
+    "Code/Languages/Ruby/Project Management/Namespacing.md",
+    "Code/Languages/Ruby/Project Management/Gems and Bundler.md",
+    "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
     "Code/Languages/Ruby/Object Oriented Programming/Object Oriented Programming.md",
     "Code/Languages/Ruby/Ruby.md",
     "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
@@ -235,27 +268,11 @@
     "Code/Languages/Ruby/Object Oriented Programming/Encapsulation.md",
     "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
     "Code/Languages/Ruby/Object Oriented Programming/Class Methods and Variables.md",
-    "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
-    "Code/Languages/Ruby/Project Management/Project Management.md",
     "Code/Languages/Ruby/Project Management",
     "Code/Languages/Ruby/Frameworks/Rails/Rails.md",
-    "Code/Languages/Ruby/Nested Collections.md",
     "Code/Languages/Ruby/Object Oriented Programming",
-    "Code/Languages/Ruby/Arrays.md",
-    "Code/Languages/Ruby/Enumerating Predicates.md",
-    "Code/Languages/Languages.md",
     "Dashboard.canvas",
-    "Code/Languages/Ruby/Enumeration.md",
-    "Code/Languages/Ruby/Methods.md",
-    "Maggie.md",
-    "Home.md",
-    "README.md",
-    "Archive/Archive.md",
-    "Code/Tools/Zsh/Keybinds.md",
-    "Code/Tools/Tools.md",
-    "Code/Tools/Zsh/Zsh.md",
     "Code/Tools/Zsh",
-    "Code/Tools/Neovim/Neovim.md",
     "Images/Code/Topics/Computer Systems/Processes/Processes/IMG-20251224201244606.png",
     "Images/Code/Topics/Computer Systems/Data & Registers/IMG-20251224201244603.png",
     "Images/Code/Topics/Computer Systems/Processes/Processes",
@@ -264,7 +281,6 @@
     "Images/Code/Topics/Computer Systems",
     "Images/Code/Topics",
     "Images/Code",
-    "Code/Topics",
     "Images/Archive/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251223193053131.png",
     "Images/Archive/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices/IMG-20251223193053140.png",
     "Images/Archive/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053271.png",

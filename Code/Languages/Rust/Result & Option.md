@@ -4,8 +4,8 @@ tags:
   - error-handling
 type: note
 related:
-  - '[[Rust]]'
-  - '[[Pattern Matching]]'
+  - "[[Rust]]"
+  - "[[Code/Languages/Rust/Pattern Matching]]"
 ---
 # Result & Option
 
@@ -226,5 +226,5 @@ let value = risky_operation().unwrap_or_else(|e| {
 
 ## See Also
 
-- [[Pattern Matching]] — Matching on Option and Result
+- [[Code/Languages/Rust/Pattern Matching]] — Matching on Option and Result
 - [[Rust]]

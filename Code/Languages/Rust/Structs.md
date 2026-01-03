@@ -4,10 +4,10 @@ tags:
   - types
 type: note
 related:
-  - '[[Rust]]'
-  - '[[Implementation]]'
-  - '[[Derives]]'
-  - '[[Pattern Matching]]'
+  - "[[Rust]]"
+  - "[[Implementation]]"
+  - "[[Derives]]"
+  - "[[Code/Languages/Rust/Pattern Matching]]"
 ---
 # Structs
 
@@ -186,5 +186,5 @@ fn get_user(id: UserId) { }
 
 - [[Implementation]] — Adding methods
 - [[Derives]] — Auto-implementing traits
-- [[Pattern Matching]] — Destructuring structs
+- [[Code/Languages/Rust/Pattern Matching]] — Destructuring structs
 - [[Rust]]

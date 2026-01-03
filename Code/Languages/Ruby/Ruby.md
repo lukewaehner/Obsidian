@@ -46,6 +46,23 @@ Class design:
 - [[Method Visibility]] — Access control deep dive
 - [[Composition]] — Building objects from other objects
 
+## Files and Serialization
+
+- [[Files and Serialization]] — Overview of file I/O and data formats
+
+- [[File IO]] — Reading and writing files
+- [[Serialization]] — Converting objects to storable formats
+- [[JSON in Ruby]] — Web APIs and data exchange
+- [[YAML in Ruby]] — Configuration files and human-readable data
+
+## Project Management
+
+- [[Project Management]] — Project structure overview
+
+- [[Require and Require Relative]] — Loading files and libraries
+- [[Namespacing]] — Avoiding naming collisions with modules
+- [[Gems and Bundler]] — Package management and dependencies
+
 ## Frameworks
 
 - [[Rails]] — Full-stack web framework

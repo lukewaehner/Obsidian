@@ -25,7 +25,7 @@ A systems programming language focused on safety, speed, and concurrency.
 - [[Derives]] — Auto-implementing traits
 
 ### Control Flow
-- [[Pattern Matching]] — Match expressions and destructuring
+- [[Code/Languages/Rust/Pattern Matching]] — Match expressions and destructuring
 - [[Result & Option]] — Error handling basics
 - [[Error Handling Patterns]] — Advanced error techniques
 - [[Closures]] — Anonymous functions

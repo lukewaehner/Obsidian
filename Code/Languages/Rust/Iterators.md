@@ -5,9 +5,9 @@ tags:
   - functional
 type: note
 related:
-  - '[[Rust]]'
-  - '[[Collections]]'
-  - '[[Pattern Matching]]'
+  - "[[Rust]]"
+  - "[[Collections]]"
+  - "[[Code/Languages/Rust/Pattern Matching]]"
 ---
 # Iterators
 
@@ -247,5 +247,5 @@ if queue.is_empty() {
 ## See Also
 
 - [[Collections]] — Data structures to iterate
-- [[Pattern Matching]] — Matching in closures
+- [[Code/Languages/Rust/Pattern Matching]] — Matching in closures
 - [[Rust]]

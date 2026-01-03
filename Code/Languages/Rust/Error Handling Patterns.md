@@ -4,10 +4,10 @@ tags:
   - error-handling
 type: note
 related:
-  - '[[Rust]]'
-  - '[[Result & Option]]'
-  - '[[Pattern Matching]]'
-  - '[[Traits]]'
+  - "[[Rust]]"
+  - "[[Result & Option]]"
+  - "[[Code/Languages/Rust/Pattern Matching]]"
+  - "[[Traits]]"
 ---
 # Error Handling Patterns
 
@@ -309,6 +309,6 @@ fn process() -> Result<()> {
 ## See Also
 
 - [[Result & Option]] — Basic error handling
-- [[Pattern Matching]] — Matching on errors
+- [[Code/Languages/Rust/Pattern Matching]] — Matching on errors
 - [[Traits]] — The Error trait
 - [[Rust]]
