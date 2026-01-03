@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Pattern Matching.md",
+                "file": "Code/Languages/Ruby/Blocks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pattern Matching"
+              "title": "Blocks"
             }
           }
         ],
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Languages/Ruby/Pattern Matching.md",
+                "file": "Code/Languages/Ruby/Blocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pattern Matching"
+              "title": "Outgoing links from Blocks"
             }
           },
           {
@@ -242,8 +242,9 @@
   },
   "active": "eeeddd0274ae64c6",
   "lastOpenFiles": [
-    "Code/Languages/Ruby/Project Management/Project Management.md",
     "Code/Languages/Ruby/Pattern Matching.md",
+    "Code/Languages/Ruby/Blocks.md",
+    "Code/Languages/Ruby/Project Management/Project Management.md",
     "Code/Languages/Ruby/Files and Serialization/Files and Serialization.md",
     "Code/Languages/Ruby/Files and Serialization/YAML in Ruby.md",
     "Code/Languages/Ruby/Files and Serialization/Serialization.md",
@@ -269,7 +270,6 @@
     "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
     "Code/Languages/Ruby/Object Oriented Programming/Class Methods and Variables.md",
     "Code/Languages/Ruby/Project Management",
-    "Code/Languages/Ruby/Frameworks/Rails/Rails.md",
     "Code/Languages/Ruby/Object Oriented Programming",
     "Dashboard.canvas",
     "Code/Tools/Zsh",
