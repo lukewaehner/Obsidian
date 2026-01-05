@@ -78,6 +78,7 @@ rspec           # Actually runs bin/rspec
 
 ## See Also
 
-- [[Bundler]] — Why version consistency matters
+- [[Deep Knowledge]] — Rails internals overview
 - [[Boot Process]] — What happens when binstubs run
+- [[Bundler]] — Why version consistency matters
 - [[Rails]]

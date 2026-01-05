@@ -20,13 +20,15 @@ Cheat Sheet:
 
 ### Searching
 
-|Keys|Action|
-|---|---|
-|`/pattern`|Search forward|
-|`?pattern`|Search backward|
-|`n` / `N`|Next / Previous search result|
-|`*` / `#`|Search word under cursor (fwd/back)|
-|`%`|Jump to matching `()[]{}`|
+| Keys       | Action                              |
+| ---------- | ----------------------------------- |
+| `/pattern` | Search forward                      |
+| `?pattern` | Search backward                     |
+| `n` / `N`  | Next / Previous search result       |
+| `*` / `#`  | Search word under cursor (fwd/back) |
+| `%`        | Jump to matching `()[]{}`           |
+| `s`        | Treesitter flash searching          |
+| `grr`      | Shows LSP referesnces               |
 
 ---
 
@@ -56,3 +58,52 @@ Cheat Sheet:
 |`:sp file` / `:vsp file`|Horizontal / vertical split|
 |`Ctrl-w h/j/k/l`|Move between splits|
 |`:tabnew` / `gt` / `gT`|New / next / prev tab|
+
+---
+
+### Treesitter
+
+| Keys  | Actions                   |
+| ----- | ------------------------- |
+| `grr` | shows LSP refrences       |
+| `grn` | Renames all lsp refrences |
+| `gra` | shows fixes               |
+| `gd`  | go to definition          |
+| `grt` | go to type declartion     |
+| `gri` | go to implementaiton      |
+
+---
+
+### Diagnostics
+
+| Keys         | Actions                             |
+| ------------ | ----------------------------------- |
+| `<leader>sd` | Lists all diagnostics               |
+| `<leader>cd` | Opens a window explaining the error |
+| `]d`         | Go to next diagnostic               |
+| `[d`         | Go to previous diagnostic           |
+> Go to / find diagnostic, use `gra` to fix or `<leader>cd` to understand better
+
+---
+
+### Formatting
+
+| Keys                       | Actions              |
+| -------------------------- | -------------------- |
+| `<leader>cf`               | Format file / buffer |
+| `<leader>cd` (visual mode) | Formats selections   |
+
+---
+
+### Gitsigns
+
+| Keys         | Actions              |
+| ------------ | -------------------- |
+| `]h`         | Next hunk (change)   |
+| `[h`         | previous hunk        |
+| `<leader>hp` | Inspect a change     |
+| `<leader>hs` | stage hunk           |
+| `<leader>hr` | reset hunk           |
+| `<leader>hS` | stage buffer         |
+| `<leader>hR` | rest buffer          |
+| `<leader>hb` | shows blame for line |

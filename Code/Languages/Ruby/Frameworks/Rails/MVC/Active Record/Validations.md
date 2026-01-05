@@ -6,7 +6,7 @@ type: note
 related:
   - '[[Rails]]'
 ---
-# Development Mode
+# Validations
 
 A brief description of what this Rails feature/concept covers.
 

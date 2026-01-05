@@ -103,6 +103,7 @@ Cache is stored in `tmp/cache/bootsnap/`.
 
 ## See Also
 
+- [[Deep Knowledge]] — Rails internals overview
 - [[Binstubs]] — How commands enter the boot process
 - [[Zeitwerk Autoloading]] — How code gets loaded after boot
 - [[Rails]]

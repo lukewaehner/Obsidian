@@ -4,7 +4,7 @@
   "alwaysUpdateLinks": true,
   "autoConvertHtml": true,
   "foldHeading": false,
-  "vimMode": false,
+  "vimMode": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,

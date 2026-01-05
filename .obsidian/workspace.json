@@ -8,37 +8,82 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21d6556a47b28df8",
+            "id": "7dfc729c2bc68892",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Files and Serialization/Files and Serialization.md",
+                "file": "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Validations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Files and Serialization"
+              "title": "Validations"
             }
           },
           {
-            "id": "eeeddd0274ae64c6",
+            "id": "3f55124f6253c912",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Blocks.md",
+                "file": "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Active Record.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Blocks"
+              "title": "Active Record"
+            }
+          },
+          {
+            "id": "36fe1e42f65607cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Smartleaf.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Smartleaf"
+            }
+          },
+          {
+            "id": "c2b596f22e10b9ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Languages/Ruby/Frameworks/Rails/The Web/REST.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "REST"
+            }
+          },
+          {
+            "id": "c508fd9d3aeb537a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Code"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,12 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Languages/Ruby/Blocks.md",
+                "file": "Code/Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Blocks"
+              "title": "Outgoing links from Code"
             }
           },
           {
@@ -240,35 +285,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eeeddd0274ae64c6",
+  "active": "6f9f6b3474c33831",
   "lastOpenFiles": [
-    "Code/Languages/Ruby/Pattern Matching.md",
-    "Code/Languages/Ruby/Blocks.md",
-    "Code/Languages/Ruby/Project Management/Project Management.md",
-    "Code/Languages/Ruby/Files and Serialization/Files and Serialization.md",
-    "Code/Languages/Ruby/Files and Serialization/YAML in Ruby.md",
-    "Code/Languages/Ruby/Files and Serialization/Serialization.md",
-    "Code/Languages/Ruby/Files and Serialization/JSON in Ruby.md",
-    "Code/Languages/Ruby/Files and Serialization/File IO.md",
-    "Code/Languages/Ruby/Files and Serialization/IO In Ruby.md",
-    "Code/Tools/Zsh/Keybinds.md",
-    "Code/Tools/Zsh/Zsh.md",
-    "Code/Languages/Ruby/Project Management/asdfasdfa.md",
-    "Code/Languages/Ruby/Basic Datatypes/Basic Datatypes.md",
-    "Code/Languages/Ruby/Files and Serialization",
-    "Code/Languages/Ruby/Project Management/Require and Require Relative.md",
-    "Code/Languages/Ruby/Project Management/Namespacing.md",
-    "Code/Languages/Ruby/Project Management/Gems and Bundler.md",
-    "Code/Languages/Ruby/Project Management/Using Multiple Files.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Object Oriented Programming.md",
     "Code/Languages/Ruby/Ruby.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Polymorphism.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Modules as Mixins.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Method Visibility.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Inheritance.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Encapsulation.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Composition.md",
-    "Code/Languages/Ruby/Object Oriented Programming/Class Methods and Variables.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Validations.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Active Record.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Migrations.md",
+    "Code/Code.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/MVC.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Views.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Router.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Root Route.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/RESTful Routes.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Route Helpers.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Controller.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Zeitwerk Autoloading.md",
+    "Code/Languages/Ruby/Frameworks/Rails/The Web/REST.md",
+    "Smartleaf.md",
+    "Maggie.md",
+    "Code/Untitled.md",
+    "Code/Languages/Ruby/Enumeration.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Console Configuration.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Custom Routes.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC",
+    "Code/Languages/Ruby/Frameworks/Rails/The Web/The Web.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Routing/Router.md",
+    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router",
+    "Code/Languages/Ruby/Frameworks/Rails/The Web/Authentication and Authorization.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Rails.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Deeb Knowledge/Binstubs.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Deeb Knowledge/Boot Process.md",
+    "Code/Languages/Ruby/Frameworks/Rails/Deeb Knowledge",
+    "Code/Languages/Ruby/Frameworks/Rails/The Web",
+    "Code/Languages/Ruby/Files and Serialization",
     "Code/Languages/Ruby/Project Management",
     "Code/Languages/Ruby/Object Oriented Programming",
     "Dashboard.canvas",
@@ -276,11 +326,6 @@
     "Images/Code/Topics/Computer Systems/Processes/Processes/IMG-20251224201244606.png",
     "Images/Code/Topics/Computer Systems/Data & Registers/IMG-20251224201244603.png",
     "Images/Code/Topics/Computer Systems/Processes/Processes",
-    "Images/Code/Topics/Computer Systems/Processes",
-    "Images/Code/Topics/Computer Systems/Data & Registers",
-    "Images/Code/Topics/Computer Systems",
-    "Images/Code/Topics",
-    "Images/Code",
     "Images/Archive/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251223193053131.png",
     "Images/Archive/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices/IMG-20251223193053140.png",
     "Images/Archive/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053271.png",
