@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Smartleaf.md",
+                "file": "Maggie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Smartleaf"
+              "title": "Maggie"
             }
           },
           {
@@ -285,13 +285,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f9f6b3474c33831",
+  "active": "c508fd9d3aeb537a",
   "lastOpenFiles": [
+    "Smartleaf.md",
+    "Code/Code.md",
     "Code/Languages/Ruby/Ruby.md",
     "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Validations.md",
     "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Active Record.md",
     "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Migrations.md",
-    "Code/Code.md",
     "Code/Languages/Ruby/Frameworks/Rails/MVC/MVC.md",
     "Code/Languages/Ruby/Frameworks/Rails/MVC/Views.md",
     "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Router.md",
@@ -301,7 +302,6 @@
     "Code/Languages/Ruby/Frameworks/Rails/MVC/Controller.md",
     "Code/Languages/Ruby/Frameworks/Rails/Zeitwerk Autoloading.md",
     "Code/Languages/Ruby/Frameworks/Rails/The Web/REST.md",
-    "Smartleaf.md",
     "Maggie.md",
     "Code/Untitled.md",
     "Code/Languages/Ruby/Enumeration.md",
