@@ -147,6 +147,33 @@ fn make_static() -> &'static str {
 }
 ```
 
+### 'static as a Bound (Async Context)
+
+In async, `'static` appears as a *bound*, not a lifetime annotation. It means the type contains no borrowed references — it owns everything:
+
+```rust
+// tokio::spawn requires F: Future + Send + 'static
+tokio::spawn(async move { ... });
+```
+
+`T: 'static` does NOT mean T must live forever. It means: "T could live forever if needed" — i.e., it holds no references that might expire. Owned types like `String`, `Vec<T>`, and `Arc<T>` are all `'static`.
+
+```rust
+async fn bad(data: &str) {
+    tokio::spawn(async move {
+        println!("{}", data);   // ERROR: &str borrows — not 'static
+    });
+}
+
+async fn good(data: String) {
+    tokio::spawn(async move {
+        println!("{}", data);   // OK: String owns its data — 'static
+    });
+}
+```
+
+If you need to share borrowed data across spawned tasks, clone it or wrap it in `Arc`.
+
 ## Common Patterns
 
 ### Returning References

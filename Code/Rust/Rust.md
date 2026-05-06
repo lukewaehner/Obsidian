@@ -44,6 +44,8 @@ A systems programming language focused on safety, speed, and concurrency.
 ### Concurrency
 - [[Concurrency]] — Threads and synchronization
 - [[Async Await]] — Asynchronous programming
+- [[Send and Sync]] — Thread-safety marker traits
+- [[Pin and Unpin]] — Pinning values in memory for async
 
 ### Development
 - [[Testing]] — Unit tests and assertions
