@@ -1,5 +1,5 @@
 ## Controllers
-- [[Code/Topics/Mobile Application Development/Creating Applications/Basics/Basics|Basics]]
+- [[Code/iOS/Creating Applications/Basics/Basics|Basics]]
 	- See **ViewController**, **SceneDelegate**, **AppDelegate**
 - [[Navigation Controller]]
 ## Tools
