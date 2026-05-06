@@ -53,6 +53,10 @@ A systems programming language focused on safety, speed, and concurrency.
 - [[Unsafe]] — Bypassing safety guarantees
 - [[Common Crates]] — Essential ecosystem libraries
 
+## Learning
+
+- [[Learning Plan]] — Structured exercises with expected inputs and outputs
+
 ## Projects
 
 - [[HFTX]] — High-frequency trading exchange
