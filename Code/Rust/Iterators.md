@@ -7,7 +7,7 @@ type: note
 related:
   - "[[Rust]]"
   - "[[Collections]]"
-  - "[[Code/Languages/Rust/Pattern Matching]]"
+  - "[[Pattern Matching]]"
 ---
 # Iterators
 
@@ -247,5 +247,5 @@ if queue.is_empty() {
 ## See Also
 
 - [[Collections]] — Data structures to iterate
-- [[Code/Languages/Rust/Pattern Matching]] — Matching in closures
+- [[Pattern Matching]] — Matching in closures
 - [[Rust]]

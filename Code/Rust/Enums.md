@@ -5,7 +5,7 @@ tags:
 type: note
 related:
   - "[[Rust]]"
-  - "[[Code/Languages/Rust/Pattern Matching]]"
+  - "[[Pattern Matching]]"
   - "[[Result & Option]]"
   - "[[Traits]]"
 ---
@@ -219,7 +219,7 @@ let status = HttpStatus::Ok as u8;  // 200
 
 ## See Also
 
-- [[Code/Languages/Rust/Pattern Matching]] — Working with enum variants
+- [[Pattern Matching]] — Working with enum variants
 - [[Result & Option]] — Error handling enums
 - [[Traits]] — Implementing traits for enums
 - [[Rust]]

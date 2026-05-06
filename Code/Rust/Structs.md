@@ -7,7 +7,7 @@ related:
   - "[[Rust]]"
   - "[[Implementation]]"
   - "[[Derives]]"
-  - "[[Code/Languages/Rust/Pattern Matching]]"
+  - "[[Pattern Matching]]"
 ---
 # Structs
 
@@ -186,5 +186,5 @@ fn get_user(id: UserId) { }
 
 - [[Implementation]] — Adding methods
 - [[Derives]] — Auto-implementing traits
-- [[Code/Languages/Rust/Pattern Matching]] — Destructuring structs
+- [[Pattern Matching]] — Destructuring structs
 - [[Rust]]

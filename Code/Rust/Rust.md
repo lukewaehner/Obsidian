@@ -25,7 +25,7 @@ A systems programming language focused on safety, speed, and concurrency.
 - [[Derives]] — Auto-implementing traits
 
 ### Control Flow
-- [[Code/Languages/Rust/Pattern Matching]] — Match expressions and destructuring
+- [[Pattern Matching]] — Match expressions and destructuring
 - [[Result & Option]] — Error handling basics
 - [[Error Handling Patterns]] — Advanced error techniques
 - [[Closures]] — Anonymous functions
@@ -36,8 +36,10 @@ A systems programming language focused on safety, speed, and concurrency.
 
 ### Collections & Data
 - [[Collections]] — Vec, HashMap, BTreeMap, etc.
+- [[Slices]] — Arrays, slices, unzip, partition, drain
 - [[Strings]] — String vs &str, UTF-8 handling
 - [[Iterators]] — Lazy sequence processing
+- [[Destructuring]] — Unpacking tuples, arrays, structs, enums
 
 ### Concurrency
 - [[Concurrency]] — Threads and synchronization

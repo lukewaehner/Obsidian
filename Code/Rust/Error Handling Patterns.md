@@ -6,7 +6,7 @@ type: note
 related:
   - "[[Rust]]"
   - "[[Result & Option]]"
-  - "[[Code/Languages/Rust/Pattern Matching]]"
+  - "[[Pattern Matching]]"
   - "[[Traits]]"
 ---
 # Error Handling Patterns
@@ -309,6 +309,6 @@ fn process() -> Result<()> {
 ## See Also
 
 - [[Result & Option]] — Basic error handling
-- [[Code/Languages/Rust/Pattern Matching]] — Matching on errors
+- [[Pattern Matching]] — Matching on errors
 - [[Traits]] — The Error trait
 - [[Rust]]

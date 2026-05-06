@@ -5,7 +5,7 @@ tags:
 type: note
 related:
   - "[[Rust]]"
-  - "[[Code/Languages/Rust/Pattern Matching]]"
+  - "[[Pattern Matching]]"
 ---
 # Result & Option
 
@@ -226,5 +226,5 @@ let value = risky_operation().unwrap_or_else(|e| {
 
 ## See Also
 
-- [[Code/Languages/Rust/Pattern Matching]] — Matching on Option and Result
+- [[Pattern Matching]] — Matching on Option and Result
 - [[Rust]]

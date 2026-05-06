@@ -77,7 +77,7 @@ pub struct Order {
 | Concept | Application |
 |---------|-------------|
 | [[Borrowing]] | `&self` for queries, `&mut self` for mutations |
-| [[Code/Languages/Rust/Pattern Matching]] | `let-else` for optional best price extraction |
+| [[Pattern Matching]] | `let-else` for optional best price extraction |
 | [[Result & Option]] | `Option<i64>` for empty book, `Result` for validation |
 | [[Collections]] | BTreeMap for sorted prices, VecDeque for FIFO |
 | [[Derives]] | Copy/Clone/Debug/Eq/Hash on value types |
@@ -142,7 +142,7 @@ debug_assert!(!order.symbol.is_empty());
 
 ### Rust Concepts
 - [[Borrowing]] — Ownership in method receivers
-- [[Code/Languages/Rust/Pattern Matching]] — Match expressions and let-else
+- [[Pattern Matching]] — Match expressions and let-else
 - [[Result & Option]] — Error handling
 - [[Collections]] — BTreeMap, VecDeque, HashMap
 - [[Code/Languages/Rust/Modules|Modules]] — Code organization
