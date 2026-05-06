@@ -132,7 +132,7 @@ Hardware
 4. **Concurrency**: Write correct concurrent programs
 5. **Debugging**: Debug complex systems-level issues
 
-## ️ Tools & Technologies
+## Tools & Technologies
 
 **Languages**: C, x86-64 Assembly
 **Compilers**: gcc, clang

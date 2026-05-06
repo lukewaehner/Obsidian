@@ -101,10 +101,10 @@ def print_reverse(self):
 
 ### 1. Always Update Both Pointers
 ```python
-# ❌ WRONG - Only updates one direction
+# WRONG - Only updates one direction
 node.next = new_node
 
-# ✅ CORRECT - Updates both directions
+# CORRECT - Updates both directions
 node.next = new_node
 new_node.prev = node
 ```
@@ -150,10 +150,10 @@ node.prev = new_node
 | Operation | Singly | Doubly |
 |-----------|--------|--------|
 | Memory per node | 1 pointer | 2 pointers |
-| Delete given node | O(n) | O(1) ⭐ |
-| Insert before node | O(n) | O(1) ⭐ |
-| Pop back | O(n) | O(1) ⭐ |
-| Reverse traversal | O(n) extra space | O(n) time, O(1) space ⭐ |
+| Delete given node | O(n) | O(1) |
+| Insert before node | O(n) | O(1) |
+| Pop back | O(n) | O(1) |
+| Reverse traversal | O(n) extra space | O(n) time, O(1) space |
 | Cache locality | Better | Worse |
 
 ## LRU Cache - Classic Use Case

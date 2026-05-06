@@ -41,7 +41,7 @@ See [[Earliest Finish Time Rule]] for the complete solution and proof.
 
 Several intuitive greedy rules **don't work**:
 
-### 1. Earliest Start Time ❌
+### 1. Earliest Start Time 
 **Intuition:** Start early to do more
 
 **Counterexample:**
@@ -52,7 +52,7 @@ a)
 ```
 Choosing the earliest starting job blocks all others.
 
-### 2. Shortest Duration ❌
+### 2. Shortest Duration 
 **Intuition:** Short jobs leave more time for others
 
 **Counterexample:**
@@ -63,7 +63,7 @@ b)
 ```
 The short job in the middle blocks both longer jobs (optimal = 2, greedy = 1).
 
-### 3. Fewest Conflicts ❌
+### 3. Fewest Conflicts 
 **Intuition:** Jobs with fewer conflicts leave more options
 
 **Counterexample:**

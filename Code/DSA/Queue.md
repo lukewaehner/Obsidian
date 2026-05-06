@@ -339,11 +339,11 @@ def consumer():
 
 ## Key Takeaways
 
-✅ **Use Queue when:** Processing items in arrival order (FIFO)  
-✅ **Use BFS with Queue:** For shortest path, level-order traversal  
-✅ **Circular Array:** Best for fixed-size, high-performance scenarios  
-✅ **Linked List:** Best for dynamic size, unpredictable growth  
-✅ **Python's deque:** Best for most real-world use cases  
+**Use Queue when:** Processing items in arrival order (FIFO)  
+**Use BFS with Queue:** For shortest path, level-order traversal  
+**Circular Array:** Best for fixed-size, high-performance scenarios  
+**Linked List:** Best for dynamic size, unpredictable growth  
+**Python's deque:** Best for most real-world use cases  
 
-⚠️ **Watch out for:** Forgetting to handle empty queue in dequeue/peek  
-⚠️ **Common mistake:** Using list with `pop(0)` - that's O(n), not O(1)!
+⚠**Watch out for:** Forgetting to handle empty queue in dequeue/peek  
+⚠**Common mistake:** Using list with `pop(0)` - that's O(n), not O(1)!

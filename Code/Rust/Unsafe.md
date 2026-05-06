@@ -241,14 +241,14 @@ unsafe impl Sync for MyPointer {}
 
 ### When to Use Unsafe
 
-✅ **Good reasons:**
+**Good reasons:**
 - FFI with C libraries
 - Performance-critical code where safe version is too slow
 - Implementing low-level abstractions
 - Hardware access
 - Building safe abstractions that can't be expressed safely
 
-❌ **Bad reasons:**
+**Bad reasons:**
 - Avoiding borrow checker errors (fix your design instead)
 - Premature optimization
 - Not understanding safe alternatives

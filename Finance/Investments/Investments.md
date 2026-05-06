@@ -88,7 +88,7 @@ Contingent claims and risk management instruments
 - Currency swaps
 - Valuation and uses
 
-## 📊 Key Financial Models
+## Key Financial Models
 
 ### Capital Asset Pricing Model (CAPM)
 ```
@@ -120,7 +120,7 @@ Put = Ke^(-rT)N(-d₂) - S₀N(-d₁)
 Where d₁, d₂ involve stock price, strike, volatility, time, rate
 ```
 
-## 💡 Investment Concepts
+## Investment Concepts
 
 ### Modern Portfolio Theory
 - **Diversification**: Reducing unsystematic risk
@@ -139,7 +139,7 @@ Where d₁, d₂ involve stock price, strike, volatility, time, rate
 - Limits to arbitrage
 - Investor psychology
 
-## 🎯 Practical Applications
+## Practical Applications
 
 ### Portfolio Construction
 1. **Determine Investment Policy**:
@@ -173,7 +173,7 @@ Where d₁, d₂ involve stock price, strike, volatility, time, rate
 - **Stop-Loss**: Limiting downside
 - **Position Sizing**: Risk per trade
 
-## 📈 Financial Instruments Deep Dive
+## Financial Instruments Deep Dive
 
 ### Fixed Income Securities
 - **Government Bonds**: Treasury bills, notes, bonds
@@ -200,7 +200,7 @@ Where d₁, d₂ involve stock price, strike, volatility, time, rate
 - **Arbitrage**: Exploiting pricing inefficiencies
 - **Income Generation**: Writing covered calls
 
-## 🔬 Quantitative Methods
+## Quantitative Methods
 
 ### Statistical Tools
 - Regression analysis
@@ -221,7 +221,7 @@ Where d₁, d₂ involve stock price, strike, volatility, time, rate
   - Jensen's alpha: Actual - CAPM expected
   - Information ratio: Active return / tracking error
 
-## 🎓 Learning Objectives
+## Learning Objectives
 
 ### Core Competencies
 1. **Understand** risk-return tradeoffs

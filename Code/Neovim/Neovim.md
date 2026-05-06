@@ -46,7 +46,7 @@ Cheat Sheet:
 
 ---
 
-### 📁 Files, Buffers, Splits
+### Files, Buffers, Splits
 
 |Keys|Action|
 |---|---|

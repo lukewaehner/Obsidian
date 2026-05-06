@@ -93,10 +93,10 @@ Unlike [[Open-End Funds]], you can't:
 ## Research Status
 
 Despite extensive study:
-- ❌ **No consensus explanation**
-- ❌ **No reliable prediction model**
-- ❌ **No clear trading strategy that eliminates it**
-- ✅ **Well-documented empirical fact**
+- **No consensus explanation**
+- **No reliable prediction model**
+- **No clear trading strategy that eliminates it**
+- **Well-documented empirical fact**
 
 This remains an **active area of research** in financial economics.
 

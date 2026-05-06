@@ -7,7 +7,7 @@ This note contains simplified examples of various design patterns covered in OOD
 
 ---
 
-## 🔷 Encapsulation & Class Invariants
+## Encapsulation & Class Invariants
 
 ### Water Tank Example
 
@@ -40,7 +40,7 @@ public class WaterTank {
 
 ---
 
-## 🔷 Code Reuse: Inheritance vs Composition
+## Code Reuse: Inheritance vs Composition
 
 ### Bad: Inheritance causing fragile overrides
 
@@ -96,7 +96,7 @@ public class CountingCoffeeMaker {
 
 ---
 
-## 🔷 Adapter Pattern
+## Adapter Pattern
 
 > Make incompatible interfaces work together.
 
@@ -138,7 +138,7 @@ public class HeaterAdapter implements Heater {
 
 ---
 
-## 🔷 Strategy Pattern
+## Strategy Pattern
 
 > Swap behavior dynamically, e.g., how to grind beans.
 
@@ -179,7 +179,7 @@ public class CoffeeMaker {
 
 ---
 
-## 🔷 Command Pattern
+## Command Pattern
 
 > Encapsulate actions (like brewing) as objects.
 
@@ -222,7 +222,7 @@ public class CoffeeController {
 
 ---
 
-## 🔷 Decorator Pattern
+## Decorator Pattern
 
 > Add new features (e.g. logging) without modifying original.
 
@@ -247,7 +247,7 @@ public class LoggingCoffeeMaker extends CoffeeMaker {
 
 ---
 
-## 🔷 Builder Pattern
+## Builder Pattern
 
 ### User Builder Example
 
@@ -307,7 +307,7 @@ User user = new UserBuilder()
 
 ---
 
-## 🔷 Mock Objects for Testing
+## Mock Objects for Testing
 
 ### Mock Model Example
 
@@ -347,7 +347,7 @@ System.out.println("Log from mock:\n" + mock.log);
 
 ---
 
-## 🔷 Enumerations with Behavior
+## Enumerations with Behavior
 
 ### Size Enum Example
 

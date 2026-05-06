@@ -2,16 +2,16 @@
 
 ## University-Specific Platforms
 - **[NUWorks](https://northeastern-csm.symplicity.com/students/)** - Northeastern's exclusive job board
-  - 📝 *Max 100 applications, 5-10 per week recommended*
-  - ⚠️ *Tailor cover letter for each application*
+  - *Max 100 applications, 5-10 per week recommended*
+  - ⚠*Tailor cover letter for each application*
 - **[Handshake](https://northeastern.joinhandshake.com/)** - University career network
 
 ## Major Job Boards
 - **[LinkedIn Jobs](https://www.linkedin.com/jobs/)** - Professional networking + job search
-  - 💡 *Use "Easy Apply" feature for quick applications*
+  - *Use "Easy Apply" feature for quick applications*
 - **[Indeed](https://www.indeed.com/)** - Comprehensive job aggregator
 - **[Built In](https://builtin.com/)** - Tech-focused job board
-  - 🎯 *Great for startup and tech co-ops*
+  - *Great for startup and tech co-ops*
 
 ## Tech-Specific Platforms
 - **[AngelList](https://wellfound.com/)** (formerly AngelList) - Startup jobs
@@ -33,10 +33,10 @@
 - **[SimplyHired](https://www.simplyhired.com/)** - Job aggregator
 
 ## Search Strategy Tips
-- 🔍 **Keywords to use**: "co-op", "internship", "entry-level", "new grad"
-- 📅 **Application timing**: Apply early in posting cycle
-- 🎯 **Location filters**: Consider remote, hybrid, and target cities
-- 📊 **Track applications**: Use spreadsheet to monitor status
+- **Keywords to use**: "co-op", "internship", "entry-level", "new grad"
+- **Application timing**: Apply early in posting cycle
+- **Location filters**: Consider remote, hybrid, and target cities
+- **Track applications**: Use spreadsheet to monitor status
 
 ---
 *Updated: September 2025*

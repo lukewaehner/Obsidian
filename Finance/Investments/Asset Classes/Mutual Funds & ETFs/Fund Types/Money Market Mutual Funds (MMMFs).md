@@ -18,7 +18,7 @@
 - Made them feel like cash accounts to investors
 
 ### Important Disclaimer
-⚠️ **There is NO guarantee that NAV will be $1.00 or more**
+⚠**There is NO guarantee that NAV will be $1.00 or more**
 
 ### Breaking the Buck
 **Definition:** When a MMMF's [[Net Asset Value (NAV)]] falls below $1.00

@@ -60,7 +60,7 @@ Modeling pairwise relationships between entities.
 - Approximation algorithms
 - Computational hardness (NP-completeness)
 
-## 📂 Course Materials
+## Course Materials
 
 ### Problem Sets & Exams
 - [[PS4]] - Problem Set 4
@@ -69,7 +69,7 @@ Modeling pairwise relationships between entities.
 ### Practice Problems
 - [[Drone Drop Durability]] - Application problem
 
-## 🗂️ Organization by Topic
+## Organization by Topic
 
 ### Complexity Analysis
 - [[Times]] - Runtime analysis notes

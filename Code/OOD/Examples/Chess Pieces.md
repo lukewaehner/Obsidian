@@ -5,19 +5,19 @@ Related: [[Intro]], [[Examples Index#Chess Pieces]]
 
 ---
 
-## 🔷 `ChessPiece.java` (Abstract Class)
+## `ChessPiece.java` (Abstract Class)
 
-### 📌 Purpose:
+### Purpose:
 
 Provides a **base abstraction** for all chess pieces. Declares shared state (position, color) and common operations (`getRow()`, `getColumn()`, etc.).
 
-### ✅ Key OOD Concepts:
+### Key OOD Concepts:
 
 - **Abstraction**: Defines general behavior for chess pieces without specifying their unique moves.
 - **Encapsulation**: Stores common fields like `row`, `column`, and `color`.
 - **Template Method pattern**: Leaves `canMove` abstract – each subclass must define how it moves.
 
-### 💡 Design Highlights:
+### Design Highlights:
 
 - Reduces duplication across `Rook`, `Bishop`, `Queen`, etc.
 - Any new piece can extend `ChessPiece` to inherit shared functionality (e.g., `Knight`, `Pawn`).
@@ -25,97 +25,97 @@ Provides a **base abstraction** for all chess pieces. Declares shared state (pos
 
 ---
 
-## 🔷 `Color.java` (Enum)
+## `Color.java` (Enum)
 
-### 📌 Purpose:
+### Purpose:
 
 Defines the **two valid colors** in chess: `WHITE` and `BLACK`.
 
-### ✅ Key OOD Concepts:
+### Key OOD Concepts:
 
 - **Type safety**: Prevents the use of invalid color values.
 - **Centralization**: Guarantees consistency across the app when dealing with piece color.
 
-### 💡 Design Highlights:
+### Design Highlights:
 
 - Cleaner than using strings or booleans.
 - Ready for future extension (e.g., highlighting colors, themes).
 
 ---
 
-## 🔷 `Rook.java`
+## `Rook.java`
 
-### 📌 Purpose:
+### Purpose:
 
 Represents a rook and implements its legal move logic (straight lines only).
 
-### ✅ Key OOD Concepts:
+### Key OOD Concepts:
 
 - **Inheritance**: Extends `ChessPiece` and overrides `canMove`.
 - **Single Responsibility**: Focuses only on move logic for rooks.
 - **Polymorphism**: Implements `canMove` in a way that can be called via `ChessPiece`.
 
-### 💡 Design Highlights:
+### Design Highlights:
 
 - Move logic is cleanly encapsulated and uses chess rules accurately.
 - No repeated logic for state – it all comes from the superclass.
 
 ---
 
-## 🔷 `Bishop.java`
+## `Bishop.java`
 
-### 📌 Purpose:
+### Purpose:
 
 Represents a bishop, moving diagonally across the board.
 
-### ✅ Key OOD Concepts:
+### Key OOD Concepts:
 
 - Same inheritance and override strategy as `Rook`.
 
-### 💡 Design Highlights:
+### Design Highlights:
 
 - Uses math (`Math.abs(...)`) to implement diagonal logic elegantly.
 - Can be reused or extended (e.g., `SuperBishop` in variants).
 
 ---
 
-## 🔷 `Queen.java`
+## `Queen.java`
 
-### 📌 Purpose:
+### Purpose:
 
 Represents a queen, which can move like both a rook and a bishop.
 
-### ✅ Key OOD Concepts:
+### Key OOD Concepts:
 
 - **Reuses behavior** logically instead of duplicating it.
 - Contains simplified logic by combining `Rook` and `Bishop` rules.
 
-### 💡 Design Highlights:
+### Design Highlights:
 
 - Demonstrates how polymorphism can support **multiple behavioral patterns** in one class.
 - Avoids subclass explosion by composing movement logic.
 
 ---
 
-## 🔷 Tests (`QueenTest.java`, `BishopTest.java`, `RookTest.java`)
+## Tests (`QueenTest.java`, `BishopTest.java`, `RookTest.java`)
 
-### 📌 Purpose:
+### Purpose:
 
 Each test class verifies valid and invalid movement patterns of the corresponding piece.
 
-### ✅ Key OOD Concepts:
+### Key OOD Concepts:
 
 - **Encapsulation validation**: Confirms private state behaves as expected through public interfaces.
 - **Black-box testing**: Tests behavior, not internal implementation.
 
-### 💡 Design Highlights:
+### Design Highlights:
 
 - Modular test files reflect modular class structure.
 - Easily extendable for other pieces or custom rules.
 
 ---
 
-## 🧠 Overall Design Evaluation
+## Overall Design Evaluation
 
 | Principle | How it applies |
 | --- | --- |

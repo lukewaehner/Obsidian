@@ -28,7 +28,7 @@
 
 - $c$: multiplier to scale comparison function.
     
-- $n_0$​: cutoff; only need inequality for $n \ge n_0$.
+- $n_0$: cutoff; only need inequality for $n \ge n_0$.
     
 
 ---

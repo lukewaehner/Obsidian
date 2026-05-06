@@ -131,7 +131,7 @@ end:
 - `jle` → jump if Min ≤ Sub
     
 
-️ **Important**: In GNU assembly, sense is reversed:  
+**Important**: In GNU assembly, sense is reversed:  
 `cmp a, b` → compares `b - a`.
 
 ### Example

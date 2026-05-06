@@ -345,12 +345,12 @@ stack = [1, 1, 1]  # How does your logic handle this?
 
 ## Key Takeaways
 
-- ✅ **LIFO** - Last In, First Out
-- ✅ **O(1) operations** - push, pop, peek
-- ✅ **Recognition**: "most recent", "backtrack", "matching pairs"
-- ✅ **Implementation**: Array-based is simpler and usually better
-- ✅ **Patterns**: Monotonic stack, auxiliary stack, parentheses matching
-- ✅ **Real-world**: Function calls, undo/redo, DFS, expression parsing
+- **LIFO** - Last In, First Out
+- **O(1) operations** - push, pop, peek
+- **Recognition**: "most recent", "backtrack", "matching pairs"
+- **Implementation**: Array-based is simpler and usually better
+- **Patterns**: Monotonic stack, auxiliary stack, parentheses matching
+- **Real-world**: Function calls, undo/redo, DFS, expression parsing
 
 ## Related Topics
 - [[Queue]] - FIFO counterpart

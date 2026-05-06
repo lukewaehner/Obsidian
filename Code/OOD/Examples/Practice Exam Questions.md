@@ -4,13 +4,13 @@ Solutions and explanations for OOD practice exam questions.
 
 ---
 
-## ✅ Question 1 — testTwo() Purpose (20 pts)
+## Question 1 — testTwo() Purpose (20 pts)
 
 ### **Purpose of Test**
 
 > This test checks whether the same amount of change ($2.50) is dispensed correctly from two different registers with different denominations. It ensures that the register produces the correct total value in change regardless of which coins or bills are available.
 
-### ✅ Gets Full Credit Because:
+### Gets Full Credit Because:
 
 - Focuses on correctness of **value**, not coin combinations
 - Ensures functional consistency between different registers
@@ -18,7 +18,7 @@ Solutions and explanations for OOD practice exam questions.
 
 ---
 
-## ✅ Question 2 — testThree() Bug & Fix (20 pts)
+## Question 2 — testThree() Bug & Fix (20 pts)
 
 ### a) **What is being tested**
 
@@ -60,7 +60,7 @@ public Map<Integer, Integer> makeChange(int dollars, int cents) throws Insuffici
 
 ---
 
-## ✅ Question 3 — Audit Log Bug (25 pts)
+## Question 3 — Audit Log Bug (25 pts)
 
 ### a) **Bug**
 
@@ -103,7 +103,7 @@ public Map<Integer, Integer> getContents() {
 
 ---
 
-## ✅ Question 4 — IBetterCashRegister Interface (15 pts)
+## Question 4 — IBetterCashRegister Interface (15 pts)
 
 ### **Flexible, Currency-Agnostic Interface**
 
@@ -120,7 +120,7 @@ public interface IBetterCashRegister {
 }
 ```
 
-### ✅ Design Highlights:
+### Design Highlights:
 
 - Accepts arbitrary denominations
 - Supports any currency (pence, rupees, yen)
@@ -133,7 +133,7 @@ public interface IBetterCashRegister {
 
 ---
 
-## ✅ Question 5 — RegPiggyBank (15 pts)
+## Question 5 — RegPiggyBank (15 pts)
 
 ### **Full Implementation**
 
@@ -179,13 +179,13 @@ public class RegPiggyBank implements IPiggyBank {
 }
 ```
 
-### ✅ Grading Checklist:
+### Grading Checklist:
 
-- ✅ Implements `IPiggyBank`
-- ✅ Uses `SimpleRegister` instance
-- ✅ One coin per deposit
-- ✅ Handles only coins (≤ 25¢)
-- ✅ Proper logic in all methods
+- Implements `IPiggyBank`
+- Uses `SimpleRegister` instance
+- One coin per deposit
+- Handles only coins (≤ 25¢)
+- Proper logic in all methods
 
 **Design Principle:** **Adapter Pattern** — adapts `SimpleRegister` to work with `IPiggyBank` interface.
 

@@ -88,10 +88,10 @@ Therefore: greedy must produce optimal number of jobs.
 
 ## Common Pitfalls
 
-❌ **Only comparing final solutions** - Must show ahead at *every* step
-❌ **Forgetting base case** - Must establish ahead from the very first choice  
-❌ **Weak inductive step** - Need rigorous proof, not just intuition
-❌ **Incomplete contradiction** - Must clearly show the logical impossibility
+**Only comparing final solutions** - Must show ahead at *every* step
+**Forgetting base case** - Must establish ahead from the very first choice  
+**Weak inductive step** - Need rigorous proof, not just intuition
+**Incomplete contradiction** - Must clearly show the logical impossibility
 
 ## Comparison to Other Proof Techniques
 

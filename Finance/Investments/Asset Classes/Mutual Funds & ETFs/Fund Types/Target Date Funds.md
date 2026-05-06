@@ -51,18 +51,18 @@ The predetermined schedule of allocation changes is called the **"glide path"**
 ## Important Clarifications
 
 ### Retirement Date Flexibility
-✅ **You do NOT have to retire in the target year**
+**You do NOT have to retire in the target year**
 - Target date is just a planning guideline
 - Actual retirement can be earlier or later
 - Fund doesn't "lock you in" to specific date
 
-✅ **You can keep investing beyond the target date**
+**You can keep investing beyond the target date**
 - Many investors keep funds past target
 - Fund continues to operate
 - Allocation may continue to adjust (glide through)
 
 ### Not One-Size-Fits-All
-⚠️ Different fund families have different glide paths
+⚠Different fund families have different glide paths
 - Vanguard vs. Fidelity vs. T. Rowe Price differ
 - Some are more aggressive, some more conservative
 - Check the specific fund's allocation over time

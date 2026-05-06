@@ -14,10 +14,10 @@
 - Performance may suffer if fund gets too big
 
 ### What Still Happens
-- ✅ **Existing investors can add more money**
-- ✅ **Existing investors can withdraw money**
-- ✅ **Number of shares fluctuates** as owners buy and sell
-- ❌ **New investors cannot open accounts**
+- **Existing investors can add more money**
+- **Existing investors can withdraw money**
+- **Number of shares fluctuates** as owners buy and sell
+- **New investors cannot open accounts**
 
 ### Analogy
 *"Like a busy doctor who treats existing patients without taking in new patients"*

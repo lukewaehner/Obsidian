@@ -282,13 +282,13 @@ void vulnerable() {
 - Attacker overflows buffer
 - Overwrites return address to point to buffer
 - Buffer contains malicious code
-- Code executes! ❌
+- Code executes! 
 
 **With NX:**
 - Attacker overflows buffer
 - Overwrites return address to point to buffer
 - CPU tries to execute stack
-- NX bit set → Protection fault! ✅
+- NX bit set → Protection fault! 
 
 ---
 

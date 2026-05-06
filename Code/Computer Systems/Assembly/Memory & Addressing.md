@@ -23,7 +23,7 @@ movl -8(%rax), %ebx   ; load 4 bytes from %rax-8
 movl %ebx, 4(%rax)    ; store to %rax+4
 ```
 
-️ Cannot move memory→memory in one instruction:
+Cannot move memory→memory in one instruction:
 
 ```nasm
 movl -8(%rax), 4(%rax) ;  invalid

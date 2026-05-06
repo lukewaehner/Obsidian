@@ -121,7 +121,7 @@ Covered call: Own 100 shares, sell 1 call
 ```
 Naked call: Sell call without owning stock
 - If called away, must buy stock at market
-- Unlimited risk ⚠️
+- Unlimited risk ⚠
 ```
 
 ## Exercise and Settlement

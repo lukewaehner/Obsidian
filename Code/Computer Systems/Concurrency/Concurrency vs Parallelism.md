@@ -23,9 +23,9 @@
 ### Concurrency (One Machine, Two Queues)
 
 ```
-Queue 1: [☕][☕][☕]  ↘
+Queue 1: [][][]  ↘
                       → [Coffee Machine] 
-Queue 2: [☕][☕][☕]  ↗
+Queue 2: [][][]  ↗
 ```
 
 **Scenario**: One coffee machine serves two queues
@@ -39,9 +39,9 @@ Queue 2: [☕][☕][☕]  ↗
 ### Parallelism (Two Machines, Two Queues)
 
 ```
-Queue 1: [☕][☕][☕] → [Coffee Machine 1]
+Queue 1: [][][] → [Coffee Machine 1]
 
-Queue 2: [☕][☕][☕] → [Coffee Machine 2]
+Queue 2: [][][] → [Coffee Machine 2]
 ```
 
 **Scenario**: Two independent coffee machines, each with its own queue

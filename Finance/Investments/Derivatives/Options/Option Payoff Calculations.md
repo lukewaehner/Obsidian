@@ -453,13 +453,13 @@ Return = Net Profit / Initial Investment
 
 ### Mistake 1: Forgetting to Multiply by 100
 ```
-❌ Premium $5, 1 contract = $5
+Premium $5, 1 contract = $5
 ✓ Premium $5, 1 contract = $500
 ```
 
 ### Mistake 2: Not Using max() Function
 ```
-❌ Call at expiration: Market $90, Strike $100
+Call at expiration: Market $90, Strike $100
     Payoff = $90 - $100 = -$10 ✗
     
 ✓ Payoff = max($90 - $100, 0) = $0
@@ -468,28 +468,28 @@ Return = Net Profit / Initial Investment
 
 ### Mistake 3: Confusing Payoff with Net Profit
 ```
-❌ "Payoff is $1,000, so I made $1,000!"
+"Payoff is $1,000, so I made $1,000!"
 ✓ "Payoff is $1,000, I paid $500 premium,
     so net profit is $500"
 ```
 
 ### Mistake 4: Wrong Breakeven
 ```
-❌ Call breakeven = Strike price
+Call breakeven = Strike price
 ✓ Call breakeven = Strike + Premium
 
-❌ Put breakeven = Strike price
+Put breakeven = Strike price
 ✓ Put breakeven = Strike - Premium
 ```
 
 ### Mistake 5: Forgetting Premium in Max Gain/Loss
 ```
 Put buyer max gain:
-❌ Strike price
+Strike price
 ✓ Strike price - Premium
 
 Call seller max gain:
-❌ $0
+$0
 ✓ Premium received
 ```
 

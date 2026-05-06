@@ -350,12 +350,12 @@ print(f"h contains 1: {h.contains(1)}")  # Output: False
 
 ## Common Use Cases
 
-✅ **Caching** - Store computed results  
-✅ **Frequency counting** - Count occurrences  
-✅ **Duplicate detection** - Check if element seen before  
-✅ **Database indexing** - Fast record lookup  
-✅ **Symbol tables** - Compilers use for variable storage  
-✅ **Two Sum problem** - Store complements
+**Caching** - Store computed results  
+**Frequency counting** - Count occurrences  
+**Duplicate detection** - Check if element seen before  
+**Database indexing** - Fast record lookup  
+**Symbol tables** - Compilers use for variable storage  
+**Two Sum problem** - Store complements
 
 ---
 
@@ -389,8 +389,8 @@ print(f"h contains 1: {h.contains(1)}")  # Output: False
 ---
 
 ## Key Takeaways
-✅ **O(1) average** time for insert/search/delete  
-✅ Requires **good hash function** to minimize collisions  
-✅ **Load factor** determines when to resize  
-✅ Trade-off: fast operations but **no ordering** of keys  
-✅ Perfect for **fast lookups** and **duplicate detection**
+**O(1) average** time for insert/search/delete  
+Requires **good hash function** to minimize collisions  
+**Load factor** determines when to resize  
+Trade-off: fast operations but **no ordering** of keys  
+Perfect for **fast lookups** and **duplicate detection**

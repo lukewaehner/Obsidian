@@ -6,7 +6,7 @@ Quick reference code snippets demonstrating OOD concepts.
 
 ## Controllers and Mocks
 
-### 📷 `IModel.java` (interface)
+### `IModel.java` (interface)
 
 ```java
 public interface IModel {
@@ -17,7 +17,7 @@ public interface IModel {
 
 ---
 
-### 📷 `CounterModel.java` (real implementation)
+### `CounterModel.java` (real implementation)
 
 ```java
 public class CounterModel implements IModel {
@@ -35,7 +35,7 @@ public class CounterModel implements IModel {
 
 ---
 
-### 📷 `Controller.java`
+### `Controller.java`
 
 ```java
 public class Controller {
@@ -57,7 +57,7 @@ public class Controller {
 
 ---
 
-### 📷 `MockModel.java` (used for testing)
+### `MockModel.java` (used for testing)
 
 ```java
 public class MockModel implements IModel {
@@ -77,7 +77,7 @@ public class MockModel implements IModel {
 
 ---
 
-### 📷 `TestController.java` (test with mock)
+### `TestController.java` (test with mock)
 
 ```java
 public class TestController {
@@ -95,7 +95,7 @@ public class TestController {
 
 ---
 
-### 🧠 Output (for test)
+### Output (for test)
 
 ```
 Value is: 42
@@ -106,7 +106,7 @@ getValue called
 
 ---
 
-### ✅ What This Shows:
+### What This Shows:
 
 - The **controller** works only through the interface (`IModel`) — it doesn't care which implementation it gets.
 - The **mock model** lets us verify if the controller called the correct methods.
@@ -120,7 +120,7 @@ getValue called
 
 ---
 
-### 📷 `User.java` (Model)
+### `User.java` (Model)
 
 ```java
 public class User {
@@ -149,7 +149,7 @@ public class User {
 
 ---
 
-### 📷 `UserBuilder.java` (Builder)
+### `UserBuilder.java` (Builder)
 
 ```java
 public class UserBuilder {
@@ -174,7 +174,7 @@ public class UserBuilder {
 
 ---
 
-### 📷 `UserController.java` (Controller)
+### `UserController.java` (Controller)
 
 ```java
 public class UserController {
@@ -192,7 +192,7 @@ public class UserController {
 
 ---
 
-### 📷 `Main.java` (App Entry)
+### `Main.java` (App Entry)
 
 ```java
 public class Main {
@@ -212,7 +212,7 @@ public class Main {
 
 ---
 
-### 🧠 Output:
+### Output:
 
 ```
 Hello, Alice! You are 30 years old.
@@ -220,7 +220,7 @@ Hello, Alice! You are 30 years old.
 
 ---
 
-## 🧩 OOD Highlights:
+## OOD Highlights:
 
 | Role | Responsibility |
 | --- | --- |
@@ -228,7 +228,7 @@ Hello, Alice! You are 30 years old.
 | `UserBuilder` | Constructs and configures a `User` object (Builder) |
 | `UserController` | Coordinates behavior using the model (Controller) |
 
-### ✅ Benefits:
+### Benefits:
 
 - **Separation of concerns**: Model is clean, no complex constructors.
 - **Builder flexibility**: Easily supports optional values or validation.
@@ -238,11 +238,11 @@ Hello, Alice! You are 30 years old.
 
 ---
 
-## 🧵 `StringBuilder`
+## `StringBuilder`
 
 Used for efficient string concatenation (vs `+`, which creates new strings).
 
-### 🔹 Key Methods:
+### Key Methods:
 
 | Method | Description |
 | --- | --- |
@@ -251,7 +251,7 @@ Used for efficient string concatenation (vs `+`, which creates new strings).
 | `insert(int, s)` | Inserts at position |
 | `delete(int, int)` | Removes a substring |
 
-### ✅ Example:
+### Example:
 
 ```java
 StringBuilder sb = new StringBuilder();
@@ -264,11 +264,11 @@ System.out.println(sb.toString()); // Hello World
 
 ---
 
-## 🗺️ `Map<K, V>`
+## `Map<K, V>`
 
 Stores key—value pairs. Common types: `HashMap`, `TreeMap`.
 
-### 🔹 Key Methods:
+### Key Methods:
 
 | Method | Description |
 | --- | --- |
@@ -280,9 +280,9 @@ Stores key—value pairs. Common types: `HashMap`, `TreeMap`.
 
 ---
 
-## 🔁 Looping Through a `Map`
+## Looping Through a `Map`
 
-### ✅ Key Pattern:
+### Key Pattern:
 
 ```java
 Map<String, Integer> map = new HashMap<>();
@@ -296,11 +296,11 @@ for (Map.Entry<String, Integer> entry : map.entrySet()) {
 
 ---
 
-## 🔄 Enum with Logic
+## Enum with Logic
 
 Enums can hold **data and methods**, not just constants.
 
-### ✅ Example:
+### Example:
 
 ```java
 public enum Size {
@@ -322,7 +322,7 @@ public enum Size {
 
 ---
 
-## ✅ Object-Oriented Principles in Code
+## Object-Oriented Principles in Code
 
 | Concept | Java Technique |
 | --- | --- |
@@ -335,9 +335,9 @@ public enum Size {
 
 ---
 
-## 🧪 Good Test Helper Tools
+## Good Test Helper Tools
 
-### 🔹 Using a Mock with `StringBuilder`
+### Using a Mock with `StringBuilder`
 
 ```java
 public class MockModel implements IModel {
@@ -356,7 +356,7 @@ public class MockModel implements IModel {
 
 ---
 
-## 🔄 Other Helpful Java Methods & Concepts
+## Other Helpful Java Methods & Concepts
 
 | Concept | Use | Example |
 | --- | --- | --- |
@@ -371,7 +371,7 @@ public class MockModel implements IModel {
 
 ---
 
-## ✅ Patterns to Recognize
+## Patterns to Recognize
 
 | Pattern | Where You Saw It | Benefit |
 | --- | --- | --- |

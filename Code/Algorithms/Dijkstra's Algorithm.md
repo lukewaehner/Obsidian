@@ -172,8 +172,8 @@ Run from source and target simultaneously, stop when they meet
 ## Limitations
 
 **Cannot handle**:
-- ❌ Negative edge weights (use [[Bellman-Ford Algorithm]] instead)
-- ❌ Negative cycles (no shortest path exists)
+- Negative edge weights (use [[Bellman-Ford Algorithm]] instead)
+- Negative cycles (no shortest path exists)
 
 **Can handle**:
 - ✓ Directed or undirected graphs

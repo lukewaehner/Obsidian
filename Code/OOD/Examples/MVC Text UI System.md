@@ -2,7 +2,7 @@
 
 ---
 
-## 📦 Overall Architecture
+## Overall Architecture
 
 The system follows the **Model-View-Controller (MVC)** architecture, split into:
 
@@ -17,18 +17,18 @@ Interface layers:
 
 ---
 
-## 🔷 `IModel.java` & `Model.java`
+## `IModel.java` & `Model.java`
 
 ### **Role:**
 
 Defines and implements the **domain logic and application state**.
 
-### 🔍 Design Features:
+### Design Features:
 
 - `IModel` declares operations like `getMessage()` and `setMessage()`
 - `Model` encapsulates state (`String message`) and implements those behaviors
 
-### ✅ OOD Highlights:
+### OOD Highlights:
 
 - **Encapsulation**: Internal state is private and accessed via controlled methods.
 - **Interface segregation**: Clean abstraction for model operations.
@@ -36,18 +36,18 @@ Defines and implements the **domain logic and application state**.
 
 ---
 
-## 🔷 `IView.java` & `TextView.java`
+## `IView.java` & `TextView.java`
 
 ### **Role:**
 
 Handles **output responsibilities** in a text-based interface.
 
-### 🔍 Design Features:
+### Design Features:
 
 - `IView` defines `renderMessage(String message)`
 - `TextView` implements rendering by printing to standard output
 
-### ✅ OOD Highlights:
+### OOD Highlights:
 
 - **View abstraction**: View is unaware of the model or controller.
 - **Loose coupling**: Changes to how data is shown don't affect logic.
@@ -55,19 +55,19 @@ Handles **output responsibilities** in a text-based interface.
 
 ---
 
-## 🔷 `IController.java` & `TextController.java`
+## `IController.java` & `TextController.java`
 
 ### **Role:**
 
 Mediates between model and view, handling user input and coordinating behavior.
 
-### 🔍 Design Features:
+### Design Features:
 
 - `IController` defines a `go()` method (entry point)
 - `TextController` takes `IModel`, `IView`, and `Readable input` in its constructor
 - Uses a loop to read commands and update the model/view accordingly
 
-### ✅ OOD Highlights:
+### OOD Highlights:
 
 - **Dependency Injection**: Controller takes model/view at construction, enabling test mocks.
 - **Command parsing**: Uses string-based command dispatch — extensible via `if`/`switch`.
@@ -75,20 +75,20 @@ Mediates between model and view, handling user input and coordinating behavior.
 
 ---
 
-## 🔷 `MVCExampleTextUI.java`
+## `MVCExampleTextUI.java`
 
 ### **Role:**
 
 **Main class** that sets up the model, view, and controller, then starts the app.
 
-### ✅ OOD Highlights:
+### OOD Highlights:
 
 - Demonstrates **composition root** — ties all dependencies together.
 - Clearly shows the MVC separation in action.
 
 ---
 
-# 🧠 Final Design Evaluation
+# Final Design Evaluation
 
 | Principle | Implementation |
 | --- | --- |

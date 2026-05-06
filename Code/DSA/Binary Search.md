@@ -165,7 +165,7 @@ Therefore: **O(log n)** (base doesn't matter in Big O notation)
 ---
 
 ## Key Takeaways
-✅ Only works on **sorted** arrays  
-✅ **O(log n)** time complexity - very efficient  
-✅ **Iterative** version preferred (no call stack overhead)  
-✅ Great for large datasets where sorting overhead is worth it
+Only works on **sorted** arrays  
+**O(log n)** time complexity - very efficient  
+**Iterative** version preferred (no call stack overhead)  
+Great for large datasets where sorting overhead is worth it

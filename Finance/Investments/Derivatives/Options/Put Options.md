@@ -221,7 +221,7 @@ Max Gain = $20 × 100 × 10 = $20,000
 Best case: Option expires worthless, keep entire premium
 ```
 
-### Limited Losses (but can be large) ⚠️
+### Limited Losses (but can be large) ⚠
 ```
 Maximum Loss occurs when stock → $0
 
@@ -495,19 +495,19 @@ Higher dividends → Higher put premium
 ## Common Mistakes
 
 ### 1. Confusing Calls and Puts
-❌ "I think stock will fall, so I'll buy calls"
+"I think stock will fall, so I'll buy calls"
 ✓ "I think stock will fall, so I'll buy puts"
 
 ### 2. Not Exercising Profitable Puts
-❌ Put is in the money, but let it expire
+Put is in the money, but let it expire
 ✓ Exercise or sell the put to capture value
 
 ### 3. Forgetting Breakeven
-❌ "Stock below strike, I profit!"
+"Stock below strike, I profit!"
 ✓ "Stock must be below strike - premium to profit"
 
 ### 4. Selling Naked Puts Without Cash
-❌ Sell puts without ability to buy stock
+Sell puts without ability to buy stock
 ✓ Cash-secured puts: Have cash to buy if assigned
 
 ## Related Concepts

@@ -298,10 +298,10 @@ a.area             # => NoMethodError
 
 | Scenario | private | protected |
 |----------|---------|-----------|
-| `self.method` | ❌ (pre-2.7) / ✓ (2.7+) | ✓ |
-| `other.method` (same class) | ❌ | ✓ |
-| `other.method` (subclass) | ❌ | ✓ |
-| External call | ❌ | ❌ |
+| `self.method` | (pre-2.7) / ✓ (2.7+) | ✓ |
+| `other.method` (same class) | | ✓ |
+| `other.method` (subclass) | | ✓ |
+| External call | | |
 
 ## Private Class Methods
 
