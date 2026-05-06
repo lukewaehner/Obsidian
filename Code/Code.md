@@ -11,6 +11,7 @@ A hub for all programming knowledge, languages, tools, and career resources.
 - [[Ruby]] — Dynamic, object-oriented scripting
 - [[Java]] — Statically typed, enterprise-grade
 - [[Rust]] — Systems programming with memory safety
+- [[JavaScript]] — Dynamic language for web and Node.js
 - [[React]] — JavaScript UI library
 
 ## Tools
