@@ -50,7 +50,8 @@ A systems programming language focused on safety, speed, and concurrency.
 ### Development
 - [[Testing]] — Unit tests and assertions
 - [[Logging]] — Debug output and tracing
-- [[Cargo]] — Package manager and build system
+- [[Cargo]] — Dependency management and Cargo.toml
+- [[Projects]] — rustup, toolchains, compilation, cross-compilation, tooling
 - [[Macros]] — Metaprogramming
 - [[Unsafe]] — Bypassing safety guarantees
 - [[Common Crates]] — Essential ecosystem libraries
