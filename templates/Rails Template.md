@@ -4,47 +4,28 @@ tags:
   - rails
 type: note
 related:
-  - '[[Rails]]'
+  - "[[Rails]]"
 ---
-# {{title}}
+# <% tp.file.title %>
 
-A brief description of what this Rails feature/concept covers.
+<% tp.file.cursor(1) %>
 
-## Overview
-
-High-level explanation and when you'd use this.
-
-## Basic Usage
+## Example
 
 ```ruby
-# Rails example code
-```
-
-## Configuration
-
-```ruby
-# config/application.rb or initializer settings
-```
-
-## Common Patterns
-
-```ruby
-# Idiomatic Rails examples
+<% tp.file.cursor(2) %>
 ```
 
 ## Commands
 
 ```bash
-bin/rails command_here
+<% tp.file.cursor(3) %>
 ```
 
-## Tips
+## Key Points
 
-- Practical advice
-- Gotchas to avoid
-- Best practices
+- <% tp.file.cursor(4) %>
 
 ## See Also
 
 - [[Rails]]
-- [[Related Note]]

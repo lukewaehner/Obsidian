@@ -1,9 +1,9 @@
 ---
 tags:
-  - ruby
+  - javascript
 type: note
 related:
-  - "[[Ruby]]"
+  - "[[JavaScript]]"
 ---
 # <% tp.file.title %>
 
@@ -11,7 +11,7 @@ related:
 
 ## Example
 
-```ruby
+```js
 <% tp.file.cursor(2) %>
 ```
 
@@ -21,4 +21,4 @@ related:
 
 ## See Also
 
-- [[Ruby]]
+- [[JavaScript]]

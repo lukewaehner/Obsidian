@@ -1,9 +1,10 @@
 ---
 tags:
-  - ruby
+  - swift
+  - ios
 type: note
 related:
-  - "[[Ruby]]"
+  - "[[iOS]]"
 ---
 # <% tp.file.title %>
 
@@ -11,7 +12,7 @@ related:
 
 ## Example
 
-```ruby
+```swift
 <% tp.file.cursor(2) %>
 ```
 
@@ -21,4 +22,4 @@ related:
 
 ## See Also
 
-- [[Ruby]]
+- [[iOS]]

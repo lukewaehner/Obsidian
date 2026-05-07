@@ -3,38 +3,21 @@ tags:
   - rust
 type: note
 related:
-  - '[[Rust]]'
+  - "[[Rust]]"
 ---
-# {{title}}
+# <% tp.file.title %>
 
-A brief description of what this covers.
+<% tp.file.cursor(1) %>
 
-## Overview
-
-High-level explanation of the concept.
-
-## Basic Usage
+## Example
 
 ```rust
-// Example code here
+<% tp.file.cursor(2) %>
 ```
 
-## Key Concepts
+## Key Points
 
-Explain the important ideas.
-
-## Common Patterns
-
-```rust
-// Idiomatic Rust examples
-```
-
-## Tips
-
-- Practical advice
-- Gotchas to avoid
-- Performance considerations
-- Safety considerations
+- <% tp.file.cursor(3) %>
 
 ## See Also
 

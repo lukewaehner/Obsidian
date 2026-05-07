@@ -1,9 +1,9 @@
 ---
 tags:
-  - ruby
+  - sql
 type: note
 related:
-  - "[[Ruby]]"
+  - "[[Databases]]"
 ---
 # <% tp.file.title %>
 
@@ -11,7 +11,7 @@ related:
 
 ## Example
 
-```ruby
+```sql
 <% tp.file.cursor(2) %>
 ```
 
@@ -21,4 +21,4 @@ related:
 
 ## See Also
 
-- [[Ruby]]
+- [[Databases]]
