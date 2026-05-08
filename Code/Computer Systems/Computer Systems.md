@@ -197,3 +197,39 @@ Writing bug-free systems code
 **Course Number**: CS3650
 **Prerequisites**: Data Structures, Computer Organization
 **Topics**: Systems Programming, Operating Systems, Assembly, C, Concurrency
+
+```folder-overview
+id: 98c19461-3147-4073-90a8-201e41157a20
+folderPath: Code/Computer Systems
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="98c19461-3147-4073-90a8-201e41157a20"></span>
+- [[Code/Computer Systems/CPU Basics.md|CPU Basics]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/Data & Registers.md|Data & Registers]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/Number Bases.md|Number Bases]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/Stack & Functions.md|Stack & Functions]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="98c19461-3147-4073-90a8-201e41157a20"></span>

@@ -49,3 +49,47 @@ How psychological factors shape risk attitudes and decisions:
 - [[Archive/Finance/Investments/Efficient Market Hypothesis/Efficient Market Hypothesis]] - The theory behavioral finance challenges
 - [[Systematic and Unsystematic Risk]] - Risk types affected by behavioral factors
 - [[Utility Function]] - Traditional model of rational risk preferences
+
+```folder-overview
+id: ae187ed1-31c2-4a75-ad36-4241b0b1be7b
+folderPath: Finance/Investments/Behavioral Finance
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="ae187ed1-31c2-4a75-ad36-4241b0b1be7b"></span>
+- [[Finance/Investments/Behavioral Finance/Anchoring Bias.md|Anchoring Bias]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Arbitrage.md|Arbitrage]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Attention and Heuristics.md|Attention and Heuristics]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Confirmation Bias.md|Confirmation Bias]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Framing Effect.md|Framing Effect]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Gamblers Fallacy.md|Gamblers Fallacy]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/House Money Effect.md|House Money Effect]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Loss Aversion.md|Loss Aversion]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Overconfidence Bias.md|Overconfidence Bias]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Prospect Theory.md|Prospect Theory]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Recency Bias.md|Recency Bias]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Behavioral Finance/Representativeness Bias.md|Representativeness Bias]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="ae187ed1-31c2-4a75-ad36-4241b0b1be7b"></span>

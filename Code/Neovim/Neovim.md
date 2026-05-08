@@ -47,6 +47,10 @@ A hyperextensible, Lua-configured fork of Vim. Modal editing plus a real plugin 
 - [[Registers and Macros]] — Named registers, recording reusable macros
 - [[Search and Replace]] — `/`, `:s`, quickfix list
 
+## Reference
+
+- [[Neovim Cheat Sheet]] — Movement, edits, and command quick lookup
+
 ## Quick Reference
 
 ```lua
@@ -80,3 +84,36 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 
 - [[Tools]] — Other dev tooling
 - [[Code]] — Main programming hub
+
+```folder-overview
+id: f0a72eee-20e7-40bf-8db2-4522760fc56a
+folderPath: Code/Neovim
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="f0a72eee-20e7-40bf-8db2-4522760fc56a"></span>
+- [[Code/Neovim/Neovim Cheat Sheet.md|Neovim Cheat Sheet]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="f0a72eee-20e7-40bf-8db2-4522760fc56a"></span>

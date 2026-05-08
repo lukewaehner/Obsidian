@@ -48,3 +48,39 @@ bin/rails routes --expanded
 - [[REST]] — RESTful architecture concepts
 - [[MVC]] — How routing fits into MVC
 - [[Rails]]
+
+```folder-overview
+id: e31a10b6-dbfe-4f92-b3bf-8211197dbfd7
+folderPath: Code/Ruby/Frameworks/Rails/MVC/Router
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="e31a10b6-dbfe-4f92-b3bf-8211197dbfd7"></span>
+- [[Code/Ruby/Frameworks/Rails/MVC/Router/Custom Routes.md|Custom Routes]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Frameworks/Rails/MVC/Router/RESTful Routes.md|RESTful Routes]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Frameworks/Rails/MVC/Router/Root Route.md|Root Route]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Frameworks/Rails/MVC/Router/Route Helpers.md|Route Helpers]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="e31a10b6-dbfe-4f92-b3bf-8211197dbfd7"></span>

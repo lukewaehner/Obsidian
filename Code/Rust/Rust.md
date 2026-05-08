@@ -116,3 +116,68 @@ vec.iter().map(|x| x * 2).collect()
 
 - [[Languages]] — Other programming languages
 - [[Code]] — Main programming hub
+
+```folder-overview
+id: 7ac8dba3-81a6-4bd1-be1b-78b8f2164b89
+folderPath: Code/Rust
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="7ac8dba3-81a6-4bd1-be1b-78b8f2164b89"></span>
+- [[Code/Rust/Async Await.md|Async Await]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Borrowing.md|Borrowing]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Cargo.md|Cargo]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Closures.md|Closures]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Collections.md|Collections]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Common Crates.md|Common Crates]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Concurrency.md|Concurrency]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Copying.md|Copying]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Derives.md|Derives]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Destructuring.md|Destructuring]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Enums.md|Enums]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Error Handling Patterns.md|Error Handling Patterns]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Generics.md|Generics]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Implementation.md|Implementation]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Iterators.md|Iterators]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Learning Plan.md|Learning Plan]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Lifetimes.md|Lifetimes]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Logging.md|Logging]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Macros.md|Macros]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Memory Types.md|Memory Types]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Modules.md|Modules]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Pattern Matching.md|Pattern Matching]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Pin and Unpin.md|Pin and Unpin]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Projects.md|Projects]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Result & Option.md|Result & Option]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Send and Sync.md|Send and Sync]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Slices.md|Slices]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Smart Pointers.md|Smart Pointers]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Strings.md|Strings]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Structs.md|Structs]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Testing.md|Testing]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Traits.md|Traits]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/Unsafe.md|Unsafe]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="7ac8dba3-81a6-4bd1-be1b-78b8f2164b89"></span>

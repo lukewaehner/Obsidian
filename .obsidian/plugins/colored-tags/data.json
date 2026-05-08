@@ -251,7 +251,9 @@
     "neovim": 239,
     "vim": 240,
     "editor": 241,
-    "northeastern": 242
+    "northeastern": 242,
+    "zsh": 243,
+    "shell": 244
   },
   "_version": 3
 }

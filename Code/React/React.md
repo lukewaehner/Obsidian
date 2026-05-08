@@ -62,3 +62,48 @@ const result = useMemo(() => expensive(data), [data]);
 const fn = useCallback(() => doThing(id), [id]);
 const MemoChild = React.memo(Child);
 ```
+
+```folder-overview
+id: 0982c5aa-9fec-4397-a26a-1f10da4ead41
+folderPath: Code/React
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="0982c5aa-9fec-4397-a26a-1f10da4ead41"></span>
+- [[Code/React/Components.md|Components]] <span class="fv-link-list-item"></span>
+- [[Code/React/Context.md|Context]] <span class="fv-link-list-item"></span>
+- [[Code/React/Custom Hooks.md|Custom Hooks]] <span class="fv-link-list-item"></span>
+- [[Code/React/Data Fetching.md|Data Fetching]] <span class="fv-link-list-item"></span>
+- [[Code/React/Effects.md|Effects]] <span class="fv-link-list-item"></span>
+- [[Code/React/Forms.md|Forms]] <span class="fv-link-list-item"></span>
+- [[Code/React/Hooks.md|Hooks]] <span class="fv-link-list-item"></span>
+- [[Code/React/Patterns.md|Patterns]] <span class="fv-link-list-item"></span>
+- [[Code/React/Performance.md|Performance]] <span class="fv-link-list-item"></span>
+- [[Code/React/Props.md|Props]] <span class="fv-link-list-item"></span>
+- [[Code/React/Routing.md|Routing]] <span class="fv-link-list-item"></span>
+- [[Code/React/State.md|State]] <span class="fv-link-list-item"></span>
+- [[Code/React/Tooling.md|Tooling]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="0982c5aa-9fec-4397-a26a-1f10da4ead41"></span>

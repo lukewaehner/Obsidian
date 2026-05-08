@@ -63,3 +63,40 @@ This gives rise to a tree-shaped organization:
 ---
 
 #computer-systems #file-systems
+
+```folder-overview
+id: 660a5470-c7aa-4cff-9248-e13abf93a6eb
+folderPath: Code/Computer Systems/File Systems
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="660a5470-c7aa-4cff-9248-e13abf93a6eb"></span>
+- [[Code/Computer Systems/File Systems/Blocks and Regions.md|Blocks and Regions]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/File Systems/File System API.md|File System API]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/File Systems/Inodes.md|Inodes]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/File Systems/Multi-Level Indexing.md|Multi-Level Indexing]] <span class="fv-link-list-item"></span>
+- [[Code/Computer Systems/File Systems/Storage Devices.md|Storage Devices]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="660a5470-c7aa-4cff-9248-e13abf93a6eb"></span>

@@ -92,3 +92,38 @@ nil.class          # => NilClass
 ## See Also
 
 - [[Ruby]]
+
+```folder-overview
+id: e144d1bb-bac6-4c6d-8b58-30e26cbe3603
+folderPath: Code/Ruby/Basic Datatypes
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="e144d1bb-bac6-4c6d-8b58-30e26cbe3603"></span>
+- [[Code/Ruby/Basic Datatypes/Booleans.md|Booleans]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Basic Datatypes/Strings.md|Strings]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Basic Datatypes/Symbols.md|Symbols]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="e144d1bb-bac6-4c6d-8b58-30e26cbe3603"></span>

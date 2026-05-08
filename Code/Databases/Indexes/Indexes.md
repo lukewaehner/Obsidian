@@ -170,3 +170,37 @@ If `idx_scan` is 0, the index isn't being used — consider dropping it.
 - [[EXPLAIN]] — Reading query plans to verify index use
 - [[Query Performance]] — Identifying slow queries
 - [[Databases]]
+
+```folder-overview
+id: 0b8256f1-5571-4efd-9894-21ab76fcb162
+folderPath: Code/Databases/Indexes
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="0b8256f1-5571-4efd-9894-21ab76fcb162"></span>
+- [[Code/Databases/Indexes/EXPLAIN.md|EXPLAIN]] <span class="fv-link-list-item"></span>
+- [[Code/Databases/Indexes/Query Performance.md|Query Performance]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="0b8256f1-5571-4efd-9894-21ab76fcb162"></span>

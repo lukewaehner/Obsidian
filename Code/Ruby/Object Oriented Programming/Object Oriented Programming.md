@@ -49,3 +49,42 @@ Ruby's OOP philosophy differs from languages like Java or C++:
 ## See Also
 
 - [[Ruby]]
+
+```folder-overview
+id: 24c4551e-ef01-4ff2-aec6-d9d2260e58b4
+folderPath: Code/Ruby/Object Oriented Programming
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="24c4551e-ef01-4ff2-aec6-d9d2260e58b4"></span>
+- [[Code/Ruby/Object Oriented Programming/Class Methods and Variables.md|Class Methods and Variables]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Object Oriented Programming/Composition.md|Composition]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Object Oriented Programming/Encapsulation.md|Encapsulation]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Object Oriented Programming/Inheritance.md|Inheritance]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Object Oriented Programming/Method Visibility.md|Method Visibility]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Object Oriented Programming/Modules as Mixins.md|Modules as Mixins]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Object Oriented Programming/Polymorphism.md|Polymorphism]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="24c4551e-ef01-4ff2-aec6-d9d2260e58b4"></span>

@@ -77,4 +77,34 @@ class ViewController: UIViewController {
 }
 ```
 
-
+```folder-overview
+id: a9c952f3-0e23-441f-bd48-ffe055fb68da
+folderPath: Code/iOS/Separate View From The Controller
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="a9c952f3-0e23-441f-bd48-ffe055fb68da"></span>
+<span class="fv-link-list-end" id="a9c952f3-0e23-441f-bd48-ffe055fb68da"></span>

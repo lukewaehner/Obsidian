@@ -44,3 +44,44 @@ Dynamic Programming is an algorithmic technique for solving optimization problem
 - [[Divide and Conquer]] - Similar optimal substructure, but without overlapping subproblems
 - [[Greedy]] - Sometimes works, but DP needed when greedy fails
 - [[Recurrences]] - Understanding time complexity of recursive solutions
+
+```folder-overview
+id: e94656a0-805c-4376-b750-4470c7f10aa5
+folderPath: Code/Algorithms/Dynamic Programming
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="e94656a0-805c-4376-b750-4470c7f10aa5"></span>
+- [[Code/Algorithms/Dynamic Programming/DP Introduction.md|DP Introduction]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Edit Distance and Sequence Alignment.md|Edit Distance and Sequence Alignment]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Knapsack Problem.md|Knapsack Problem]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Longest Alternating Subsequence.md|Longest Alternating Subsequence]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Longest Increasing Subsequence.md|Longest Increasing Subsequence]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Maximum Grid Path Sum.md|Maximum Grid Path Sum]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Sequences and Subsequences.md|Sequences and Subsequences]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Space Optimization in DP.md|Space Optimization in DP]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Dynamic Programming/Weighted Interval Scheduling.md|Weighted Interval Scheduling]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="e94656a0-805c-4376-b750-4470c7f10aa5"></span>

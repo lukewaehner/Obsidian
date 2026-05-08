@@ -46,3 +46,34 @@ CAPM shows that expected returns on an asset $E(R_i)$ relies on,
 
 ![[IMG-20251223193053131.png]]
 
+```folder-overview
+id: cc820ede-9747-44e6-9cb5-b8ab8416be56
+folderPath: Finance/Investments/Capital Asset Pricing Model
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="cc820ede-9747-44e6-9cb5-b8ab8416be56"></span>
+<span class="fv-link-list-end" id="cc820ede-9747-44e6-9cb5-b8ab8416be56"></span>

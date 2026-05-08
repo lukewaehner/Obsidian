@@ -59,3 +59,44 @@ Graphs are fundamental data structures for modeling relationships between object
 - [[Dynamic Programming]] - Often uses graphs for state spaces
 - [[Greedy]] - Many greedy algorithms work on graphs
 - [[Divide and Conquer]] - Can be applied to tree structures
+
+```folder-overview
+id: c2abf9c9-b5a7-4fef-b9a3-957f8e1b5e88
+folderPath: Code/Algorithms/Graphs
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="c2abf9c9-b5a7-4fef-b9a3-957f8e1b5e88"></span>
+- [[Code/Algorithms/Graphs/Basic Graph Facts.md|Basic Graph Facts]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Binary Search Trees.md|Binary Search Trees]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/DAGs and Topological Ordering.md|DAGs and Topological Ordering]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Depth First Search.md|Depth First Search]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Graph Basics.md|Graph Basics]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Graph Representations.md|Graph Representations]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Graph Terminology.md|Graph Terminology]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Graph Types.md|Graph Types]] <span class="fv-link-list-item"></span>
+- [[Code/Algorithms/Graphs/Trees and Rooted Trees.md|Trees and Rooted Trees]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="c2abf9c9-b5a7-4fef-b9a3-957f8e1b5e88"></span>

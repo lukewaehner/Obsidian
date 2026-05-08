@@ -28,3 +28,35 @@
 
 - [[Risk and Return]]
 - [[Cost of Capital]]
+
+```folder-overview
+id: 59db2915-a945-4b41-849a-d162e7ea9e2b
+folderPath: Finance/Corporate Finance
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="59db2915-a945-4b41-849a-d162e7ea9e2b"></span>
+<span class="fv-link-list-end" id="59db2915-a945-4b41-849a-d162e7ea9e2b"></span>

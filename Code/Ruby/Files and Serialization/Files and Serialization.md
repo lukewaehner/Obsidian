@@ -56,3 +56,39 @@ data = YAML.safe_load(yaml_string)
 
 - [[Ruby]]
 - [[Input Output]] — Console I/O with puts, print, gets
+
+```folder-overview
+id: 03ea913e-3d90-4420-a72f-b454dec7d7f1
+folderPath: Code/Ruby/Files and Serialization
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="03ea913e-3d90-4420-a72f-b454dec7d7f1"></span>
+- [[Code/Ruby/Files and Serialization/File IO.md|File IO]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Files and Serialization/JSON in Ruby.md|JSON in Ruby]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Files and Serialization/Serialization.md|Serialization]] <span class="fv-link-list-item"></span>
+- [[Code/Ruby/Files and Serialization/YAML in Ruby.md|YAML in Ruby]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="03ea913e-3d90-4420-a72f-b454dec7d7f1"></span>

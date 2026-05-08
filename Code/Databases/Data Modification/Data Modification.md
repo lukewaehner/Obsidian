@@ -212,3 +212,35 @@ WHERE NOT EXISTS (SELECT 1 FROM updated);
 - [[Locking]] — Preventing race conditions in updates
 - [[Subqueries]] — Using subqueries in WHERE/FROM for updates
 - [[Databases]]
+
+```folder-overview
+id: ee934aa4-194f-4748-ac81-676bf10eef9c
+folderPath: Code/Databases/Data Modification
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="ee934aa4-194f-4748-ac81-676bf10eef9c"></span>
+<span class="fv-link-list-end" id="ee934aa4-194f-4748-ac81-676bf10eef9c"></span>

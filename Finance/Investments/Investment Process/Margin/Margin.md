@@ -58,3 +58,41 @@ The portion that is borrowed incurs an interest charge.
 
 ***Final Answers*** - Amount Borrowed = ***\$9,000***
 - Margin = ***76.9%***
+
+```folder-overview
+id: 9f405f59-1417-4aa5-8a7b-c7b126584070
+folderPath: Finance/Investments/Investment Process/Margin
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="9f405f59-1417-4aa5-8a7b-c7b126584070"></span>
+- [[Finance/Investments/Investment Process/Margin/Long-Short Funds.md|Long-Short Funds]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Investment Process/Margin/Short Constraints.md|Short Constraints]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Investment Process/Margin/Short Interest.md|Short Interest]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Investment Process/Margin/Short Sale Process.md|Short Sale Process]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Investment Process/Margin/Short Selling.md|Short Selling]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Investment Process/Margin/Short Selling Balance Sheet.md|Short Selling Balance Sheet]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="9f405f59-1417-4aa5-8a7b-c7b126584070"></span>

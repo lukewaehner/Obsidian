@@ -28,3 +28,35 @@ A hub for all programming knowledge, languages, tools, and career resources.
 
 ## Career
 - [[Career Prep]] — Professional development
+
+```folder-overview
+id: 6718160f-0bb6-4dab-b7fd-e2a8994c7382
+folderPath: Code
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="6718160f-0bb6-4dab-b7fd-e2a8994c7382"></span>
+<span class="fv-link-list-end" id="6718160f-0bb6-4dab-b7fd-e2a8994c7382"></span>

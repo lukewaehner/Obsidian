@@ -88,3 +88,35 @@ try (var reader = Files.newBufferedReader(path)) {
 
 - [[Languages]] — Other programming languages
 - [[Code]] — Main programming hub
+
+```folder-overview
+id: 234a8eb4-675f-4f36-a45b-d92f4b5527b7
+folderPath: Code/Java
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="234a8eb4-675f-4f36-a45b-d92f4b5527b7"></span>
+<span class="fv-link-list-end" id="234a8eb4-675f-4f36-a45b-d92f4b5527b7"></span>

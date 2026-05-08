@@ -110,3 +110,37 @@ Funds must provide by law:
 ---
 
 *Parent: [[Mutual Funds & ETFs]]*
+
+```folder-overview
+id: 2f758c69-e0df-4577-9130-be161a381c39
+folderPath: Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Operations
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="2f758c69-e0df-4577-9130-be161a381c39"></span>
+- [[Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Operations/Fund Prospectus.md|Fund Prospectus]] <span class="fv-link-list-item"></span>
+- [[Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Operations/Share Classes.md|Share Classes]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="2f758c69-e0df-4577-9130-be161a381c39"></span>

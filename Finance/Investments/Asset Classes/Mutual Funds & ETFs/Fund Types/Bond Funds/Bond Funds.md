@@ -216,3 +216,35 @@ If tax-equivalent yield > taxable yield, choose municipal
 ---
 
 *Parent: [[Fund Types]]*
+
+```folder-overview
+id: 2e867aec-e8ec-41bb-aaf2-19b660b8a934
+folderPath: Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Bond Funds
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="2e867aec-e8ec-41bb-aaf2-19b660b8a934"></span>
+<span class="fv-link-list-end" id="2e867aec-e8ec-41bb-aaf2-19b660b8a934"></span>

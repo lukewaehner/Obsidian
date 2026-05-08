@@ -16,5 +16,6 @@
   "obsidian-html-plugin",
   "obsidian-git",
   "code-styler",
-  "codeblock-runner"
+  "codeblock-runner",
+  "folder-overview"
 ]

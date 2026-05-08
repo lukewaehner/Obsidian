@@ -138,6 +138,14 @@ debug_assert!(order.px_ticks >= 0);
 debug_assert!(!order.symbol.is_empty());
 ```
 
+## Deep Dives
+
+- [[Domain Types]] — `OrderId`, `Ticks`, `Side`, `Order` field-by-field
+- [[PriceLevels]] — `BTreeMap` + `VecDeque` choice rationale
+- [[Matching Engine]] — `submit_limit` walkthrough with borrow/lifetime notes
+- [[Invariants]] — `debug_assert!` checks and protected state
+- [[Explanation]] — CLI architecture, async stack, request flow
+
 ## Related Notes
 
 ### Rust Concepts
@@ -154,3 +162,42 @@ debug_assert!(!order.symbol.is_empty());
 ## See Also
 
 - [[Rust]] — Language reference
+
+```folder-overview
+id: f080c48c-aada-47ec-bc74-e0413e0cf1fe
+folderPath: Code/Rust/HFTX
+title: "{{folderName}} overview"
+showTitle: false
+depth: 1
+includeTypes:
+  - folder
+  - markdown
+style: list
+disableFileTag: false
+sortBy: name
+sortByAsc: true
+showEmptyFolders: false
+onlyIncludeSubfolders: false
+storeFolderCondition: true
+showFolderNotes: false
+disableCollapseIcon: true
+alwaysCollapse: false
+autoSync: true
+allowDragAndDrop: true
+hideLinkList: true
+hideFolderOverview: false
+useActualLinks: true
+fmtpIntegration: false
+titleSize: 1
+isInCallout: false
+useWikilinks: true
+```
+<span class="fv-link-list-start" id="f080c48c-aada-47ec-bc74-e0413e0cf1fe"></span>
+- [[Code/Rust/HFTX/Domain Types.md|Domain Types]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/HFTX/Explanation.md|Explanation]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/HFTX/Invariants.md|Invariants]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/HFTX/Matching Engine.md|Matching Engine]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/HFTX/PriceLevels.md|PriceLevels]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/HFTX/Rest API.md|Rest API]] <span class="fv-link-list-item"></span>
+- [[Code/Rust/HFTX/WebSockets.md|WebSockets]] <span class="fv-link-list-item"></span>
+<span class="fv-link-list-end" id="f080c48c-aada-47ec-bc74-e0413e0cf1fe"></span>
