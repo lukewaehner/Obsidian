@@ -74,7 +74,7 @@
       "query": "path:\"Investments\"",
       "color": {
         "a": 1,
-        "rgb": 1372345
+        "rgb": 2804629
       }
     },
     {
@@ -111,6 +111,13 @@
         "a": 1,
         "rgb": 5431478
       }
+    },
+    {
+      "query": "path:\"Behavioral Finance\"",
+      "color": {
+        "a": 1,
+        "rgb": 3728763
+      }
     }
   ],
   "collapse-display": false,
@@ -123,6 +130,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2439160985358023,
-  "close": true
+  "scale": 0.22974415251530544,
+  "close": false
 }

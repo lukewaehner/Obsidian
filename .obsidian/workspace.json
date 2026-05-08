@@ -13,62 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Rust/Learning Plan.md",
+                "file": "Code/Code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Learning Plan"
-            }
-          },
-          {
-            "id": "8e63ed7c589b1da4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Algorithms/Algorithms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Algorithms"
-            }
-          },
-          {
-            "id": "45adb2c7e73c01df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Algorithms/Binary Search Trees/Binary Search Trees.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Binary Search Trees"
-            }
-          },
-          {
-            "id": "a7cc45e0c68b1e37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finance/Financial Accounting/Income Statement/Income Statement.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Income Statement"
+              "title": "Code"
             }
           },
           {
             "id": "99578b10cc630033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Code.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Code"
+            }
+          },
+          {
+            "id": "ea9778b7246cde85",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -78,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -281,55 +251,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99578b10cc630033",
+  "active": "ea9778b7246cde85",
   "lastOpenFiles": [
-    "Finance/Financial Accounting/Income Statement/Income Statement.md",
-    "Code/Algorithms/Binary Search Trees/Binary Search Trees.md",
-    "Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs.md",
-    "Code/Algorithms/Algorithms.md",
-    "Code/iOS/Creating Applications/Navigation Controller/Navigation Controller.md",
-    "Code/Code.md",
-    "Code/Rust/Learning Plan.md",
-    "Code/Rust/Enums.md",
-    "Code/Rust/Collections.md",
-    "Code/Rust/Closures.md",
-    "Code/React/React.md",
-    "Code/Neovim/Neovim.md",
-    "Code/OOD/OOD.md",
-    "Code/React/State.md",
-    "Code/React/Tooling.md",
-    "Code/React/Data Fetching.md",
-    "Code/React/Custom Hooks.md",
-    "Code/React/Context.md",
-    "Code/React/Components.md",
-    "Code/Rust/Rust.md",
-    "Finance/Finance.md",
-    "Dashboard.canvas",
-    "templates/Swift Template.md",
-    "templates/SQL Template.md",
-    "templates/Meeting Template.md",
-    "templates/MOC Template.md",
-    "templates/JavaScript Template.md",
-    "Images/iOS/Creating Applications/Creating Applications/IMG-20250924170348504.png",
-    "Images/iOS/Untitled/IMG-20250915001656994.png",
-    "Images/iOS/Creating Applications/Creating Applications",
-    "Images/iOS/Untitled",
-    "Images/iOS/Creating Applications",
-    "Images/iOS",
+    "Images/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251223193053141.png",
     "Images/Finance/Investments/Risk & Return/Historical Risk & Return/IMG-20251223193053251.png",
     "Images/Finance/Investments/Risk & Return/Historical Risk & Return/IMG-20251223193053139.png",
-    "Images/Finance/Investments/Risk & Return/Historical Risk & Return",
     "Images/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices/IMG-20251223193053140.png",
-    "Images/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices",
     "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053271.png",
     "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053140.png",
-    "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance",
     "Images/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251223193053131.png",
-    "Images/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model",
     "Images/Finance/Investments/Capital Allocation/Indifference Curve/IMG-20251223193053139.png",
-    "Images/Finance/Investments/Capital Allocation/Indifference Curve",
-    "Images/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251223193053141.png",
     "Images/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs",
+    "Images/Finance/Investments/Risk & Return/Historical Risk & Return",
+    "Images/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices",
+    "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance",
+    "Images/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model",
+    "Images/Finance/Investments/Capital Allocation/Indifference Curve",
+    "Images/Finance/Investments/Asset Classes/Mutual Funds & ETFs",
+    "Images/Finance/Investments/Risk & Return",
+    "Images/Finance/Investments/Efficient Market Hypothesis",
+    "Images/Finance/Investments/Efficient Diversification",
+    "Code/Zsh/Zsh 3.md",
+    "Code/Zsh/Keybinds 2.md",
+    "Code/Ruby/Hashes 3.md",
+    "Code/Ruby/Input Output 3.md",
+    "Code/Ruby/Enumeration 3.md",
+    "Code/Ruby/Pattern Matching 3.md",
+    "Code/Ruby/Blocks 3.md",
+    "Code/Ruby/Conditional Logic 3.md",
+    "Code/Ruby/Classes 3.md",
+    "Code/Ruby/Files and Serialization 3/YAML in Ruby.md",
+    "Code/Ruby/Files and Serialization 3/Serialization.md",
+    "Code/Ruby/Files and Serialization 3/JSON in Ruby.md",
+    "Code/Ruby/Files and Serialization 3/Files and Serialization.md",
+    "Code/Ruby/Files and Serialization 3/File IO.md",
+    "Code/Ruby/Enumerating Predicates 3.md",
+    "Code/Ruby/Ruby 3.md",
+    "Code/Ruby/Variables 3.md",
+    "Code/Ruby/Modules 3.md",
+    "Code/Ruby/Project Management 3/Require and Require Relative.md",
+    "Code/Ruby/Project Management 3/Project Management.md",
+    "Code/Ruby/Project Management 3/Namespacing.md",
+    "Code/Ruby/Project Management 3/Gems and Bundler.md",
+    "Code/Ruby/Nested Collections 3.md",
+    "Code/Ruby/Arithmetic 3.md",
+    "Code/Ruby/Frameworks 3/Rails/MVC/Router/Router.md",
+    "Images/Code/Computer Systems 2/Processes/Processes/IMG-20251224201244606.png",
+    "Images/Code/Computer Systems 2/Data & Registers/IMG-20251224201244603.png",
+    "Images/Archive/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251223193053141.png",
+    "Dashboard.canvas",
     "Second Brain/Dashboard.canvas",
     "Northeastern/Dashboard.canvas"
   ]
