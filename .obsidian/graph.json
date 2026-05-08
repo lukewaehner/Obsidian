@@ -8,17 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Algorithms  ",
+      "query": "path:\"Algorithms\"",
       "color": {
         "a": 1,
         "rgb": 12294903
       }
     },
     {
-      "query": "path:\"Co-Op Search\"  ",
+      "query": "path:\"Career\"  ",
       "color": {
         "a": 1,
-        "rgb": 8245247
+        "rgb": 15509759
       }
     },
     {
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:\"Mobile Application Development\"  ",
+      "query": "path:\"IOS\"  ",
       "color": {
         "a": 1,
         "rgb": 16217742
@@ -62,6 +62,55 @@
         "a": 1,
         "rgb": 7887520
       }
+    },
+    {
+      "query": "path:\"JavaScript\"",
+      "color": {
+        "a": 1,
+        "rgb": 16626249
+      }
+    },
+    {
+      "query": "path:\"Investments\"",
+      "color": {
+        "a": 1,
+        "rgb": 1372345
+      }
+    },
+    {
+      "query": "path:\"Financial Accounting\"",
+      "color": {
+        "a": 1,
+        "rgb": 3382901
+      }
+    },
+    {
+      "query": "path:\"React\"",
+      "color": {
+        "a": 1,
+        "rgb": 7134708
+      }
+    },
+    {
+      "query": "path:\"OOD\"",
+      "color": {
+        "a": 1,
+        "rgb": 12135725
+      }
+    },
+    {
+      "query": "path:\"Managerial Accounting\"",
+      "color": {
+        "a": 1,
+        "rgb": 1213021
+      }
+    },
+    {
+      "query": "path: \"Corporate Finance\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431478
+      }
     }
   ],
   "collapse-display": false,
@@ -74,6 +123,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5796250892676453,
+  "scale": 0.2439160985358023,
   "close": true
 }

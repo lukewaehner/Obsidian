@@ -233,7 +233,17 @@
     "api": 221,
     "routing": 222,
     "mvc": 223,
-    "views": 224
+    "views": 224,
+    "sql": 225,
+    "databases": 226,
+    "patterns": 227,
+    "transactions": 228,
+    "learning": 229,
+    "daily": 230,
+    "java": 231,
+    "meeting": 232,
+    "swift": 233,
+    "ios": 234
   },
   "_version": 3
 }

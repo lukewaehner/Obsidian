@@ -6,7 +6,7 @@ type: note
 related:
   - "[[iOS]]"
 ---
-# <% tp.file.title %>
+# Swift Template
 
 <% tp.file.cursor(1) %>
 

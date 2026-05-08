@@ -3,7 +3,7 @@ tags:
   - <% tp.file.cursor(1) %>
 type: moc
 ---
-# <% tp.file.title %>
+# Swift Template
 
 <% tp.file.cursor(2) %>
 

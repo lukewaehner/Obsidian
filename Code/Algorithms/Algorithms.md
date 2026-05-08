@@ -116,3 +116,5 @@ Modeling pairwise relationships between entities.
 
 **Course Number**: CS3000
 **Topics**: Algorithms, Data Structures, Complexity Analysis, Graph Theory
+
+[[Code/Algorithms/Graphs/Binary Search Trees|Binary Search Trees]]

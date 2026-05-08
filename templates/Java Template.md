@@ -5,7 +5,7 @@ type: note
 related:
   - "[[Java]]"
 ---
-# <% tp.file.title %>
+# Swift Template
 
 <% tp.file.cursor(1) %>
 

@@ -2,9 +2,9 @@
 tags:
   - daily
 type: note
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2026-05-07
 ---
-# <% tp.date.now("dddd, MMMM D YYYY") %>
+# Thursday, May 7 2026
 
 ## Focus
 

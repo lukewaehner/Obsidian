@@ -4,82 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "4c3b9defd248908f",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7dfc729c2bc68892",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Validations.md",
+                "file": "Code/Rust/Learning Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Validations"
+              "title": "Learning Plan"
             }
           },
           {
-            "id": "3f55124f6253c912",
+            "id": "8e63ed7c589b1da4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Active Record.md",
+                "file": "Code/Algorithms/Algorithms.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Active Record"
+              "title": "Algorithms"
             }
           },
           {
-            "id": "36fe1e42f65607cd",
+            "id": "45adb2c7e73c01df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maggie.md",
+                "file": "Code/Algorithms/Binary Search Trees/Binary Search Trees.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Maggie"
+              "title": "Binary Search Trees"
             }
           },
           {
-            "id": "c2b596f22e10b9ac",
+            "id": "a7cc45e0c68b1e37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Languages/Ruby/Frameworks/Rails/The Web/REST.md",
+                "file": "Finance/Financial Accounting/Income Statement/Income Statement.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "REST"
+              "title": "Income Statement"
             }
           },
           {
-            "id": "c508fd9d3aeb537a",
+            "id": "99578b10cc630033",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/Code.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Code"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -196,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Code.md",
+                "file": "Code/Languages/Ruby/Frameworks/Rails/The Web/REST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Code"
+              "title": "Outgoing links from REST"
             }
           },
           {
@@ -268,7 +263,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,56 +281,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c508fd9d3aeb537a",
+  "active": "99578b10cc630033",
   "lastOpenFiles": [
-    "Smartleaf.md",
+    "Finance/Financial Accounting/Income Statement/Income Statement.md",
+    "Code/Algorithms/Binary Search Trees/Binary Search Trees.md",
+    "Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs.md",
+    "Code/Algorithms/Algorithms.md",
+    "Code/iOS/Creating Applications/Navigation Controller/Navigation Controller.md",
     "Code/Code.md",
-    "Code/Languages/Ruby/Ruby.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Validations.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Active Record.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record/Migrations.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/MVC.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Views.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Router.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Root Route.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/RESTful Routes.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Route Helpers.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Controller.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Zeitwerk Autoloading.md",
-    "Code/Languages/Ruby/Frameworks/Rails/The Web/REST.md",
-    "Maggie.md",
-    "Code/Untitled.md",
-    "Code/Languages/Ruby/Enumeration.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Console Configuration.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router/Custom Routes.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Active Record",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC",
-    "Code/Languages/Ruby/Frameworks/Rails/The Web/The Web.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Routing/Router.md",
-    "Code/Languages/Ruby/Frameworks/Rails/MVC/Router",
-    "Code/Languages/Ruby/Frameworks/Rails/The Web/Authentication and Authorization.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Rails.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Deeb Knowledge/Binstubs.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Deeb Knowledge/Boot Process.md",
-    "Code/Languages/Ruby/Frameworks/Rails/Deeb Knowledge",
-    "Code/Languages/Ruby/Frameworks/Rails/The Web",
-    "Code/Languages/Ruby/Files and Serialization",
-    "Code/Languages/Ruby/Project Management",
-    "Code/Languages/Ruby/Object Oriented Programming",
+    "Code/Rust/Learning Plan.md",
+    "Code/Rust/Enums.md",
+    "Code/Rust/Collections.md",
+    "Code/Rust/Closures.md",
+    "Code/React/React.md",
+    "Code/Neovim/Neovim.md",
+    "Code/OOD/OOD.md",
+    "Code/React/State.md",
+    "Code/React/Tooling.md",
+    "Code/React/Data Fetching.md",
+    "Code/React/Custom Hooks.md",
+    "Code/React/Context.md",
+    "Code/React/Components.md",
+    "Code/Rust/Rust.md",
+    "Finance/Finance.md",
     "Dashboard.canvas",
-    "Code/Tools/Zsh",
-    "Images/Code/Topics/Computer Systems/Processes/Processes/IMG-20251224201244606.png",
-    "Images/Code/Topics/Computer Systems/Data & Registers/IMG-20251224201244603.png",
-    "Images/Code/Topics/Computer Systems/Processes/Processes",
-    "Images/Archive/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251223193053131.png",
-    "Images/Archive/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices/IMG-20251223193053140.png",
-    "Images/Archive/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053271.png",
-    "Images/Archive/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053140.png",
-    "Images/Archive/Finance/Investments/Capital Allocation/Indifference Curve/IMG-20251223193053139.png",
-    "Images/Archive/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251223193053141.png",
+    "templates/Swift Template.md",
+    "templates/SQL Template.md",
+    "templates/Meeting Template.md",
+    "templates/MOC Template.md",
+    "templates/JavaScript Template.md",
+    "Images/iOS/Creating Applications/Creating Applications/IMG-20250924170348504.png",
+    "Images/iOS/Untitled/IMG-20250915001656994.png",
+    "Images/iOS/Creating Applications/Creating Applications",
+    "Images/iOS/Untitled",
+    "Images/iOS/Creating Applications",
+    "Images/iOS",
+    "Images/Finance/Investments/Risk & Return/Historical Risk & Return/IMG-20251223193053251.png",
+    "Images/Finance/Investments/Risk & Return/Historical Risk & Return/IMG-20251223193053139.png",
+    "Images/Finance/Investments/Risk & Return/Historical Risk & Return",
+    "Images/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices/IMG-20251223193053140.png",
+    "Images/Finance/Investments/Efficient Market Hypothesis/Information and Stock Prices",
+    "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053271.png",
+    "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance/IMG-20251223193053140.png",
+    "Images/Finance/Investments/Efficient Diversification/Correlation and Covariance",
+    "Images/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model/IMG-20251223193053131.png",
+    "Images/Finance/Investments/Capital Asset Pricing Model/Capital Asset Pricing Model",
+    "Images/Finance/Investments/Capital Allocation/Indifference Curve/IMG-20251223193053139.png",
+    "Images/Finance/Investments/Capital Allocation/Indifference Curve",
+    "Images/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs/IMG-20251223193053141.png",
+    "Images/Finance/Investments/Asset Classes/Mutual Funds & ETFs/Mutual Funds & ETFs",
     "Second Brain/Dashboard.canvas",
-    "Second Brain/Images/Mobile Application Development/Creating Applications/Creating Applications/IMG-20250924170348504.png",
-    "Second Brain/Images/Mobile Application Development/Untitled/IMG-20250915001656994.png",
     "Northeastern/Dashboard.canvas"
   ]
 }

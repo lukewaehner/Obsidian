@@ -23,3 +23,5 @@ Map of Binary Search Trees concepts and related topics.
 ---
 
 **Topic**: Binary Search Trees and Self-Balancing Tree Structures
+
+[[Algorithms]]

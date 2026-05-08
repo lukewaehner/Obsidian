@@ -80,10 +80,6 @@
   ],
   "fileColors": [
     {
-      "path": "Code/Topics/Algorithms",
-      "color": "9awuB9pxt3yYCl4C7AvFi"
-    },
-    {
       "path": "Code/Topics/Computer Systems",
       "color": "SlGDFhaXBEh-I0lM1LV7l"
     },
@@ -92,24 +88,8 @@
       "color": "eD4N8rcfY8wd8aKNfVd7k"
     },
     {
-      "path": "Code/Topics/Mobile Application Development",
-      "color": "TF8uolhlY75m10SMlXy-Q"
-    },
-    {
-      "path": "Professional Tools",
-      "color": "2OEvdrkLPC_Uj362HdDJ2"
-    },
-    {
       "path": "Code/Languages/Ruby",
       "color": "u1zExG7FjTr4bTn0WZHs-"
-    },
-    {
-      "path": "Code/Languages/Rust",
-      "color": "-CsfwEHkvMqX5_BsH8rOH"
-    },
-    {
-      "path": "Code/Topics/Databases",
-      "color": "HIwj2lozIVCnuLRgdB_04"
     },
     {
       "path": "Archive",
