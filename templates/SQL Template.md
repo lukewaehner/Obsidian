@@ -5,7 +5,7 @@ type: note
 related:
   - "[[Databases]]"
 ---
-# Swift Template
+# <% tp.file.title %>
 
 <% tp.file.cursor(1) %>
 

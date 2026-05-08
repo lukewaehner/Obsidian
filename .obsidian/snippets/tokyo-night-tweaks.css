@@ -1,0 +1,127 @@
+/* =========================================================
+   Tokyo Night Tweaks
+   Re-skins callouts, MOC headers, and folder-note accents
+   to match the Tokyo Night palette used by the graph view.
+   ========================================================= */
+
+/* ---------- Palette (Tokyo Night) ----------
+   blue    #7AA2F7  note / info
+   green   #9ECE6A  tip / success
+   yellow  #E0AF68  warning / caution
+   red     #F7768E  danger / error / bug
+   purple  #BB9AF7  quote / cite
+   cyan    #7DCFFF  example / abstract
+   orange  #FF9E64  question / help / faq
+   teal    #73DACA  todo
+-------------------------------------------- */
+
+/* ---------- Shared callout body styling ----------
+   Subtle tinted background using the callout color at low opacity,
+   plus a left border accent in the same hue.
+*/
+.callout {
+  --callout-radius: 8px;
+  background-color: rgba(var(--callout-color), 0.08);
+  border-left: 3px solid rgb(var(--callout-color));
+  border-radius: var(--callout-radius);
+}
+.callout-title {
+  background-color: rgba(var(--callout-color), 0.15);
+  color: rgb(var(--callout-color));
+  font-weight: 600;
+}
+
+/* ---------- Note / info (default) ---------- */
+.callout[data-callout="note"],
+.callout[data-callout="info"],
+.callout[data-callout="default"] {
+  --callout-color: 122, 162, 247;        /* #7AA2F7 TN blue */
+  --callout-icon: lucide-pencil;
+}
+
+/* ---------- Tip / success ---------- */
+.callout[data-callout="tip"],
+.callout[data-callout="hint"],
+.callout[data-callout="success"],
+.callout[data-callout="check"],
+.callout[data-callout="done"] {
+  --callout-color: 158, 206, 106;        /* #9ECE6A TN green */
+  --callout-icon: lucide-check-circle-2;
+}
+
+/* ---------- Warning / caution ---------- */
+.callout[data-callout="warning"],
+.callout[data-callout="caution"],
+.callout[data-callout="attention"] {
+  --callout-color: 224, 175, 104;        /* #E0AF68 TN yellow */
+  --callout-icon: lucide-alert-triangle;
+}
+
+/* ---------- Danger / error / bug / fail ---------- */
+.callout[data-callout="danger"],
+.callout[data-callout="error"],
+.callout[data-callout="bug"],
+.callout[data-callout="fail"],
+.callout[data-callout="failure"],
+.callout[data-callout="missing"] {
+  --callout-color: 247, 118, 142;        /* #F7768E TN red */
+  --callout-icon: lucide-zap;
+}
+
+/* ---------- Quote / cite ---------- */
+.callout[data-callout="quote"],
+.callout[data-callout="cite"] {
+  --callout-color: 187, 154, 247;        /* #BB9AF7 TN purple */
+  --callout-icon: lucide-quote;
+}
+
+/* ---------- Example / abstract / summary ---------- */
+.callout[data-callout="example"],
+.callout[data-callout="abstract"],
+.callout[data-callout="summary"],
+.callout[data-callout="tldr"] {
+  --callout-color: 125, 207, 255;        /* #7DCFFF TN cyan */
+  --callout-icon: lucide-list;
+}
+
+/* ---------- Question / help / faq ---------- */
+.callout[data-callout="question"],
+.callout[data-callout="help"],
+.callout[data-callout="faq"] {
+  --callout-color: 255, 158, 100;        /* #FF9E64 TN orange */
+  --callout-icon: lucide-help-circle;
+}
+
+/* ---------- Todo ---------- */
+.callout[data-callout="todo"] {
+  --callout-color: 115, 218, 202;        /* #73DACA TN teal */
+  --callout-icon: lucide-check-square;
+}
+
+/* =========================================================
+   MOC headers
+   Make MOC notes feel a touch more prominent: H1 gets a
+   purple underline + thin left accent in TN purple.
+   Tag a note with `cssclasses: moc` in frontmatter to apply.
+   ========================================================= */
+.markdown-preview-view.moc h1,
+.markdown-source-view.mod-cm6.moc .HyperMD-header-1,
+.moc h1 {
+  color: #BB9AF7;
+  border-bottom: 2px solid rgba(187, 154, 247, 0.5);
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  border-left: 4px solid #BB9AF7;
+}
+
+/* =========================================================
+   Folder-note styling
+   Folder-note plugin marks the active folder note; give it a
+   subtle TN-purple top accent so it reads as an index page.
+   ========================================================= */
+.markdown-preview-view.is-folder-note h1:first-of-type,
+.workspace-leaf-content[data-type="markdown"] .is-folder-note h1:first-of-type {
+  border-top: 3px solid #BB9AF7;
+  padding-top: 0.4em;
+  margin-top: 0.2em;
+}

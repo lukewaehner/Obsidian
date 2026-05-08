@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiALargeSmall",
       "LiBriefcase",
       "LiArchive",
       "LiCode",
-      "SiIos",
-      "SiApple"
+      "SiIos"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -35,5 +35,10 @@
     "useInternalPlugins": false
   },
   "Code": "LiCode",
-  "Archive": "LiArchive"
+  "Archive": "LiArchive",
+  "templates": "LiALargeSmall",
+  "Career": "LiBriefcase",
+  "Finance": "LiBanknote",
+  "Images": "LiImage",
+  "Northeastern": "LiGraduationCap"
 }

@@ -3,97 +3,195 @@
   "colorBackground": false,
   "palette": [
     {
-      "id": "TF8uolhlY75m10SMlXy-Q",
-      "name": "Red",
-      "value": "#f7768e"
+      "id": "c-algorithms",
+      "name": "Algorithms Purple",
+      "value": "#BB9AF7"
     },
     {
-      "id": "eGtwLUBOPElCpq_wQ88mG",
-      "name": "Green",
-      "value": "#9ece6a"
+      "id": "c-dsa",
+      "name": "DSA Indigo",
+      "value": "#7E76B5"
     },
     {
-      "id": "SlGDFhaXBEh-I0lM1LV7l",
-      "name": "Blue",
-      "value": "#7aa2f7"
+      "id": "c-cs",
+      "name": "CS Blue",
+      "value": "#7AA2F7"
     },
     {
-      "id": "CmfJPJYN0Don0Qvb1-ib6",
-      "name": "Light Blue",
-      "value": "#7dcfff"
+      "id": "c-databases",
+      "name": "Databases Clay",
+      "value": "#9E7B58"
     },
     {
-      "id": "9awuB9pxt3yYCl4C7AvFi",
-      "name": "Purple",
-      "value": "#bb9af7"
+      "id": "c-js",
+      "name": "JavaScript Gold",
+      "value": "#E0AF68"
     },
     {
-      "id": "eD4N8rcfY8wd8aKNfVd7k",
-      "name": "Dark Green",
-      "value": "#6e9e47"
+      "id": "c-react",
+      "name": "React Cyan",
+      "value": "#7DCFFF"
     },
     {
-      "id": "nuI5DMocNZiOtlCRr5sSF",
-      "name": "Darker Green",
-      "value": "#5f8b3e"
+      "id": "c-ruby",
+      "name": "Ruby Red",
+      "value": "#DB4B4B"
     },
     {
-      "id": "2OEvdrkLPC_Uj362HdDJ2",
-      "name": "Balanced Blue",
-      "value": "#52b8e0"
+      "id": "c-rust",
+      "name": "Rust Orange",
+      "value": "#FF9E64"
     },
     {
-      "id": "u1zExG7FjTr4bTn0WZHs-",
-      "name": "Dark Red",
-      "value": "#aa2323"
+      "id": "c-java",
+      "name": "Java Dark Blue",
+      "value": "#3D59A1"
     },
     {
-      "id": "-CsfwEHkvMqX5_BsH8rOH",
-      "name": "Orange",
-      "value": "#be6423"
+      "id": "c-ios",
+      "name": "iOS Pink-Red",
+      "value": "#F7768E"
     },
     {
-      "id": "l6FVIkIZlTy47t2rxaE3K",
-      "name": " Cool Gray",
-      "value": "#969ba5"
+      "id": "c-ood",
+      "name": "OOD Rose",
+      "value": "#C97CAB"
     },
     {
-      "id": "HLtLgSPc_pzbdvYdBOQcr",
-      "name": "Dark Teal",
-      "value": "#3c7d78"
+      "id": "c-neovim",
+      "name": "Neovim Green",
+      "value": "#9ECE6A"
     },
     {
-      "id": "HIwj2lozIVCnuLRgdB_04",
-      "name": "Deep Purple",
-      "value": "#785aa0"
+      "id": "c-zsh",
+      "name": "Zsh Slate",
+      "value": "#9DA3B8"
     },
     {
-      "id": "wb_YoQwKrzXYtxThAWYAX",
-      "name": "Olive",
-      "value": "#87965a"
+      "id": "c-behavioral",
+      "name": "Behavioral Lime",
+      "value": "#B5C57E"
     },
     {
-      "id": "eJczs-EvTnQooJXoviLPo",
-      "name": "Soft Gold",
-      "value": "#c8aa5f"
+      "id": "c-corporate",
+      "name": "Corporate Teal",
+      "value": "#7DC6B5"
+    },
+    {
+      "id": "c-investments",
+      "name": "Investments Mid Teal",
+      "value": "#3FA887"
+    },
+    {
+      "id": "c-finacc",
+      "name": "Financial Acc Forest",
+      "value": "#4F8068"
+    },
+    {
+      "id": "c-managerial",
+      "name": "Managerial Deep Green",
+      "value": "#2D5A48"
+    },
+    {
+      "id": "c-career",
+      "name": "Career Lavender-Pink",
+      "value": "#D8A0E6"
+    },
+    {
+      "id": "c-northeastern",
+      "name": "Northeastern Brass",
+      "value": "#C9A05A"
+    },
+    {
+      "id": "c-archive",
+      "name": "Archive Slate",
+      "value": "#666E8A"
     }
   ],
   "fileColors": [
     {
-      "path": "Code/Topics/Computer Systems",
-      "color": "SlGDFhaXBEh-I0lM1LV7l"
+      "path": "Code/Algorithms",
+      "color": "c-algorithms"
     },
     {
-      "path": "Archive/Finance/Investments",
-      "color": "eD4N8rcfY8wd8aKNfVd7k"
+      "path": "Code/DSA",
+      "color": "c-dsa"
     },
     {
-      "path": "Code/Languages/Ruby",
-      "color": "u1zExG7FjTr4bTn0WZHs-"
+      "path": "Code/Computer Systems",
+      "color": "c-cs"
+    },
+    {
+      "path": "Code/Databases",
+      "color": "c-databases"
+    },
+    {
+      "path": "Code/JavaScript",
+      "color": "c-js"
+    },
+    {
+      "path": "Code/React",
+      "color": "c-react"
+    },
+    {
+      "path": "Code/Ruby",
+      "color": "c-ruby"
+    },
+    {
+      "path": "Code/Rust",
+      "color": "c-rust"
+    },
+    {
+      "path": "Code/Java",
+      "color": "c-java"
+    },
+    {
+      "path": "Code/iOS",
+      "color": "c-ios"
+    },
+    {
+      "path": "Code/OOD",
+      "color": "c-ood"
+    },
+    {
+      "path": "Code/Neovim",
+      "color": "c-neovim"
+    },
+    {
+      "path": "Code/Zsh",
+      "color": "c-zsh"
+    },
+    {
+      "path": "Finance/Investments/Behavioral Finance",
+      "color": "c-behavioral"
+    },
+    {
+      "path": "Finance/Investments",
+      "color": "c-investments"
+    },
+    {
+      "path": "Finance/Corporate Finance",
+      "color": "c-corporate"
+    },
+    {
+      "path": "Finance/Financial Accounting",
+      "color": "c-finacc"
+    },
+    {
+      "path": "Finance/Managerial Accounting",
+      "color": "c-managerial"
+    },
+    {
+      "path": "Career",
+      "color": "c-career"
+    },
+    {
+      "path": "Northeastern",
+      "color": "c-northeastern"
     },
     {
       "path": "Archive",
-      "color": "eD4N8rcfY8wd8aKNfVd7k"
+      "color": "c-archive"
     }
   ]
 }

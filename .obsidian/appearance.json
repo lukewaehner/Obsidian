@@ -1,7 +1,9 @@
 {
   "cssTheme": "Tokyo Night",
   "accentColor": "",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "tokyo-night-tweaks"
+  ],
   "translucency": false,
   "theme": "system"
 }

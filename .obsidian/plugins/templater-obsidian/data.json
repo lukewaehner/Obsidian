@@ -13,7 +13,40 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "Code/Java",
+      "template": "templates/Java Template.md"
+    },
+    {
+      "folder": "Code/JavaScript",
+      "template": "templates/JavaScript Template.md"
+    },
+    {
+      "folder": "Code/Ruby",
+      "template": "templates/Ruby Template.md"
+    },
+    {
+      "folder": "Code/Ruby/Frameworks/Rails",
+      "template": "templates/Rails Template.md"
+    },
+    {
+      "folder": "Code/Rust",
+      "template": "templates/Rust Template.md"
+    },
+    {
+      "folder": "Code/iOS",
+      "template": "templates/Swift Template.md"
+    },
+    {
+      "folder": "Code/React",
+      "template": "templates/React Template.md"
+    },
+    {
+      "folder": "Code/Databases",
+      "template": "templates/SQL Template.md"
+    }
+  ],
   "enable_file_templates": false,
   "file_templates": [
     {

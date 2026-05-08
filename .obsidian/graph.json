@@ -8,6 +8,41 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:\"Behavioral Finance\"",
+      "color": {
+        "a": 1,
+        "rgb": 11912574
+      }
+    },
+    {
+      "query": "path:\"Corporate Finance\"",
+      "color": {
+        "a": 1,
+        "rgb": 8242869
+      }
+    },
+    {
+      "query": "path:\"Investments\"",
+      "color": {
+        "a": 1,
+        "rgb": 4171911
+      }
+    },
+    {
+      "query": "path:\"Financial Accounting\"",
+      "color": {
+        "a": 1,
+        "rgb": 5210216
+      }
+    },
+    {
+      "query": "path:\"Managerial Accounting\"",
+      "color": {
+        "a": 1,
+        "rgb": 2972232
+      }
+    },
+    {
       "query": "path:\"Algorithms\"",
       "color": {
         "a": 1,
@@ -15,108 +50,108 @@
       }
     },
     {
-      "query": "path:\"Career\"  ",
+      "query": "path:\"DSA\"",
       "color": {
         "a": 1,
-        "rgb": 15509759
+        "rgb": 8287925
       }
     },
     {
-      "query": "path:\"Computer Systems\"  ",
+      "query": "path:\"Computer Systems\"",
       "color": {
         "a": 1,
         "rgb": 8037111
       }
     },
     {
-      "query": "path:Archive  ",
+      "query": "path:\"Databases\"",
       "color": {
         "a": 1,
-        "rgb": 10407530
-      }
-    },
-    {
-      "query": "path:\"IOS\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16217742
-      }
-    },
-    {
-      "query": "path:\"Ruby\"",
-      "color": {
-        "a": 1,
-        "rgb": 11150115
-      }
-    },
-    {
-      "query": "path:\"Rust\"",
-      "color": {
-        "a": 1,
-        "rgb": 12477475
-      }
-    },
-    {
-      "query": "path:\"Databases\" ",
-      "color": {
-        "a": 1,
-        "rgb": 7887520
+        "rgb": 10386264
       }
     },
     {
       "query": "path:\"JavaScript\"",
       "color": {
         "a": 1,
-        "rgb": 16626249
-      }
-    },
-    {
-      "query": "path:\"Investments\"",
-      "color": {
-        "a": 1,
-        "rgb": 2804629
-      }
-    },
-    {
-      "query": "path:\"Financial Accounting\"",
-      "color": {
-        "a": 1,
-        "rgb": 3382901
+        "rgb": 14724968
       }
     },
     {
       "query": "path:\"React\"",
       "color": {
         "a": 1,
-        "rgb": 7134708
+        "rgb": 8245247
+      }
+    },
+    {
+      "query": "path:\"Ruby\"",
+      "color": {
+        "a": 1,
+        "rgb": 14371659
+      }
+    },
+    {
+      "query": "path:\"Rust\"",
+      "color": {
+        "a": 1,
+        "rgb": 16752228
+      }
+    },
+    {
+      "query": "path:\"Java\"",
+      "color": {
+        "a": 1,
+        "rgb": 4020641
+      }
+    },
+    {
+      "query": "path:\"iOS\"",
+      "color": {
+        "a": 1,
+        "rgb": 16217742
       }
     },
     {
       "query": "path:\"OOD\"",
       "color": {
         "a": 1,
-        "rgb": 12135725
+        "rgb": 13204651
       }
     },
     {
-      "query": "path:\"Managerial Accounting\"",
+      "query": "path:\"Neovim\"",
       "color": {
         "a": 1,
-        "rgb": 1213021
+        "rgb": 10407530
       }
     },
     {
-      "query": "path: \"Corporate Finance\"",
+      "query": "path:\"Zsh\"",
       "color": {
         "a": 1,
-        "rgb": 5431478
+        "rgb": 10331064
       }
     },
     {
-      "query": "path:\"Behavioral Finance\"",
+      "query": "path:\"Career\"",
       "color": {
         "a": 1,
-        "rgb": 3728763
+        "rgb": 14196966
+      }
+    },
+    {
+      "query": "path:\"Northeastern\"",
+      "color": {
+        "a": 1,
+        "rgb": 13213786
+      }
+    },
+    {
+      "query": "path:\"Archive\"",
+      "color": {
+        "a": 1,
+        "rgb": 6712970
       }
     }
   ],
@@ -130,6 +165,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.22974415251530544,
-  "close": false
+  "scale": 0.30394798555005426,
+  "close": true
 }

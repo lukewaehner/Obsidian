@@ -243,7 +243,15 @@
     "java": 231,
     "meeting": 232,
     "swift": 233,
-    "ios": 234
+    "ios": 234,
+    "archive": 235,
+    "career": 236,
+    "jvm": 237,
+    "object-oriented": 238,
+    "neovim": 239,
+    "vim": 240,
+    "editor": 241,
+    "northeastern": 242
   },
   "_version": 3
 }

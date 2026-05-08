@@ -1,109 +1,82 @@
-
 ---
-Cheat Sheet:
-### Movement
-
-| Keys                | Action                         |
-| ------------------- | ------------------------------ |
-| `h` / `l`           | Left / Right                   |
-| `j` / `k`           | Down / Up                      |
-| `w` / `e`           | Start / End of next word       |
-| `b` / `ge`          | Start / End of previous word   |
-| `{` / `}`           | Paragraph up / down            |
-| `0` / `^`           | Line start / first non-blank   |
-| `$`                 | Line end                       |
-| `gg` / `G`          | File start / end               |
-| `Ctrl-d` / `Ctrl-u` | Half-page down / up            |
-| `Ctrl-o` / `Ctrl-i` | Jump back / forward in history |
-
+tags:
+  - neovim
+  - vim
+  - editor
+type: moc
 ---
+# Neovim
 
-### Searching
+A hyperextensible, Lua-configured fork of Vim. Modal editing plus a real plugin ecosystem, LSP, and Treesitter built in.
 
-| Keys       | Action                              |
-| ---------- | ----------------------------------- |
-| `/pattern` | Search forward                      |
-| `?pattern` | Search backward                     |
-| `n` / `N`  | Next / Previous search result       |
-| `*` / `#`  | Search word under cursor (fwd/back) |
-| `%`        | Jump to matching `()[]{}`           |
-| `s`        | Treesitter flash searching          |
-| `grr`      | Shows LSP referesnces               |
+## Core Vim
 
----
+### Modes & Grammar
+- [[Modes]] — Normal, insert, visual, visual-block, command, terminal
+- [[Motions]] — `w`, `b`, `e`, `f`, `t`, `gg`, `G`, `%`, `{` / `}`
+- [[Operators]] — `d`, `c`, `y`, `>`, `=` composed with motions
+- [[Text Objects]] — `iw`, `ip`, `i"`, `a(`, `it` — the real superpower
+- [[Counts and Repeats]] — `3dw`, `.`, registers, macros (`q`)
 
-### Editing
+### Keybindings
+- [[Keybinds]] — Personal cheat sheet for movement, search, edits, LSP, gitsigns
+- [[Leader Key Mappings]] — `<leader>` conventions and namespaces
 
-|Keys|Action|
-|---|---|
-|`i` / `a`|Insert before / after cursor|
-|`o` / `O`|New line below / above|
-|`x` / `X`|Delete char (forward/back)|
-|`dd` / `yy`|Delete / yank (copy) line|
-|`p` / `P`|Paste after / before|
-|`u` / `Ctrl-r`|Undo / Redo|
-|`.`|Repeat last edit|
+## Configuration
 
----
+- [[Init Lua]] — `init.lua` entry point, structuring `lua/` modules
+- [[Options]] — `vim.opt`, common settings (`number`, `expandtab`, `clipboard`)
+- [[Keymaps]] — `vim.keymap.set`, modes, `desc`, `noremap`/`silent`
+- [[Autocmds]] — `vim.api.nvim_create_autocmd`, augroups, `FileType` events
+- [[Dotfiles]] — Managing config across machines, stow, bare git repo
 
-### Files, Buffers, Splits
+## Plugins
 
-|Keys|Action|
-|---|---|
-|`:e file`|Edit (open) a file|
-|`:w` / `:q`|Save / Quit|
-|`:ls`|List open buffers|
-|`:bnext` / `:bprev`|Switch buffers|
-|`Ctrl-^`|Toggle between last two files|
-|`:sp file` / `:vsp file`|Horizontal / vertical split|
-|`Ctrl-w h/j/k/l`|Move between splits|
-|`:tabnew` / `gt` / `gT`|New / next / prev tab|
+- [[Plugin Management]] — `lazy.nvim` setup, lazy-loading, lockfile
+- [[LSP]] — `nvim-lspconfig`, `mason.nvim`, capabilities, on_attach
+- [[Treesitter]] — `nvim-treesitter`, parsers, highlights, text objects
+- [[Telescope]] — Fuzzy finder for files, buffers, grep, LSP symbols
+- [[Completion]] — `nvim-cmp`, sources, snippets (`LuaSnip`)
+- [[Formatting and Linting]] — `conform.nvim`, `nvim-lint`
+- [[Statusline]] — `lualine.nvim` configuration
+- [[Common Plugins]] — `which-key`, `gitsigns`, `oil.nvim`, `flash.nvim`, `mini.*`
 
----
+## Workflow
 
-### Treesitter
+- [[Buffers Windows Tabs]] — Mental model and navigation
+- [[Registers and Macros]] — Named registers, recording reusable macros
+- [[Search and Replace]] — `/`, `:s`, quickfix list
 
-| Keys  | Actions                   |
-| ----- | ------------------------- |
-| `grr` | shows LSP refrences       |
-| `grn` | Renames all lsp refrences |
-| `gra` | shows fixes               |
-| `gd`  | go to definition          |
-| `grt` | go to type declartion     |
-| `gri` | go to implementaiton      |
+## Quick Reference
 
----
+```lua
+vim.g.mapleader = " "
+vim.opt.number = true
+vim.opt.expandtab = true
 
-### Diagnostics
+vim.keymap.set("n", "<leader>w", ":w<CR>", { desc = "Save file" })
 
-| Keys         | Actions                             |
-| ------------ | ----------------------------------- |
-| `<leader>sd` | Lists all diagnostics               |
-| `<leader>cd` | Opens a window explaining the error |
-| `]d`         | Go to next diagnostic               |
-| `[d`         | Go to previous diagnostic           |
-> Go to / find diagnostic, use `gra` to fix or `<leader>cd` to understand better
+vim.api.nvim_create_autocmd("BufWritePre", {
+  pattern = "*.lua",
+  callback = function() vim.lsp.buf.format() end,
+})
 
----
+-- lazy.nvim plugin spec
+{
+  "nvim-telescope/telescope.nvim",
+  dependencies = { "nvim-lua/plenary.nvim" },
+  keys = { { "<leader>ff", "<cmd>Telescope find_files<cr>" } },
+}
+```
 
-### Formatting
+## Resources
 
-| Keys                       | Actions              |
-| -------------------------- | -------------------- |
-| `<leader>cf`               | Format file / buffer |
-| `<leader>cd` (visual mode) | Formats selections   |
+- [Neovim Docs](https://neovim.io/doc/)
+- `:help` — the real manual, always start here
+- [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim)
+- [LazyVim](https://www.lazyvim.org/) — reference distro
 
----
+## See Also
 
-### Gitsigns
-
-| Keys         | Actions              |
-| ------------ | -------------------- |
-| `]h`         | Next hunk (change)   |
-| `[h`         | previous hunk        |
-| `<leader>hp` | Inspect a change     |
-| `<leader>hs` | stage hunk           |
-| `<leader>hr` | reset hunk           |
-| `<leader>hS` | stage buffer         |
-| `<leader>hR` | rest buffer          |
-| `<leader>hb` | shows blame for line |
+- [[Tools]] — Other dev tooling
+- [[Code]] — Main programming hub

@@ -47,4 +47,4 @@ Add extra features:
 - [x] Add in ApplicationTracker: Check supplemental status for Needs Review 2025-12-18
 - [x] Setup outbound email template to match student meeting notes template
 - [x] Share resources (google docs) from Tasks -> Your Shared Folder on Home Page, overwrite with <Name - Document> on tasks page, stop new overwrites with this
-- [ ] Test Sharing Function 2025-12-29 
+- [x] Test Sharing Function 2025-12-29 ✅ 2026-05-08
