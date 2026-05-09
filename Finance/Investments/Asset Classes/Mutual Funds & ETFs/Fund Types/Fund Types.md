@@ -94,37 +94,12 @@ When choosing a fund, consider:
 
 *Parent: [[Mutual Funds & ETFs]]*
 
-```folder-overview
-id: 33773c07-8e92-4377-b0e4-f65cfcff8888
-folderPath: Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Types
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="33773c07-8e92-4377-b0e4-f65cfcff8888"></span>
-- [[Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Breaking the Buck.md|Breaking the Buck]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Money Market Mutual Funds (MMMFs).md|Money Market Mutual Funds (MMMFs)]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Asset Classes/Mutual Funds & ETFs/Fund Types/Target Date Funds.md|Target Date Funds]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="33773c07-8e92-4377-b0e4-f65cfcff8888"></span>
+%% Begin Waypoint %%
+- **[[Bond Funds]]**
+- **[[Stock Funds]]**
+- [[Breaking the Buck]]
+- [[Fund Types]]
+- [[Money Market Mutual Funds (MMMFs)]]
+- [[Target Date Funds]]
+
+%% End Waypoint %%

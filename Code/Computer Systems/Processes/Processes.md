@@ -83,37 +83,9 @@ Synchronous
 	- Unrecoverable
 	- Illegal instruciton, RAM parity errors
 
-```folder-overview
-id: 8104f2dd-491a-4681-96eb-022558093038
-folderPath: Code/Computer Systems/Processes
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="8104f2dd-491a-4681-96eb-022558093038"></span>
-- [[Code/Computer Systems/Processes/Creating New Processes.md|Creating New Processes]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Processes/File Descriptors.md|File Descriptors]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Processes/File IO.md|File IO]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="8104f2dd-491a-4681-96eb-022558093038"></span>
+%% Begin Waypoint %%
+- [[Creating New Processes]]
+- [[File Descriptors]]
+- [[File IO]]
+
+%% End Waypoint %%

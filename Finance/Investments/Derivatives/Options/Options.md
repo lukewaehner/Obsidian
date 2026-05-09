@@ -299,38 +299,11 @@ Usually better to sell option than exercise early:
 
 *The right, but not the obligation - options provide flexibility and leverage in financial markets*
 
-```folder-overview
-id: 883e9d5d-92ab-41c7-bead-da083a64da8e
-folderPath: Finance/Investments/Derivatives/Options
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="883e9d5d-92ab-41c7-bead-da083a64da8e"></span>
-- [[Finance/Investments/Derivatives/Options/Call Options.md|Call Options]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Derivatives/Options/Option Payoff Calculations.md|Option Payoff Calculations]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Derivatives/Options/Option Terminology.md|Option Terminology]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Derivatives/Options/Put Options.md|Put Options]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="883e9d5d-92ab-41c7-bead-da083a64da8e"></span>
+%% Begin Waypoint %%
+- [[Call Options]]
+- [[Option Payoff Calculations]]
+- [[Option Terminology]]
+- [[Options]]
+- [[Put Options]]
+
+%% End Waypoint %%

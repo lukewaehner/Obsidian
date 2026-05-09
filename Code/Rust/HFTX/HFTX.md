@@ -163,41 +163,13 @@ debug_assert!(!order.symbol.is_empty());
 
 - [[Rust]] — Language reference
 
-```folder-overview
-id: f080c48c-aada-47ec-bc74-e0413e0cf1fe
-folderPath: Code/Rust/HFTX
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="f080c48c-aada-47ec-bc74-e0413e0cf1fe"></span>
-- [[Code/Rust/HFTX/Domain Types.md|Domain Types]] <span class="fv-link-list-item"></span>
-- [[Code/Rust/HFTX/Explanation.md|Explanation]] <span class="fv-link-list-item"></span>
-- [[Code/Rust/HFTX/Invariants.md|Invariants]] <span class="fv-link-list-item"></span>
-- [[Code/Rust/HFTX/Matching Engine.md|Matching Engine]] <span class="fv-link-list-item"></span>
-- [[Code/Rust/HFTX/PriceLevels.md|PriceLevels]] <span class="fv-link-list-item"></span>
-- [[Code/Rust/HFTX/Rest API.md|Rest API]] <span class="fv-link-list-item"></span>
-- [[Code/Rust/HFTX/WebSockets.md|WebSockets]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="f080c48c-aada-47ec-bc74-e0413e0cf1fe"></span>
+%% Begin Waypoint %%
+- [[Domain Types]]
+- [[Explanation]]
+- [[Invariants]]
+- [[Matching Engine]]
+- [[PriceLevels]]
+- [[Rest API]]
+- [[WebSockets]]
+
+%% End Waypoint %%

@@ -159,40 +159,12 @@ As we explore concurrency, we'll cover:
 
 *Managing multiple units of execution - the foundation of modern high-performance systems*
 
-```folder-overview
-id: 14c69bf8-4bfe-4f3e-a233-7cdd19420c38
-folderPath: Code/Computer Systems/Concurrency
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="14c69bf8-4bfe-4f3e-a233-7cdd19420c38"></span>
-- [[Code/Computer Systems/Concurrency/Concurrency vs Parallelism.md|Concurrency vs Parallelism]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Concurrency/Deadlocks.md|Deadlocks]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Concurrency/Mutex Locks.md|Mutex Locks]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Concurrency/Processes vs Threads.md|Processes vs Threads]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Concurrency/Semaphores.md|Semaphores]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Concurrency/Threads.md|Threads]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="14c69bf8-4bfe-4f3e-a233-7cdd19420c38"></span>
+%% Begin Waypoint %%
+- [[Concurrency vs Parallelism]]
+- [[Deadlocks]]
+- [[Mutex Locks]]
+- [[Processes vs Threads]]
+- [[Semaphores]]
+- [[Threads]]
+
+%% End Waypoint %%

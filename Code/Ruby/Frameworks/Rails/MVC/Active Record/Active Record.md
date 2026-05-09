@@ -109,36 +109,8 @@ bin/rails command_here
 - [[Migrations]] — Schema changes and version control
 - [[Validations]] — Model-level data integrity checks
 
-```folder-overview
-id: ad3027b1-a2d1-44fb-90a5-e8f5bc023990
-folderPath: Code/Ruby/Frameworks/Rails/MVC/Active Record
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="ad3027b1-a2d1-44fb-90a5-e8f5bc023990"></span>
-- [[Code/Ruby/Frameworks/Rails/MVC/Active Record/Migrations.md|Migrations]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/MVC/Active Record/Validations.md|Validations]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="ad3027b1-a2d1-44fb-90a5-e8f5bc023990"></span>
+%% Begin Waypoint %%
+- [[Migrations]]
+- [[Validations]]
+
+%% End Waypoint %%

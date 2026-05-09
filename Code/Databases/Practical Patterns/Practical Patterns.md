@@ -235,36 +235,8 @@ END $$;
 - [[Data Modification]] — INSERT ON CONFLICT, RETURNING
 - [[Databases]]
 
-```folder-overview
-id: 2cca3860-ad73-4cc9-938e-b8af2ff498f5
-folderPath: Code/Databases/Practical Patterns
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="2cca3860-ad73-4cc9-938e-b8af2ff498f5"></span>
-- [[Code/Databases/Practical Patterns/Migrations.md|Migrations]] <span class="fv-link-list-item"></span>
-- [[Code/Databases/Practical Patterns/Pagination.md|Pagination]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="2cca3860-ad73-4cc9-938e-b8af2ff498f5"></span>
+%% Begin Waypoint %%
+- [[Migrations]]
+- [[Pagination]]
+
+%% End Waypoint %%

@@ -253,7 +253,10 @@
     "editor": 241,
     "northeastern": 242,
     "zsh": 243,
-    "shell": 244
+    "shell": 244,
+    "lazygit": 245,
+    "git": 246,
+    "a": 247
   },
   "_version": 3
 }

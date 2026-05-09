@@ -63,41 +63,14 @@ See [[Examples Index]] for a comprehensive guide linking examples to concepts.
 
 - [[Code]] — Main programming hub
 
-```folder-overview
-id: 572b8d66-3fcf-4fba-b721-69916fe725a4
-folderPath: Code/OOD
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="572b8d66-3fcf-4fba-b721-69916fe725a4"></span>
-- [[Code/OOD/Command Design Pattern.md|Command Design Pattern]] <span class="fv-link-list-item"></span>
-- [[Code/OOD/Controllers and Mocks.md|Controllers and Mocks]] <span class="fv-link-list-item"></span>
-- [[Code/OOD/Encapsulation and Invariants.md|Encapsulation and Invariants]] <span class="fv-link-list-item"></span>
-- [[Code/OOD/Examples Index.md|Examples Index]] <span class="fv-link-list-item"></span>
-- [[Code/OOD/Intro.md|Intro]] <span class="fv-link-list-item"></span>
-- [[Code/OOD/Java Safari.md|Java Safari]] <span class="fv-link-list-item"></span>
-- [[Code/OOD/Model, View, and Controller.md|Model, View, and Controller]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="572b8d66-3fcf-4fba-b721-69916fe725a4"></span>
+%% Begin Waypoint %%
+- **[[Examples]]**
+- [[Command Design Pattern]]
+- [[Controllers and Mocks]]
+- [[Encapsulation and Invariants]]
+- [[Examples Index]]
+- [[Intro]]
+- [[Java Safari]]
+- [[Model, View, and Controller]]
+
+%% End Waypoint %%

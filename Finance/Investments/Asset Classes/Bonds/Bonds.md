@@ -326,38 +326,10 @@ Bonds are crucial for:
 
 *Fixed-income securities providing predictable cash flows and lower volatility than equities*
 
-```folder-overview
-id: a7641fab-a69f-4a6e-a01c-31596de0bc7a
-folderPath: Finance/Investments/Asset Classes/Bonds
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="a7641fab-a69f-4a6e-a01c-31596de0bc7a"></span>
-- [[Finance/Investments/Asset Classes/Bonds/Bond Basics.md|Bond Basics]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Asset Classes/Bonds/Bond Pricing.md|Bond Pricing]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Asset Classes/Bonds/Interest Rate Risk.md|Interest Rate Risk]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Asset Classes/Bonds/Yield to Maturity (YTM).md|Yield to Maturity (YTM)]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="a7641fab-a69f-4a6e-a01c-31596de0bc7a"></span>
+%% Begin Waypoint %%
+- [[Bond Basics]]
+- [[Bond Pricing]]
+- [[Interest Rate Risk]]
+- [[Yield to Maturity (YTM)]]
+
+%% End Waypoint %%

@@ -80,34 +80,7 @@ WHERE R.a < U.a
 
 Returns pairs where R.a is less than U.a.
 
-```folder-overview
-id: c9ea63f0-6409-44fe-93bf-263bff3d322b
-folderPath: Code/Databases/Set Operations
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="c9ea63f0-6409-44fe-93bf-263bff3d322b"></span>
-<span class="fv-link-list-end" id="c9ea63f0-6409-44fe-93bf-263bff3d322b"></span>
+%% Begin Waypoint %%
+
+
+%% End Waypoint %%

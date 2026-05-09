@@ -1,9 +1,3 @@
-[[Creating Variables]]
-[[Assign Attributes]]
-[[Setting Constraints]]
-[[Examples]]
-[[Button Action]]
-[[Passing Data]]
 
 ---
 ### Full Code Example
@@ -124,40 +118,12 @@ class ViewController: UIViewController {
 }
 ```
 
-```folder-overview
-id: e2e3b324-f8a1-4439-8f15-242248b5ba1a
-folderPath: Code/iOS/Writing UI
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="e2e3b324-f8a1-4439-8f15-242248b5ba1a"></span>
-- [[Code/iOS/Writing UI/Assign Attributes.md|Assign Attributes]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Writing UI/Button Action.md|Button Action]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Writing UI/Creating Variables.md|Creating Variables]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Writing UI/Examples.md|Examples]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Writing UI/Passing Data.md|Passing Data]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Writing UI/Setting Constraints.md|Setting Constraints]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="e2e3b324-f8a1-4439-8f15-242248b5ba1a"></span>
+%% Begin Waypoint %%
+- [[Assign Attributes]]
+- [[Button Action]]
+- [[Creating Variables]]
+- [[Code/iOS/Writing UI/Examples]]
+- [[Passing Data]]
+- [[Setting Constraints]]
+
+%% End Waypoint %%

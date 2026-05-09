@@ -41,38 +41,10 @@ Examples:
 
 - [[Sharpe Ratio]]
 
-```folder-overview
-id: fb1ccaeb-9e71-4d5b-8e8c-43b0ec661695
-folderPath: Finance/Investments/Capital Allocation
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="fb1ccaeb-9e71-4d5b-8e8c-43b0ec661695"></span>
-- [[Finance/Investments/Capital Allocation/Capital Market Line.md|Capital Market Line]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Capital Allocation/Complete Portfolio.md|Complete Portfolio]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Capital Allocation/Indifference Curve.md|Indifference Curve]] <span class="fv-link-list-item"></span>
-- [[Finance/Investments/Capital Allocation/Utility Function.md|Utility Function]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="fb1ccaeb-9e71-4d5b-8e8c-43b0ec661695"></span>
+%% Begin Waypoint %%
+- [[Capital Market Line]]
+- [[Complete Portfolio]]
+- [[Indifference Curve]]
+- [[Utility Function]]
+
+%% End Waypoint %%

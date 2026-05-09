@@ -35,34 +35,20 @@
 
 - [[Financial Analysis]]
 
-```folder-overview
-id: c8c34903-fbe9-44f3-a9f3-97a62d0661d8
-folderPath: Finance/Financial Accounting
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="c8c34903-fbe9-44f3-a9f3-97a62d0661d8"></span>
-<span class="fv-link-list-end" id="c8c34903-fbe9-44f3-a9f3-97a62d0661d8"></span>
+%% Begin Waypoint %%
+- **[[Accounting Fundamentals]]**
+- **[[Accounts Receivable]]**
+- **[[Adjusting Entries]]**
+- **[[Balance Sheet]]**
+- **[[Closing the Books]]**
+- **[[Debits and Credits]]**
+- **[[Financial Analysis]]**
+- **[[Income Statement]]**
+- **[[Inventory]]**
+- **[[Liabilities]]**
+- **[[Plant, Property, and Equipment]]**
+- **[[Statement of Cash Flows]]**
+- **[[Stockholders Equity]]**
+- **[[The Accounting Equation]]**
+
+%% End Waypoint %%

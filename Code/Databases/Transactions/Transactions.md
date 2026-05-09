@@ -146,36 +146,8 @@ end
 - [[Locking]] — Row and table locks inside transactions
 - [[Databases]]
 
-```folder-overview
-id: fe549adc-5b0d-47c1-b448-bc9ca08e4cc8
-folderPath: Code/Databases/Transactions
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="fe549adc-5b0d-47c1-b448-bc9ca08e4cc8"></span>
-- [[Code/Databases/Transactions/Isolation Levels.md|Isolation Levels]] <span class="fv-link-list-item"></span>
-- [[Code/Databases/Transactions/Locking.md|Locking]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="fe549adc-5b0d-47c1-b448-bc9ca08e4cc8"></span>
+%% Begin Waypoint %%
+- [[Isolation Levels]]
+- [[Locking]]
+
+%% End Waypoint %%

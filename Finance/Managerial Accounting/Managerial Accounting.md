@@ -240,49 +240,22 @@ How accounting systems affect people
 **Course Number**: Managerial Accounting
 **Topics**: Cost Accounting, Budgeting, Decision Analysis, Performance Evaluation
 
-```folder-overview
-id: 83b280a1-ae35-4cda-ac4f-8f218ab55198
-folderPath: Finance/Managerial Accounting
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="83b280a1-ae35-4cda-ac4f-8f218ab55198"></span>
-- [[Finance/Managerial Accounting/Activity-Based Costing.md|Activity-Based Costing]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Balance Sheet Equation.md|Balance Sheet Equation]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Budgeting.md|Budgeting]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Cost Behavior Patterns.md|Cost Behavior Patterns]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Cost Flows.md|Cost Flows]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Cost-Volume-Profit Analysis.md|Cost-Volume-Profit Analysis]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Direct vs Indirect Costs.md|Direct vs Indirect Costs]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Income Statement Components.md|Income Statement Components]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Overhead Application.md|Overhead Application]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Performance Evaluation.md|Performance Evaluation]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Product Costing.md|Product Costing]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Product vs Period Costs.md|Product vs Period Costs]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Relevant Costs.md|Relevant Costs]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Responsibility Accounting.md|Responsibility Accounting]] <span class="fv-link-list-item"></span>
-- [[Finance/Managerial Accounting/Types of Inventory.md|Types of Inventory]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="83b280a1-ae35-4cda-ac4f-8f218ab55198"></span>
+%% Begin Waypoint %%
+- [[Activity-Based Costing]]
+- [[Balance Sheet Equation]]
+- [[Budgeting]]
+- [[Cost Behavior Patterns]]
+- [[Cost Flows]]
+- [[Cost-Volume-Profit Analysis]]
+- [[Direct vs Indirect Costs]]
+- [[Income Statement Components]]
+- [[Managerial Accounting]]
+- [[Overhead Application]]
+- [[Performance Evaluation]]
+- [[Product Costing]]
+- [[Product vs Period Costs]]
+- [[Relevant Costs]]
+- [[Responsibility Accounting]]
+- [[Types of Inventory]]
+
+%% End Waypoint %%

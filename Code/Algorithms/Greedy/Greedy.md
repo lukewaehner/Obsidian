@@ -45,39 +45,11 @@ Greedy algorithms build solutions by making locally optimal choices at each step
 
 *Part of: [[Algorithms]]*
 
-```folder-overview
-id: 85a0aa67-ecc4-4736-9569-3d7784ad3518
-folderPath: Code/Algorithms/Greedy
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="85a0aa67-ecc4-4736-9569-3d7784ad3518"></span>
-- [[Code/Algorithms/Greedy/Earliest Finish Time Rule.md|Earliest Finish Time Rule]] <span class="fv-link-list-item"></span>
-- [[Code/Algorithms/Greedy/Greedy Algorithm Pattern.md|Greedy Algorithm Pattern]] <span class="fv-link-list-item"></span>
-- [[Code/Algorithms/Greedy/Greedy Stays Ahead Proof Technique.md|Greedy Stays Ahead Proof Technique]] <span class="fv-link-list-item"></span>
-- [[Code/Algorithms/Greedy/Greedy vs Dynamic Programming.md|Greedy vs Dynamic Programming]] <span class="fv-link-list-item"></span>
-- [[Code/Algorithms/Greedy/Interval Scheduling Problem.md|Interval Scheduling Problem]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="85a0aa67-ecc4-4736-9569-3d7784ad3518"></span>
+%% Begin Waypoint %%
+- [[Earliest Finish Time Rule]]
+- [[Greedy Algorithm Pattern]]
+- [[Greedy Stays Ahead Proof Technique]]
+- [[Greedy vs Dynamic Programming]]
+- [[Interval Scheduling Problem]]
+
+%% End Waypoint %%

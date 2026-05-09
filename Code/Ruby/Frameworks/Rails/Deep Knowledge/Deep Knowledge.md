@@ -32,3 +32,10 @@ Understanding Rails internals helps you debug issues, configure your application
 
 - [[Rails]]
 - [[Ruby]]
+
+%% Begin Waypoint %%
+- [[Binstubs]]
+- [[Boot Process]]
+- [[Development Mode]]
+
+%% End Waypoint %%

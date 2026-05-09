@@ -122,34 +122,7 @@ extension Notificaiton.Name {
 
 With the extension, we can use `.textFromSecondScreen` instead of `Notification.Name("textFromSecondScreen")`
 
-```folder-overview
-id: bfb5cfc4-ef39-436d-a3ff-56547a030e3f
-folderPath: Code/iOS/Creating Applications/Notification Center
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="bfb5cfc4-ef39-436d-a3ff-56547a030e3f"></span>
-<span class="fv-link-list-end" id="bfb5cfc4-ef39-436d-a3ff-56547a030e3f"></span>
+%% Begin Waypoint %%
+
+
+%% End Waypoint %%

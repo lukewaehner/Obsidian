@@ -58,54 +58,26 @@ See: [[Allocation Strategies]] for overview
 
 *Based on: Operating Systems: Three Easy Pieces, Chapter 17*
 
-```folder-overview
-id: f787feb6-c51b-4a22-a085-62f3ed398d4f
-folderPath: Code/Computer Systems/Memory Virtualization
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="f787feb6-c51b-4a22-a085-62f3ed398d4f"></span>
-- [[Code/Computer Systems/Memory Virtualization/Allocation Strategies.md|Allocation Strategies]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Best Fit.md|Best Fit]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Buddy Allocation.md|Buddy Allocation]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Coalescing.md|Coalescing]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/External Fragmentation.md|External Fragmentation]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/First Fit.md|First Fit]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Free List.md|Free List]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Growing the Heap.md|Growing the Heap]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Headers and Metadata.md|Headers and Metadata]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Internal Fragmentation.md|Internal Fragmentation]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Memory Protection.md|Memory Protection]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Next Fit.md|Next Fit]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Page Tables.md|Page Tables]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Paging.md|Paging]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Segregated Lists.md|Segregated Lists]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Shared Memory.md|Shared Memory]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Slab Allocator.md|Slab Allocator]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Splitting.md|Splitting]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Virtual Address Translation.md|Virtual Address Translation]] <span class="fv-link-list-item"></span>
-- [[Code/Computer Systems/Memory Virtualization/Worst Fit.md|Worst Fit]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="f787feb6-c51b-4a22-a085-62f3ed398d4f"></span>
+%% Begin Waypoint %%
+- [[Allocation Strategies]]
+- [[Best Fit]]
+- [[Buddy Allocation]]
+- [[Coalescing]]
+- [[External Fragmentation]]
+- [[First Fit]]
+- [[Free List]]
+- [[Growing the Heap]]
+- [[Headers and Metadata]]
+- [[Internal Fragmentation]]
+- [[Memory Protection]]
+- [[Next Fit]]
+- [[Page Tables]]
+- [[Paging]]
+- [[Segregated Lists]]
+- [[Shared Memory]]
+- [[Slab Allocator]]
+- [[Splitting]]
+- [[Virtual Address Translation]]
+- [[Worst Fit]]
+
+%% End Waypoint %%

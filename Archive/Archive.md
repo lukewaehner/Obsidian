@@ -13,3 +13,8 @@ Currently empty — past coursework and reference materials will land here as to
 ## See Also
 
 - [[Home]]
+
+%% Begin Waypoint %%
+
+
+%% End Waypoint %%

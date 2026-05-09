@@ -112,42 +112,17 @@ bin/rails routes          # List all routes
 
 - [[Ruby]]
 
-```folder-overview
-id: 6b68b433-c2b5-48c4-85c2-54858b79b27c
-folderPath: Code/Ruby/Frameworks/Rails
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="6b68b433-c2b5-48c4-85c2-54858b79b27c"></span>
-- [[Code/Ruby/Frameworks/Rails/Bundler.md|Bundler]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/Console Configuration.md|Console Configuration]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/Creating a New Application.md|Creating a New Application]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/Gemfile.md|Gemfile]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/Gemfile Lock.md|Gemfile Lock]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/Haml Setup.md|Haml Setup]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/RSpec Setup.md|RSpec Setup]] <span class="fv-link-list-item"></span>
-- [[Code/Ruby/Frameworks/Rails/Zeitwerk Autoloading.md|Zeitwerk Autoloading]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="6b68b433-c2b5-48c4-85c2-54858b79b27c"></span>
+%% Begin Waypoint %%
+- **[[Deep Knowledge]]**
+- **[[MVC]]**
+- **[[The Web]]**
+- [[Bundler]]
+- [[Console Configuration]]
+- [[Creating a New Application]]
+- [[Gemfile Lock]]
+- [[Gemfile]]
+- [[Haml Setup]]
+- [[RSpec Setup]]
+- [[Zeitwerk Autoloading]]
+
+%% End Waypoint %%

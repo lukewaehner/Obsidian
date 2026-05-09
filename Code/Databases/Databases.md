@@ -52,35 +52,23 @@ Relational databases, SQL queries, database design, and production patterns.
 - [[Keys and Constraints]] — primary keys, foreign keys, other constraints
 - [[Entity-Relationship Diagrams]] — ERD components, relationships, cardinality
 
-```folder-overview
-id: 6d632e96-976e-4c57-852a-3b51468fd3bf
-folderPath: Code/Databases
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="6d632e96-976e-4c57-852a-3b51468fd3bf"></span>
-- [[Code/Databases/Date and Time.md|Date and Time]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="6d632e96-976e-4c57-852a-3b51468fd3bf"></span>
+%% Begin Waypoint %%
+- **[[Aggregation]]**
+- **[[Data Modification]]**
+- **[[Database Schemas]]**
+- **[[Entity-Relationship Diagrams]]**
+- **[[Filtering and Ordering]]**
+- **[[Indexes]]**
+- **[[Joins]]**
+- **[[Keys and Constraints]]**
+- **[[NULL Values]]**
+- **[[Practical Patterns]]**
+- **[[Recursion in SQL]]**
+- **[[Set Operations]]**
+- **[[SQL Basics]]**
+- **[[Subqueries]]**
+- **[[Transactions]]**
+- **[[Window Functions]]**
+- [[Date and Time]]
+
+%% End Waypoint %%

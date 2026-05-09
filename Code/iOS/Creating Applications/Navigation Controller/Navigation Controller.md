@@ -49,37 +49,11 @@ override func viewDidLoad() {
 
 ---
 
-```folder-overview
-id: a9b1cb5d-ce8a-426f-8fb1-f73f862e4561
-folderPath: Code/iOS/Creating Applications/Navigation Controller
-title: "{{folderName}} overview"
-showTitle: false
-depth: 1
-includeTypes:
-  - folder
-  - markdown
-style: list
-disableFileTag: false
-sortBy: name
-sortByAsc: true
-showEmptyFolders: false
-onlyIncludeSubfolders: false
-storeFolderCondition: true
-showFolderNotes: false
-disableCollapseIcon: true
-alwaysCollapse: false
-autoSync: true
-allowDragAndDrop: true
-hideLinkList: true
-hideFolderOverview: false
-useActualLinks: true
-fmtpIntegration: false
-titleSize: 1
-isInCallout: false
-useWikilinks: true
-```
-<span class="fv-link-list-start" id="a9b1cb5d-ce8a-426f-8fb1-f73f862e4561"></span>
-- [[Code/iOS/Creating Applications/Navigation Controller/Adding Another Page.md|Adding Another Page]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Creating Applications/Navigation Controller/Adding Elements On Another Screen.md|Adding Elements On Another Screen]] <span class="fv-link-list-item"></span>
-- [[Code/iOS/Creating Applications/Navigation Controller/Embed Navigation Controller form Code.md|Embed Navigation Controller form Code]] <span class="fv-link-list-item"></span>
-<span class="fv-link-list-end" id="a9b1cb5d-ce8a-426f-8fb1-f73f862e4561"></span>
+%% Begin Waypoint %%
+- **[[Multi Screen Handling]]**
+- [[Adding Another Page]]
+- [[Adding Elements On Another Screen]]
+- [[Embed Navigation Controller form Code]]
+- [[Navigation Controller]]
+
+%% End Waypoint %%
