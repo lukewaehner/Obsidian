@@ -24,12 +24,12 @@ Goal: know where you are and how to get help without panicking.
 
 ### Tasks
 
-- [ ] **1.1** Open lazygit (`lg`) in any repo. Press `1`, `2`, `3`, `4`, `5` and identify each panel by name.
+- [x] **1.1** Open lazygit (`lg`) in any repo. Press `1`, `2`, `3`, `4`, `5` and identify each panel by name. ✅ 2026-05-11
 ```
 expected: panel header changes (Status / Files / Local Branches / Commits / Stash)
 ```
 
-- [ ] **1.2** Press `?` from each panel and skim the help. Close it with `esc`.
+- [x] **1.2** Press `?` from each panel and skim the help. Close it with `esc`. ✅ 2026-05-11
 ```
 expected: keybindings listed are scoped to the active panel
 ```
@@ -39,7 +39,7 @@ expected: keybindings listed are scoped to the active panel
 expected: raw `git status` output appears in the main view
 ```
 
-- [ ] **1.4** Quit with `q`.
+- [x] **1.4** Quit with `q`. ✅ 2026-05-11
 
 ---
 

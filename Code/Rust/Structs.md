@@ -121,7 +121,7 @@ struct Order {
 
 let order = Order { id: 1, symbol: "AAPL".into(), qty: 100 };
 println!("{:?}", order);  // Debug output
-let copy = order.clone();
+let copy = order.clone(); // Clone access
 assert_eq!(order, copy);  // PartialEq comparison
 ```
 

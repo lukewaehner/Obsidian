@@ -18,13 +18,13 @@ Read: [[Cargo]] → [[Structs]] → [[Implementation]] → [[Derives]] → [[Enu
 
 ### Tasks
 
-- [ ] **1.1** Define a `Point` struct with `x: f64, y: f64`. Implement a method `distance_from_origin` that returns the Euclidean distance.
+- [x] **1.1** Define a `Point` struct with `x: f64, y: f64`. Implement a method `distance_from_origin` that returns the Euclidean distance. ✅ 2026-05-11
 ```
 input:  Point { x: 3.0, y: 4.0 }
 output: 5.0
 ```
 
-- [ ] **1.2** Create a `Shape` enum with `Circle(f64)` and `Rectangle(f64, f64)`. Implement an `area` method.
+- [x] **1.2** Create a `Shape` enum with `Circle(f64)` and `Rectangle(f64, f64)`. Implement an `area` method. ✅ 2026-05-11
 ```
 input:  Shape::Circle(3.0)
 output: 28.274...
@@ -33,7 +33,7 @@ input:  Shape::Rectangle(4.0, 5.0)
 output: 20.0
 ```
 
-- [ ] **1.3** Derive `Debug` and `PartialEq` on both types. Write assertions comparing two `Point` values and print a `Shape` with `{:?}`.
+- [x] **1.3** Derive `Debug` and `PartialEq` on both types. Write assertions comparing two `Point` values and print a `Shape` with `{:?}`. ✅ 2026-05-11
 ```
 input:  Point { x: 1.0, y: 1.0 } == Point { x: 1.0, y: 1.0 }
 output: true
