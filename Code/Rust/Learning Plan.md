@@ -47,19 +47,19 @@ Read: [[Copying]] → [[Borrowing]] → [[Memory Types]] → [[Lifetimes]]
 
 ### Tasks
 
-- [ ] **2.1** Write a function `count_vowels(s: &str) -> usize` that counts vowels without taking ownership.
+- [x] **2.1** Write a function `count_vowels(s: &str) -> usize` that counts vowels without taking ownership. ✅ 2026-05-11
 ```
 input:  "hello world"
 output: 3
 ```
 
-- [ ] **2.2** Write a function `first_word(s: &str) -> &str` that returns a slice of the first word.
+- [x] **2.2** Write a function `first_word(s: &str) -> &str` that returns a slice of the first word. ✅ 2026-05-11
 ```
 input:  "hello world"
 output: "hello"
 ```
 
-- [ ] **2.3** Write a function `longest<'a>(a: &'a str, b: &'a str) -> &'a str` that returns the longer string with an explicit lifetime.
+- [x] **2.3** Write a function `longest<'a>(a: &'a str, b: &'a str) -> &'a str` that returns the longer string with an explicit lifetime. ✅ 2026-05-11
 ```
 input:  "short", "longer string"
 output: "longer string"
@@ -73,19 +73,19 @@ Read: [[Traits]] → [[Generics]] → [[Closures]] → [[Derives]]
 
 ### Tasks
 
-- [ ] **3.1** Define a `Summary` trait with `fn summarize(&self) -> String`. Implement it on two different structs.
+- [x] **3.1** Define a `Summary` trait with `fn summarize(&self) -> String`. Implement it on two different structs. ✅ 2026-05-12
 ```
 input:  Article { title: "Rust", author: "Steve" }.summarize()
 output: "Rust, by Steve"
 ```
 
-- [ ] **3.2** Write a generic function `largest<T: PartialOrd>(list: &[T]) -> &T`.
+- [x] **3.2** Write a generic function `largest<T: PartialOrd>(list: &[T]) -> &T`. ✅ 2026-05-12
 ```
 input:  [34, 50, 25, 100, 65]
 output: &100
 ```
 
-- [ ] **3.3** Write a function `apply_twice<F: Fn(i32) -> i32>(f: F, x: i32) -> i32`.
+- [x] **3.3** Write a function `apply_twice<F: Fn(i32) -> i32>(f: F, x: i32) -> i32`. ✅ 2026-05-12
 ```
 input:  |x| x + 3,  7
 output: 13
