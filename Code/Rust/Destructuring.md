@@ -91,6 +91,55 @@ struct Line { start: Point, end: Point }
 let Line { start: Point { x: x1, y: y1 }, end: Point { x: x2, y: y2 } } = line;
 ```
 
+### Grabbing both layers
+```rust
+ #[derive(Debug)]
+  struct Point {
+      x: f64,
+      y: f64,
+  }
+
+  #[derive(Debug)]
+  struct Line {
+      start: Point,
+      end: Point,
+  }
+
+  fn main() {
+      let line = Line {
+          start: Point { x: 0.0, y: 0.0 },
+          end:   Point { x: 3.0, y: 4.0 },
+      };
+
+      // `start @ Point { ... }` binds the
+   whole Point *and* destructures it.
+      // Because we destructure `&line`,
+  every binding is a reference:
+      //   start, end : &Point
+      //   x1, y1, x2, y2 : &f64
+      let Line {
+          start: start @ Point { x: x1, y:
+   y1 },
+          end:   end   @ Point { x: x2, y:
+   y2 },
+      } = &line;
+
+      let dx = x2 - x1;
+      let dy = y2 - y1;
+      let length = (dx * dx + dy *
+  dy).sqrt();
+
+      println!("start: {:?}", start);
+      println!("end:   {:?}", end);
+      println!("({x1}, {y1}) -> ({x2},
+  {y2}), length = {length}");
+
+      // line is untouched
+      println!("{:?}", line);
+  }
+
+```
+
 ## Enums
 
 ```rust
@@ -138,7 +187,7 @@ fn get_text(msg: Message) -> String {
 Destructuring through references — the `&` must mirror the pattern:
 
 ```rust
-let points = vec![Point { x: 1, y: 2 }];
+let points = vec![Point { x: 1, y: 2 }, Point { x: 2, y: 3}];
 
 // &Point comes from iter(), match with &
 for &Point { x, y } in &points { }

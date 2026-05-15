@@ -34,7 +34,7 @@ expected: panel header changes (Status / Files / Local Branches / Commits / Stas
 expected: keybindings listed are scoped to the active panel
 ```
 
-- [ ] **1.3** Open the command-line popup with `:`, type `status`, hit enter.
+- [x] **1.3** Open the command-line popup with `:`, type `status`, hit enter. ✅ 2026-05-14
 ```
 expected: raw `git status` output appears in the main view
 ```

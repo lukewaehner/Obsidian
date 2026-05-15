@@ -17,5 +17,6 @@
   "obsidian-git",
   "code-styler",
   "codeblock-runner",
-  "waypoint"
+  "waypoint",
+  "obsidian-vimrc-support"
 ]

@@ -99,13 +99,13 @@ Read: [[Pattern Matching]] → [[Destructuring]] → [[Slices]]
 
 ### Tasks
 
-- [ ] **4.1** Given a `Vec<Option<i32>>`, collect only the `Some` values into a new `Vec<i32>` using pattern matching in a loop.
+- [x] **4.1** Given a `Vec<Option<i32>>`, collect only the `Some` values into a new `Vec<i32>` using pattern matching in a loop. ✅ 2026-05-14
 ```
 input:  [Some(1), None, Some(3), None, Some(5)]
 output: [1, 3, 5]
 ```
 
-- [ ] **4.2** Destructure an array of pairs into two separate vecs of keys and values using `unzip`.
+- [x] **4.2** Destructure an array of pairs into two separate vecs of keys and values using `unzip`. ✅ 2026-05-14
 ```
 input:  [(1, "one"), (2, "two"), (3, "three")]
 output: keys=[1,2,3]  values=["one","two","three"]
