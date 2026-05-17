@@ -128,13 +128,13 @@ Read: [[Result & Option]] → [[Error Handling Patterns]]
 
 ### Tasks
 
-- [ ] **5.1** Write `parse_all(inputs: &[&str]) -> Vec<i32>` that silently skips unparseable strings.
+- [x] **5.1** Write `parse_all(inputs: &[&str]) -> Vec<i32>` that silently skips unparseable strings. ✅ 2026-05-16
 ```
 input:  ["1", "two", "3", "four", "5"]
 output: [1, 3, 5]
 ```
 
-- [ ] **5.2** Write `parse_strict(inputs: &[&str]) -> Result<Vec<i32>, String>` that returns `Err` on the first failure, including the bad value in the message.
+- [x] **5.2** Write `parse_strict(inputs: &[&str]) -> Result<Vec<i32>, String>` that returns `Err` on the first failure, including the bad value in the message.
 ```
 input:  ["1", "2", "bad"]
 output: Err("could not parse: \"bad\"")
