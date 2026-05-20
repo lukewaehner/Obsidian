@@ -111,7 +111,7 @@ input:  [(1, "one"), (2, "two"), (3, "three")]
 output: keys=[1,2,3]  values=["one","two","three"]
 ```
 
-- [ ] **4.3** Use a slice pattern to write a recursive function `head_tail(s: &[i32]) -> Option<(i32, &[i32])>`.
+- [x] **4.3** Use a slice pattern to write a recursive function `head_tail(s: &[i32]) -> Option<(i32, &[i32])>`. ✅ 2026-05-18
 ```
 input:  [10, 20, 30]
 output: Some((10, [20, 30]))
@@ -140,7 +140,7 @@ input:  ["1", "2", "bad"]
 output: Err("could not parse: \"bad\"")
 ```
 
-- [ ] **5.3** Define a custom error enum `AppError` with `Parse(String)` and `OutOfRange(i32)` variants. Write `validated_parse(s: &str) -> Result<i32, AppError>` that errors if the number is outside 1–100.
+- [x] **5.3** Define a custom error enum `AppError` with `Parse(String)` and `OutOfRange(i32)` variants. Write `validated_parse(s: &str) -> Result<i32, AppError>` that errors if the number is outside 1–100. ✅ 2026-05-19
 ```
 input:  "42"   → Ok(42)
 input:  "abc"  → Err(AppError::Parse("abc"))
