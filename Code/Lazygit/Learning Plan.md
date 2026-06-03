@@ -49,12 +49,12 @@ Goal: replace `git add` / `git commit` / `git push` with lazygit.
 
 ### Tasks
 
-- [ ] **2.1** Edit two files. In Files panel (`2`), use `space` to stage one and leave the other unstaged.
+- [x] **2.1** Edit two files. In Files panel (`2`), use `space` to stage one and leave the other unstaged. ✅ 2026-06-02
 ```
 expected: green = staged, red = unstaged. Status panel shows "1 file staged"
 ```
 
-- [ ] **2.2** Stage everything with `a`, then unstage everything with `a` again (toggle).
+- [x] **2.2** Stage everything with `a`, then unstage everything with `a` again (toggle). ✅ 2026-06-02
 
 - [ ] **2.3** Press `c` to commit. Type a message, hit enter.
 ```
