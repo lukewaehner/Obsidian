@@ -155,25 +155,25 @@ Read: [[Collections]] → [[Iterators]] → [[Slices]] → [[Strings]]
 
 ### Tasks
 
-- [ ] **6.1** Given a `Vec<i32>`, compute the sum using iterator `fold` (recursive accumulation).
+- [x] **6.1** Given a `Vec<i32>`, compute the sum using iterator `fold` (recursive accumulation). ✅ 2026-05-26
 ```
 input:  [1, 2, 3]
 output: 6
 ```
 
-- [ ] **6.2** Partition a `Vec<i32>` into evens and odds in one pass.
+- [x] **6.2** Partition a `Vec<i32>` into evens and odds in one pass.
 ```
 input:  [1, 2, 3, 4, 5, 6]
 output: evens=[2,4,6]  odds=[1,3,5]
 ```
 
-- [ ] **6.3** Find the most frequent element in a `Vec<i32>` using a `HashMap`.
+- [x] **6.3** Find the most frequent element in a `Vec<i32>` using a `HashMap`. ✅ 2026-05-28
 ```
 input:  [1, 3, 2, 3, 1, 3]
 output: 3
 ```
 
-- [ ] **6.4** Given a sentence, return a `HashMap<char, usize>` of character frequencies (ignore spaces).
+- [x] **6.4** Given a sentence, return a `HashMap<char, usize>` of character frequencies (ignore spaces). ✅ 2026-05-28
 ```
 input:  "hello world"
 output: {'l': 3, 'o': 2, 'h': 1, 'e': 1, 'w': 1, 'r': 1, 'd': 1}
@@ -187,13 +187,13 @@ Read: [[Modules]] → [[Testing]] → [[Logging]]
 
 ### Tasks
 
-- [ ] **7.1** Move your `Shape` and `Point` types from Stage 1 into a `geometry` module. Make the types and methods `pub`. Call them from `main`.
+- [x] **7.1** Move your `Shape` and `Point` types from Stage 1 into a `geometry` module. Make the types and methods `pub`. Call them from `main`. ✅ 2026-05-29
 ```
 // Before: Shape::Circle(3.0)
 // After: geometry::Shape::Circle(3.0)
 ```
 
-- [ ] **7.2** Write unit tests for `parse_strict` and `validated_parse` from Stage 5 — test both the `Ok` and `Err` paths.
+- [x] **7.2** Write unit tests for `parse_strict` and `validated_parse` from Stage 5 — test both the `Ok` and `Err` paths. ✅ 2026-05-29
 ```
 #[test] fn rejects_out_of_range()
 #[test] fn accepts_valid_input()
