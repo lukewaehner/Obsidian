@@ -213,7 +213,7 @@ input:  owner_a pushes 1, owner_b pushes 2
 output: shared vec = [1, 2]
 ```
 
-- [ ] **8.2** Spawn 4 threads that each push their thread index into a shared `Arc<Mutex<Vec<usize>>>`. Collect and sort the result.
+- [x] **8.2** Spawn 4 threads that each push their thread index into a shared `Arc<Mutex<Vec<usize>>>`. Collect and sort the result. ✅ 2026-06-06
 ```
 output: [0, 1, 2, 3]
 ```
