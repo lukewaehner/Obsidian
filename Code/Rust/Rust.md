@@ -58,7 +58,7 @@ A systems programming language focused on safety, speed, and concurrency.
 
 ## Learning
 
-- [[Learning Plan]] — Structured exercises with expected inputs and outputs
+- [[Learning Plan Rust]] — Structured exercises with expected inputs and outputs
 
 ## Projects
 
@@ -134,7 +134,7 @@ vec.iter().map(|x| x * 2).collect()
 - [[Generics]]
 - [[Implementation]]
 - [[Iterators]]
-- [[Learning Plan]]
+- [[Learning Plan Rust]]
 - [[Lifetimes]]
 - [[Logging]]
 - [[Macros]]
@@ -144,6 +144,7 @@ vec.iter().map(|x| x * 2).collect()
 - [[Pin and Unpin]]
 - [[Projects]]
 - [[Result & Option]]
+- [[Rust]]
 - [[Send and Sync]]
 - [[Slices]]
 - [[Smart Pointers]]

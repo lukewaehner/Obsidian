@@ -56,16 +56,16 @@ expected: green = staged, red = unstaged. Status panel shows "1 file staged"
 
 - [x] **2.2** Stage everything with `a`, then unstage everything with `a` again (toggle). ✅ 2026-06-02
 
-- [ ] **2.3** Press `c` to commit. Type a message, hit enter.
+- [x] **2.3** Press `c` to commit. Type a message, hit enter. ✅ 2026-06-05
 ```
 expected: commit appears at top of Commits panel (4)
 ```
 
-- [ ] **2.4** Press `C` instead of `c` to open `$EDITOR` for a multi-line commit body.
+- [x] **2.4** Press `C` instead of `c` to open `$EDITOR` for a multi-line commit body. ✅ 2026-06-05
 
-- [ ] **2.5** Make a small change, then `A` to amend the previous commit (no new commit created).
+- [x] **2.5** Make a small change, then `A` to amend the previous commit (no new commit created). ✅ 2026-06-05
 
-- [ ] **2.6** Push with `P`. Pull with `p`.
+- [x] **2.6** Push with `P`. Pull with `p`. ✅ 2026-06-05
 
 ---
 

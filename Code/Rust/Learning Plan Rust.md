@@ -207,7 +207,7 @@ Read: [[Smart Pointers]] → [[Concurrency]]
 
 ### Tasks
 
-- [ ] **8.1** Use `Rc<RefCell<Vec<i32>>>` to share a vec between two owners and push to it from both.
+- [x] **8.1** Use `Rc<RefCell<Vec<i32>>>` to share a vec between two owners and push to it from both. ✅ 2026-06-05
 ```
 input:  owner_a pushes 1, owner_b pushes 2
 output: shared vec = [1, 2]
