@@ -226,9 +226,9 @@ Read: [[Async Await]]
 
 ### Tasks
 
-- [ ] **9.1** Write an async function `fetch_len(url: &str) -> usize` using `reqwest` that returns the byte length of a response body. Call it with `tokio::main`.
+- [x] **9.1** Write an async function `fetch_len(url: &str) -> usize` using `reqwest` that returns the byte length of a response body. Call it with `tokio::main`. ✅ 2026-06-06
 
-- [ ] **9.2** Run two async tasks concurrently with `tokio::join!` and return both results as a tuple.
+- [x] **9.2** Run two async tasks concurrently with `tokio::join!` and return both results as a tuple. ✅ 2026-06-06
 ```
 input:  async_double(3), async_double(5)
 output: (6, 10)

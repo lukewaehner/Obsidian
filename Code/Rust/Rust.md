@@ -118,6 +118,17 @@ vec.iter().map(|x| x * 2).collect()
 - [[Code]] — Main programming hub
 
 %% Begin Waypoint %%
+- **HFT-Ledger**
+	- [[00 - Overview]]
+	- [[01 - Data Structures]]
+	- [[02 - Order Book Engine]]
+	- [[03 - Matching Algorithm]]
+	- [[04 - Exchange Service]]
+	- [[05 - API and WebSocket Layer]]
+	- [[06 - Bot Driver]]
+	- [[07 - Wire Formats]]
+	- [[08 - Key Workflows]]
+	- [[09 - Performance Notes]]
 - **[[HFTX]]**
 - [[Async Await]]
 - [[Borrowing]]
