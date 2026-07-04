@@ -1,7 +1,7 @@
 # Chess Pieces Example
 
 Class: [[OOD]]
-Related: [[Intro]], [[Examples Index#Chess Pieces]]
+Related: [[Code/OOD/Intro]], [[Examples Index#Chess Pieces]]
 
 ---
 

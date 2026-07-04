@@ -92,7 +92,7 @@ public class CountingCoffeeMaker {
 
 **Why:** Keeps `CountingCoffeeMaker` safe from internal changes to `CoffeeMaker`. Loose coupling = safer reuse.
 
-**Related:** [[Intro#Key Concept Comparisons]]
+**Related:** [[Code/OOD/Intro#Key Concept Comparisons]]
 
 ---
 

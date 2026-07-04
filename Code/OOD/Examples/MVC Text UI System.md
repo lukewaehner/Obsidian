@@ -105,5 +105,5 @@ Mediates between model and view, handling user input and coordinating behavior.
 
 - [[Model, View, and Controller]] - MVC architecture principles
 - [[Controllers and Mocks]] - Controller patterns and testing
-- [[Intro#Key Concept Comparisons]] - OO vs Functional design
+- [[Code/OOD/Intro#Key Concept Comparisons]] - OO vs Functional design
 - [[Simple Code Examples#MBC — Model, Builder, Controller]] - Simpler MBC example

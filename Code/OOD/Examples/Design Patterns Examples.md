@@ -89,7 +89,7 @@ public class CountingCoffeeMaker {
 
 **Why:** Keeps `CountingCoffeeMaker` safe from internal changes to `CoffeeMaker`. Loose coupling = safer reuse.
 
-**See also:** [[Intro#Key Concept Comparisons]]
+**See also:** [[Code/OOD/Intro#Key Concept Comparisons]]
 
 ---
 
@@ -245,6 +245,6 @@ public class LoggingCoffeeMaker extends CoffeeMaker {
 ## Related Notes
 
 - [[Command Design Pattern]] - Full command pattern implementation
-- [[Intro]] - Core OOD principles
+- [[Code/OOD/Intro]] - Core OOD principles
 - [[Model, View, and Controller#Builder Class]] - Builder pattern
 - [[Java Safari]] - Java language features used in patterns

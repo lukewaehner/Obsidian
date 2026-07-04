@@ -165,7 +165,7 @@ Models portion sizes (e.g., Less, Normal, Extra) and their corresponding cost mu
 
 ## Related Concepts
 
-- [[Intro]] - OOD principles demonstrated
+- [[Code/OOD/Intro]] - OOD principles demonstrated
 - [[Encapsulation and Invariants]] - Private fields with controlled access
 - [[Java Safari#Enumerations]] - Enums with state and behavior
 - [[Model, View, and Controller#SOLID]] - Open/Closed Principle, Interface Segregation

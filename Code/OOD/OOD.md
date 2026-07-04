@@ -11,7 +11,7 @@ Principles and patterns for building maintainable, extensible software.
 
 ## Core Concepts
 
-- [[Intro]] — Fundamental OOD principles and benefits
+- [[Code/OOD/Intro]] — Fundamental OOD principles and benefits
 - [[Java Safari]] — Java language features and best practices
 - [[Encapsulation and Invariants]] — Data hiding and maintaining class invariants
 
@@ -69,7 +69,7 @@ See [[Examples Index]] for a comprehensive guide linking examples to concepts.
 - [[Controllers and Mocks]]
 - [[Encapsulation and Invariants]]
 - [[Examples Index]]
-- [[Intro]]
+- [[Code/OOD/Intro]]
 - [[Java Safari]]
 - [[Model, View, and Controller]]
 

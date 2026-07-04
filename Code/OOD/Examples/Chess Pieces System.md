@@ -129,7 +129,7 @@ Each test class verifies valid and invalid movement patterns of the correspondin
 
 ## Related Concepts
 
-- [[Intro]] - Abstraction and Liskov Substitution Principle
+- [[Code/OOD/Intro]] - Abstraction and Liskov Substitution Principle
 - [[Java Safari#Enumerations]] - Color enum for type safety
 - [[Encapsulation and Invariants]] - State management in base class
 - [[Model, View, and Controller#SOLID]] - Open/Closed Principle demonstrated

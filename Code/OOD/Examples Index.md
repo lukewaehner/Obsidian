@@ -58,7 +58,7 @@ This note links practical code examples to their corresponding OOD concepts and 
   - [[Burrito]] - Private fields with controlled access
 
 ### Abstraction
-- **Concept:** [[Intro#Key Concept Comparisons]]
+- **Concept:** [[Code/OOD/Intro#Key Concept Comparisons]]
 - **Examples:**
   - [[Chess Pieces (Abstraction)]] - Abstract ChessPiece class hierarchy
   - [[Burrito]] - Burrito interface abstraction

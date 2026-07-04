@@ -331,7 +331,7 @@ public enum Size {
 | **Inheritance** | `extends` (e.g., `CustomBurrito extends Burrito`) |
 | **Polymorphism** | Interface-based references (`IModel m = new Model()`) |
 
-**See also:** [[Intro]]
+**See also:** [[Code/OOD/Intro]]
 
 ---
 
