@@ -256,7 +256,12 @@
     "shell": 244,
     "lazygit": 245,
     "git": 246,
-    "a": 247
+    "a": 247,
+    "strategy": 248,
+    "competitive-advantage": 249,
+    "strategic-positioning": 250,
+    "business": 251,
+    "industry-analysis": 252
   },
   "_version": 3
 }
