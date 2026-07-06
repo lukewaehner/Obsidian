@@ -28,7 +28,7 @@ Every organization competes for scarce resources to achieve superior performance
 
 At its core, strategy is the creation of a **unique and valuable position**, which requires **trade-offs** — deciding what _not_ to do.
 
-- _Example — Walmart's "Everyday Low Prices"_: a deep supply chain and bulk purchasing allow items to be priced to undercut competitors while still earning a positive margin.
+- _Example - Walmart's "Everyday Low Prices"_: a deep supply chain and bulk purchasing allow items to be priced to undercut competitors while still earning a positive margin.
 - **How do we allocate resources?** They are limited.
 - **Which activities should we pursue?** We can't do it all.
 
@@ -264,6 +264,96 @@ Competition changes in two ways over the industry life cycle
 4. Decline phase:
    - Price competition in a destructive nature
    - Stable industry environment is critical
+
+## Competitive Advantage in Mature Industries
+
+- Mature industries (food, energy, construction, vehicles, financial services, restaurants) dominate GDP despite less attention than tech.
+- Maturity reduces opportunities for competitive advantage and shifts focus from differentiation to cost.
+- Doesn't eliminate opportunity — Zara/Inditex, Ryanair, Starbucks, Nucor show mature industries can be reshaped.
+
+## Competitive Advantage in Mature Industries
+
+- Maturity narrows differentiation (buyer sophistication, product standardization).
+- Diffuses process technology, eroding cost advantages.
+- Exposes firms to powerful distributors.
+- **Buffett's "franchise vs. business" distinction:**
+  - Franchise = high returns regardless of management
+  - Business = profits only via low-cost ops or tight supply
+  - Example: media companies slid from franchise → business status
+
+### Cost Advantage
+
+Three main drivers:
+
+1. **Economies of scale** — stronger given standardization; ROI–market share correlation tighter than in emerging industries
+2. **Low-cost inputs** — e.g., Valero Energy buying distressed refineries, undercutting legacy incumbents
+3. **Low overheads** — Exxon vs. Mobil corporate cost structure; PE roll-ups in publishing
+
+**Turnaround strategies** (Hambrick & Schecter):
+
+- Asset/cost surgery
+- Selective product/market pruning
+- Piecemeal productivity moves
+
+### Segment and Customer Selection
+
+- Unattractive industries can still have profitable niches.
+- Examples: Wal-Mart's small-town focus, auto "crossover" segments.
+- CRM/data analytics enable disaggregation to individual customer level:
+  - Capital One — lifetime profitability modeling
+  - Amazon — personalized recommendations
+- Goal: optimize the "value exchange" between investment in and return from each customer.
+
+### The Quest for Differentiation
+
+- Commoditization narrows differentiation payoff (tires, appliances, airline amenities — weak returns).
+- Differentiation persists via:
+  - **Complementary services** (financing, warranties)
+  - **Image differentiation** (branding in near-identical products — cola, cigarettes)
+- Retail contrast: struggling (Toys-R-Us, Circuit City) vs. thriving differentiated (Target, Zara, IKEA)
+- Such advantages are often hard to sustain.
+
+### Innovation
+
+- Stereotype: mature industries lack R&D — true by spending %, but **false by output**.
+- Patent data (McGahan & Silverman) shows mature industries just as innovative as emerging ones.
+- Example: bra-technology patents.
+- **Strategic innovation** — reconfiguring value chain / redefining markets:
+  - Embracing new customer groups (Harley-Davidson, Sony)
+  - Adding related products/services (Arco gas stations, Barnes & Noble; Pine & Gilmore's "experience economy")
+
+**Baden-Fuller & Stopford's 5 conclusions on strategic innovation:**
+
+1. Maturity is a mindset, not a market condition
+2. The firm — not the industry — determines outcomes
+3. Innovation reconciles opposing goals (e.g., quality at low cost)
+4. Firms should pick defensible territory
+5. Requires entrepreneurial freedom to experiment
+
+- **Markides:** contrarian strategic positioning drives rejuvenation
+  - Edward Jones — rejected scale/diversification norms
+  - Enterprise Rent-A-Car — suburban vs. airport focus
+  - Break from "industry recipes" (Spender's term for shared cognitive frameworks that trap incumbents)
+
+## Strategies for Declining Industries (partial — Adjusting Capacity only)
+
+- Decline causes: technological substitution, shifting preferences, demographics, foreign competition
+- Effects: excess capacity, stagnant technology, aggressive price competition
+- Exception: some declining industries stay profitable (vacuum tubes, cigars, leather tanning)
+
+**Adjusting Capacity to Declining Demand** — the critical stabilizing factor:
+
+- **Predictability of decline**
+  - Foreseeable (e.g., digital imaging replacing film) → allows planning
+  - Cyclical/volatile (e.g., steel) → obscures the trend
+- **Barriers to exit**
+  - Durable/specialized assets
+  - Cash costs of closure
+  - Managerial/emotional attachment
+- **Strategies of surviving firms**
+  - Early recognition → collective action (e.g., European gasoline retailers' bilateral station swaps)
+  - Stronger firms acquire weaker rivals' assets
+  - Private equity "roll-ups" consolidate fragmented, declining sectors
 
 ## Porter's Five Forces
 
