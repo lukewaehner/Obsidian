@@ -49,7 +49,11 @@ Business Strategy  → How should we effectively compete?
 **Topics**: Strategic Positioning, Competitive Advantage, Industry Analysis, Strategy Formulation
 
 %% Begin Waypoint %%
+- [[AeroCadia]]
+- [[Industry Life Cycle]]
+- [[Innovation Strategies]]
 - [[Intro to Strategy]]
+- [[RBV]]
 - [[Strategy and Action]]
 - [[What is Strategy? and Five Forces]]
 
