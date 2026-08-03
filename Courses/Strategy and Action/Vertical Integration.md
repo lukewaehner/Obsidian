@@ -727,6 +727,265 @@ Grant's claim is that integration makes independent suppliers and customers less
 
 > [!NOTE] Stop here and take Part 1 quiz, then continue
 
+# When and When *Not* to Vertically Integrate
+**Stuckey & White — Sloan Management Review, Spring 1993**
+
+## Core thesis
+
+Vertical integration (VI) is expensive, complex, long-lived, and hard to unwind. The default answer should be *no*. Only integrate when it's genuinely necessary to create or protect value — otherwise use a market or a lighter-weight arrangement.
+
+Definition used in the paper: VI is just a mechanism for coordinating adjacent stages of an industry chain in cases where trading between two parties doesn't work well.
+
+**Illustration:** molten hot metal is tapped and moved a few hundred yards to the steel shop at ~2,500°F. The technology and transaction frequency force buyer and seller into tightly bound pairs, so common ownership is cheaper and less risky than continuous negotiation.
+
+---
+
+## The trade-off (Table 1 criteria)
+
+Four buckets to weigh in any integration decision — and they usually conflict:
+
+| Category | Examples |
+|---|---|
+| **Setup costs** | Capital (equipment, acquisitions), systems development, training |
+| **Transaction costs** | Information gathering/processing, legal, sales & purchasing |
+| **Risk** | Adverse price moves, foreclosure of supply or outlets, loss of market signals (new tech, new products) |
+| **Coordination effectiveness** | Run lengths, inventory, capacity utilization, delivery performance, quality |
+
+Net effect: VI typically lowers transaction costs and some risks, but demands heavy setup costs, and the coordination benefits are frequently overstated.
+
+---
+
+## Four legitimate reasons to integrate
+
+1. **Vertical market failure (VMF)** — the market is too risky/unreliable to trade in. *This is the big one.*
+2. **Defending against market power** held by an adjacent stage.
+3. **Creating or exploiting market power** — raising entry barriers, or enabling price discrimination.
+4. **Industry life cycle** — forward integrating to develop a young market, or filling gaps as independents exit a declining one.
+
+---
+
+## 1. Vertical market failure
+
+A vertical market fails when transactions are so risky that contracts to manage the risk become too costly or impossible to write and administer.
+
+### Three structural preconditions
+- **Small numbers of buyers and sellers** (bilateral monopoly / bilateral oligopoly)
+- **High asset specificity, durability, and intensity**
+- **Frequent transactions**
+
+Plus three pervasive conditions that sharpen the problem: **uncertainty**, **bounded rationality** (Simon — humans can't solve arbitrarily complex problems), and **opportunism** (Williamson — people cheat when it pays).
+
+No single factor is sufficient. When all appear together, VMF is likely.
+
+### Buyers and sellers (Figure 1)
+Price and volume in small-numbers markets aren't set by supply/demand alone — they're set by the *balance of bargaining power*, which is unstable and unpredictable. One-buyer/one-seller relationships produce endless haggling and attempted exploitation.
+
+Bilateral oligopolies have a coordination twist: 3 suppliers × 3 customers = each player facing five rivals for the surplus, which tends to compete the surplus away to end customers. Antitrust blocks horizontal fixes, so vertical mergers (6 players → 3) restore a small-numbers game where rational behavior is achievable.
+
+### Asset specificity — three types
+- **Site specificity** — fixed assets co-located to save transport/inventory (mine next to power station)
+- **Technical specificity** — equipment usable by only one counterparty, low value elsewhere
+- **Human capital specificity** — employee skills tied to one relationship
+
+**Aluminum example (the canonical one):** bauxite mining and alumina refining. Mines and refineries sit close together because bauxite is expensive to ship relative to value, and refining strips out 60–70% of volume. Refineries are tuned to their own bauxite's chemistry, so switching is impossible or prohibitively costly.
+
+Key subtlety — the **pre- vs post-investment distinction**: before the greenfield investment, many miners and refiners bid competitively. *After* the investment, they're locked together by asset specificity — a bilateral monopoly. Around 90% of bauxite transactions occur under VI or quasi-VI (e.g. JVs).
+
+**Auto components:** parts specific to one make/model with heavy R&D behind them lock supplier and assembler together; either side can hold the other up if the model is a surprise hit or flop. Western response = backward integration; Japanese response = close-knit long-term contracting with chosen suppliers.
+
+Post-investment lock-in from asset specificity is the most common cause of VMF. Specificity creates the *risk*; capital intensity and high fixed costs raise the *cost* of any disruption; durability extends the *time horizon* over which both matter.
+
+### Transaction frequency (Figure 2)
+
+| | **Low** asset specificity | **High** asset specificity |
+|---|---|---|
+| **Seldom** | Standardized contracts (office lease, credit sale) | Detailed, one-off contract (major public construction) |
+| **Often** | Standardized transactions (groceries) | **Vertical integration** (bauxite, specialized auto components) |
+
+Frequent transactions matter because they multiply the opportunities to haggle and exploit — but only bite when assets are specific.
+
+### R&D and information markets
+Markets for R&D output fail because the product *is* information: the buyer can't value it until they've seen it, and the seller can't show it without giving it away. Ripe for opportunism. When specialized assets are needed to commercialize, or IP can't be protected by patent, integration pays.
+
+**EMI/CAT scanner:** EMI invented it but had no distribution or service assets and couldn't build them fast enough. GE and Siemens — already integrated across R&D, engineering, and marketing — reverse-engineered it, improved it, supported it better, and took the market.
+
+### Machine shop case (the applied example)
+Client question: keep an in-house machine shop serving a steel plant? The shop looked expensive versus outside contractors, but only one heavy machine shop existed within 100 km.
+
+Recommendation — **split the decision by work type**:
+- Scheduled and light machining → predictable, standardized, many possible suppliers, low risk/low transaction cost → **close it, buy outside**
+- Breakdown work needing very large lathes and borers → unpredictable, one possible supplier, enormous cost of delay → **keep a slimmed-down shop in-house**
+
+---
+
+## 2. Defending against market power
+
+If an adjacent stage earns abnormal returns, it's tempting to enter it. But:
+- The test isn't "is that stage attractive" — it's **can we integrate at a cost below the value captured?** In the authors' experience, usually not.
+- Incumbency in the chain is *not* an advantage. Required skills differ sharply between stages, so outsiders with analogous skills from other industries are often the better entrants. And if you can scale the barrier, so can others — dissipating the very surplus you're chasing.
+
+**Australian ready-mix concrete:** low barriers, cyclical demand, commodity product, price wars, poor returns. Quarries upstream: limited sites, high transport costs from elsewhere, few players, prices well above competitive levels. Concrete firms backward integrated into quarries — three players now control ~75% of both.
+
+**But**: entry by acquisition destroys value if you pay the capitalized surplus in the purchase price. One large concrete maker paid an inferred ~20× cash flow multiple against a real cost of capital of ~10%. Hard to justify.
+
+---
+
+## 3. Creating and exploiting market power
+
+### Barriers to entry
+When most incumbents are integrated, entrants may be forced to enter *every* stage — raising capital requirements and minimum efficient scale.
+
+**Upstream aluminum, pre-1970s:** six integrated majors (Alcoa, Alcan, Pechiney, Reynolds, Kaiser, Alusuisse) dominated bauxite, alumina, and smelting. Intermediate markets were too thin for a non-integrated trader. Efficient-scale integrated entry cost ~$2bn (1988 figures), and even then the entrant would need to place ~4% of new world capacity into a market growing ~5% annually.
+
+**Autos:** forward integration into franchised, often exclusive dealer networks means entrants must build distribution from scratch — slow and expensive.
+
+Caveat: it's an expensive ploy and rarely permanent. The aluminum majors eventually lost control as entrants used joint ventures.
+
+### Price discrimination
+A supplier facing two customer segments with different price sensitivities can't simply charge two prices — the cheap buyers resell to the expensive ones. Forward integrating into the price-sensitive segment stops the arbitrage. Aluminum firms integrated into the most price-sensitive fabrication segments (can stock, cable, auto castings) and stayed out where substitution risk was low.
+
+---
+
+## 4. Industry life cycle
+
+**Young industries:** a special case of VMF — forward integrate to build a market that doesn't exist yet. Early aluminum producers integrated into fabricated and even end products to displace steel and copper; early fiberglass and plastics makers did the same to establish credibility versus traditional materials.
+
+The authors think this rationale is **overrated**. It works only if:
+- the downstream business holds proprietary technology or a brand strong enough to block free riders, **and**
+- you can capture the surplus for several years, **and**
+- the product has real advantages over substitutes.
+
+**Declining industries:** as weak independents exit, remaining players get exposed to increasingly concentrated suppliers/customers. **Culbro (cigars, post mid-1960s):** its competitor Consolidated Cigar was already forward-integrated, and Culbro's own distributors had lost interest and were prioritizing other lines — so Culbro had to buy east-coast distributors.
+
+---
+
+## When *not* to integrate — spurious reasons
+
+> Do not vertically integrate unless absolutely necessary.
+
+Over-integration is the more common error, for two reasons: bad justifications, and ignorance of quasi-integration alternatives.
+
+### "It reduces earnings cyclicality/volatility"
+Invalid.
+- Contiguous stages are usually **positively correlated** — same end-product demand drives both (e.g. zinc mining + zinc smelting), so combining them barely reduces portfolio risk.
+- Even if negatively correlated, shareholders can diversify unsystematic risk themselves far more cheaply. Smoothing corporate earnings benefits *managers*, not shareholders.
+
+### "It assures supply / assures outlets"
+Only valid where foreclosure or "unfair" prices are a symptom of VMF or of genuine structural market power. **Where an efficient market exists, you don't need to own supply or outlets** — you can always trade at the market price, however unfair it feels relative to cost. A firm integrated across an efficient market only fools itself by setting transfer prices away from market prices, and can end up making bad output and capacity decisions as a result.
+
+Test: are both sides of the market competitively structured? If yes, integration adds nothing.
+
+**Exception worth noting:** oligopolists selling a low-growth commodity to a fragmented buying industry sometimes forward integrate to lock up large purchases and remove the temptation to steal share on price. Rational *only* if it preserves upstream oligopoly profits and they don't overpay for the downstream assets.
+
+### "Capture more value / move to high value-added stages / get closer to the customer"
+The correlation between profitability and both value added and customer proximity is **weak and inconsistent**. Strategies built on these assumptions usually destroy shareholder wealth.
+
+What actually matters is **economic surplus** — return in excess of full costs including a fair return on capital. Value added (full cost + surplus, less bought-in inputs) only coincidentally tracks surplus.
+
+**Australian cement/concrete chain (Figure 3):** transport is the *largest* value-added stage and doesn't even earn an adequate return on capital, while fly ash — the *smallest* value-added stage — earns a high surplus. Surplus is not concentrated at the customer end; if anything it sits upstream.
+
+> **Prescription:** integrate into the stages with the most economic surplus, regardless of value added or closeness to the customer — recognizing that persistently high-surplus stages are by definition protected by entry barriers you must scale for less than the surplus is worth.
+
+---
+
+## Quasi-integration strategies
+
+Options: long-term contracts, joint ventures, strategic alliances, technology licenses, asset ownership, franchising. Lower capital, greater flexibility, and often enough protection against VMF or counterparty power.
+
+- **JVs / alliances** — exchange goods, services, information, or expertise while trading normally with others; preserve corporate identity and reduce antitrust exposure. Most upstream aluminum plants are now JVs, facilitating exchange of bauxite, alumina, know-how, and nation-specific knowledge; providing a forum for oligopolistic coordination; and managing host-government relations.
+- **Asset ownership** — own only the critical specific assets and contract out the rest. Vehicle and steam turbine assemblers own the specialized tools, dies, jigs, patterns, and molds unique to their components, then contract for manufacture. Often enough on its own to defeat opportunism around physical capital.
+- **Franchising** — control distribution without the capital and management drain; the host owns the intangible brand rather than the (non-specific, non-durable) physical assets, and the right to cancel enforces quality, service, cleanliness, and value.
+- **Licensing** — the default alternative for technology, since R&D/tech markets fail on weak property rights. An innovation may only be valuable when paired with specialized complementary assets (marketing, service teams).
+
+### Figure 4 — vertical strategy for innovators (after Teece)
+Decision variables: **Are specialized complementary assets required?** → **Is copying easy?** → **Do the owners of those complementary assets have market power?**
+
+Representative outcomes:
+- No complementary assets needed, copying hard → license to all comers, price for the long run
+- No complementary assets needed, copying easy → license to all comers, minimize exposure, "cream" price
+- Complementary assets needed, copying hard, asset owners lack power → license to several players, long-run price
+- Complementary assets needed, copying hard, asset owners have power → integrate if the barriers are scalable; otherwise acquire or JV with a going firm
+- Complementary assets needed, copying easy, asset owners lack power → integrate and build barriers against imitators if possible; else license to several, "cream" price
+- Complementary assets needed, copying easy, asset owners have power → tough to win; license or JV to limit exposure
+
+---
+
+## Changing vertical strategies
+
+Strategy should change when market structure changes. The two structural factors most likely to move: **number of buyers and sellers**, and **importance of specialized assets**. (Also change when the existing strategy is simply wrong, structural change or not.)
+
+### Oil, 1966 → 1985 (Figure 5)
+
+| Element | 1966 | 1985 |
+|---|---|---|
+| Seller concentration | Top 4 = 59%, top 8 = 84% | Top 4 = 26%, top 8 = 42% |
+| Buyer concentration | As concentrated as sellers | Much less concentrated |
+| Asset specificity | Refineries geared to specific crudes | Refineries flexible across many crudes |
+| Intensity / durability | Capital intensive, 20+ years | Unchanged |
+| Transaction frequency | Very frequent | Unchanged |
+| Uncertainty | Daily plant optimization | Unchanged |
+| **Coordination mechanism** | Almost no spot market; VI or 10-year fixed contracts | ~50% spot; independents growing; VI declining |
+
+Drivers: OPEC nationalization replacing the "Seven Sisters" with multiple national suppliers, growth of non-OPEC supply (e.g. Mexico), falling refinery-ownership concentration, and technology that cut asset specificity and switching costs.
+
+### The disintegration trend (late 1980s–early 1990s)
+Three forces:
+1. Unwinding of past integration done for spurious reasons.
+2. An active market for corporate control pressuring over-integrated firms to restructure — voluntarily or via raiders.
+3. Structural changes worldwide that raise the advantages and lower the risks of trading:
+   - More buyers/sellers via deregulation (telecoms, banking) and the growth of NICs (Korea, Taiwan, Hong Kong, Mexico)
+   - Globalization pressure to be an "insider" in each national market → local plants → more component buyers
+   - Need for manufacturing flexibility and corporate focus (an assembler can't stay excellent across thousands of increasingly complex, short-life components)
+   - Managers now comfortable with quasi-integration; purchasing has shifted from adversarial to cooperative (US car industry consolidating onto fewer, closer independent suppliers)
+
+Counter-force: consolidation — conglomerates like Beatrice Foods break up and the pieces go to firms building share in particular markets. Overall, though, the globalizing forces are winning.
+
+**Warning:** don't throw the baby out with the bathwater in the rush to downscale or "be like the Japanese." Firms will disintegrate activities that were actually VMF-critical, form alliances that turn out to be institutionalized piracy, and discover that "cooperative" sole suppliers rediscover their muscles once the competition is gone. Decisions should be analytical, not fashionable or instinctive.
+
+---
+
+## Figure 6 — Vertical restructuring framework (the decision tree)
+
+Start: **Is this stage of the chain / business system attractive to the current owner?** (Attractive industry? Skills match?)
+
+- **No** → **Is the market subject to VMF?**
+  - **No** → **Does owning it help the core business defend against, build, or exploit market power?**
+    - No → **exit the stage**
+    - Yes → **become/remain at least partially integrated**
+  - **Yes** → go to the quasi-integration test
+- **Yes** → **Would quasi-integration arrangements suffice?**
+  - No → **become/remain at least partially integrated**
+  - Yes → **adopt the best quasi-integration arrangement**
+
+---
+
+## Figure 7 — Applying the framework (5 steps)
+
+1. **Lay out the stages** of the chain/business system — disaggregate to natural business units that couldn't sensibly be split further from an ownership perspective.
+2. **Identify participants at each stage and classify transactions** — numbers and sizes on both sides; carefully separate pre- and post-investment phases when defining "markets"; quantify transactions by type (spot, contract, internal transfer); look for subtle ownership links such as JVs.
+3. **Static analysis** —
+   - *Search for VMF:* measure asset specificity (pre- and post-investment), durability, intensity; identify bilateral monopolies/oligopolies; measure transaction frequency and degree of uncertainty; look hard for information-driven VMF (R&D, new products, infant industries).
+   - *Search for market-power reasons:* measure economic surplus by stage; identify sustained asymmetries (monopoly/oligopoly, monopsony/oligopsony); test whether integration by weak players adds more value than it costs; test whether integration by strong players would strengthen them (barriers, price discrimination).
+4. **Dynamic analysis** — predict changes in power symmetry, numbers/sizes of players, asset specificity (technology-driven), and transaction frequency; infer resulting changes in VMF and power asymmetry; anticipate competitors' vertical moves.
+5. **Choose strategy and supporting organization** — weigh the Table 1 criteria, consider quasi-integration, decide using normal criteria (NPV, risk, executability), and specify the structural/systems changes needed to support it.
+
+### Process notes
+- **Quantify.** Especially switching costs if you lock yourself into specific assets, and transaction costs of third-party trading.
+- **Small-numbers behavior can't be predicted deterministically.** Supply/demand analysis only scopes feasible behavior; the authors use payoff matrices and competitive games. This is as much art as science — senior executives must be hands-on so they believe the competitor-behavior assumptions.
+- **Two passes.** A rapid pass to generate hypotheses and surface key issues, then a focused deep pass.
+- **Expect resistance.** Vertical integration is one of the last redoubts of gut feel and tradition in strategy. Tactics: analogies from your own or similar industries, decomposing the faulty logic to expose weak links, and — most effective — involving everyone in the problem solving itself.
+
+---
+
+## Exam-ready summary
+
+- Default: **don't integrate**. Burden of proof is on integration.
+- The one strong reason is **vertical market failure**: small numbers + specific/durable/intensive assets + frequent transactions, amplified by uncertainty, bounded rationality, and opportunism.
+- The **pre-/post-investment distinction** explains why apparently competitive markets are really webs of bilateral monopolies.
+- **Economic surplus**, not value added or customer proximity, is the target — and it must be reachable at a cost below its value.
+- **Quasi-integration** (JV, long-term contract, asset ownership, franchise, license) usually delivers most of the protection at a fraction of the capital and rigidity.
+- Structural change (numbers of players, asset specificity) should trigger strategy change — see oil, 1966 vs 1985.
+
 ## Part 2 Articles
 
 ### Quick index
