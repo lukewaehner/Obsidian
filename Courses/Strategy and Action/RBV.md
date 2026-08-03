@@ -27,12 +27,12 @@
 | **Intangible resources**                     | Non-physical, invisible assets: culture, knowledge, brand equity, reputation, patents, designs, copyrights, trademarks, trade secrets.                                              |
 
 ### Historical Roots of RBV (Ch. 5.1)
-| Term | Definition |
-|---|---|
-| **General managers** | Managers with profit-and-loss responsibility over more than one function; early theory (Harvard, 1911) treated their quality as the main firm strength/weakness. |
-| **Institutional leaders** | Selznick's term for leaders who go beyond managing to defining an organization's purpose/vision and safeguarding its distinctive identity — the root of "distinctive competence." |
-| **Ricardian economics** | Analysis (David Ricardo) of rents earned from factors of production, originally land, that are fixed/inelastic in supply. |
-| **Economic rent** | A payment to a resource owner above the minimum needed to keep that resource in use — arises when a resource is inelastic in supply. |
+| Term                                | Definition                                                                                                                                                                                                   |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **General managers**                | Managers with profit-and-loss responsibility over more than one function; early theory (Harvard, 1911) treated their quality as the main firm strength/weakness.                                             |
+| **Institutional leaders**           | Selznick's term for leaders who go beyond managing to defining an organization's purpose/vision and safeguarding its distinctive identity — the root of "distinctive competence."                            |
+| **Ricardian economics**             | Analysis (David Ricardo) of rents earned from factors of production, originally land, that are fixed/inelastic in supply.                                                                                    |
+| **Economic rent**                   | A payment to a resource owner above the minimum needed to keep that resource in use — arises when a resource is inelastic in supply.                                                                         |
 | **Penrose's theory of firm growth** | Edith Penrose's view that a firm is an administrative framework plus a bundle of productive resources; firm growth is limited by that resource bundle, not by simple supply-and-demand production functions. |
 
 ### Resource Categories (Ch. 5.2)

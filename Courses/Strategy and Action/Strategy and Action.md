@@ -50,11 +50,14 @@ Business Strategy  → How should we effectively compete?
 
 %% Begin Waypoint %%
 - [[AeroCadia]]
+- [[Differentiation]]
 - [[Industry Life Cycle]]
 - [[Innovation Strategies]]
 - [[Intro to Strategy]]
+- [[Low Cost]]
 - [[RBV]]
 - [[Strategy and Action]]
+- [[Vertical Integration]]
 - [[What is Strategy? and Five Forces]]
 
 %% End Waypoint %%

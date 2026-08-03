@@ -261,7 +261,10 @@
     "competitive-advantage": 249,
     "strategic-positioning": 250,
     "business": 251,
-    "industry-analysis": 252
+    "industry-analysis": 252,
+    "cost-leadership": 253,
+    "value-chain": 254,
+    "vrio": 255
   },
   "_version": 3
 }
