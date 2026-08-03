@@ -71,11 +71,11 @@ Differentiation exists purely as a matter of customer perception — two nearly 
 
 ### 2. The 12 Bases of Differentiation (Table 7.1)
 
-|Category|Bases|Logic|
-|---|---|---|
-|Product attributes|Features, Complexity, Timing of introduction, Location|Focus directly on the product itself|
-|Firm–customer relationships|Customization, Consumer marketing, Reputation|Build a relationship between firm and buyer|
-|Firm linkages|Linkages among functions, Linkages with other firms, Product mix, Distribution channels, Service & support|Exploit connections within/between firms|
+| Category                    | Bases                                                                                                      | Logic                                       |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Product attributes          | Features, Complexity, Timing of introduction, Location                                                     | Focus directly on the product itself        |
+| Firm–customer relationships | Customization, Consumer marketing, Reputation                                                              | Build a relationship between firm and buyer |
+| Firm linkages               | Linkages among functions, Linkages with other firms, Product mix, Distribution channels, Service & support | Exploit connections within/between firms    |
 
 These 12 bases aren't mutually exclusive — firms typically combine several at once.
 
@@ -96,13 +96,13 @@ Chamberlin and Robinson's classic analysis: under perfect competition, firms fac
 
 Successful differentiation blunts each of the five competitive threats:
 
-|Threat|How differentiation helps|
-|---|---|
-|New entry|Entrants must absorb the extra cost of overcoming incumbents' differentiation, not just standard startup costs|
-|Rivalry|Firms carve out distinct niches, so competition for the _same_ customer segment is reduced (not eliminated)|
-|Substitutes|A firm's differentiated product looks more attractive than substitute options|
-|Supplier power|Loyal, differentiation-driven customers absorb price pass-throughs more easily — though pushed too far, this can invite suppliers to raise prices further|
-|Buyer power|Customers who want a specific differentiated product must buy from that one firm, reducing their leverage|
+| Threat         | How differentiation helps                                                                                                                                 |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| New entry      | Entrants must absorb the extra cost of overcoming incumbents' differentiation, not just standard startup costs                                            |
+| Rivalry        | Firms carve out distinct niches, so competition for the _same_ customer segment is reduced (not eliminated)                                               |
+| Substitutes    | A firm's differentiated product looks more attractive than substitute options                                                                             |
+| Supplier power | Loyal, differentiation-driven customers absorb price pass-throughs more easily — though pushed too far, this can invite suppliers to raise prices further |
+| Buyer power    | Customers who want a specific differentiated product must buy from that one firm, reducing their leverage                                                 |
 
 ### 6. Differentiation and Environmental Opportunities
 
@@ -117,11 +117,11 @@ Rarity depends on ongoing managerial creativity — a firm stays ahead only if i
 
 **Cost of duplication by basis (Table 7.3):**
 
-|Duplication difficulty|Bases|Why|
-|---|---|---|
-|Low-cost duplication possible|Product features|Rivals can buy and reverse-engineer the product|
-|May be costly|Product mix, linkages with other firms, product customization, product complexity, consumer marketing|Sometimes easy, sometimes depends on socially complex relationships|
-|Usually costly|Linkages among functions, timing of introduction, location, reputation, distribution channels, service & support|Rooted in firm history, uncertainty, and/or social complexity that's hard to replicate|
+| Duplication difficulty        | Bases                                                                                                            | Why                                                                                    |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Low-cost duplication possible | Product features                                                                                                 | Rivals can buy and reverse-engineer the product                                        |
+| May be costly                 | Product mix, linkages with other firms, product customization, product complexity, consumer marketing            | Sometimes easy, sometimes depends on socially complex relationships                    |
+| Usually costly                | Linkages among functions, timing of introduction, location, reputation, distribution channels, service & support | Rooted in firm history, uncertainty, and/or social complexity that's hard to replicate |
 
 **Graza case tie-in:** The article is a clean real-world illustration of the "low-cost duplication" row. Graza did not invent squeeze bottles, condiment squeeze packaging, or oil-in-a-squeeze-bottle — but its specific combination became recognizable enough that rivals (Brightland's Pizza Oil, California Olive Ranch) copied the _format_ within about a year, and wholesale suppliers on Alibaba sold near-identical bottles. This matches the textbook's point that **product features are the easiest basis to duplicate** — Graza's own supplier reportedly fields orders from copycats. Graza's response — adding a new packaging twist (canned oil refills) — illustrates the textbook's claim that rarity ultimately depends on a firm continuously innovating one step ahead of imitators, not on any single feature staying protected forever.
 
@@ -136,12 +136,12 @@ Bases can substitute for each other in two ways:
 
 Implementing a differentiation strategy means managing four organizing tensions (Brown & Eisenhardt):
 
-|Dilemma|Too much|Too little|
-|---|---|---|
-|Interfunctional collaboration|Lockstep — slows innovation|No collaboration — implementation fails|
-|Institutional control|Bureaucracy — stifles innovation|Chaos — no direction|
-|Connection to the past|History as constraint — blocks innovation|No history — fails to exploit past advantage|
-|Commitment to a market vision|Too much foresight — inflexible|No sight — no direction|
+| Dilemma                       | Too much                                  | Too little                                   |
+| ----------------------------- | ----------------------------------------- | -------------------------------------------- |
+| Interfunctional collaboration | Lockstep — slows innovation               | No collaboration — implementation fails      |
+| Institutional control         | Bureaucracy — stifles innovation          | Chaos — no direction                         |
+| Connection to the past        | History as constraint — blocks innovation | No history — fails to exploit past advantage |
+| Commitment to a market vision | Too much foresight — inflexible           | No sight — no direction                      |
 
 **Tools to resolve each:**
 
@@ -210,10 +210,3 @@ Porter has since softened his position: low-cost firms still need _competitive_ 
 - **Racing to the same feature at once** (Apple, Meta, EssilorLuxottica, Google/Snap in wearables) — the smart-glasses/wearables cluster is a live example of "rarity depends on staying one step ahead": multiple well-resourced firms are converging on displays/AI-in-glasses simultaneously, so first-mover advantage will likely be short-lived without a harder-to-duplicate basis (e.g., EssilorLuxottica's fashion-brand licensing).
 
 ---
-
-## Source Note
-
-Todo:
-- [ ] Watch panpoto video
-- [ ] Do part 1
-- [ ] Do part 2
