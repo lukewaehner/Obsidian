@@ -16,8 +16,10 @@ Welcome to the Second Brain — a personal knowledge base for learning, career, 
 - [[Code]] — Programming languages, tools, and CS fundamentals
 - [[Finance]] — Corporate Finance, Financial Accounting, Investments, Managerial Accounting
 - [[Career]] — Resume, interview prep, job sites, professional tools
-- [[Northeastern]] — Coursework, class planning, university resources
-- [[Archive]] — Archived notes and past materials
+- [[Northeastern]] —  Class planning, university resources
+- [[Courses]] - Active Northeastern Coursework, to be retired after completion to Finance / Code / Other
+- [[Archive]] — Archived notes and past materials, to be cleaned and structured as folders are queued
+- [[Meteora]] — Work: the eight repos, the box, and where the data comes from
 
 ## Active Tasks
 ```tasks
