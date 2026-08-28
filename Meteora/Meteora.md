@@ -206,6 +206,26 @@ Where every number comes from. One note per source, one per store.
 - [[Neo4j]] - the entity graph, joined to Pinecone on `file_id`.
 - [[S3]] - two buckets: Neo4j dumps and dashboard snapshots.
 
+## Surfaces
+
+How it is served.
+
+- [[MCP Tools]] - the per-caller catalog, the tiers, and the three ways a tool
+  can silently not exist.
+- [[Dashboard Pages]] - eleven pages, what feeds each, and the access table that
+  defaults to admin.
+- [[Skills API]] - `/skills-api/*`, the Drive-backed skill store. Not an MCP
+  surface.
+
+## Infra
+
+The box, deploys, auth.
+
+- [[The Box]] - one t3.xlarge, four tenants, Caddy, the timers and the runners.
+- [[Deploys]] - six repos, six different shapes. Read before merging anywhere.
+- [[Auth]] - five separate auth systems, and the two upload tokens people mix up.
+- [[Secrets]] - `meteora-secrets` is the environment. A `.env` is derived.
+
 ## Why
 
 - [[Raw Notes 2026-08]] - unprocessed asks, mined into this folder over time

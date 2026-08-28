@@ -20,7 +20,7 @@ desks and uploads the snapshots it draws.
 
 ```mermaid
 flowchart LR
-    A[Bloomberg desk<br/>capture CLI] -->|POST snapshot| B[/dashboard/api/ingest]
+    A[Bloomberg desk<br/>capture CLI] -->|POST snapshot| B[dashboard/api/ingest]
     C[meteora-mcp sync jobs] -->|POST snapshot| B
     B --> D[snapshot store]
     D --> E[Next.js app in web/]
