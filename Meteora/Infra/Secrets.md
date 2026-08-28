@@ -1,6 +1,7 @@
 ---
 tags: [meteora, infra]
 sources:
+  - meteora-secrets
   - meteora-infra/ansible/roles/secrets_render
   - meteora-infra/docs/adr
   - meteora-mcp/config.py
@@ -14,8 +15,9 @@ verified: 2026-08-27
 service on the box. A per-repo `.env` is a derived artifact, not a parallel
 system.
 
-The repo itself is outside this vault's `sources`, so treat the mechanism below
-as the durable part and the specific keys as something to read off the manifest.
+`meteora-secrets` is a **ninth repo** in the workspace, and the only one with no
+`Systems/` note - it is not an application, so it is documented here instead.
+Read the specific keys off its manifest rather than from this note.
 
 ## Diagram
 
