@@ -279,4 +279,14 @@ Full setup in `docs/setup/devServer.md`.
 
 ## Related
 
+- [[meteora-core]] - the pinned library holding the metadata contract
+- Sources it reaches: [[SEC EDGAR]], [[Drive Memory Docs]], [[Graph Email]],
+  [[Universe Workbook]], [[SPACResearch Export]], [[Bloomberg]]
+- Stores it owns or reads: [[universe.sqlite]], [[spacresearch.sqlite]],
+  [[Pinecone]], [[Neo4j]], [[S3]]
+- [[meteora-dashboard]] - receives the feeds this publishes
+- [[meteora-scripts]] - the scheduled jobs that call it
+- [[court-listener-mcp]] - the reference implementation five of these tools came
+  from
+- [[Meteora]]
 - [[Glossary]] - memory doc, RLST, skill, the two universes

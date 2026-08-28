@@ -107,6 +107,11 @@ flowchart LR
     S3 --> PAGES
 ```
 
+Every node above has a note. Sources: [[Universe Workbook]],
+[[SPACResearch Export]], [[SEC EDGAR]], [[Drive Memory Docs]], [[Graph Email]],
+[[Bloomberg]]. Stores: [[universe.sqlite]], [[spacresearch.sqlite]],
+[[Pinecone]], [[Neo4j]], [[S3]].
+
 The two SQLite mirrors are **not the same thing** and are not interchangeable.
 See [[Glossary#universe]] before writing a query against either.
 
@@ -174,11 +179,32 @@ credential on the hour.
 
 ## Data
 
-Where every number comes from, one note per source and per store.
+Where every number comes from. One note per source, one per store.
 
-- **Sources** - the Universe workbook, the spacresearch export, SEC EDGAR, Drive
-  memory docs, Microsoft Graph, Bloomberg.
-- **Stores** - `universe.sqlite`, `spacresearch.sqlite`, Pinecone, Neo4j, S3.
+### Sources
+
+- [[Universe Workbook]] - the vendor spreadsheet uploaded to Drive by hand.
+  Mirrored to [[universe.sqlite]].
+- [[SPACResearch Export]] - the spacresearch.com export. Mirrored to
+  [[spacresearch.sqlite]]. Carries `warrant_strike`, `counsel` and the spec
+  strings the workbook does not.
+- [[SEC EDGAR]] - queried live, never mirrored. The reason its tool surface
+  looks unlike every other source here.
+- [[Drive Memory Docs]] - the knowledge base. Chunked into [[Pinecone]], loaded
+  into [[Neo4j]], projected into [[S3]].
+- [[Graph Email]] - Microsoft Graph. A source as much as a sink.
+- [[Bloomberg]] - reachable only from a desk terminal. Almost none of its MCP
+  surface is live.
+
+### Stores
+
+- [[universe.sqlite]] - built from the workbook, rebuilt whole on every change.
+  Behind `universe-query` and `universe-schema`.
+- [[spacresearch.sqlite]] - a byte-for-byte copy of the export. Behind
+  `/dashboard/universe`.
+- [[Pinecone]] - one index, ~500k vectors, two writer repos, one contract.
+- [[Neo4j]] - the entity graph, joined to Pinecone on `file_id`.
+- [[S3]] - two buckets: Neo4j dumps and dashboard snapshots.
 
 ## Why
 
@@ -187,3 +213,16 @@ Where every number comes from, one note per source and per store.
 ## Reference
 
 - [[Glossary]] - the words that mean two things
+
+## Keeping this true
+
+Structural integrity is a script. From `~/Repos/meteora`:
+
+    python3 docs/tools/verify_vault.py
+
+It checks frontmatter, that every `sources` path still exists, and that every
+wikilink resolves. It says nothing about whether the prose is still right.
+
+Drift needs judgment. For each note, `git log` its `sources` paths since its
+`verified` date and decide whether anything invalidates the walkthrough. Bump
+`verified` when you have looked, not when you have edited.

@@ -146,5 +146,7 @@ and that direction is recoverable.
 - [[Universe Workbook]] - the producer
 - [[spacresearch.sqlite]] - the other thing called "the universe"
 - [[meteora-mcp]] - owns both the sync and the query tools
+- [[meteora-dashboard]] - consumes the deadlines feed built from this
 - [[meteora-tape]] - reads this file directly off disk
+- [[Meteora]]
 - [[Glossary]]

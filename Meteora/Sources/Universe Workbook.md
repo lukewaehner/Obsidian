@@ -185,6 +185,9 @@ trap.
 
 ## Related
 
+- [[universe.sqlite]] - what this becomes, and what everything downstream reads
 - [[SPACResearch Export]] - the other thing called "the universe"
 - [[meteora-mcp]] - owns the sync and the query tools
+- [[meteora-dashboard]] - receives the deadlines feed
+- [[Meteora]]
 - [[Glossary]]

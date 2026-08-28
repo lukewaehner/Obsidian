@@ -155,3 +155,6 @@ a document you have to go and find.
 - [[meteora-core]] - owns the loader and the aliasing
 - [[S3]] - where the daily dump lands
 - [[Drive Memory Docs]] - the corpus both stores describe
+- [[meteora-mcp]] - the traversal tools, and the box this runs on
+- [[meteora-infra]] - provisions the backup timer and the bucket
+- [[Meteora]]

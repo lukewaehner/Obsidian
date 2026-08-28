@@ -153,5 +153,10 @@ downstream consumer sees readable text.
 
 ## Related
 
+**This source has no `Stores/` note, and that is the point.** Nothing about
+EDGAR is mirrored, so there is nothing on the box to describe. Compare
+[[Universe Workbook]] into [[universe.sqlite]].
+
 - [[meteora-mcp]] - where the tools live
+- [[Meteora]]
 - [[Glossary]] - CIT, trust

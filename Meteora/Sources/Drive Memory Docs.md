@@ -158,4 +158,7 @@ plausible answers that are wrong in ways nobody can see.
 - [[Neo4j]] - the graph half of the join
 - [[S3]] - where the dashboard projection lives
 - [[meteora-ingest]] - the connectors that keep it current
+- [[meteora-mcp]] - the memory-doc tools and the reconcile loop
+- [[meteora-core]] - the metadata contract both writers hold to
+- [[Meteora]]
 - [[Glossary]] - memory doc

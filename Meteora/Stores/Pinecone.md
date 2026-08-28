@@ -144,3 +144,6 @@ through the shared library and a tag cut before either producer could ship.
 - [[Neo4j]] - the other half of the `file_id` join
 - [[Drive Memory Docs]] - the producer
 - [[meteora-ingest]] - the connectors that write here
+- [[meteora-mcp]] - the search tools that read it, and the second writer
+- [[Meteora]]
+- [[Glossary]] - memory doc, arbjournal

@@ -130,6 +130,11 @@ tests keep running and the code does not rot while the question is open.
 
 ## Related
 
+Nothing from Bloomberg is stored. The desk pass posts straight into the
+dashboard's snapshot path in [[S3]], so the only durable trace is the published
+chart.
+
 - [[meteora-mcp]] - the dormant tool surface
 - [[meteora-dashboard]] - the capture CLI that is the live path
+- [[Meteora]]
 - [[Glossary]] - yield model, RLST, extension

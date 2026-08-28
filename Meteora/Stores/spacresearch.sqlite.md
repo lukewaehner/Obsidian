@@ -103,5 +103,7 @@ built is that its source is a spreadsheet with no schema at all.
 
 - [[SPACResearch Export]] - the producer
 - [[universe.sqlite]] - the other thing called "the universe"
+- [[meteora-mcp]] - owns the sync that promotes this file
 - [[meteora-dashboard]] - serves the page this feeds
+- [[Meteora]]
 - [[Glossary]]

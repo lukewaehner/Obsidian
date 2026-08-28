@@ -223,4 +223,8 @@ path there.
 ## Related
 
 - [[meteora-mcp]] - one of the two consumers, on the read side
+- [[meteora-ingest]] - the other consumer, on the write side
+- [[Pinecone]] - the index the contract exists to protect
+- [[Neo4j]] - written by this library's graph loader
+- [[Meteora]]
 - [[Glossary]]

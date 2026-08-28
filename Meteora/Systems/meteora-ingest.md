@@ -222,4 +222,8 @@ cat status/status.json | python -m json.tool
 
 - [[meteora-core]] - the pinned library holding the write contract and the graph
   loader this repo calls
+- [[Drive Memory Docs]] - what the connectors actually ingest
+- [[Pinecone]] and [[Neo4j]] - where the connectors write
+- [[meteora-dashboard]] - reads the `status.json` this writes
+- [[Meteora]]
 - [[Glossary]]

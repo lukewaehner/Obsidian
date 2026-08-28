@@ -143,7 +143,9 @@ the set of machines that can overwrite the whole universe is exactly one.
 
 ## Related
 
+- [[spacresearch.sqlite]] - what this becomes on the box
 - [[Universe Workbook]] - the other thing called "the universe"
 - [[meteora-mcp]] - owns the sync
 - [[meteora-dashboard]] - serves the page this feeds
+- [[Meteora]]
 - [[Glossary]]

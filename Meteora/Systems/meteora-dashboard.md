@@ -230,4 +230,9 @@ fine.
 
 - [[meteora-mcp]] - publishes the universe, deadlines and extensions feeds into
   this app's ingest endpoint
+- [[spacresearch.sqlite]] - behind `/dashboard/universe`
+- [[S3]] - the snapshot store the app reads
+- [[Bloomberg]] - the desk-side capture half of this repo
+- [[meteora-ingest]] - writes the `status.json` behind `/database`
+- [[Meteora]]
 - [[Glossary]] - snapshot / ingest, the two universes
