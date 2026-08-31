@@ -21,6 +21,7 @@ Job search, interview prep, and professional resources.
 - [[Northeastern]] — Co-op and university career resources
 
 %% Begin Waypoint %%
+- [[Career]]
 - [[Interview Questions]]
 - [[Job Sites]]
 - [[Professional Tools]]

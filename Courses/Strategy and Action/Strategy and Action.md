@@ -42,6 +42,7 @@ Business Strategy  → How should we effectively compete?
 
 - [[Intro to Strategy]] — Positioning, trade-offs, and (S)CA
 - [[What is Strategy? and Five Forces]] — Industry analysis with Porter's Five Forces
+- **[[Final Exam Study Guide]]** — every Flashlight topic expanded, plus the nine exam articles
 
 ---
 
@@ -51,12 +52,16 @@ Business Strategy  → How should we effectively compete?
 %% Begin Waypoint %%
 - [[AeroCadia]]
 - [[Differentiation]]
+- [[Diversification]]
+- [[Final Exam Study Guide]]
 - [[Industry Life Cycle]]
 - [[Innovation Strategies]]
 - [[Intro to Strategy]]
 - [[Low Cost]]
+- [[M&A]]
 - [[RBV]]
 - [[Strategy and Action]]
+- [[Vertical Integration - Full Depth]]
 - [[Vertical Integration]]
 - [[What is Strategy? and Five Forces]]
 

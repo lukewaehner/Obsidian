@@ -15,6 +15,7 @@ Currently empty — past coursework and reference materials will land here as to
 - [[Home]]
 
 %% Begin Waypoint %%
-
+- [[Air 60 settings]]
+- [[Archive]]
 
 %% End Waypoint %%
