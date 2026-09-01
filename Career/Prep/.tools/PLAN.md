@@ -2086,9 +2086,14 @@ Replace each `<!-- content from ... -->` with the actual body of that source not
 
 ```bash
 cd "/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep"
-test $(ls -d topics/*/ | wc -l) -eq 10 && echo "topics ok"
+# Scoped to the ten new groups by name: the old numbered directories are
+# still present alongside them until Task 12, so a bare topics/*/ count
+# would legitimately read 20, not 10.
+for g in "Complexity" "Data Structures" "Trees" "Graphs" "Sorting & Searching" \
+         "Algorithm Design" "Strings" "Math & Bits" "Systems" "Design"; do
+  test -f "topics/$g/$g.md" || echo "MISSING topics/$g/$g.md"
+done; echo "topic folder notes checked"
 test $(ls -d problems/*/ | wc -l) -eq 18 && echo "problems ok"
-test $(ls topics/*/*.md | wc -l) -eq 10 && echo "topic folder notes ok"
 test $(ls problems/*/*.md | wc -l) -eq 18 && echo "problem folder notes ok"
 test $(ls meta/*.md | wc -l) -eq 8 && echo "meta ok"
 ```
@@ -2220,15 +2225,27 @@ Same procedure as Task 9 Step 1, against the spec's Strings, Math & Bits, System
 
 ```bash
 cd "/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep"
-test $(ls topics/*/*.md | wc -l) -eq 105 && echo "95 topic notes + 10 folder notes ok"
 python3 - <<'PY'
 from pathlib import Path
 
-missing = [
-    str(p)
-    for p in sorted(Path("topics").glob("*/*.md"))
-    if p.stem != p.parent.name and "Coverage —" not in p.read_text(encoding="utf-8")
+GROUPS = [
+    "Complexity", "Data Structures", "Trees", "Graphs", "Sorting & Searching",
+    "Algorithm Design", "Strings", "Math & Bits", "Systems", "Design",
 ]
+
+# Scoped to the ten new groups by name. The old numbered directories still sit
+# in topics/ until Task 12, so an unscoped glob would both inflate the count
+# and flag old notes for lacking a Coverage callout they never had.
+notes, missing = [], []
+for group in GROUPS:
+    for path in sorted(Path("topics", group).glob("*.md")):
+        if path.stem == path.parent.name:
+            continue
+        notes.append(path)
+        if "Coverage —" not in path.read_text(encoding="utf-8"):
+            missing.append(str(path))
+
+print("topic notes: %d (expect 95)" % len(notes))
 print("\n".join(missing) if missing else "every topic note has a Coverage callout")
 PY
 python3 .tools/prep_sync.py . --check
