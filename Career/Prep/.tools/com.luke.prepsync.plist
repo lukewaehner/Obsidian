@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.luke.prepsync</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep/.tools/prep_sync.py</string>
+        <string>/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep/topics</string>
+        <string>/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep/problems</string>
+    </array>
+    <key>ThrottleInterval</key>
+    <integer>15</integer>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>StandardOutPath</key>
+    <string>/tmp/prepsync.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/prepsync.err</string>
+</dict>
+</plist>

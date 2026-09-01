@@ -544,3 +544,15 @@ reorganisation, `feat:` for `prep_sync.py`, the Bases, and the agent commands.
 | The six-section skeleton fits some topics badly | Extra sections are allowed and counted; a thin section is a valid signal |
 | launchd watcher fighting iCloud | Idempotent no-op runs; the watcher can be dropped for on-demand sync alone |
 | `confidence` never gets set, so *Needs review* is empty | `/prep review` sets it as a side effect of quizzing |
+
+## Operations
+
+The watcher is installed at `~/Library/LaunchAgents/com.luke.prepsync.plist`,
+copied from `.tools/`. To disable it:
+
+    launchctl unload ~/Library/LaunchAgents/com.luke.prepsync.plist
+    rm ~/Library/LaunchAgents/com.luke.prepsync.plist
+
+Everything keeps working without it; `/prep:sync` and every other `/prep`
+command run the script themselves. Logs are at `/tmp/prepsync.log` and
+`/tmp/prepsync.err`.
