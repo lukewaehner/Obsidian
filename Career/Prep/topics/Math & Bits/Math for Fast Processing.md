@@ -26,7 +26,7 @@ canonical examples.
 Karatsuba multiplies two n-digit numbers in O(n^log₂3) ≈ O(n^1.585) by
 splitting each number in half and combining three recursive multiplications
 instead of the schoolbook four — a divide-and-conquer trick, see
-[[Divide and Conquer]].
+[[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## Implementation
 

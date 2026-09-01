@@ -19,7 +19,7 @@ confidence:
 
 The Fourier transform decomposes a signal into the frequencies that compose
 it; the FFT is a divide-and-conquer algorithm that computes it (or its
-discrete/inverse form) fast — [[Divide and Conquer]].
+discrete/inverse form) fast — [[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## How it works
 

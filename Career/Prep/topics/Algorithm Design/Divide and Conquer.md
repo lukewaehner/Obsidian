@@ -23,7 +23,7 @@ confidence:
 
 [[Code/Algorithms/Divide and Conquer|coursework notes]] — the note shares
 this note's title, so link the coursework copy by full path, not
-`[[Divide and Conquer]]`.
+the bare `Divide and Conquer` link.
 
 ## Complexity
 

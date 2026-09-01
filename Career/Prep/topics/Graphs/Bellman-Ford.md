@@ -32,7 +32,7 @@ negative-cycle detection.
 ## When to use it
 
 Negative edge weights, or when negative-cycle detection is itself the
-question — otherwise prefer [[Dijkstra's Algorithm]] for its better time
+question — otherwise prefer [[Career/Prep/topics/Graphs/Dijkstra's Algorithm|Dijkstra's Algorithm]] for its better time
 complexity.
 
 ## Gotchas

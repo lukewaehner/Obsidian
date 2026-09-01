@@ -27,7 +27,7 @@ candidate more than memorizing any one solution.
 
 [[Code/Algorithms/Dynamic Programming/Dynamic Programming|coursework notes]]
 — the hub note shares this note's title, so link it by full path, not
-`[[Dynamic Programming]]`.
+the bare `Dynamic Programming` link.
 
 Also: [[DP Introduction]], [[Knapsack Problem]],
 [[Longest Increasing Subsequence]],

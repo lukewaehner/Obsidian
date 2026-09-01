@@ -19,19 +19,19 @@ confidence:
 
 A linked list is a sequence of nodes, each holding a value and a pointer to the
 next node — the shape lives in memory as scattered nodes connected by pointers,
-not contiguous storage. See [[Linked List]]. A doubly linked list additionally
+not contiguous storage. See [[Code/Algorithms/Linked List|Linked List]]. A doubly linked list additionally
 holds a pointer to the previous node — see [[Doubly Linked List]].
 
 ## How it works
 
-Two-pointer / runner technique — [[Linked List]] § Two-Pointer Technique.
+Two-pointer / runner technique — [[Code/Algorithms/Linked List|Linked List]] § Two-Pointer Technique.
 
 Doubly linked list operations: delete-given-node, insert-before, `pop_back`,
 reverse traversal — [[Doubly Linked List]] (went past what the plan asked for).
 
 ## Implementation
 
-Implemented a singly linked list — [[Linked List]] § Full Implementation:
+Implemented a singly linked list — [[Code/Algorithms/Linked List|Linked List]] § Full Implementation:
 `size()`, `empty()`, `value_at(index)`, `push_front(value)`, `pop_front()`,
 `push_back(value)` (as `append`), `pop_back()`, `front()`, `back()`,
 `insert(index, value)`, `erase(index)` (as `remove`), `value_n_from_end(n)`,
@@ -41,15 +41,15 @@ Implemented a singly linked list — [[Linked List]] § Full Implementation:
 
 ## When to use it
 
-Know when a linked list beats an array, and when it doesn't — [[Linked List]].
+Know when a linked list beats an array, and when it doesn't — [[Code/Algorithms/Linked List|Linked List]].
 
 ## Gotchas
 
-Edge cases: empty list, single node, head/tail updates — [[Linked List]].
+Edge cases: empty list, single node, head/tail updates — [[Code/Algorithms/Linked List|Linked List]].
 
 Still open:
 
-- [ ] Circular linked list — named in [[Linked List]] § Types, never worked through
+- [ ] Circular linked list — named in [[Code/Algorithms/Linked List|Linked List]] § Types, never worked through
 - [ ] Pointer-to-pointer traversal (C-specific gotcha) — deliberately avoided; hurts
       readability and maintainability for the cleverness it buys
 

@@ -18,14 +18,14 @@ confidence:
 ## Idea
 
 Divide and conquer: split the input in half, sort each half recursively,
-then merge the two sorted halves — [[Divide and Conquer]].
+then merge the two sorted halves — [[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## How it works
 
 ## Implementation
 
 [[Code/Algorithms/Sorts/Merge Sort|coursework notes]] — the note shares this
-note's title, so link the coursework copy by full path, not `[[Merge Sort]]`.
+note's title, so link the coursework copy by full path, not the bare `Merge Sort` link.
 
 Still open:
 

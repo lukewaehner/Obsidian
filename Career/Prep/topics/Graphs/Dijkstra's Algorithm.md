@@ -25,7 +25,7 @@ extend the shortest known distance to the closest unvisited vertex.
 ## Implementation
 
 [[Code/Algorithms/Dijkstra's Algorithm|coursework notes]] — the note shares
-this note's title, so link the coursework copy by full path, not `[[Dijkstra's Algorithm]]`.
+this note's title, so link the coursework copy by full path, not the bare `Dijkstra's Algorithm` link.
 
 Still open:
 

@@ -25,7 +25,7 @@ every point — the geometric analog of "find the boundary."
 Graham scan and Jarvis march are the two classic hull algorithms: Graham
 scan sorts points by angle around a pivot and sweeps once; Jarvis march
 ("gift wrapping") walks the boundary directly. A divide-and-conquer approach
-also exists, splitting the point set and merging hulls — [[Divide and Conquer]].
+also exists, splitting the point set and merging hulls — [[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## Implementation
 

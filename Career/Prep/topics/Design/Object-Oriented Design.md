@@ -19,7 +19,7 @@ confidence:
 
 Modeling a system as objects with encapsulated state and behavior, related
 by inheritance, composition, and well-defined interfaces — [[SOLID]] and
-[[Design Patterns]] are the vocabulary for talking about whether a
+[[Career/Prep/topics/Design/Design Patterns|Design Patterns]] are the vocabulary for talking about whether a
 particular design is good.
 
 ## How it works

@@ -35,7 +35,7 @@ Time and space costs of arrays — [[DSA]].
 
 ## When to use it
 
-Array vs. linked list tradeoffs — [[Linked List]] § Array vs Linked List.
+Array vs. linked list tradeoffs — [[Code/Algorithms/Linked List|Linked List]] § Array vs Linked List.
 
 ## Gotchas
 

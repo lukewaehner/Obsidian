@@ -18,7 +18,7 @@ confidence:
 ## Idea
 
 Divide and conquer: pick a pivot, partition the array around it, recurse on
-each side — [[Divide and Conquer]].
+each side — [[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## How it works
 

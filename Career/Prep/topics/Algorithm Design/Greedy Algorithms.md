@@ -22,7 +22,7 @@ confidence:
 ## Implementation
 
 [[Code/Algorithms/Greedy/Greedy|Greedy]] — coursework hub note; the plain
-`[[Greedy]]` link is ambiguous with a problems folder note of the same name.
+`Greedy` link is ambiguous with a problems folder note of the same name.
 
 Also: [[Greedy Algorithm Pattern]], [[Greedy Stays Ahead Proof Technique]],
 [[Interval Scheduling Problem]], [[Earliest Finish Time Rule]].
