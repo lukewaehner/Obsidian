@@ -1,0 +1,76 @@
+filters:
+  and:
+    - 'type == "problem"'
+properties:
+  file.name:
+    displayName: Problem
+  solved_on:
+    displayName: Solved
+  aid:
+    displayName: Aid
+views:
+  - type: table
+    name: All
+    order:
+      - number
+      - file.name
+      - difficulty
+      - pattern
+      - time
+      - space
+      - aid
+      - attempts
+      - solved_on
+      - revisit
+    sort:
+      - property: solved_on
+        direction: DESC
+  - type: table
+    name: By pattern
+    groupBy:
+      property: pattern
+      direction: ASC
+    order:
+      - number
+      - file.name
+      - difficulty
+      - time
+      - aid
+      - solved_on
+  - type: table
+    name: Needs revisit
+    filters:
+      or:
+        - 'revisit'
+        - 'aid != "unaided"'
+    order:
+      - number
+      - file.name
+      - difficulty
+      - pattern
+      - aid
+      - attempts
+      - solved_on
+  - type: table
+    name: By difficulty
+    groupBy:
+      property: difficulty
+      direction: ASC
+    order:
+      - number
+      - file.name
+      - pattern
+      - time
+      - solved_on
+  - type: table
+    name: Recent
+    limit: 25
+    order:
+      - number
+      - file.name
+      - difficulty
+      - pattern
+      - solved_on
+    sort:
+      - property: solved_on
+        direction: DESC

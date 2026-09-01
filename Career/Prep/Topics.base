@@ -1,0 +1,76 @@
+filters:
+  and:
+    - 'type == "topic"'
+formulas:
+  progress: 'if(sections_total, (coverage * 100).toFixed(0) + "%", "")'
+properties:
+  file.name:
+    displayName: Topic
+  formula.progress:
+    displayName: Progress
+  sections_done:
+    displayName: Done
+  sections_total:
+    displayName: Of
+views:
+  - type: table
+    name: Core progress
+    filters:
+      and:
+        - 'tier == "core"'
+    groupBy:
+      property: group
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - formula.progress
+      - sections_done
+      - sections_total
+      - confidence
+      - updated
+    sort:
+      - property: coverage
+        direction: ASC
+  - type: table
+    name: Extras
+    filters:
+      and:
+        - 'tier == "extra"'
+    groupBy:
+      property: group
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - formula.progress
+      - confidence
+      - updated
+  - type: table
+    name: Needs review
+    filters:
+      or:
+        - 'confidence <= 2'
+        - and:
+            - 'status == "solid"'
+            - 'updated < (today() - duration("30d"))'
+    order:
+      - file.name
+      - group
+      - confidence
+      - updated
+    sort:
+      - property: confidence
+        direction: ASC
+  - type: table
+    name: Recently touched
+    limit: 20
+    order:
+      - file.name
+      - group
+      - status
+      - formula.progress
+      - updated
+    sort:
+      - property: updated
+        direction: DESC
