@@ -312,7 +312,20 @@
     "track/wearables": 1,
     "track/fintech": 2,
     "phase/2": 3,
-    "method": 278
+    "method": 278,
+    "interview-prep": 279,
+    "mindset": 280,
+    "books": 281,
+    "study-plan": 282,
+    "practice": 283,
+    "complexity": 284,
+    "review": 285,
+    "interviewing": 286,
+    "system-design": 287,
+    "reference": 288,
+    "resources": 289,
+    "checklist": 290,
+    "work": 291
   },
   "_version": 3
 }

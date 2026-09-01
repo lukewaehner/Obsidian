@@ -43,6 +43,6 @@ limit 25
 ## Workspace
 
 - Templates live in `templates/` (Daily Note, Meeting, MOC, language templates)
-- Current projects: see [[Maggie]] and [[Career Prep]]
+- Current projects: see [[Maggie]] and [[Prep]]
 
 ---

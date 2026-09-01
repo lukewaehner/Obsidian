@@ -19,7 +19,6 @@ A hub for all programming knowledge, languages, tools, and career resources.
 - [[Zsh]] — Shell configuration
 
 ## CS Topics
-- [[DSA]] — Data Structures & Algorithms
 - [[Algorithms]] — Algorithm styles, complexity
 - [[OOD]] — Object-Oriented Design
 - [[Databases]] — Data storage and modeling
@@ -27,13 +26,12 @@ A hub for all programming knowledge, languages, tools, and career resources.
 - [[iOS]] — Swift & UIKit mobile development
 
 ## Career
-- [[Career Prep]] — Professional development
+- [[Prep]] — Interview study plan and my DSA notes (moved here from `Code/DSA`)
 
 %% Begin Waypoint %%
 - **[[Algorithms]]**
 - **[[Computer Systems]]**
 - **[[Databases]]**
-- **[[DSA]]**
 - **[[iOS]]**
 - **[[Java]]**
 - **[[JavaScript]]**
