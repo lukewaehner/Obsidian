@@ -121,6 +121,45 @@ class FrontmatterAccessTest(unittest.TestCase):
         self.assertEqual(["type: topic"], fm)
 
 
+class FmListTest(unittest.TestCase):
+    def test_returns_the_flow_form_value_unchanged(self):
+        # arrange
+        fm = ['topics: ["[[Arrays]]", "[[Hash Tables]]"]']
+
+        # act / assert
+        self.assertEqual(
+            '["[[Arrays]]", "[[Hash Tables]]"]', prep_sync.fm_list(fm, "topics")
+        )
+
+    def test_joins_a_block_style_list_into_one_string(self):
+        # arrange
+        fm = [
+            "topics:",
+            '  - "[[Arrays]]"',
+            '  - "[[Hash Tables]]"',
+            "solved_on: 2026-09-01",
+        ]
+
+        # act / assert
+        self.assertEqual(
+            '"[[Arrays]]", "[[Hash Tables]]"', prep_sync.fm_list(fm, "topics")
+        )
+
+    def test_returns_empty_string_for_an_absent_key(self):
+        # arrange
+        fm = ["type: problem"]
+
+        # act / assert
+        self.assertEqual("", prep_sync.fm_list(fm, "topics"))
+
+    def test_returns_empty_string_for_an_empty_value_with_no_block_items(self):
+        # arrange
+        fm = ["topics:", "solved_on: 2026-09-01"]
+
+        # act / assert
+        self.assertEqual("", prep_sync.fm_list(fm, "topics"))
+
+
 class LineEndingTest(unittest.TestCase):
     def test_crlf_notes_are_normalised_on_read_and_restored_on_write(self):
         # arrange
@@ -168,7 +207,7 @@ class ParseCoverageTest(unittest.TestCase):
             "> [!abstract]- Coverage — 0/0",
             "> - [x] [[#Idea]]",
             "",
-            "- [ ] a stray checkbox further down the note",
+            "> - [x] [[#Later]]",
         ]
 
         # act

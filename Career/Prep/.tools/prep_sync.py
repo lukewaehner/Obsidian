@@ -40,6 +40,8 @@ GROUP_ORDER = (
     "Systems",
     "Design",
 )
+DIFFICULTIES = frozenset(["Easy", "Medium", "Hard"])
+AID_VALUES = frozenset(["unaided", "hint", "solution"])
 
 
 class PrepError(Exception):
@@ -92,6 +94,31 @@ def fm_get(fm_lines, key):
         if match and match.group(1) == key:
             return match.group(2).strip()
     return None
+
+
+def fm_list(fm_lines, key):
+    """Return *key*'s raw value, joining a block-style list into one string.
+
+    Obsidian's property editor may reserialize an inline list into block form,
+    so both spellings have to parse. Returns "" when the key is absent.
+    """
+    for i, line in enumerate(fm_lines):
+        match = FM_KEY_RE.match(line)
+        if match and match.group(1) == key:
+            value = match.group(2).strip()
+            if value:
+                return value
+            parts = []
+            for follow in fm_lines[i + 1:]:
+                stripped = follow.strip()
+                if stripped.startswith("- "):
+                    parts.append(stripped[2:].strip())
+                elif not stripped:
+                    continue
+                else:
+                    break
+            return ", ".join(parts)
+    return ""
 
 
 TRUE_VALUES = frozenset(["true", "yes", "on", "1"])
@@ -235,16 +262,15 @@ def parse_topic_links(raw_value):
     return targets
 
 
-def problem_entry(path, fm):
+def problem_entry(path, difficulty):
     """Render the list line a problem contributes to a topic's Problems section."""
-    difficulty = fm_get(fm, "difficulty")
     pattern = path.parent.name
     return "- [[Career/Prep/problems/%s/%s|%s]] · %s · %s" % (
         pattern, path.stem, path.stem, difficulty, pattern
     )
 
 
-def scan_problems(problems_root):
+def scan_problems(problems_root, known_topics=None):
     """Read every problem note under *problems_root*.
 
     Returns (rewrites, entries_by_topic, records):
@@ -254,6 +280,13 @@ def scan_problems(problems_root):
 
     A note whose filename matches its folder is the folder note, not a
     problem, and is skipped.
+
+    *known_topics* maps a topic note's lower-cased stem to its real stem. When
+    supplied, every `topics` reference must resolve through it or the note is
+    rejected -- this is what catches a bare `[[Trees]]` (which would resolve
+    to a group index note, not a topic note) and plain typos. When omitted,
+    the raw link target is used as-is, which is what the direct-call unit
+    tests rely on.
     """
     rewrites = {}
     entries_by_topic = {}
@@ -270,15 +303,40 @@ def scan_problems(problems_root):
         fm, body = split_note(path, text)
 
         difficulty = fm_get(fm, "difficulty")
-        if difficulty is None:
-            raise PrepError("%s: missing 'difficulty'" % path)
+        if difficulty is not None:
+            difficulty = difficulty.strip().strip("\"'")
+        if difficulty not in DIFFICULTIES:
+            raise PrepError(
+                "%s: difficulty is %r, expected one of: %s"
+                % (path, difficulty, ", ".join(sorted(DIFFICULTIES)))
+            )
+
+        aid = fm_get(fm, "aid")
+        if aid is not None:
+            aid = aid.strip().strip("\"'")
+        if aid not in AID_VALUES:
+            raise PrepError(
+                "%s: aid is %r, expected one of: %s"
+                % (path, aid, ", ".join(sorted(AID_VALUES)))
+            )
 
         new_fm = fm_set(fm, "pattern", path.parent.name)
         rewrites[path] = join_note(new_fm, body)
 
-        entry = problem_entry(path, fm)
-        for topic in parse_topic_links(fm_get(fm, "topics")):
-            entries_by_topic.setdefault(topic, []).append(entry)
+        entry = problem_entry(path, difficulty)
+        for target in parse_topic_links(fm_list(fm, "topics")):
+            if target.lower().endswith(".md"):
+                target = target[:-3]
+            if known_topics is None:
+                stem = target
+            else:
+                stem = known_topics.get(target.lower())
+                if stem is None:
+                    raise PrepError(
+                        "%s: topics names '%s', which is not a topic note"
+                        % (path, target)
+                    )
+            entries_by_topic.setdefault(stem, []).append(entry)
 
         records.append(
             {
@@ -287,7 +345,7 @@ def scan_problems(problems_root):
                 "difficulty": difficulty,
                 "solved_on": fm_get(fm, "solved_on"),
                 "revisit": fm_bool(fm, "revisit"),
-                "aid": fm_get(fm, "aid"),
+                "aid": aid,
             }
         )
 
@@ -416,7 +474,14 @@ def sync(root, today, dry_run):
     root = Path(root)
     changed = []
 
-    problem_rewrites, entries_by_topic, records = scan_problems(root / "problems")
+    known_topics = {}
+    for path in (root / "topics").glob("*/*.md"):
+        if path.stem != path.parent.name:
+            known_topics[path.stem.lower()] = path.stem
+
+    problem_rewrites, entries_by_topic, records = scan_problems(
+        root / "problems", known_topics
+    )
     for path, new_text in sorted(problem_rewrites.items()):
         old_text, crlf = read_note(path)
         if new_text != old_text:

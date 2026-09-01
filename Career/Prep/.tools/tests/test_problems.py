@@ -202,6 +202,94 @@ class ScanProblemsTest(unittest.TestCase):
             # assert
             self.assertTrue(records[0]["revisit"])
 
+    def test_raises_naming_the_file_when_difficulty_is_blank(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            broken = PROBLEM.replace("difficulty: Medium\n", "difficulty:\n")
+            write_problem(root, "Advanced Graphs", "743 · Network Delay Time", broken)
+
+            # act / assert
+            with self.assertRaises(prep_sync.PrepError) as caught:
+                prep_sync.scan_problems(root)
+            self.assertIn("743", str(caught.exception))
+
+    def test_quoted_difficulty_is_accepted_and_normalised(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            quoted = PROBLEM.replace("difficulty: Medium\n", 'difficulty: "Medium"\n')
+            write_problem(root, "Advanced Graphs", "743 · Network Delay Time", quoted)
+
+            # act
+            _, _, records = prep_sync.scan_problems(root)
+
+            # assert
+            self.assertEqual("Medium", records[0]["difficulty"])
+
+    def test_raises_naming_the_file_when_aid_is_invalid(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            broken = PROBLEM.replace("aid: hint\n", "aid: Unaided\n")
+            write_problem(root, "Advanced Graphs", "743 · Network Delay Time", broken)
+
+            # act / assert
+            with self.assertRaises(prep_sync.PrepError) as caught:
+                prep_sync.scan_problems(root)
+            self.assertIn("743", str(caught.exception))
+
+    def test_block_style_topics_yields_the_same_links_as_flow_form(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            block = PROBLEM.replace(
+                'topics: ["[[Dijkstra\'s Algorithm]]", "[[Heaps and Priority Queues]]"]\n',
+                "topics:\n"
+                '  - "[[Dijkstra\'s Algorithm]]"\n'
+                '  - "[[Heaps and Priority Queues]]"\n',
+            )
+            write_problem(root, "Advanced Graphs", "743 · Network Delay Time", block)
+
+            # act
+            _, by_topic, _ = prep_sync.scan_problems(root)
+
+            # assert
+            self.assertIn("Dijkstra's Algorithm", by_topic)
+            self.assertIn("Heaps and Priority Queues", by_topic)
+
+    def test_raises_when_a_topic_does_not_resolve_to_a_known_topic_note(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_problem(
+                root, "Advanced Graphs", "743 · Network Delay Time", PROBLEM
+            )
+            known_topics = {"heaps and priority queues": "Heaps and Priority Queues"}
+
+            # act / assert
+            with self.assertRaises(prep_sync.PrepError) as caught:
+                prep_sync.scan_problems(root, known_topics)
+            self.assertIn("743", str(caught.exception))
+
+    def test_fully_qualified_topic_link_resolves_to_its_stem(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            qualified = PROBLEM.replace(
+                'topics: ["[[Dijkstra\'s Algorithm]]", "[[Heaps and Priority Queues]]"]',
+                'topics: ["[[Career/Prep/topics/Graphs/Dijkstra\'s Algorithm'
+                '|Dijkstra\'s Algorithm]]"]',
+            )
+            write_problem(root, "Advanced Graphs", "743 · Network Delay Time", qualified)
+            known_topics = {"dijkstra's algorithm": "Dijkstra's Algorithm"}
+
+            # act
+            _, by_topic, _ = prep_sync.scan_problems(root, known_topics)
+
+            # assert
+            self.assertIn("Dijkstra's Algorithm", by_topic)
+
 
 if __name__ == "__main__":
     unittest.main()
