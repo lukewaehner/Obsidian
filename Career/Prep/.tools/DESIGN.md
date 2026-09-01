@@ -81,7 +81,12 @@ Career/Prep/
 ├── Problems.base
 ├── .tools/
 │   ├── DESIGN.md                 this file
-│   └── prep_sync.py
+│   ├── PLAN.md                   the migration plan this design produced
+│   ├── prep_sync.py
+│   ├── check_links.py            wikilink-resolution gate, see below
+│   ├── com.luke.prepsync.plist   launchd watcher unit, see Operations
+│   ├── .gitignore
+│   └── tests/
 ├── topics/
 │   ├── Complexity/
 │   ├── Data Structures/
@@ -121,6 +126,19 @@ the same name, embedding that slice of the relevant Base.
 Depth is expressed by a `tier: core | extra` property, not by folder. Skip lists
 sit beside Hash Tables in `Data Structures/`; the Base filters them out of the
 core progress number.
+
+### `check_links.py`
+
+A shipped tool, not just a one-off migration step. It scans every wikilink
+under a given scope and reports any that do not resolve to a real note or
+Bases file, so a rewrite that breaks a link is caught immediately rather than
+noticed later as a dead link in Obsidian. Run it after any bulk edit:
+
+    python3 .tools/check_links.py . --scope Career/Prep
+
+`--strict` additionally reports ambiguous bare wikilinks — a target like
+`[[Arrays]]` that matches more than one note in the vault, which Obsidian
+resolves to whichever one it likes rather than the one you meant.
 
 ## Topic note contract
 
@@ -263,8 +281,11 @@ preserved, not silently corrected.
 | Needs review | `confidence <= 2 or (status == "solid" and updated older than 30d)` | sorted by `confidence` |
 | Recently touched | all | sorted by `updated` descending, limit 20 |
 
-Columns: name, group, tier, status, coverage, confidence, updated.
-`confidence` is inline-editable.
+Columns: name, group, status, progress (a formula: `coverage` as a rounded
+percentage), sections_done, sections_total, confidence, updated. Not every
+view shows every column — Extras and Needs review omit the section counts,
+and Core progress and Extras omit `group` as a column since it is the
+groupBy. `confidence` is inline-editable.
 
 ### `Problems.base`
 
@@ -272,12 +293,15 @@ Columns: name, group, tier, status, coverage, confidence, updated.
 |---|---|---|
 | All | `type == "problem"` | sorted by `solved_on` descending |
 | By pattern | all | grouped by `pattern` |
-| Needs revisit | `revisit or aid != "unaided"` | sorted by `solved_on` |
+| Needs revisit | `revisit or aid != "unaided"` | no sort; order follows note order |
 | By difficulty | all | grouped by `difficulty` |
 | Recent | all | limit 25, sorted by `solved_on` descending |
 
 Columns: number, name, difficulty, pattern, time, space, aid, attempts,
-`solved_on`, revisit. `revisit` is inline-editable.
+`solved_on`, revisit. Not every view shows every column — By pattern omits
+`pattern` (it is the groupBy) and drops `space`, `attempts`, and `revisit`;
+By difficulty omits `difficulty` (its groupBy), `space`, `aid`, `attempts`,
+and `revisit`. `revisit` is inline-editable.
 
 ### `Prep.md`
 
@@ -331,7 +355,7 @@ directories were created.
 1. **launchd `WatchPaths`** on `Career/Prep/`, debounced, so ticking a box
    updates the database within seconds. Modelled on the existing
    `com.luke.procmon` job.
-2. **`/prep sync`** slash command, as the manual escape hatch.
+2. **`/prep:sync`** slash command, as the manual escape hatch.
 3. Automatically whenever an agent writes to `Career/Prep/`.
 
 ## Agent commands
@@ -340,11 +364,11 @@ Claude Code commands in the vault's `.claude/commands/`:
 
 | Command | Does |
 |---|---|
-| `/prep drop` | Takes pasted solutions, writes problem notes, fills every property, cross-links topics, flags bugs |
-| `/prep review` | Picks weakest topics and revisit-flagged problems, quizzes conversationally, updates `confidence` and `revisit` |
-| `/prep next` | Recommends what to study, from coverage gaps and problem-pattern gaps |
-| `/prep status` | Progress report |
-| `/prep sync` | Runs `prep_sync.py` |
+| `/prep:drop` | Takes pasted solutions, writes problem notes, fills every property, cross-links topics, flags bugs |
+| `/prep:review` | Picks weakest topics and revisit-flagged problems, quizzes conversationally, updates `confidence` and `revisit` |
+| `/prep:next` | Recommends what to study, from coverage gaps and problem-pattern gaps |
+| `/prep:status` | Progress report |
+| `/prep:sync` | Runs `prep_sync.py` |
 
 ## Topic manifest
 
@@ -543,12 +567,27 @@ reorganisation, `feat:` for `prep_sync.py`, the Bases, and the agent commands.
 | Broken wikilinks across 840 references | Link verification is a migration gate, not a follow-up |
 | The six-section skeleton fits some topics badly | Extra sections are allowed and counted; a thin section is a valid signal |
 | launchd watcher fighting iCloud | Idempotent no-op runs; the watcher can be dropped for on-demand sync alone |
-| `confidence` never gets set, so *Needs review* is empty | `/prep review` sets it as a side effect of quizzing |
+| `confidence` never gets set, so *Needs review* is empty | `/prep:review` sets it as a side effect of quizzing |
+| macOS TCC denies the watcher's `python3` read access to the iCloud-backed vault (realised, not hypothetical) | Every `/prep` command runs the sync itself, so the system is fully functional without the watcher; a one-time Full Disk Access grant fixes the watcher itself |
 
 ## Operations
 
 The watcher is installed at `~/Library/LaunchAgents/com.luke.prepsync.plist`,
-copied from `.tools/`. To disable it:
+copied from `.tools/`. It loads successfully, but does not actually run: macOS
+TCC denies the launchd-spawned `python3` read access to the iCloud-backed
+vault. `launchctl list` shows it exited with status 2, and `/tmp/prepsync.err`
+records `[Errno 1] Operation not permitted`. This is a one-time-fixable
+permissions gap, not a design flaw: grant Full Disk Access to
+`/usr/bin/python3` in System Settings → Privacy & Security → Full Disk Access,
+then reload the job.
+
+The system does not depend on the watcher working. Every `/prep:*` command
+runs `prep_sync.py` itself before reading the notes, so the databases are
+current regardless of whether the watcher is running. Treat the watcher as an
+optional convenience for interactive editing sessions, not as required
+infrastructure.
+
+To disable it entirely:
 
     launchctl unload ~/Library/LaunchAgents/com.luke.prepsync.plist
     rm ~/Library/LaunchAgents/com.luke.prepsync.plist
