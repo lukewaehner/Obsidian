@@ -78,6 +78,9 @@ topic docs.
   recurrences, and DP from class. Marked `~ coursework` rather than checked off.
 - **No MST or union-find note** anywhere in the vault.
 
+<!-- prep:begin -->
+<!-- prep:end -->
+
 ## See Also
 
 - [[Career]] — job search hub
