@@ -1,3 +1,4 @@
+import datetime
 import sys
 import unittest
 from pathlib import Path
@@ -223,6 +224,140 @@ class DeriveStatusTest(unittest.TestCase):
 
     def test_all_sections_done_is_solid(self):
         self.assertEqual("solid", prep_sync.derive_status(6, 6))
+
+
+TOPIC = """---
+type: topic
+group: Graphs
+tier: core
+confidence: 3
+---
+
+# Dijkstra's Algorithm
+
+> [!abstract]- Coverage — 0/3
+> - [x] [[#Idea]]
+> - [x] [[#How it works]]
+> - [ ] [[#Gotchas]]
+
+## Idea
+
+Relax edges in order of tentative distance.
+
+## Problems
+
+_None yet._
+
+## Resources
+
+- [MIT 6.006 Dijkstra](https://example.com)
+"""
+
+TODAY = datetime.date(2026, 9, 1)
+
+
+class SyncTopicTest(unittest.TestCase):
+    def test_writes_the_derived_counts_into_frontmatter(self):
+        # arrange / act
+        text, done, total = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # assert
+        fm, _ = prep_sync.split_note(Path("d.md"), text)
+        self.assertEqual("3", prep_sync.fm_get(fm, "sections_total"))
+        self.assertEqual("2", prep_sync.fm_get(fm, "sections_done"))
+        self.assertEqual("0.67", prep_sync.fm_get(fm, "coverage"))
+        self.assertEqual("learning", prep_sync.fm_get(fm, "status"))
+        self.assertEqual((2, 3), (done, total))
+
+    def test_preserves_hand_authored_properties_and_their_order(self):
+        # arrange / act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # assert
+        fm, _ = prep_sync.split_note(Path("d.md"), text)
+        self.assertEqual(
+            ["type: topic", "group: Graphs", "tier: core", "confidence: 3"], fm[:4]
+        )
+
+    def test_preserves_body_prose_verbatim(self):
+        # arrange / act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # assert
+        self.assertIn("Relax edges in order of tentative distance.", text)
+        self.assertIn("- [MIT 6.006 Dijkstra](https://example.com)", text)
+
+    def test_rewrites_the_stale_count_in_the_callout_header(self):
+        # arrange / act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # assert
+        self.assertIn("> [!abstract]- Coverage — 2/3", text)
+        self.assertNotIn("Coverage — 0/3", text)
+
+    def test_is_idempotent(self):
+        # arrange
+        once, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # act
+        twice, _, _ = prep_sync.sync_topic(Path("d.md"), once, TODAY, [])
+
+        # assert
+        self.assertEqual(once, twice)
+
+    def test_updated_advances_only_when_sections_done_changes(self):
+        # arrange
+        first, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+        later = datetime.date(2026, 10, 15)
+
+        # act
+        unchanged, _, _ = prep_sync.sync_topic(Path("d.md"), first, later, [])
+
+        # assert
+        fm, _ = prep_sync.split_note(Path("d.md"), unchanged)
+        self.assertEqual("2026-09-01", prep_sync.fm_get(fm, "updated"))
+
+    def test_updated_advances_when_a_box_is_ticked(self):
+        # arrange
+        first, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+        ticked = first.replace("> - [ ] [[#Gotchas]]", "> - [x] [[#Gotchas]]")
+        later = datetime.date(2026, 10, 15)
+
+        # act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), ticked, later, [])
+
+        # assert
+        fm, _ = prep_sync.split_note(Path("d.md"), text)
+        self.assertEqual("2026-10-15", prep_sync.fm_get(fm, "updated"))
+        self.assertEqual("solid", prep_sync.fm_get(fm, "status"))
+
+    def test_fills_the_problems_section_from_the_supplied_entries(self):
+        # arrange
+        entries = ["- [[743 · Network Delay Time]] · Medium"]
+
+        # act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, entries)
+
+        # assert
+        self.assertIn("- [[743 · Network Delay Time]] · Medium", text)
+        self.assertNotIn("_None yet._", text)
+
+    def test_empty_problems_section_says_so_rather_than_going_blank(self):
+        # arrange / act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # assert
+        self.assertIn("## Problems\n\n_None yet._\n", text)
+
+    def test_rewriting_the_problems_section_does_not_eat_the_next_section(self):
+        # arrange / act
+        text, _, _ = prep_sync.sync_topic(
+            Path("d.md"), TOPIC, TODAY, ["- [[1 · Two Sum]] · Easy"]
+        )
+
+        # assert
+        self.assertIn("## Resources", text)
+        self.assertIn("- [MIT 6.006 Dijkstra](https://example.com)", text)
 
 
 if __name__ == "__main__":

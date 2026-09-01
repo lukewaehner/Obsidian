@@ -18,6 +18,9 @@ from pathlib import Path
 FM_KEY_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*):(.*)$")
 COVERAGE_HEADER_RE = re.compile(r"^> \[!abstract\]-? Coverage — (\d+)/(\d+)\s*$")
 COVERAGE_ITEM_RE = re.compile(r"^> - \[([ xX])\] ")
+DERIVED_KEYS = ("sections_total", "sections_done", "coverage", "status", "updated")
+PROBLEMS_HEADING = "## Problems"
+NO_PROBLEMS = "_None yet._"
 
 
 class PrepError(Exception):
@@ -127,3 +130,55 @@ def derive_status(done, total):
     if done < total:
         return "learning"
     return "solid"
+
+
+def replace_problems_section(body_lines, entries):
+    """Rewrite the '## Problems' section body with *entries*.
+
+    Everything before the heading and from the next '## ' onwards is left
+    untouched. A note without the heading is returned unchanged, which is how
+    meta notes and problem notes pass through harmlessly.
+    """
+    try:
+        start = body_lines.index(PROBLEMS_HEADING)
+    except ValueError:
+        return list(body_lines)
+
+    end = len(body_lines)
+    for i in range(start + 1, len(body_lines)):
+        if body_lines[i].startswith("## "):
+            end = i
+            break
+
+    content = [""] + (list(entries) if entries else [NO_PROBLEMS]) + [""]
+    return list(body_lines[:start + 1]) + content + list(body_lines[end:])
+
+
+def sync_topic(path, text, today, problem_entries):
+    """Return (new_text, done, total) for one topic note.
+
+    Pure: takes the note's current text and returns what it should be. The
+    caller decides whether that differs from disk and therefore needs writing.
+    """
+    fm, body = split_note(path, text)
+    header_index, done, total = parse_coverage(path, body)
+
+    body = list(body)
+    body[header_index] = re.sub(
+        r"Coverage — \d+/\d+",
+        "Coverage — %d/%d" % (done, total),
+        body[header_index],
+    )
+    body = replace_problems_section(body, problem_entries)
+
+    previous_done = fm_get(fm, "sections_done")
+    fm = fm_set(fm, "sections_total", str(total))
+    fm = fm_set(fm, "sections_done", str(done))
+    fm = fm_set(fm, "coverage", "%.2f" % (float(done) / total))
+    fm = fm_set(fm, "status", derive_status(done, total))
+    # 'updated' means "when did progress last move", not "when did the script
+    # last run" -- so it only advances when the tick count actually changed.
+    if previous_done != str(done) or fm_get(fm, "updated") is None:
+        fm = fm_set(fm, "updated", today.isoformat())
+
+    return join_note(fm, body), done, total
