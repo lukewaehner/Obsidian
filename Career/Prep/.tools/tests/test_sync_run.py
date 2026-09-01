@@ -176,6 +176,34 @@ class SyncTest(unittest.TestCase):
                 prep_sync.sync(root, TODAY, dry_run=False)
             self.assertIn("Broken.md", str(caught.exception))
 
+    def test_a_topic_in_an_unlisted_group_fails_loudly(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = build_vault(tmp)
+            (root / "topics" / "Graphs" / "Stray.md").write_text(
+                TOPIC.replace("group: Graphs", "group: Bonus Round"),
+                encoding="utf-8",
+            )
+
+            # act / assert
+            with self.assertRaises(prep_sync.PrepError) as caught:
+                prep_sync.sync(root, TODAY, dry_run=False)
+            self.assertIn("Stray.md", str(caught.exception))
+            self.assertIn("Bonus Round", str(caught.exception))
+
+    def test_a_run_on_a_later_day_changes_nothing(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = build_vault(tmp)
+            prep_sync.sync(root, TODAY, dry_run=False)
+            later = datetime.date(2026, 12, 25)
+
+            # act
+            changed = prep_sync.sync(root, later, dry_run=False)
+
+            # assert
+            self.assertEqual([], changed)
+
 
 class MainTest(unittest.TestCase):
     def test_exits_zero_on_a_clean_run(self):
@@ -214,6 +242,18 @@ class MainTest(unittest.TestCase):
 
             # assert
             self.assertEqual(2, code)
+
+
+class RenderRollupTest(unittest.TestCase):
+    def test_a_zero_total_row_does_not_divide_by_zero(self):
+        # arrange
+        groups = {"Graphs": [("Empty", 0, 0, "core")]}
+
+        # act
+        block = prep_sync.render_rollup(groups, [])
+
+        # assert
+        self.assertIn("- [[Empty]] — 0/0", "\n".join(block))
 
 
 if __name__ == "__main__":
