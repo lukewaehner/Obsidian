@@ -100,7 +100,10 @@ class ScanProblemsTest(unittest.TestCase):
 
             # assert
             self.assertEqual(
-                ["- [[743 · Network Delay Time]] · Medium · Advanced Graphs"],
+                [
+                    "- [[Career/Prep/problems/Advanced Graphs/743 · Network Delay Time"
+                    "|743 · Network Delay Time]] · Medium · Advanced Graphs"
+                ],
                 by_topic["Dijkstra's Algorithm"],
             )
             self.assertIn("Heaps and Priority Queues", by_topic)

@@ -1,4 +1,5 @@
 import datetime
+import re
 import sys
 import tempfile
 import unittest
@@ -253,7 +254,30 @@ class RenderRollupTest(unittest.TestCase):
         block = prep_sync.render_rollup(groups, [])
 
         # assert
-        self.assertIn("- [[Empty]] — 0/0", "\n".join(block))
+        self.assertIn(
+            "- [[Career/Prep/topics/Graphs/Empty|Empty]] — 0/0", "\n".join(block)
+        )
+
+    def test_emits_no_bare_wikilinks(self):
+        # arrange
+        groups = {"Trees": [("Binary Search Trees", 2, 6, "core")]}
+        records = [
+            {
+                "name": "104 · Maximum Depth of Binary Tree",
+                "pattern": "Trees",
+                "difficulty": "Easy",
+                "solved_on": "2026-09-01",
+                "revisit": True,
+                "aid": "hint",
+            }
+        ]
+
+        # act
+        text = "\n".join(prep_sync.render_rollup(groups, records))
+
+        # assert
+        bare = re.findall(r"\[\[([^\]|]+)\]\]", text)
+        self.assertEqual([], bare)
 
 
 if __name__ == "__main__":
