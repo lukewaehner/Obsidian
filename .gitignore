@@ -11,3 +11,6 @@
 
 # Obsidian trash
 .trash/
+
+# Superpowers SDD scratch (ledgers, briefs, review packages)
+.superpowers/
