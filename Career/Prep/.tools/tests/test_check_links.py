@@ -108,5 +108,42 @@ class CheckTest(unittest.TestCase):
             self.assertEqual([], check_links.check(root, "Career/Prep"))
 
 
+class FindAmbiguousTest(unittest.TestCase):
+    def test_reports_a_bare_link_matching_two_notes(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "Career" / "Prep").mkdir(parents=True)
+            (root / "Code").mkdir()
+            (root / "Career" / "Prep" / "Merge Sort.md").write_text("x", encoding="utf-8")
+            (root / "Code" / "Merge Sort.md").write_text("x", encoding="utf-8")
+            (root / "Career" / "Prep" / "Hub.md").write_text(
+                "[[Merge Sort]]\n", encoding="utf-8"
+            )
+
+            # act
+            found = check_links.find_ambiguous(root, "Career/Prep")
+
+            # assert
+            self.assertEqual(1, len(found))
+            self.assertEqual("Merge Sort", found[0][1])
+            self.assertEqual(2, len(found[0][2]))
+
+    def test_ignores_a_fully_qualified_link(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "Career" / "Prep").mkdir(parents=True)
+            (root / "Code").mkdir()
+            (root / "Career" / "Prep" / "Merge Sort.md").write_text("x", encoding="utf-8")
+            (root / "Code" / "Merge Sort.md").write_text("x", encoding="utf-8")
+            (root / "Career" / "Prep" / "Hub.md").write_text(
+                "[[Code/Merge Sort|Merge Sort]]\n", encoding="utf-8"
+            )
+
+            # act / assert
+            self.assertEqual([], check_links.find_ambiguous(root, "Career/Prep"))
+
+
 if __name__ == "__main__":
     unittest.main()

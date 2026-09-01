@@ -71,22 +71,72 @@ def check(vault_root, scope):
     return broken
 
 
+def find_ambiguous(vault_root, scope):
+    """Return [(source, target, [candidate paths])] for bare links with >1 match.
+
+    A bare [[Name]] matching several notes still "resolves", so check() will
+    never flag it -- but Obsidian picks one and it may not be the one meant.
+    Fully-qualified links (containing a "/") are unambiguous by construction
+    and are skipped.
+    """
+    vault_root = Path(vault_root)
+    owners = {}
+    for path in vault_root.rglob("*.md"):
+        parts = path.relative_to(vault_root).parts
+        if SKIP_DIRS & set(parts):
+            continue
+        owners.setdefault(path.stem.lower(), []).append(
+            str(path.relative_to(vault_root))
+        )
+
+    found = []
+    for path in sorted((vault_root / scope).rglob("*.md")):
+        if SKIP_DIRS & set(path.relative_to(vault_root).parts):
+            continue
+        for target in iter_links(path.read_text(encoding="utf-8")):
+            if "/" in target:
+                continue
+            candidates = owners.get(target.lower(), [])
+            if len(candidates) > 1:
+                found.append(
+                    (str(path.relative_to(vault_root)), target, candidates)
+                )
+    return found
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("vault", help="vault root")
     parser.add_argument(
         "--scope", default="Career/Prep", help="subtree to scan (default: Career/Prep)"
     )
+    parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="also flag bare links that match more than one note (opt-in: the "
+        "pre-cutover topics/work trees are full of these until they're deleted)",
+    )
     args = parser.parse_args(argv)
 
     broken = check(Path(args.vault), args.scope)
-    if not broken:
+    ambiguous = find_ambiguous(Path(args.vault), args.scope) if args.strict else []
+
+    if not broken and not ambiguous:
         sys.stdout.write("check_links: all links resolve\n")
         return 0
 
-    sys.stderr.write("check_links: %d unresolved link(s)\n" % len(broken))
-    for source, target in broken:
-        sys.stderr.write("  %s -> [[%s]]\n" % (source, target))
+    if broken:
+        sys.stderr.write("check_links: %d unresolved link(s)\n" % len(broken))
+        for source, target in broken:
+            sys.stderr.write("  %s -> [[%s]]\n" % (source, target))
+
+    if ambiguous:
+        sys.stderr.write("check_links: %d ambiguous link(s)\n" % len(ambiguous))
+        for source, target, candidates in ambiguous:
+            sys.stderr.write(
+                "  %s -> [[%s]] matches %s\n" % (source, target, candidates)
+            )
+
     return 1
 
 
