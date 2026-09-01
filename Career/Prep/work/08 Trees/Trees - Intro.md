@@ -14,14 +14,14 @@ Reference: [[Career/Prep/topics/08 Trees/Trees - Intro|Trees - Intro]] · Index:
 
 ## Checklist
 
-- [x] Terminology: root, node, height, depth, arity — [[Career/Prep/work/Tree|Tree]]
-- [x] Preorder traversal — [[Career/Prep/work/Tree|Tree]]
-- [x] Inorder traversal — [[Career/Prep/work/Tree|Tree]]
-- [x] Postorder traversal — [[Career/Prep/work/Tree|Tree]]
-- [x] DFS, recursive and iterative with an explicit stack — [[Career/Prep/work/Tree|Tree]], [[Career/Prep/work/Stack|Stack]]
-- [x] BFS / level-order with a queue — [[Career/Prep/work/Tree|Tree]], [[Career/Prep/work/Queue|Queue]]
-- [x] Traversal complexity: O(n) time, O(h) or O(n) space — [[Career/Prep/work/Tree|Tree]]
-- [x] Real uses: HTML/XML parsing, ASTs, hierarchies — [[Career/Prep/work/Tree|Tree]]
+- [x] Terminology: root, node, height, depth, arity — [[Tree|Tree]]
+- [x] Preorder traversal — [[Tree|Tree]]
+- [x] Inorder traversal — [[Tree|Tree]]
+- [x] Postorder traversal — [[Tree|Tree]]
+- [x] DFS, recursive and iterative with an explicit stack — [[Tree|Tree]], [[Code/Algorithms/Stack|Stack]]
+- [x] BFS / level-order with a queue — [[Tree|Tree]], [[Code/Algorithms/Queue|Queue]]
+- [x] Traversal complexity: O(n) time, O(h) or O(n) space — [[Tree|Tree]]
+- [x] Real uses: HTML/XML parsing, ASTs, hierarchies — [[Tree|Tree]]
 
 ## Notes
 

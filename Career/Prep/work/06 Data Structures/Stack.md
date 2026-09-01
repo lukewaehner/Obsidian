@@ -14,12 +14,12 @@ Reference: [[Career/Prep/topics/06 Data Structures/Stack|Stack]] · Index: [[Car
 
 ## Checklist
 
-- [x] Explain LIFO and the core operations — [[Career/Prep/work/Stack|Stack]]
-- [x] Implement with an array — [[Career/Prep/work/Stack|Stack]] (the plan calls this optional; did it anyway)
-- [x] Implement with a linked list — [[Career/Prep/work/Stack|Stack]]
-- [x] Recognize stack problems from the prompt — [[Career/Prep/work/Stack|Stack]] § Recognition Patterns
+- [x] Explain LIFO and the core operations — [[Code/Algorithms/Stack|Stack]]
+- [x] Implement with an array — [[Code/Algorithms/Stack|Stack]] (the plan calls this optional; did it anyway)
+- [x] Implement with a linked list — [[Code/Algorithms/Stack|Stack]]
+- [x] Recognize stack problems from the prompt — [[Code/Algorithms/Stack|Stack]] § Recognition Patterns
 - [x] Classic problems: balanced parentheses, RPN, next greater element,
-      decode string, min stack — [[Career/Prep/work/Stack|Stack]] § Common Problem Patterns
+      decode string, min stack — [[Code/Algorithms/Stack|Stack]] § Common Problem Patterns
 
 ## Notes
 

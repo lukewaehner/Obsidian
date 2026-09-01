@@ -14,8 +14,8 @@ Reference: [[Career/Prep/topics/06 Data Structures/Arrays|Arrays]] · Index: [[C
 
 ## Checklist
 
-- [x] Time and space costs of arrays — [[Career/Prep/work/DSA|DSA]]
-- [x] Array vs. linked list tradeoffs — [[Career/Prep/work/Linked List|Linked List]] § Array vs Linked List
+- [x] Time and space costs of arrays — [[DSA|DSA]]
+- [x] Array vs. linked list tradeoffs — [[Linked List|Linked List]] § Array vs Linked List
 - [ ] Dynamic arrays: how resizing actually works (growth factor, shrink at 1/4)
 - [ ] Implement a vector with automatic resizing: `size`, `capacity`, `is_empty`,
       `at`, `push`, `insert`, `prepend`, `pop`, `delete`, `remove`, `find`, `resize`

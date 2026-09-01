@@ -14,8 +14,8 @@ Reference: [[Career/Prep/topics/08 Trees/Binary search trees - BSTs|Binary searc
 
 ## Checklist
 
-- [x] What the BST invariant is — [[Career/Prep/work/Tree|Tree]]
-- [x] `insert(value)` — [[Career/Prep/work/Tree|Tree]] § BST
+- [x] What the BST invariant is — [[Tree|Tree]]
+- [x] `insert(value)` — [[Tree|Tree]] § BST
 - [ ] `is_in_tree(value)`  ~ coursework
 - [ ] `get_height()`  ~ coursework
 - [ ] `delete_value(value)`  ~ coursework
@@ -31,7 +31,7 @@ Reference: [[Career/Prep/topics/08 Trees/Binary search trees - BSTs|Binary searc
 > [[BST Operations]], [[BST Time Complexity]], [[Self-Balancing BSTs]], and
 > [[Tree Rotations]] under `Code/Algorithms` cover search/insert/delete, height
 > analysis, AVL and red-black. Written for class, not re-read since — and not yet
-> reconciled with [[Career/Prep/work/Tree|Tree]].
+> reconciled with [[Tree|Tree]].
 
 ## Notes
 

@@ -14,12 +14,12 @@ Reference: [[Career/Prep/topics/07 More Knowledge/Binary search|Binary search]] 
 
 ## Checklist
 
-- [x] Understand the invariant and why it's O(log n) — [[Career/Prep/work/Binary Search|Binary Search]]
-- [x] Implement iteratively on a sorted array — [[Career/Prep/work/Binary Search|Binary Search]]
-- [x] Implement recursively — [[Career/Prep/work/Binary Search|Binary Search]]
-- [x] Know the classic pitfalls (overflow on `mid`, off-by-one, infinite loop) — [[Career/Prep/work/Binary Search|Binary Search]] § Common Pitfalls
+- [x] Understand the invariant and why it's O(log n) — [[Binary Search 1|Binary Search 1]]
+- [x] Implement iteratively on a sorted array — [[Binary Search 1|Binary Search 1]]
+- [x] Implement recursively — [[Binary Search 1|Binary Search 1]]
+- [x] Know the classic pitfalls (overflow on `mid`, off-by-one, infinite loop) — [[Binary Search 1|Binary Search 1]] § Common Pitfalls
 - [ ] Variations as working code: first/last occurrence, lower/upper bound,
-      search on answer space — listed in [[Career/Prep/work/Binary Search|Binary Search]] § Variations, not implemented
+      search on answer space — listed in [[Binary Search 1|Binary Search 1]] § Variations, not implemented
 
 ## Notes
 

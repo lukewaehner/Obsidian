@@ -14,12 +14,12 @@ Reference: [[Career/Prep/topics/06 Data Structures/Queue|Queue]] · Index: [[Car
 
 ## Checklist
 
-- [x] Explain FIFO and the core operations — [[Career/Prep/work/Queue|Queue]]
-- [x] Implement with a linked list and tail pointer — [[Career/Prep/work/Queue|Queue]]
-- [x] Implement with a fixed-size array / circular buffer — [[Career/Prep/work/Queue|Queue]]
-- [x] Know the cost of each operation, and why enqueue-at-head/dequeue-at-tail is O(n) — [[Career/Prep/work/Queue|Queue]]
-- [x] `collections.deque` and when to reach for it — [[Career/Prep/work/Queue|Queue]]
-- [x] Queue-shaped problems: BFS, level-order, sliding window max, scheduling — [[Career/Prep/work/Queue|Queue]]
+- [x] Explain FIFO and the core operations — [[Code/Algorithms/Queue|Queue]]
+- [x] Implement with a linked list and tail pointer — [[Code/Algorithms/Queue|Queue]]
+- [x] Implement with a fixed-size array / circular buffer — [[Code/Algorithms/Queue|Queue]]
+- [x] Know the cost of each operation, and why enqueue-at-head/dequeue-at-tail is O(n) — [[Code/Algorithms/Queue|Queue]]
+- [x] `collections.deque` and when to reach for it — [[Code/Algorithms/Queue|Queue]]
+- [x] Queue-shaped problems: BFS, level-order, sliding window max, scheduling — [[Code/Algorithms/Queue|Queue]]
 
 ## Notes
 

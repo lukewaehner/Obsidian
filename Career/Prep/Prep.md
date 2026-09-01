@@ -65,14 +65,14 @@ number above — 0 of 42 done.
 The evidence behind every checked box above. These live in `work/` alongside the
 topic docs.
 
-- [[Career/Prep/work/DSA|DSA]] — index and complexity reference
-- [[Career/Prep/work/Linked List|Linked List]] · [[Career/Prep/work/Doubly Linked List|Doubly Linked List]]
-- [[Career/Prep/work/Stack|Stack]] · [[Career/Prep/work/Queue|Queue]]
-- [[Career/Prep/work/Hashtable|Hashtable]] · [[Career/Prep/work/Tree|Tree]] · [[Career/Prep/work/Binary Search|Binary Search]]
+- [[DSA|DSA]] — index and complexity reference
+- [[Linked List|Linked List]] · [[Doubly Linked List|Doubly Linked List]]
+- [[Code/Algorithms/Stack|Stack]] · [[Code/Algorithms/Queue|Queue]]
+- [[Hashtable|Hashtable]] · [[Tree|Tree]] · [[Binary Search 1|Binary Search 1]]
 
 ## Open items worth surfacing
 
-- **Tombstone deletion bug** in [[Career/Prep/work/Hashtable|Hashtable]] — both `remove` methods break the
+- **Tombstone deletion bug** in [[Hashtable|Hashtable]] — both `remove` methods break the
   probe sequence. Tracked in [[Career/Prep/work/06 Data Structures/Hash table|Hash table]].
 - **Coursework not reconciled** — `Code/Algorithms` covers sorting, graphs, BSTs,
   recurrences, and DP from class. Marked `~ coursework` rather than checked off.
