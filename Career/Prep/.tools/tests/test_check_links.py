@@ -107,6 +107,21 @@ class CheckTest(unittest.TestCase):
             # act / assert
             self.assertEqual([], check_links.check(root, "Career/Prep"))
 
+    def test_resolves_a_link_to_a_base_file(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "Career" / "Prep").mkdir(parents=True)
+            (root / "Career" / "Prep" / "Topics.base").write_text(
+                "views: []\n", encoding="utf-8"
+            )
+            (root / "Career" / "Prep" / "Hub.md").write_text(
+                "[[Career/Prep/Topics.base|Topics]]\n", encoding="utf-8"
+            )
+
+            # act / assert
+            self.assertEqual([], check_links.check(root, "Career/Prep"))
+
 
 class FindAmbiguousTest(unittest.TestCase):
     def test_reports_a_bare_link_matching_two_notes(self):

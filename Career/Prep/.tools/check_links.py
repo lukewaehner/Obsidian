@@ -26,6 +26,8 @@ def iter_links(text):
     files, not notes. A note embed (![[Arrays]]) is NOT skipped: it is a real
     link that can dangle, and this checker exists to catch dangling links.
     Bare intra-note anchors ([[#Heading]]) always resolve to the current note.
+    A trailing `.md` or `.base` is stripped, matching how the index stores
+    notes and Bases files.
     """
     for match in LINK_RE.finditer(text):
         target = match.group(2).split("|", 1)[0].split("#", 1)[0].strip()
@@ -33,13 +35,13 @@ def iter_links(text):
             continue
         if match.group(1) == "!" and target.lower().endswith(ATTACHMENT_EXTS):
             continue
-        if target.lower().endswith(".md"):
-            target = target[:-3]
+        if target.lower().endswith(".md") or target.lower().endswith(".base"):
+            target = target.rsplit(".", 1)[0]
         yield target
 
 
 def build_index(vault_root):
-    """Collect every string Obsidian would resolve to a note.
+    """Collect every string Obsidian would resolve to a note or Bases file.
 
     Both the bare stem ('Arrays') and the vault-relative path without its
     extension ('Career/Prep/topics/Data Structures/Arrays') are indexed,
@@ -47,11 +49,13 @@ def build_index(vault_root):
     Obsidian resolves links case-insensitively.
     """
     index = set()
-    for path in vault_root.rglob("*.md"):
-        if SKIP_DIRS & set(path.relative_to(vault_root).parts):
-            continue
-        index.add(path.stem.lower())
-        index.add(str(path.relative_to(vault_root).with_suffix("")).lower())
+    for pattern in ("*.md", "*.base"):
+        for path in vault_root.rglob(pattern):
+            parts = path.relative_to(vault_root).parts
+            if SKIP_DIRS & set(parts):
+                continue
+            index.add(path.stem.lower())
+            index.add(str(path.relative_to(vault_root).with_suffix("")).lower())
     return index
 
 
@@ -74,20 +78,21 @@ def check(vault_root, scope):
 def find_ambiguous(vault_root, scope):
     """Return [(source, target, [candidate paths])] for bare links with >1 match.
 
-    A bare [[Name]] matching several notes still "resolves", so check() will
-    never flag it -- but Obsidian picks one and it may not be the one meant.
-    Fully-qualified links (containing a "/") are unambiguous by construction
-    and are skipped.
+    A bare [[Name]] matching several notes or Bases files still "resolves",
+    so check() will never flag it -- but Obsidian picks one and it may not be
+    the one meant. Fully-qualified links (containing a "/") are unambiguous by
+    construction and are skipped.
     """
     vault_root = Path(vault_root)
     owners = {}
-    for path in vault_root.rglob("*.md"):
-        parts = path.relative_to(vault_root).parts
-        if SKIP_DIRS & set(parts):
-            continue
-        owners.setdefault(path.stem.lower(), []).append(
-            str(path.relative_to(vault_root))
-        )
+    for pattern in ("*.md", "*.base"):
+        for path in vault_root.rglob(pattern):
+            parts = path.relative_to(vault_root).parts
+            if SKIP_DIRS & set(parts):
+                continue
+            owners.setdefault(path.stem.lower(), []).append(
+                str(path.relative_to(vault_root))
+            )
 
     found = []
     for path in sorted((vault_root / scope).rglob("*.md")):
