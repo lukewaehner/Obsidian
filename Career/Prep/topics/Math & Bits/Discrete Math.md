@@ -3,6 +3,11 @@ type: topic
 group: Math & Bits
 tier: extra
 confidence:
+sections_total: 6
+sections_done: 0
+coverage: 0.00
+status: untouched
+updated: 2026-09-01
 ---
 
 # Discrete Math

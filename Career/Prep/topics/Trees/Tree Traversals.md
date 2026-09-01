@@ -3,6 +3,11 @@ type: topic
 group: Trees
 tier: core
 confidence:
+sections_total: 6
+sections_done: 4
+coverage: 0.67
+status: learning
+updated: 2026-09-01
 ---
 
 # Tree Traversals

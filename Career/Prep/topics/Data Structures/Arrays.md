@@ -3,6 +3,11 @@ type: topic
 group: Data Structures
 tier: core
 confidence:
+sections_total: 7
+sections_done: 3
+coverage: 0.43
+status: learning
+updated: 2026-09-01
 ---
 
 # Arrays

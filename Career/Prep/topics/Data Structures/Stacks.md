@@ -3,6 +3,11 @@ type: topic
 group: Data Structures
 tier: core
 confidence:
+sections_total: 6
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-01
 ---
 
 # Stacks
