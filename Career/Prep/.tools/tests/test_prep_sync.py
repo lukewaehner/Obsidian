@@ -141,5 +141,89 @@ class LineEndingTest(unittest.TestCase):
                 self.assertEqual(NOTE.replace("\n", "\r\n").encode("utf-8"), handle.read())
 
 
+class ParseCoverageTest(unittest.TestCase):
+    def test_counts_ticked_and_total_items(self):
+        # arrange
+        body = [
+            "# Dijkstra",
+            "",
+            "> [!abstract]- Coverage — 0/0",
+            "> - [x] [[#Idea]]",
+            "> - [x] [[#How it works]]",
+            "> - [ ] [[#Gotchas]]",
+            "",
+            "## Idea",
+        ]
+
+        # act
+        header_index, done, total = prep_sync.parse_coverage(Path("d.md"), body)
+
+        # assert
+        self.assertEqual((2, 2, 3), (header_index, done, total))
+
+    def test_stops_counting_at_the_first_non_item_line(self):
+        # arrange
+        body = [
+            "> [!abstract]- Coverage — 0/0",
+            "> - [x] [[#Idea]]",
+            "",
+            "- [ ] a stray checkbox further down the note",
+        ]
+
+        # act
+        _, done, total = prep_sync.parse_coverage(Path("d.md"), body)
+
+        # assert
+        self.assertEqual((1, 1), (done, total))
+
+    def test_accepts_a_capital_x(self):
+        # arrange
+        body = ["> [!abstract]- Coverage — 0/1", "> - [X] [[#Idea]]"]
+
+        # act
+        _, done, _ = prep_sync.parse_coverage(Path("d.md"), body)
+
+        # assert
+        self.assertEqual(1, done)
+
+    def test_accepts_an_expanded_callout_without_the_fold_marker(self):
+        # arrange
+        body = ["> [!abstract] Coverage — 0/1", "> - [ ] [[#Idea]]"]
+
+        # act
+        header_index, _, total = prep_sync.parse_coverage(Path("d.md"), body)
+
+        # assert
+        self.assertEqual((0, 1), (header_index, total))
+
+    def test_raises_naming_the_file_when_the_callout_is_missing(self):
+        # arrange
+        body = ["# Dijkstra", "", "## Idea"]
+
+        # act / assert
+        with self.assertRaises(prep_sync.PrepError) as caught:
+            prep_sync.parse_coverage(Path("Dijkstra.md"), body)
+        self.assertIn("Dijkstra.md", str(caught.exception))
+
+    def test_raises_when_the_callout_has_no_items(self):
+        # arrange
+        body = ["> [!abstract]- Coverage — 0/0", "", "## Idea"]
+
+        # act / assert
+        with self.assertRaises(prep_sync.PrepError):
+            prep_sync.parse_coverage(Path("Dijkstra.md"), body)
+
+
+class DeriveStatusTest(unittest.TestCase):
+    def test_no_sections_done_is_untouched(self):
+        self.assertEqual("untouched", prep_sync.derive_status(0, 6))
+
+    def test_some_sections_done_is_learning(self):
+        self.assertEqual("learning", prep_sync.derive_status(3, 6))
+
+    def test_all_sections_done_is_solid(self):
+        self.assertEqual("solid", prep_sync.derive_status(6, 6))
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -16,6 +16,8 @@ import re
 from pathlib import Path
 
 FM_KEY_RE = re.compile(r"^([A-Za-z_][A-Za-z0-9_]*):(.*)$")
+COVERAGE_HEADER_RE = re.compile(r"^> \[!abstract\]-? Coverage — (\d+)/(\d+)\s*$")
+COVERAGE_ITEM_RE = re.compile(r"^> - \[([ xX])\] ")
 
 
 class PrepError(Exception):
@@ -86,3 +88,42 @@ def fm_set(fm_lines, key, value):
             return out
     out.append(new_line)
     return out
+
+
+def parse_coverage(path, body_lines):
+    """Locate and count the note's Coverage callout.
+
+    Returns (header_index, done, total). Counting stops at the first line that
+    is not a callout checklist item, so ordinary checkboxes elsewhere in the
+    note are never mistaken for coverage.
+    """
+    header_index = None
+    for i, line in enumerate(body_lines):
+        if COVERAGE_HEADER_RE.match(line):
+            header_index = i
+            break
+    if header_index is None:
+        raise PrepError("%s: no Coverage callout" % path)
+
+    done = 0
+    total = 0
+    for line in body_lines[header_index + 1:]:
+        match = COVERAGE_ITEM_RE.match(line)
+        if match is None:
+            break
+        total += 1
+        if match.group(1) in ("x", "X"):
+            done += 1
+
+    if total == 0:
+        raise PrepError("%s: Coverage callout has no items" % path)
+    return header_index, done, total
+
+
+def derive_status(done, total):
+    """Map coverage counts onto the three status values Bases groups on."""
+    if done == 0:
+        return "untouched"
+    if done < total:
+        return "learning"
+    return "solid"
