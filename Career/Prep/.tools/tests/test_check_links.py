@@ -29,6 +29,15 @@ class IterLinksTest(unittest.TestCase):
     def test_ignores_an_embedded_image(self):
         self.assertEqual([], list(check_links.iter_links("![[diagram.png]]")))
 
+    def test_reports_a_note_embed_as_a_link(self):
+        self.assertEqual(["Arrays"], list(check_links.iter_links("![[Arrays]]")))
+
+    def test_still_ignores_an_embedded_attachment(self):
+        self.assertEqual([], list(check_links.iter_links("![[diagram.png]]")))
+
+    def test_strips_a_trailing_md_extension(self):
+        self.assertEqual(["Arrays"], list(check_links.iter_links("[[Arrays.md]]")))
+
 
 class CheckTest(unittest.TestCase):
     def test_reports_nothing_when_every_link_resolves(self):
@@ -79,6 +88,21 @@ class CheckTest(unittest.TestCase):
             (root / "Code" / "Algorithms" / "DSA.md").write_text("x", encoding="utf-8")
             (root / "Career" / "Prep").mkdir(parents=True)
             (root / "Career" / "Prep" / "Hub.md").write_text("[[DSA]]\n", encoding="utf-8")
+
+            # act / assert
+            self.assertEqual([], check_links.check(root, "Career/Prep"))
+
+    def test_resolves_a_link_whose_case_differs_from_the_filename(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "Career" / "Prep").mkdir(parents=True)
+            (root / "Career" / "Prep" / "Arrays.md").write_text(
+                "# Arrays\n", encoding="utf-8"
+            )
+            (root / "Career" / "Prep" / "Hub.md").write_text(
+                "[[arrays]]\n", encoding="utf-8"
+            )
 
             # act / assert
             self.assertEqual([], check_links.check(root, "Career/Prep"))
