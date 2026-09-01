@@ -360,5 +360,31 @@ class SyncTopicTest(unittest.TestCase):
         self.assertIn("- [MIT 6.006 Dijkstra](https://example.com)", text)
 
 
+class FmBoolTest(unittest.TestCase):
+    def test_lowercase_true_is_true(self):
+        self.assertTrue(prep_sync.fm_bool(["revisit: true"], "revisit"))
+
+    def test_capitalised_true_is_true(self):
+        self.assertTrue(prep_sync.fm_bool(["revisit: True"], "revisit"))
+
+    def test_yes_is_true(self):
+        self.assertTrue(prep_sync.fm_bool(["revisit: yes"], "revisit"))
+
+    def test_quoted_true_is_true(self):
+        self.assertTrue(prep_sync.fm_bool(['revisit: "true"'], "revisit"))
+
+    def test_false_is_false(self):
+        self.assertFalse(prep_sync.fm_bool(["revisit: false"], "revisit"))
+
+    def test_absent_key_is_false(self):
+        self.assertFalse(prep_sync.fm_bool(["type: problem"], "revisit"))
+
+    def test_empty_value_is_false(self):
+        self.assertFalse(prep_sync.fm_bool(["revisit:"], "revisit"))
+
+    def test_unrecognised_value_is_false(self):
+        self.assertFalse(prep_sync.fm_bool(["revisit: maybe"], "revisit"))
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -184,6 +184,21 @@ class ScanProblemsTest(unittest.TestCase):
             # assert
             self.assertEqual(({}, {}, []), (rewrites, by_topic, records))
 
+    def test_capitalised_revisit_is_read_as_true(self):
+        # arrange
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            capitalised = PROBLEM.replace("revisit: true", "revisit: True")
+            write_problem(
+                root, "Advanced Graphs", "743 · Network Delay Time", capitalised
+            )
+
+            # act
+            _, _, records = prep_sync.scan_problems(root)
+
+            # assert
+            self.assertTrue(records[0]["revisit"])
+
 
 if __name__ == "__main__":
     unittest.main()

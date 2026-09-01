@@ -76,6 +76,22 @@ def fm_get(fm_lines, key):
     return None
 
 
+TRUE_VALUES = frozenset(["true", "yes", "on", "1"])
+
+
+def fm_bool(fm_lines, key):
+    """Return *key* as a boolean, tolerating YAML's several spellings of true.
+
+    Obsidian's property editor writes lowercase `true`, but a note edited by
+    hand may say `True` or `yes`. Anything absent, empty, or unrecognised is
+    False -- these properties are opt-in flags, so absence means off.
+    """
+    raw = fm_get(fm_lines, key)
+    if raw is None:
+        return False
+    return raw.strip().strip("\"'").lower() in TRUE_VALUES
+
+
 def fm_set(fm_lines, key, value):
     """Return a copy of *fm_lines* with *key* set to *value*.
 
@@ -250,7 +266,7 @@ def scan_problems(problems_root):
                 "pattern": path.parent.name,
                 "difficulty": difficulty,
                 "solved_on": fm_get(fm, "solved_on"),
-                "revisit": fm_get(fm, "revisit") == "true",
+                "revisit": fm_bool(fm, "revisit"),
                 "aid": fm_get(fm, "aid"),
             }
         )
