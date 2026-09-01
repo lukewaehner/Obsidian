@@ -21,6 +21,7 @@ COVERAGE_ITEM_RE = re.compile(r"^> - \[([ xX])\] ")
 DERIVED_KEYS = ("sections_total", "sections_done", "coverage", "status", "updated")
 PROBLEMS_HEADING = "## Problems"
 NO_PROBLEMS = "_None yet._"
+TOPIC_LINK_RE = re.compile(r"\[\[([^\]|#]+)")
 
 
 class PrepError(Exception):
@@ -182,3 +183,79 @@ def sync_topic(path, text, today, problem_entries):
         fm = fm_set(fm, "updated", today.isoformat())
 
     return join_note(fm, body), done, total
+
+
+def parse_topic_links(raw_value):
+    """Pull wikilink targets out of an inline frontmatter list.
+
+    Accepts the flow form the templates emit, e.g.
+    topics: ["[[Arrays]]", "[[Hash Tables]]"]. A folder path or a display
+    alias on the link is stripped, so only the note name comes back.
+    """
+    if not raw_value:
+        return []
+    targets = []
+    for match in TOPIC_LINK_RE.finditer(raw_value):
+        target = match.group(1).strip()
+        targets.append(target.rsplit("/", 1)[-1])
+    return targets
+
+
+def problem_entry(path, fm):
+    """Render the list line a problem contributes to a topic's Problems section."""
+    difficulty = fm_get(fm, "difficulty")
+    pattern = path.parent.name
+    return "- [[%s]] · %s · %s" % (path.stem, difficulty, pattern)
+
+
+def scan_problems(problems_root):
+    """Read every problem note under *problems_root*.
+
+    Returns (rewrites, entries_by_topic, records):
+      rewrites          path -> the note's text with 'pattern' set from its folder
+      entries_by_topic  topic note stem -> sorted list lines for its Problems section
+      records           flat dicts for the Prep.md roll-up
+
+    A note whose filename matches its folder is the folder note, not a
+    problem, and is skipped.
+    """
+    rewrites = {}
+    entries_by_topic = {}
+    records = []
+
+    if not problems_root.is_dir():
+        return rewrites, entries_by_topic, records
+
+    for path in sorted(problems_root.glob("*/*.md")):
+        if path.stem == path.parent.name:
+            continue
+
+        text, _ = read_note(path)
+        fm, body = split_note(path, text)
+
+        difficulty = fm_get(fm, "difficulty")
+        if difficulty is None:
+            raise PrepError("%s: missing 'difficulty'" % path)
+
+        new_fm = fm_set(fm, "pattern", path.parent.name)
+        rewrites[path] = join_note(new_fm, body)
+
+        entry = problem_entry(path, fm)
+        for topic in parse_topic_links(fm_get(fm, "topics")):
+            entries_by_topic.setdefault(topic, []).append(entry)
+
+        records.append(
+            {
+                "name": path.stem,
+                "pattern": path.parent.name,
+                "difficulty": difficulty,
+                "solved_on": fm_get(fm, "solved_on"),
+                "revisit": fm_get(fm, "revisit") == "true",
+                "aid": fm_get(fm, "aid"),
+            }
+        )
+
+    for entries in entries_by_topic.values():
+        entries.sort()
+
+    return rewrites, entries_by_topic, records
