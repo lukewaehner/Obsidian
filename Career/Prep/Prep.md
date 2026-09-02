@@ -69,16 +69,18 @@ The *Needs review* view in `Topics.base` stays empty until `/prep:review` sets
 
 ## Problems
 
-**10 solved** — 4 Easy · 6 Medium · 0 Hard
+**15 solved** — 5 Easy · 10 Medium · 0 Hard
 
 | Pattern | Solved |
 |---|---|
 | [[Career/Prep/problems/Arrays & Hashing/Arrays & Hashing|Arrays & Hashing]] | 8 |
-| [[Career/Prep/problems/Two Pointers/Two Pointers|Two Pointers]] | 2 |
+| [[Career/Prep/problems/Stack/Stack|Stack]] | 3 |
+| [[Career/Prep/problems/Two Pointers/Two Pointers|Two Pointers]] | 4 |
 
 ## Needs revisit
 
 - [[Career/Prep/problems/Arrays & Hashing/1 · Two Sum|1 · Two Sum]] — hint
+- [[Career/Prep/problems/Two Pointers/15 · 3Sum|15 · 3Sum]] — hint
 - [[Career/Prep/problems/Two Pointers/167 · Two Sum II - Input Array Is Sorted|167 · Two Sum II - Input Array Is Sorted]] — hint
 - [[Career/Prep/problems/Arrays & Hashing/238 · Product of Array Except Self|238 · Product of Array Except Self]] — hint
 

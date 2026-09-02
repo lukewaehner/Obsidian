@@ -52,4 +52,6 @@ string, min stack — [[Code/Algorithms/Stack|Stack]] § Common Problem Patterns
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Stack/150 · Evaluate Reverse Polish Notation|150 · Evaluate Reverse Polish Notation]] · Medium · Stack
+- [[Career/Prep/problems/Stack/155 · Min Stack|155 · Min Stack]] · Medium · Stack
+- [[Career/Prep/problems/Stack/20 · Valid Parentheses|20 · Valid Parentheses]] · Easy · Stack
