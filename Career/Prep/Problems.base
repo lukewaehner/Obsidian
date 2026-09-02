@@ -1,6 +1,6 @@
 filters:
   and:
-    - 'type == "problem"'
+    - type == "problem"
 properties:
   file.name:
     displayName: Problem
@@ -41,8 +41,8 @@ views:
     name: Needs revisit
     filters:
       or:
-        - 'revisit'
-        - 'aid != "unaided"'
+        - revisit
+        - aid != "unaided"
     order:
       - number
       - file.name
@@ -64,7 +64,6 @@ views:
       - solved_on
   - type: table
     name: Recent
-    limit: 25
     order:
       - number
       - file.name
@@ -74,3 +73,4 @@ views:
     sort:
       - property: solved_on
         direction: DESC
+    limit: 25

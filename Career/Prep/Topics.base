@@ -1,8 +1,8 @@
 filters:
   and:
-    - 'type == "topic"'
+    - type == "topic"
 formulas:
-  progress: 'if(sections_total, (coverage * 100).toFixed(0) + "%", "")'
+  progress: if(sections_total, (coverage * 100).toFixed(0) + "%", "")
 properties:
   file.name:
     displayName: Topic
@@ -17,7 +17,7 @@ views:
     name: Core progress
     filters:
       and:
-        - 'tier == "core"'
+        - tier == "core"
     groupBy:
       property: group
       direction: ASC
@@ -30,13 +30,15 @@ views:
       - confidence
       - updated
     sort:
+      - property: status
+        direction: ASC
       - property: coverage
         direction: ASC
   - type: table
     name: Extras
     filters:
       and:
-        - 'tier == "extra"'
+        - tier == "extra"
     groupBy:
       property: group
       direction: ASC
@@ -50,10 +52,10 @@ views:
     name: Needs review
     filters:
       or:
-        - 'confidence <= 2'
+        - confidence <= 2
         - and:
-            - 'status == "solid"'
-            - 'updated < (today() - duration("30d"))'
+            - status == "solid"
+            - updated < (today() - duration("30d"))
     order:
       - file.name
       - group
@@ -64,7 +66,6 @@ views:
         direction: ASC
   - type: table
     name: Recently touched
-    limit: 20
     order:
       - file.name
       - group
@@ -74,3 +75,4 @@ views:
     sort:
       - property: updated
         direction: DESC
+    limit: 20

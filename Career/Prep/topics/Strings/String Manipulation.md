@@ -54,4 +54,7 @@ algorithms all improve on this; see each note's Complexity section.
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Arrays & Hashing/242 · Valid Anagram|242 · Valid Anagram]] · Easy · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/271 · Encode and Decode Strings|271 · Encode and Decode Strings]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/49 · Group Anagrams|49 · Group Anagrams]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Two Pointers/125 · Valid Palindrome|125 · Valid Palindrome]] · Easy · Two Pointers

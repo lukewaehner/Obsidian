@@ -77,4 +77,9 @@ Still open:
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Arrays & Hashing/1 · Two Sum|1 · Two Sum]] · Easy · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/217 · Contains Duplicate|217 · Contains Duplicate]] · Easy · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/242 · Valid Anagram|242 · Valid Anagram]] · Easy · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/347 · Top K Frequent Elements|347 · Top K Frequent Elements]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/36 · Valid Sudoku|36 · Valid Sudoku]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/49 · Group Anagrams|49 · Group Anagrams]] · Medium · Arrays & Hashing

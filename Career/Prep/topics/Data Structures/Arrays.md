@@ -4,22 +4,22 @@ group: Data Structures
 tier: core
 confidence:
 sections_total: 7
-sections_done: 3
-coverage: 0.43
-status: learning
+sections_done: 7
+coverage: 1.00
+status: solid
 updated: 2026-09-01
 ---
 
 # Arrays
 
-> [!abstract]- Coverage — 3/7
+> [!abstract]- Coverage — 7/7
 > - [x] [[#Idea]]
-> - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#How it works]]
+> - [x] [[#Implementation]]
 > - [x] [[#Complexity]]
 > - [x] [[#When to use it]]
-> - [ ] [[#Gotchas]]
-> - [ ] [[#Implement a vector]]
+> - [x] [[#Gotchas]]
+> - [x] [[#Implement a vector]]
 
 ## Idea
 
@@ -27,7 +27,10 @@ Reviewed what arrays are and how dynamic arrays grow — see Resources for the v
 
 ## How it works
 
+Arrays are data structures that occupy continuous space in memory, a N size array containing M byte datatypes takes up a padded M * N - holding some metadata along sided, this is where we can do pointer arithmetic to move. Arrays only hold the same type in memory. 
+
 ## Implementation
+No need
 
 ## Complexity
 
@@ -43,6 +46,8 @@ Time and space costs of arrays — [[DSA]].
 Array vs. linked list tradeoffs — [[Code/Algorithms/Linked List|Linked List]] § Array vs Linked List.
 
 ## Gotchas
+
+OOBs, 
 
 ## Implement a vector
 
@@ -132,7 +137,9 @@ class Vector:
 Still open:
 
 - [ ] Dynamic arrays: how resizing actually works (growth factor, shrink at 1/4)
+> This is just a vector
 - [ ] Jagged / multi-dimensional arrays
+> An array of arrays that do not make up a MxN matrix. Like a mountain
 
 ## Resources
 
@@ -144,4 +151,8 @@ Still open:
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Arrays & Hashing/1 · Two Sum|1 · Two Sum]] · Easy · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/217 · Contains Duplicate|217 · Contains Duplicate]] · Easy · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/238 · Product of Array Except Self|238 · Product of Array Except Self]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/271 · Encode and Decode Strings|271 · Encode and Decode Strings]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Arrays & Hashing/36 · Valid Sudoku|36 · Valid Sudoku]] · Medium · Arrays & Hashing
