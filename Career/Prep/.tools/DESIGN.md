@@ -572,6 +572,28 @@ reorganisation, `feat:` for `prep_sync.py`, the Bases, and the agent commands.
 
 ## Operations
 
+**The watcher needs Full Disk Access before it does anything.** Verified by
+experiment: a launchd-spawned process reads `~/Repos` fine and is denied on
+`~/Library/Mobile Documents`, while the same script run from an interactive
+shell reads both. macOS TCC protects iCloud Drive from launchd agents. The job
+loads and fires correctly; every run then dies with
+
+    [Errno 1] Operation not permitted
+
+and `launchctl list` reports exit status 2.
+
+Grant it in System Settings → Privacy & Security → Full Disk Access, to
+`/Library/Developer/CommandLineTools/usr/bin/python3`. The plist deliberately
+names that binary rather than `/usr/bin/python3`, which is a stub that
+redirects to whatever `xcode-select -p` points at — so a grant against the stub
+may not apply to the process that actually runs.
+
+Note the grant is per-binary, so anything else run with that interpreter also
+gains full disk read. That is the cost of the automation; it is not required.
+Every `/prep:*` command runs the sync itself, so the system is fully functional
+without the watcher — the watcher only matters for ticking boxes in Obsidian
+outside a Claude session.
+
 The watcher is installed at `~/Library/LaunchAgents/com.luke.prepsync.plist`,
 copied from `.tools/`. It loads successfully, but does not actually run: macOS
 TCC denies the launchd-spawned `python3` read access to the iCloud-backed

@@ -6,7 +6,7 @@
     <string>com.luke.prepsync</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/usr/bin/python3</string>
+        <string>/Library/Developer/CommandLineTools/usr/bin/python3</string>
         <string>/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep/.tools/prep_sync.py</string>
         <string>/Users/lukewaehner/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/Career/Prep</string>
     </array>
