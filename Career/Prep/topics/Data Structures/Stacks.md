@@ -4,21 +4,21 @@ group: Data Structures
 tier: core
 confidence:
 sections_total: 6
-sections_done: 3
-coverage: 0.50
-status: learning
+sections_done: 6
+coverage: 1.00
+status: solid
 updated: 2026-09-01
 ---
 
 # Stacks
 
-> [!abstract]- Coverage — 3/6
-> - [x] [[#Idea]]
-> - [ ] [[#How it works]]
-> - [x] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [x] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> [!abstract]- Coverage — 6/6
+> - [x] [[#Idea]] ✅ 2026-09-01
+> - [x] [[#How it works]] ✅ 2026-09-01
+> - [x] [[#Implementation]] ✅ 2026-09-01
+> - [x] [[#Complexity]] ✅ 2026-09-01
+> - [x] [[#When to use it]] ✅ 2026-09-01
+> - [x] [[#Gotchas]] ✅ 2026-09-01
 
 ## Idea
 
@@ -26,12 +26,15 @@ Explain LIFO and the core operations — [[Code/Algorithms/Stack|Stack]].
 
 ## How it works
 
+A stack is a data structure type, usually implemented with a standard array where data is stored and retrieved from the top - ergo the latest item added to the structure is what is retrieved first (last in, first out). Its a push and pop system.
+
 ## Implementation
 
 Implemented with an array and with a linked list — [[Code/Algorithms/Stack|Stack]]
 (the plan called the linked-list version optional; did it anyway).
 
 ## Complexity
+Pushing and Appending is O(1) - generally dynamic sized arrays amortize down to O(1) to append to the back of a list, same with popping. Look at the vector implementation.
 
 ## When to use it
 
