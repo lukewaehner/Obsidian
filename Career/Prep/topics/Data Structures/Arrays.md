@@ -156,3 +156,4 @@ Still open:
 - [[Career/Prep/problems/Arrays & Hashing/238 · Product of Array Except Self|238 · Product of Array Except Self]] · Medium · Arrays & Hashing
 - [[Career/Prep/problems/Arrays & Hashing/271 · Encode and Decode Strings|271 · Encode and Decode Strings]] · Medium · Arrays & Hashing
 - [[Career/Prep/problems/Arrays & Hashing/36 · Valid Sudoku|36 · Valid Sudoku]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Two Pointers/167 · Two Sum II - Input Array Is Sorted|167 · Two Sum II - Input Array Is Sorted]] · Medium · Two Pointers
