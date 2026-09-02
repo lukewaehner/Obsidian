@@ -63,7 +63,7 @@ Business Strategy  → How should we effectively compete?
 - [[Strategy and Action]]
 - [[Vertical Integration - Full Depth]]
 - [[Vertical Integration]]
-- [[What is Strategy? and Five Forces]]
+- [[What is Strategy and Five Forces]]
 
 %% End Waypoint %%
 

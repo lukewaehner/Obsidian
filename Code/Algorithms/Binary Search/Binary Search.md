@@ -66,6 +66,7 @@ $$
 $$
 
 %% Begin Waypoint %%
-
+- [[Binary Search 1]]
+- [[Binary Search]]
 
 %% End Waypoint %%
