@@ -27,6 +27,19 @@ makes it O(log n) — [[Binary Search 1|Binary Search 1]].
 
 ## How it works
 
+take two pointers to the start and end of a sorted list. 
+- l = start
+- r = end of the list len(list) - 1
+compute the midpoint
+- m = l + (r - l) // 2 for safe overflow computation
+if the target value is == m, you are done. return the index being mid
+if the target value is > m, l = m + 1
+if the target value is < m, r = m - 1
+
+This repeatedly shrinks the searchable window in half.
+
+We already know that consistent dividing by two can be represented as O(logn)
+
 ## Implementation
 
 Implemented iteratively and recursively over a sorted array —
@@ -39,6 +52,9 @@ Still open:
       § Variations, not implemented
 
 ## Complexity
+
+O(logn) time, best O(1) - the middle of the array is the target
+O(1) space complexity in iterative approach with 3 extra pointers, O(logn) recursively for call stack overhead
 
 ## When to use it
 
@@ -57,4 +73,5 @@ bound that never moves — [[Binary Search 1|Binary Search 1]] § Common Pitfall
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Binary Search/704 · Binary Search|704 · Binary Search]] · Easy · Binary Search
+- [[Career/Prep/problems/Binary Search/74 · Search a 2D Matrix|74 · Search a 2D Matrix]] · Medium · Binary Search

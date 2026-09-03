@@ -45,4 +45,4 @@ updated: 2026-09-01
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Binary Search/704 · Binary Search|704 · Binary Search]] · Easy · Binary Search
