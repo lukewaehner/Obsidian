@@ -46,3 +46,4 @@ updated: 2026-09-01
 ## Problems
 
 - [[Career/Prep/problems/Binary Search/704 · Binary Search|704 · Binary Search]] · Easy · Binary Search
+- [[Career/Prep/problems/Binary Search/875 · Koko Eating Bananas|875 · Koko Eating Bananas]] · Medium · Binary Search

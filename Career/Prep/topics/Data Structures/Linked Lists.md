@@ -74,4 +74,5 @@ Still open:
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Linked List/206 · Reverse Linked List|206 · Reverse Linked List]] · Easy · Linked List
+- [[Career/Prep/problems/Linked List/21 · Merge Two Sorted Lists|21 · Merge Two Sorted Lists]] · Easy · Linked List

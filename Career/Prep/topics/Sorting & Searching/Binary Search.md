@@ -73,5 +73,8 @@ bound that never moves — [[Binary Search 1|Binary Search 1]] § Common Pitfall
 
 ## Problems
 
+- [[Career/Prep/problems/Binary Search/153 · Find Minimum in Rotated Sorted Array|153 · Find Minimum in Rotated Sorted Array]] · Medium · Binary Search
+- [[Career/Prep/problems/Binary Search/33 · Search in Rotated Sorted Array|33 · Search in Rotated Sorted Array]] · Medium · Binary Search
 - [[Career/Prep/problems/Binary Search/704 · Binary Search|704 · Binary Search]] · Easy · Binary Search
 - [[Career/Prep/problems/Binary Search/74 · Search a 2D Matrix|74 · Search a 2D Matrix]] · Medium · Binary Search
+- [[Career/Prep/problems/Binary Search/875 · Koko Eating Bananas|875 · Koko Eating Bananas]] · Medium · Binary Search

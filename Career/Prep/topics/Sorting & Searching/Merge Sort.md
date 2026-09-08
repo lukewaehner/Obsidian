@@ -68,4 +68,4 @@ in Resources.
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Linked List/21 · Merge Two Sorted Lists|21 · Merge Two Sorted Lists]] · Easy · Linked List

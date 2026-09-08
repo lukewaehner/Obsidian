@@ -23,6 +23,8 @@ views:
       - solved_on
       - revisit
     sort:
+      - property: difficulty
+        direction: DESC
       - property: solved_on
         direction: DESC
   - type: table
