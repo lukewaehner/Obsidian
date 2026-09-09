@@ -69,22 +69,27 @@ The *Needs review* view in `Topics.base` stays empty until `/prep:review` sets
 
 ## Problems
 
-**24 solved** — 8 Easy · 16 Medium · 0 Hard
+**34 solved** — 10 Easy · 23 Medium · 1 Hard
 
 | Pattern | Solved |
 |---|---|
 | [[Career/Prep/problems/Arrays & Hashing/Arrays & Hashing|Arrays & Hashing]] | 8 |
 | [[Career/Prep/problems/Binary Search/Binary Search|Binary Search]] | 5 |
-| [[Career/Prep/problems/Linked List/Linked List|Linked List]] | 2 |
+| [[Career/Prep/problems/Linked List/Linked List|Linked List]] | 10 |
+| [[Career/Prep/problems/Sliding Window/Sliding Window|Sliding Window]] | 2 |
 | [[Career/Prep/problems/Stack/Stack|Stack]] | 5 |
 | [[Career/Prep/problems/Two Pointers/Two Pointers|Two Pointers]] | 4 |
 
 ## Needs revisit
 
 - [[Career/Prep/problems/Arrays & Hashing/1 · Two Sum|1 · Two Sum]] — hint
+- [[Career/Prep/problems/Linked List/138 · Copy List with Random Pointer|138 · Copy List with Random Pointer]] — hint
+- [[Career/Prep/problems/Linked List/146 · LRU Cache|146 · LRU Cache]] — solution
 - [[Career/Prep/problems/Two Pointers/15 · 3Sum|15 · 3Sum]] — hint
 - [[Career/Prep/problems/Two Pointers/167 · Two Sum II - Input Array Is Sorted|167 · Two Sum II - Input Array Is Sorted]] — hint
+- [[Career/Prep/problems/Linked List/23 · Merge k Sorted Lists|23 · Merge k Sorted Lists]] — hint
 - [[Career/Prep/problems/Arrays & Hashing/238 · Product of Array Except Self|238 · Product of Array Except Self]] — hint
+- [[Career/Prep/problems/Linked List/287 · Find the Duplicate Number|287 · Find the Duplicate Number]] — hint
 - [[Career/Prep/problems/Binary Search/74 · Search a 2D Matrix|74 · Search a 2D Matrix]] — hint
 - [[Career/Prep/problems/Binary Search/875 · Koko Eating Bananas|875 · Koko Eating Bananas]] — hint
 

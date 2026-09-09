@@ -57,5 +57,6 @@ algorithms all improve on this; see each note's Complexity section.
 - [[Career/Prep/problems/Arrays & Hashing/242 · Valid Anagram|242 · Valid Anagram]] · Easy · Arrays & Hashing
 - [[Career/Prep/problems/Arrays & Hashing/271 · Encode and Decode Strings|271 · Encode and Decode Strings]] · Medium · Arrays & Hashing
 - [[Career/Prep/problems/Arrays & Hashing/49 · Group Anagrams|49 · Group Anagrams]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Sliding Window/3 · Longest Substring Without Repeating Characters|3 · Longest Substring Without Repeating Characters]] · Medium · Sliding Window
 - [[Career/Prep/problems/Stack/20 · Valid Parentheses|20 · Valid Parentheses]] · Easy · Stack
 - [[Career/Prep/problems/Two Pointers/125 · Valid Palindrome|125 · Valid Palindrome]] · Easy · Two Pointers

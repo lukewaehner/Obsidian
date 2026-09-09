@@ -74,5 +74,13 @@ Still open:
 
 ## Problems
 
+- [[Career/Prep/problems/Linked List/138 · Copy List with Random Pointer|138 · Copy List with Random Pointer]] · Medium · Linked List
+- [[Career/Prep/problems/Linked List/141 · Linked List Cycle|141 · Linked List Cycle]] · Easy · Linked List
+- [[Career/Prep/problems/Linked List/143 · Reorder List|143 · Reorder List]] · Medium · Linked List
+- [[Career/Prep/problems/Linked List/146 · LRU Cache|146 · LRU Cache]] · Medium · Linked List
+- [[Career/Prep/problems/Linked List/19 · Remove Nth Node From End of List|19 · Remove Nth Node From End of List]] · Medium · Linked List
+- [[Career/Prep/problems/Linked List/2 · Add Two Numbers|2 · Add Two Numbers]] · Medium · Linked List
 - [[Career/Prep/problems/Linked List/206 · Reverse Linked List|206 · Reverse Linked List]] · Easy · Linked List
 - [[Career/Prep/problems/Linked List/21 · Merge Two Sorted Lists|21 · Merge Two Sorted Lists]] · Easy · Linked List
+- [[Career/Prep/problems/Linked List/23 · Merge k Sorted Lists|23 · Merge k Sorted Lists]] · Hard · Linked List
+- [[Career/Prep/problems/Linked List/287 · Find the Duplicate Number|287 · Find the Duplicate Number]] · Medium · Linked List

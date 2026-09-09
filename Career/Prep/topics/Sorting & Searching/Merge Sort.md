@@ -69,3 +69,4 @@ in Resources.
 ## Problems
 
 - [[Career/Prep/problems/Linked List/21 · Merge Two Sorted Lists|21 · Merge Two Sorted Lists]] · Easy · Linked List
+- [[Career/Prep/problems/Linked List/23 · Merge k Sorted Lists|23 · Merge k Sorted Lists]] · Hard · Linked List

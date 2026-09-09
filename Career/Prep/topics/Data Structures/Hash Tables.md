@@ -83,3 +83,6 @@ Still open:
 - [[Career/Prep/problems/Arrays & Hashing/347 · Top K Frequent Elements|347 · Top K Frequent Elements]] · Medium · Arrays & Hashing
 - [[Career/Prep/problems/Arrays & Hashing/36 · Valid Sudoku|36 · Valid Sudoku]] · Medium · Arrays & Hashing
 - [[Career/Prep/problems/Arrays & Hashing/49 · Group Anagrams|49 · Group Anagrams]] · Medium · Arrays & Hashing
+- [[Career/Prep/problems/Linked List/138 · Copy List with Random Pointer|138 · Copy List with Random Pointer]] · Medium · Linked List
+- [[Career/Prep/problems/Linked List/146 · LRU Cache|146 · LRU Cache]] · Medium · Linked List
+- [[Career/Prep/problems/Sliding Window/3 · Longest Substring Without Repeating Characters|3 · Longest Substring Without Repeating Characters]] · Medium · Sliding Window

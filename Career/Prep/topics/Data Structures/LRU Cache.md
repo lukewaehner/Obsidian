@@ -45,4 +45,4 @@ Pending: implement it (hash map + doubly linked list).
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Linked List/146 · LRU Cache|146 · LRU Cache]] · Medium · Linked List

@@ -159,6 +159,8 @@ Still open:
 - [[Career/Prep/problems/Binary Search/153 · Find Minimum in Rotated Sorted Array|153 · Find Minimum in Rotated Sorted Array]] · Medium · Binary Search
 - [[Career/Prep/problems/Binary Search/33 · Search in Rotated Sorted Array|33 · Search in Rotated Sorted Array]] · Medium · Binary Search
 - [[Career/Prep/problems/Binary Search/74 · Search a 2D Matrix|74 · Search a 2D Matrix]] · Medium · Binary Search
+- [[Career/Prep/problems/Linked List/287 · Find the Duplicate Number|287 · Find the Duplicate Number]] · Medium · Linked List
+- [[Career/Prep/problems/Sliding Window/121 · Best Time to Buy and Sell Stock|121 · Best Time to Buy and Sell Stock]] · Easy · Sliding Window
 - [[Career/Prep/problems/Stack/739 · Daily Temperatures|739 · Daily Temperatures]] · Medium · Stack
 - [[Career/Prep/problems/Two Pointers/11 · Container With Most Water|11 · Container With Most Water]] · Medium · Two Pointers
 - [[Career/Prep/problems/Two Pointers/15 · 3Sum|15 · 3Sum]] · Medium · Two Pointers

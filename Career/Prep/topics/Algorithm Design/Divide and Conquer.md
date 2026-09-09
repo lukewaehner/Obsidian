@@ -42,4 +42,4 @@ the bare `Divide and Conquer` link.
 
 ## Problems
 
-_None yet._
+- [[Career/Prep/problems/Linked List/23 · Merge k Sorted Lists|23 · Merge k Sorted Lists]] · Hard · Linked List
