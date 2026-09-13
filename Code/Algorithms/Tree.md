@@ -49,6 +49,17 @@ def preorder(node):
 	preorder(node.left)
 	preorder(node.right)
 ```
+```python
+def preorder(node):
+	if node == null:
+		return
+	stack = [node]
+	while stack:
+		n = stack.pop()
+		stack.append(n.right)
+		stack.append(n.left)
+	
+```
 O(n)
 
 In-order -> Left, visit, right

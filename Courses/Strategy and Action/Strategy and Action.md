@@ -5,6 +5,7 @@ tags:
   - strategy
   - hub
 type: moc
+semester_start: 2026-09-07
 ---
 # Strategy and Action
 

@@ -1,0 +1,67 @@
+filters:
+  and:
+    - file.inFolder("Courses/Distributed Systems")
+properties:
+  file.name:
+    displayName: Note
+  due:
+    displayName: Due
+  module:
+    displayName: "#"
+views:
+  - type: table
+    name: Upcoming
+    filters:
+      and:
+        - or:
+            - type == "assignment"
+            - type == "exam"
+        - due >= today()
+    order:
+      - file.name
+      - due
+      - type
+      - status
+    sort:
+      - property: due
+        direction: ASC
+  - type: table
+    name: All assignments
+    filters:
+      and:
+        - or:
+            - type == "assignment"
+            - type == "exam"
+    order:
+      - file.name
+      - due
+      - type
+      - status
+    sort:
+      - property: due
+        direction: ASC
+  - type: table
+    name: No due date
+    filters:
+      and:
+        - or:
+            - type == "assignment"
+            - type == "exam"
+        - "!due"
+    order:
+      - file.name
+      - type
+      - status
+  - type: table
+    name: Topics
+    filters:
+      and:
+        - type == "lecture"
+    order:
+      - module
+      - file.name
+      - week
+      - status
+    sort:
+      - property: module
+        direction: ASC

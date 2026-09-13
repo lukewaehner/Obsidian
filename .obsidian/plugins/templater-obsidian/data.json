@@ -45,6 +45,10 @@
     {
       "folder": "Code/Databases",
       "template": "templates/SQL Template.md"
+    },
+    {
+      "folder": "Courses",
+      "template": "templates/Course Note Template.md"
     }
   ],
   "enable_file_templates": false,
