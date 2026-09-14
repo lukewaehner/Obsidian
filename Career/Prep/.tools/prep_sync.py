@@ -373,6 +373,17 @@ def replace_marked_block(lines, block):
     return list(lines[:start + 1]) + list(block) + list(lines[end:])
 
 
+def cell_link(path, display):
+    """A wikilink safe to put inside a markdown table cell.
+
+    The alias separator must be escaped. A bare `|` ends the cell, so the link
+    splits across two columns and every column after it shifts right -- and once
+    Obsidian's table editor reformats the row it bakes the extra column into the
+    file, which is how the Progress table lost its alignment.
+    """
+    return "[[%s\\|%s]]" % (path, display)
+
+
 def render_rollup(groups, records):
     """Build the generated section of Prep.md.
 
@@ -402,8 +413,14 @@ def render_rollup(groups, records):
         done = sum(row[1] for row in rows)
         total = sum(row[2] for row in rows)
         out.append(
-            "| [[Career/Prep/topics/%s/%s|%s]] | `%s` | %d/%d | %d |"
-            % (name, name, name, progress_bar(done, total, width=16), done, total, len(rows))
+            "| %s | `%s` | %d/%d | %d |"
+            % (
+                cell_link("Career/Prep/topics/%s/%s" % (name, name), name),
+                progress_bar(done, total, width=16),
+                done,
+                total,
+                len(rows),
+            )
         )
 
     weakest = sorted(
@@ -445,8 +462,13 @@ def render_rollup(groups, records):
         by_pattern = Counter(r["pattern"] for r in records)
         for pattern in sorted(by_pattern):
             out.append(
-                "| [[Career/Prep/problems/%s/%s|%s]] | %d |"
-                % (pattern, pattern, pattern, by_pattern[pattern])
+                "| %s | %d |"
+                % (
+                    cell_link(
+                        "Career/Prep/problems/%s/%s" % (pattern, pattern), pattern
+                    ),
+                    by_pattern[pattern],
+                )
             )
 
         revisit = sorted(

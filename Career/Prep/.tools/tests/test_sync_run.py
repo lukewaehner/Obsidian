@@ -11,6 +11,24 @@ import prep_sync
 
 TODAY = datetime.date(2026, 9, 1)
 
+
+def markdown_tables(lines):
+    """Split *lines* into [(header_cells, [row_cells, ...]), ...].
+
+    Cells are separated by an unescaped `|`; `\\|` is a literal pipe inside a
+    cell, which is how a wikilink alias has to be written inside a table.
+    """
+    tables, pending = [], []
+    for line in list(lines) + [""]:
+        if line.startswith("|"):
+            pending.append(re.split(r"(?<!\\)\|", line)[1:-1])
+            continue
+        if len(pending) >= 2:
+            tables.append((pending[0], pending[2:]))
+        pending = []
+    return tables
+
+
 TOPIC = """---
 type: topic
 group: Graphs
@@ -278,6 +296,52 @@ class RenderRollupTest(unittest.TestCase):
         # assert
         bare = re.findall(r"\[\[([^\]|]+)\]\]", text)
         self.assertEqual([], bare)
+
+    def test_every_table_row_has_the_header_cell_count(self):
+        # arrange
+        groups = {"Trees": [("Binary Search Trees", 2, 6, "core")]}
+        records = [
+            {
+                "name": "104 · Maximum Depth of Binary Tree",
+                "pattern": "Trees",
+                "difficulty": "Easy",
+                "solved_on": "2026-09-01",
+                "revisit": True,
+                "aid": "hint",
+            }
+        ]
+
+        # act
+        tables = markdown_tables(prep_sync.render_rollup(groups, records))
+
+        # assert
+        ragged = [
+            (header, row)
+            for header, rows in tables
+            for row in rows
+            if len(row) != len(header)
+        ]
+        self.assertEqual([], ragged)
+
+    def test_the_rollup_renders_both_the_progress_and_problems_tables(self):
+        # arrange
+        groups = {"Trees": [("Binary Search Trees", 2, 6, "core")]}
+        records = [
+            {
+                "name": "104 · Maximum Depth of Binary Tree",
+                "pattern": "Trees",
+                "difficulty": "Easy",
+                "solved_on": "2026-09-01",
+                "revisit": False,
+                "aid": "unaided",
+            }
+        ]
+
+        # act
+        tables = markdown_tables(prep_sync.render_rollup(groups, records))
+
+        # assert
+        self.assertEqual([4, 2], [len(header) for header, _ in tables])
 
 
 if __name__ == "__main__":

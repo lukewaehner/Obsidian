@@ -48,16 +48,16 @@ The *Needs review* view in `Topics.base` stays empty until `/prep:review` sets
 
 | Group | Coverage | Sections | Topics |
 |---|---|---|---|
-| [[Career/Prep/topics/Complexity/Complexity|Complexity]] | `░░░░░░░░░░░░░░░░` | 0/24 | 4 |
-| [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]] | `████████░░░░░░░░` | 27/56 | 9 |
-| [[Career/Prep/topics/Trees/Trees|Trees]] | `█████░░░░░░░░░░░` | 7/24 | 4 |
-| [[Career/Prep/topics/Graphs/Graphs|Graphs]] | `░░░░░░░░░░░░░░░░` | 0/48 | 8 |
-| [[Career/Prep/topics/Sorting & Searching/Sorting & Searching|Sorting & Searching]] | `█░░░░░░░░░░░░░░░` | 3/60 | 10 |
-| [[Career/Prep/topics/Algorithm Design/Algorithm Design|Algorithm Design]] | `█░░░░░░░░░░░░░░░` | 1/30 | 5 |
-| [[Career/Prep/topics/Strings/Strings|Strings]] | `░░░░░░░░░░░░░░░░` | 0/18 | 3 |
-| [[Career/Prep/topics/Math & Bits/Math & Bits|Math & Bits]] | `░░░░░░░░░░░░░░░░` | 0/18 | 3 |
-| [[Career/Prep/topics/Systems/Systems|Systems]] | `░░░░░░░░░░░░░░░░` | 0/36 | 6 |
-| [[Career/Prep/topics/Design/Design|Design]] | `░░░░░░░░░░░░░░░░` | 0/60 | 10 |
+| [[Career/Prep/topics/Complexity/Complexity\|Complexity]] | `░░░░░░░░░░░░░░░░` | 0/24 | 4 |
+| [[Career/Prep/topics/Data Structures/Data Structures\|Data Structures]] | `████████░░░░░░░░` | 27/56 | 9 |
+| [[Career/Prep/topics/Trees/Trees\|Trees]] | `█████░░░░░░░░░░░` | 7/24 | 4 |
+| [[Career/Prep/topics/Graphs/Graphs\|Graphs]] | `░░░░░░░░░░░░░░░░` | 0/48 | 8 |
+| [[Career/Prep/topics/Sorting & Searching/Sorting & Searching\|Sorting & Searching]] | `█░░░░░░░░░░░░░░░` | 3/60 | 10 |
+| [[Career/Prep/topics/Algorithm Design/Algorithm Design\|Algorithm Design]] | `█░░░░░░░░░░░░░░░` | 1/30 | 5 |
+| [[Career/Prep/topics/Strings/Strings\|Strings]] | `░░░░░░░░░░░░░░░░` | 0/18 | 3 |
+| [[Career/Prep/topics/Math & Bits/Math & Bits\|Math & Bits]] | `░░░░░░░░░░░░░░░░` | 0/18 | 3 |
+| [[Career/Prep/topics/Systems/Systems\|Systems]] | `░░░░░░░░░░░░░░░░` | 0/36 | 6 |
+| [[Career/Prep/topics/Design/Design\|Design]] | `░░░░░░░░░░░░░░░░` | 0/60 | 10 |
 
 ## Weakest topics
 
@@ -73,12 +73,12 @@ The *Needs review* view in `Topics.base` stays empty until `/prep:review` sets
 
 | Pattern | Solved |
 |---|---|
-| [[Career/Prep/problems/Arrays & Hashing/Arrays & Hashing|Arrays & Hashing]] | 8 |
-| [[Career/Prep/problems/Binary Search/Binary Search|Binary Search]] | 5 |
-| [[Career/Prep/problems/Linked List/Linked List|Linked List]] | 10 |
-| [[Career/Prep/problems/Sliding Window/Sliding Window|Sliding Window]] | 2 |
-| [[Career/Prep/problems/Stack/Stack|Stack]] | 5 |
-| [[Career/Prep/problems/Two Pointers/Two Pointers|Two Pointers]] | 4 |
+| [[Career/Prep/problems/Arrays & Hashing/Arrays & Hashing\|Arrays & Hashing]] | 8 |
+| [[Career/Prep/problems/Binary Search/Binary Search\|Binary Search]] | 5 |
+| [[Career/Prep/problems/Linked List/Linked List\|Linked List]] | 10 |
+| [[Career/Prep/problems/Sliding Window/Sliding Window\|Sliding Window]] | 2 |
+| [[Career/Prep/problems/Stack/Stack\|Stack]] | 5 |
+| [[Career/Prep/problems/Two Pointers/Two Pointers\|Two Pointers]] | 4 |
 
 ## Needs revisit
 
