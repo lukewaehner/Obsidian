@@ -16,7 +16,7 @@ Hub: [[Fundamentals of Software Engineering]]
 
 ## Module Roadmap
 
-Only Modules 1 and 2 have published pages so far; the rest are named on the calendar but not yet linked.
+Modules 1-4 have published pages as of 2026-09-13; the rest are named on the calendar but not yet linked.
 
 | # | Module | Note |
 | --- | --- | --- |
@@ -24,8 +24,8 @@ Only Modules 1 and 2 have published pages so far; the rest are named on the cale
 | 2 | From Requirements to Tests | [[Module 02 - From Requirements to Tests]] |
 | 2a | Requirements Analysis | — |
 | 2b | Test-Driven Development | — |
-| 3 | When Have I Written Enough Tests? | — |
-| 4 | Design Patterns for Web Applications | — |
+| 3 | When Have I Written Enough Tests? (published as *Test Adequacy*) | [[Module 03 - Test Adequacy]] |
+| 4 | Design Patterns for Web Applications | [[Module 04 - Design Patterns for Web Applications]] |
 | 5 | React Part 1 (Introduction) | — |
 | 6 | React Part 2 (Hooks) | — |
 | 7 | Software Processes & Agile | — |

@@ -15,7 +15,7 @@ semester_start: 2026-09-07
 **Course Focus**: The tools and processes used to design, construct, and maintain programs over time — "the multi-person development of multi-version programs." Development processes that work for one developer building a one-off program break down on a codebase maintained by a team over years. The course walks the full software lifecycle with a bias toward how each decision affects resulting *quality*.
 
 > [!info] Source
-> Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-09. The site is early-semester: only Modules 1–2, Week 1 tutorials, and IP1 are published so far.
+> Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-13. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds awaiting lecture notes.
 
 ## Logistics
 
@@ -210,8 +210,11 @@ Inspired by SE courses at Columbia (COMS W4156), CMU ([17-313](https://cmu-313.g
 - **topics**
 	- [[Activity 01 - User Stories and Conditions of Satisfaction]]
 	- [[Activity 02 - Test-Driven Development]]
+	- [[Activity 03 - Mutation Testing with Stryker]]
 	- [[Module 01 - Orientation and User Stories]]
 	- [[Module 02 - From Requirements to Tests]]
+	- [[Module 03 - Test Adequacy]]
+	- [[Module 04 - Design Patterns for Web Applications]]
 - **tutorials**
 	- [[Tutorial - API Requests]]
 	- [[Tutorial - Development Environment Setup]]
