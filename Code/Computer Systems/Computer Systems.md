@@ -1,3 +1,11 @@
+---
+tags:
+  - computer-systems
+  - c
+  - assembly
+  - operating-systems
+type: moc
+---
 **Course Focus**: Understanding how computer systems work from the ground up - assembly language, C programming, operating system concepts, and hardware-software interaction.
 
  [Course Website](https://khoury-cs3650.github.io)

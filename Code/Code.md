@@ -41,6 +41,7 @@ A hub for all programming knowledge, languages, tools, and career resources.
 - **[[React]]**
 - **[[Ruby]]**
 - **[[Rust]]**
+- **[[TypeScript]]**
 - **[[Zsh]]**
 - [[Code]]
 

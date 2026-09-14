@@ -1,3 +1,10 @@
+---
+tags:
+  - swift
+  - ios
+  - mobile
+type: moc
+---
 **Course Focus**: Principles and hands-on practice of iOS mobile application development using Swift, including UI design, system-level programming, and rapid prototyping.
 
 *Office hours through Khoury Office Hours App*

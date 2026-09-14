@@ -1,3 +1,10 @@
+---
+tags:
+  - algorithms
+  - complexity
+  - data-structures
+type: moc
+---
 **Course Focus**: Design, analysis, and correctness of algorithms using mathematical foundations and various algorithmic paradigms.
 
 ## Core Topics
