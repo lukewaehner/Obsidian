@@ -239,7 +239,7 @@ You'll need at least one new exported helper in `auth.service.ts` to create and/
 | --- | --- |
 | 6 | All functions in their correct files |
 | 5 | Tests pass and both files still have 100% branch coverage (−1 per missing coverage percentage, no negatives; **zero if any test fails** or TypeScript fails because of the refactor) |
-| 4 | Correct [[CS4530 Code Style Guide|code style]] and documentation on all functions |
+| 4 | Correct [[CS4530 Code Style Guide\|code style]] and documentation on all functions |
 
 > [!warning] No autocomplete on this task either
 > Task 5 exists to get you comfortable with what TypeScript gives you — seeing red squiggles and fixing them. LLM/Copilot autocompletion here does nothing but interfere with your own learning.

@@ -364,8 +364,8 @@ print(f"h contains 1: {h.contains(1)}")  # Output: False
 | Structure | Search | Insert | Delete | Ordered |
 |-----------|--------|--------|--------|---------|
 | Hashtable | O(1)   | O(1)   | O(1)   | No      |
-| [[Career/Prep/topics/Sorting & Searching/Binary Search|Binary Search]] (sorted array) | O(log n) | O(n) | O(n) | Yes |
-| [[Career/Prep/topics/Data Structures/Linked Lists|Linked List]] | O(n) | O(1) | O(1) | No |
+| [[Career/Prep/topics/Sorting & Searching/Binary Search\|Binary Search]] (sorted array) | O(log n) | O(n) | O(n) | Yes |
+| [[Career/Prep/topics/Data Structures/Linked Lists\|Linked List]] | O(n) | O(1) | O(1) | No |
 
 ---
 
