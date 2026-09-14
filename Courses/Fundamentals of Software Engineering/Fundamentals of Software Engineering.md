@@ -190,23 +190,35 @@ Inspired by SE courses at Columbia (COMS W4156), CMU ([17-313](https://cmu-313.g
 **Topics**: Requirements Engineering, User Stories, Test-Driven Development, Design Patterns, React, Agile, Concurrency, Maintainability, CI/CD, Security, Cloud Deployment, SE Ethics
 
 %% Begin Waypoint %%
-- [[Activity 01 - User Stories and Conditions of Satisfaction]]
-- [[Activity 02 - Test-Driven Development]]
-- [[CS4530 AI Policy]]
-- [[CS4530 Code Style Guide]]
-- [[CS4530 Course Schedule]]
-- [[CS4530 Scientific Debugging]]
-- [[CS4530 Staff and Office Hours]]
-- [[CS4530 Textbooks and Resources]]
+- **assignments**
+	- [[Individual Project 1]]
+	- [[Individual Project 2]]
+	- [[Individual Project 3]]
+	- [[Individual Reflection (tp5)]]
+	- [[Preliminary Project Plan (tp2)]]
+	- [[Project Final Deliverable (tp4)]]
+	- [[Revised Project Plan (tp3)]]
+	- [[Team Formation Survey (tp1)]]
+	- [[Team Project Overview]]
+- **reference**
+	- [[CS4530 AI Policy]]
+	- [[CS4530 Code Style Guide]]
+	- [[CS4530 Course Schedule]]
+	- [[CS4530 Scientific Debugging]]
+	- [[CS4530 Staff and Office Hours]]
+	- [[CS4530 Textbooks and Resources]]
+- **topics**
+	- [[Activity 01 - User Stories and Conditions of Satisfaction]]
+	- [[Activity 02 - Test-Driven Development]]
+	- [[Module 01 - Orientation and User Stories]]
+	- [[Module 02 - From Requirements to Tests]]
+- **tutorials**
+	- [[Tutorial - API Requests]]
+	- [[Tutorial - Development Environment Setup]]
+	- [[Tutorial - Git and GitHub Basics]]
+	- [[Tutorial - TypeScript Basics]]
+	- [[Tutorial - Unit Testing with Vitest]]
+- [[CS4530 Assignments.base|CS4530 Assignments]]
 - [[Fundamentals of Software Engineering]]
-- [[Individual Project 1]]
-- [[Module 01 - Orientation and User Stories]]
-- [[Module 02 - From Requirements to Tests]]
-- [[Team Project Overview]]
-- [[Tutorial - API Requests]]
-- [[Tutorial - Development Environment Setup]]
-- [[Tutorial - Git and GitHub Basics]]
-- [[Tutorial - TypeScript Basics]]
-- [[Tutorial - Unit Testing with Vitest]]
 
 %% End Waypoint %%

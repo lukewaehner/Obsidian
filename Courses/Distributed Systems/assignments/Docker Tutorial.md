@@ -20,7 +20,7 @@ Assignment for [[Distributed Systems]]. [Schedule on the course site](https://47
 
 > [!info] The only dated deliverable published so far.
 
-- [ ] Docker Tutorial 📅 2026-09-15
+- [ ] Docker Tutorial 📅 2026-09-14
 
 ## What It Covers
 

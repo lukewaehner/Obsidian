@@ -187,11 +187,12 @@ research actually function inside a specific discipline.
 	- [[Peer Review Workshops]]
 	- [[Presentation]]
 - **readings**
+	- [[Reading - Are These AI Prompts Damaging Your Thinking Skills]]
+	- [[Reading - Ethics and AI]]
 	- [[Reading - Lamott, Shitty First Drafts]]
+	- [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]]
 	- [[Reading - Shipka, Rethinking Composition]]
-- **readings**
-	- [[Reading - Lamott, Shitty First Drafts]]
-	- [[Reading - Shipka, Rethinking Composition]]
+	- [[Reading - Slater et al., ChatGPT Isn't Hallucinating]]
 - **topics**
 	- [[Week 01 - Writing Process]]
 	- [[Week 02 - AI Ethics and Genre]]

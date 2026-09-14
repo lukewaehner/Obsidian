@@ -24,7 +24,7 @@ status: raw
 ## Course Requirements Attached to This Material
 
 - [ ] Typing is optional in TypeScript — **not optional in this course**
-- [ ] Always use strict equality (`===`); enforced by the linter
+- [ ] Always use strict equality === enforced by the linter
 - [ ] File names in kebab-case, variables/functions in camelCase, classes in PascalCase
 - [ ] Private property names must start with `_`
 - [ ] Prefer descriptive names over single letters
@@ -52,7 +52,7 @@ status: raw
 - [ ] if / else if / else
 - [ ] switch
 - [ ] Ternary
-- [ ] `==` vs `===`
+- [ ] == vs ===
 - [ ] Loops — for, while, do-while
 
 ### Array Functions
