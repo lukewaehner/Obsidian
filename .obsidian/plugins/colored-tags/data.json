@@ -430,7 +430,13 @@
     "november-break": 393,
     "acms-dns": 394,
     "class-summary": 395,
-    "finals-week": 396
+    "finals-week": 396,
+    "note": 397,
+    "farting": 398,
+    "c": 399,
+    "assembly": 400,
+    "operating-systems": 401,
+    "mobile": 402
   },
   "_version": 3
 }

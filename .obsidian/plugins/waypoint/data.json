@@ -12,7 +12,8 @@
   "folderNoteType": "INSIDE_FOLDER",
   "folderNoteFilename": "index",
   "ignorePaths": [
-    "_attachments"
+    "_attachments",
+    "templates"
   ],
   "useSpaces": false,
   "numSpaces": 2
