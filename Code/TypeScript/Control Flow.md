@@ -77,7 +77,7 @@ switch (str) {
 > [!warning] `break` is not optional
 > Omit it and execution **falls through** into every subsequent case body until it hits a `break` or the end of the switch. This is the single most common switch bug. A deliberate fall-through deserves a comment saying so.
 
-`switch` matches with **strict equality** (`===`), so it has none of the coercion problems below.
+`switch` matches with **strict equality** (===), so it has none of the coercion problems below.
 
 ### Exhaustiveness
 
@@ -117,8 +117,8 @@ Use it for a single expression you're assigning. Don't nest ternaries — that's
 
 Two equality operators:
 
-- **`==`** — compares only the **value**. Performs implicit type coercion, which can produce surprising results.
-- **`===`** — compares the **type and value**.
+- == — compares only the **value**. Performs implicit type coercion, which can produce surprising results.
+- === — compares the **type and value**.
 
 ```ts
 // Evaluates to true despite comparing string to number due to type coercion.
@@ -135,7 +135,7 @@ if (0 === '0') {
 } // Evaluated to false because types are different.
 ```
 
-For objects and arrays, `===` compares **by reference** — two structurally identical objects are not equal:
+For objects and arrays, === compares **by reference** — two structurally identical objects are not equal:
 
 ```ts
 { a: 1 } === { a: 1 }     // false — different references
@@ -143,9 +143,9 @@ For objects and arrays, `===` compares **by reference** — two structurally ide
 ```
 
 > [!important] Course requirement
-> **Use strict equality (`===`) in all cases.** The CS 4530 linter enforces this. See [[CS4530 Code Style Guide]].
+> **Use strict equality (===) in all cases.** The CS 4530 linter enforces this. See [[CS4530 Code Style Guide]].
 
-TypeScript's typechecker also helps here: `0 === '0'` is a *compile* error (`This comparison appears to be unintentional`) when both operands are typed, because the types don't overlap. `==` bypasses that protection.
+TypeScript's typechecker also helps here: `0 === '0'` is a *compile* error (`This comparison appears to be unintentional`) when both operands are typed, because the types don't overlap. Loose equality bypasses that protection.
 
 ## Narrowing
 
@@ -163,7 +163,7 @@ function describe(x: string | number): string {
 This is what makes `unknown` usable in place of `any` (see [[Types]]). The guards are `typeof`, `instanceof`, `in`, truthiness, and equality against a literal.
 
 ## Tips
-- `===` always. The only defensible `==` is `x == null`, which catches `null` and `undefined` together — and `x === null || x === undefined` says it more plainly.
+- Use === always. The only defensible == is `x == null`, which catches `null` and `undefined` together — and `x === null || x === undefined` says it more plainly.
 - Prefer `switch` over a long `if/else if` ladder on a single value: you get exhaustiveness checking, which the ladder can't give you.
 - Guard clauses beat nesting. Return early on the invalid case rather than wrapping the happy path in three `if`s.
 - Use `??` (nullish coalescing) rather than `||` for defaults — `||` also replaces `0` and `''`.

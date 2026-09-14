@@ -38,7 +38,7 @@ let e: true = true          // true
 
 Note the difference between the three lines producing `boolean` and the two producing `true`. `const c = true` infers the **literal** type `true`, because a `const` can never be reassigned so the type can be narrowed to the exact value. `let e: true` is that same narrowing, written by hand.
 
-**Operations**: compare with `==`, `===`, `||`, `&&`, `?`; negate with `!`.
+**Operations**: compare with == or === as well as `||`, `&&`, and `?`; negate with `!`.
 
 ## Number
 
@@ -103,7 +103,7 @@ let c: string = a + ' ' + b       // string
 
 Every one of these **returns a new string**. Strings are immutable; nothing here mutates in place.
 
-`indexOf` returning `-1` rather than `null` is the classic off-by-one trap — test `=== -1`, never truthiness, because index `0` is falsy:
+`indexOf` returning `-1` rather than `null` is the classic off-by-one trap — test for a result of === -1, never truthiness, because index `0` is falsy:
 
 ```ts
 if (haystack.indexOf(needle) !== -1) { /* found */ }   // correct
@@ -134,7 +134,7 @@ let a: unknown = 30         // unknown
 let b = a === 123           // boolean
 ```
 
-You can compare `unknown` values (`==`, `===`, `&&`, `?`) and refine them with `typeof` and `instanceof`.
+You can compare `unknown` values with == and === as well as `&&` and `?`, and refine them with `typeof` and `instanceof`.
 
 ```ts
 function len(x: unknown): number {

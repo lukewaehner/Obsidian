@@ -35,7 +35,7 @@ TypeScript is a **superset of JavaScript** that adds *optional* typing. All vali
 ## Course Requirements Attached to This Material
 
 - [x] Typing is optional in TypeScript — **not optional in this course** → [[Code/TypeScript/Tooling|Tooling]]
-- [x] Always use strict equality `===`, enforced by the linter → [[Code/TypeScript/Control Flow|Control Flow]]
+- [x] Always use strict equality === as enforced by the linter → [[Code/TypeScript/Control Flow|Control Flow]]
 - [x] File names in kebab-case, variables/functions in camelCase, classes in PascalCase → [[Code/TypeScript/Tooling|Tooling]]
 - [x] Private property names must start with `_` → [[Code/TypeScript/Classes|Classes]] · [[Code/TypeScript/OOP Principles|OOP Principles]]
 - [x] Prefer descriptive names over single letters → [[Code/TypeScript/Tooling|Tooling]]

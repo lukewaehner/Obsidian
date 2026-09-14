@@ -103,7 +103,7 @@ Types, interfaces, and enums also take PascalCase. Private properties start with
 
 - **Prefer descriptive names over random letters.** `pendingOrders`, not `list2`.
 - **Although typing is optional in TypeScript, it is not optional for this course.** Annotate parameters and return types.
-- **Always use strict equality** — `===`, never `==`. See [[Control Flow]].
+- **Always use strict equality** — use === and never ==. See [[Control Flow]].
 - **Use a linter**, as specified on the course website.
 - **Use a prettifier**, if the linter doesn't already do it.
 - **Use the general coding guidelines discussed in Week 1.**
@@ -112,10 +112,10 @@ Types, interfaces, and enums also take PascalCase. Private properties start with
 
 Two different tools, often confused:
 
-- **ESLint** — finds *problems*: unused variables, `==`, `any`, unreachable code, missing `await`. Some are auto-fixable.
+- **ESLint** — finds *problems*: unused variables, `any`, unreachable code, missing `await`, and any use of ==. Some are auto-fixable.
 - **Prettier** — settles *formatting*: quotes, semicolons, line width, indentation. No opinions about correctness.
 
-The reason both are mandated is that they remove two categories of argument from code review entirely. Nobody debates indentation when Prettier decides it, and nobody has to remember to check for `==` when ESLint fails the build over it. Review time goes to logic instead.
+The reason both are mandated is that they remove two categories of argument from code review entirely. Nobody debates indentation when Prettier decides it, and nobody has to remember to check for == when ESLint fails the build over it. Review time goes to logic instead.
 
 ```bash
 npx tsc --noEmit        # typecheck only
