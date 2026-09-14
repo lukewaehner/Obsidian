@@ -4,21 +4,23 @@ group: Systems
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 4
+coverage: 0.67
+status: learning
+updated: 2026-09-13
 ---
 
 # Processes and Threads
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 4/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#How it works]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -43,6 +45,8 @@ resources but each keep their own stack, program counter, and registers.
   each other's state changes without progress) are the two failure modes to
   name.
 
+The cost side of that split — why a process context switch is expensive (address space swap, TLB flush) and a thread switch is not — [[Code/Computer Systems/Concurrency/Processes vs Threads|Processes vs Threads]].
+
 ## Implementation
 
 [[Code/Computer Systems/Processes/Processes|Processes]],
@@ -53,15 +57,21 @@ resources but each keep their own stack, program counter, and registers.
 [[Code/Computer Systems/Concurrency/Deadlocks|Deadlocks]] cover this from the
 coursework side.
 
+Adding the syscall layer: `fork`/`exec`/`wait`, the parent-vs-child return value, and the process lifecycle — [[Code/Computer Systems/Processes/Creating New Processes|Creating New Processes]], [[Code/Computer Systems/Processes/Processes|Processes]] — plus file descriptors as the per-process handle table that `fork` duplicates — [[Code/Computer Systems/Processes/File Descriptors|File Descriptors]].
+
 ## Complexity
 
 ## When to use it
+
+Processes when you want isolation and fault containment; threads when the work needs to share data and the switch cost matters — [[Code/Computer Systems/Concurrency/Processes vs Threads|Processes vs Threads]].
 
 ## Gotchas
 
 Python's GIL means threads don't give you real parallelism for CPU-bound
 work in CPython — only for I/O-bound work where the GIL is released during
 the wait.
+
+Shared memory is the point of threads and also the whole hazard: no isolation means one thread's bad write corrupts the others, and a crash takes the process down with it — [[Code/Computer Systems/Concurrency/Threads|Threads]].
 
 ## Resources
 

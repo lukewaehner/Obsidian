@@ -4,25 +4,31 @@ group: Algorithm Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 4
+coverage: 0.67
+status: learning
+updated: 2026-09-13
 ---
 
 # Greedy Algorithms
 
-> [!abstract]- Coverage — 0/6
-> - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+← [[Career/Prep/topics/Algorithm Design/Algorithm Design|Algorithm Design]]
+
+> [!abstract]- Coverage — 4/6
+> - [x] [[#Idea]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
 
+Build the solution one locally-optimal choice at a time and never reconsider — cheap to run, expensive to justify — [[Code/Algorithms/Greedy/Greedy Algorithm Pattern|Greedy Algorithm Pattern]].
+
 ## How it works
+
+Three components every greedy algorithm needs: a ranking metric to sort by, a compatibility check for whether the next candidate can be taken, and a correctness proof — [[Code/Algorithms/Greedy/Greedy Algorithm Pattern|Greedy Algorithm Pattern]] § Essential Components.
 
 ## Implementation
 
@@ -34,7 +40,11 @@ Also: [[Greedy Algorithm Pattern]], [[Greedy Stays Ahead Proof Technique]],
 
 ## Complexity
 
+Usually the sort dominates: O(n log n) to rank, then one O(n) pass — [[Code/Algorithms/Greedy/Earliest Finish Time Rule|Earliest Finish Time Rule]] § Complexity.
+
 ## When to use it
+
+Interval scheduling is the worked example, including the three rules that *look* reasonable and are wrong — earliest start, shortest duration, fewest conflicts — [[Code/Algorithms/Greedy/Interval Scheduling Problem|Interval Scheduling Problem]] § Failed Greedy Strategies; [[Code/Algorithms/Greedy/Earliest Finish Time Rule|Earliest Finish Time Rule]].
 
 ## Gotchas
 

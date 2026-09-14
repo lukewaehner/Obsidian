@@ -4,21 +4,23 @@ group: Algorithm Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Dynamic Programming
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Algorithm Design/Algorithm Design|Algorithm Design]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -27,6 +29,8 @@ that relation is the hard part — worth recognizing a problem as a DP
 candidate more than memorizing any one solution.
 
 ## How it works
+
+Optimal substructure plus overlapping subproblems, memoised top-down or filled bottom-up, with Fibonacci as the exponential-to-linear demonstration — [[Code/Algorithms/Dynamic Programming/DP Introduction|DP Introduction]].
 
 ## Implementation
 
@@ -43,12 +47,16 @@ Compare against a greedy approach before committing to a DP formulation —
 
 ## Complexity
 
+States × work per state. Space is usually reducible: if the recurrence only reaches back a fixed number of rows, keep those rows and drop the table — [[Code/Algorithms/Dynamic Programming/Space Optimization in DP|Space Optimization in DP]].
+
 ## When to use it
 
 Recognizing overlapping subproblems and optimal substructure in the prompt —
 classic shapes: knapsack, longest increasing subsequence, edit distance.
 
 ## Gotchas
+
+Choosing the wrong subproblem is the failure mode, not the recurrence — [[Code/Algorithms/Dynamic Programming/Longest Increasing Subsequence|Longest Increasing Subsequence]] § First Attempt (Doesn't Work) shows a natural definition that cannot be made to work, and the fix. And greedy is not a cheaper DP: [[Code/Algorithms/Greedy/Greedy vs Dynamic Programming|Greedy vs Dynamic Programming]] § When Greedy Fails: A Subtle Example.
 
 ## Resources
 

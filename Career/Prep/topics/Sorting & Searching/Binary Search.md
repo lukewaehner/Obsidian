@@ -4,20 +4,22 @@ group: Sorting & Searching
 tier: core
 confidence:
 sections_total: 6
-sections_done: 3
-coverage: 0.50
-status: learning
-updated: 2026-09-01
+sections_done: 6
+coverage: 1.00
+status: solid
+updated: 2026-09-13
 ---
 
 # Binary Search
 
-> [!abstract]- Coverage — 3/6
+← [[Career/Prep/topics/Sorting & Searching/Sorting & Searching|Sorting & Searching]]
+
+> [!abstract]- Coverage — 6/6
 > - [x] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [x] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
 > - [x] [[#Gotchas]]
 
 ## Idea
@@ -40,6 +42,8 @@ This repeatedly shrinks the searchable window in half.
 
 We already know that consistent dividing by two can be represented as O(logn)
 
+The invariant and both loop shapes, iterative and recursive, with the iterative one recommended — [[Code/Algorithms/Binary Search/Binary Search 1|Binary Search 1]]; [[Code/Algorithms/Binary Search/Binary Search|Binary Search]] § Pseudocode.
+
 ## Implementation
 
 Implemented iteratively and recursively over a sorted array —
@@ -56,7 +60,11 @@ Still open:
 O(logn) time, best O(1) - the middle of the array is the target
 O(1) space complexity in iterative approach with 3 extra pointers, O(logn) recursively for call stack overhead
 
+O(log n) from the recurrence `T(n) = T(n/2) + 1`, solved by recursion tree and by the Master Theorem — [[Code/Algorithms/Binary Search/Binary Search|Binary Search]] § Mathematical Analysis; [[Code/Algorithms/Master Theorem|Master Theorem]] § Examples.
+
 ## When to use it
+
+The variations that matter more than the plain search: first/last occurrence, lower/upper bound, and searching a rotated array — [[Code/Algorithms/Binary Search/Binary Search 1|Binary Search 1]] § Variations.
 
 ## Gotchas
 

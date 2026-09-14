@@ -4,21 +4,23 @@ group: Systems
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Networking
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -41,11 +43,17 @@ system design conversations.
 
 ## Implementation
 
+HTTP verbs, status codes, headers, and JSON encode/decode as actually used from an app — [[Code/iOS/Communicate Over the Internet/HTTP|HTTP]], [[Code/iOS/Communicate Over the Internet/JSON|JSON]], [[Code/iOS/Communicate Over the Internet/Async Await|Async Await]]. REST resource modelling and URL design from the server side — [[Code/Ruby/Frameworks/Rails/The Web/REST|REST]], [[Code/Ruby/Frameworks/Rails/The Web/URLs|URLs]], [[Code/Ruby/Frameworks/Rails/The Web/APIs|APIs]].
+
 ## Complexity
 
 ## When to use it
 
+Request/response versus a persistent stream, and when each is right: the exchange serves REST for commands and WebSockets for the market-data firehose — [[Code/Rust/HFT-Ledger/05 - API and WebSocket Layer|API and WebSocket Layer]], [[Code/Rust/HFTX/WebSockets|WebSockets]], [[Code/Rust/HFTX/Rest API|Rest API]].
+
 ## Gotchas
+
+Transport security is not optional and the platform will enforce it — [[Code/iOS/Communicate Over the Internet/App Transport Security|App Transport Security]]. HTTP is stateless, so sessions are a thing you build on top — [[Code/Ruby/Frameworks/Rails/The Web/Cookies and Sessions|Cookies and Sessions]].
 
 ## Resources
 

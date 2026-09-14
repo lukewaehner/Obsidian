@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Consensus: Paxos and Raft
 
+← [[Career/Prep/topics/Design/Design|Design]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
@@ -37,6 +39,8 @@ followers replicate) easier to reason about than Paxos's more general
 protocol.
 
 ## Implementation
+
+Scheduled coursework, not yet written up — [[Courses/Distributed Systems/topics/Week 04 - Consensus Algorithms|Week 04 - Consensus Algorithms]], [[Courses/Distributed Systems/topics/Week 07 - Quorums and Paxos|Week 07 - Quorums and Paxos]], [[Courses/Distributed Systems/topics/Week 08 - Viewstamped Replication and BFT|Week 08 - Viewstamped Replication and BFT]].
 
 ## Complexity
 

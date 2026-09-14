@@ -4,21 +4,23 @@ group: Graphs
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Bellman-Ford
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -27,12 +29,16 @@ by relaxing every edge V−1 times.
 
 ## How it works
 
+Relax every edge `V−1` times — after round `k` every shortest path using at most `k` edges is correct — then one extra round: anything that still improves is reachable from a negative cycle — [[Code/Algorithms/Bellman-Ford Algorithm|Bellman-Ford Algorithm]] § Algorithm, § Loop Invariant, § Negative Cycle Detection.
+
 ## Implementation
 
 [[Bellman-Ford Algorithm]] — coursework notes on the relaxation loop and
 negative-cycle detection.
 
 ## Complexity
+
+O(V·E), against Dijkstra's O((V+E) log V) — the price of handling negative weights. Early termination when a round changes nothing, and the SPFA queue-based variant, are the practical speedups — [[Code/Algorithms/Bellman-Ford Algorithm|Bellman-Ford Algorithm]] § Time Complexity, § Optimizations.
 
 ## When to use it
 
@@ -41,6 +47,8 @@ question — otherwise prefer [[Career/Prep/topics/Graphs/Dijkstra's Algorithm|D
 complexity.
 
 ## Gotchas
+
+Detecting that a negative cycle *exists* is not the same as knowing which vertices it poisons — that needs one more propagation pass — [[Code/Algorithms/Bellman-Ford Algorithm|Bellman-Ford Algorithm]] § Finding Vertices Affected by Negative Cycles.
 
 ## Resources
 

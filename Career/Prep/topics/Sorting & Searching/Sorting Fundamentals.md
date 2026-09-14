@@ -4,20 +4,22 @@ group: Sorting & Searching
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Sorting Fundamentals
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Sorting & Searching/Sorting & Searching|Sorting & Searching]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -43,6 +45,8 @@ Comparison-based sorts: Ω(n log n) lower bound. Non-comparison sorts
 see [[Counting and Radix Sort]].
 
 ## When to use it
+
+Why sorting is the canonical divide-and-conquer win: the naive all-pairs comparison is O(n²), and splitting the problem buys O(n log n) — [[Code/Algorithms/Divide and Conquer|Divide and Conquer]] § Summarize Divide and Conquer for Sorting.
 
 ## Gotchas
 

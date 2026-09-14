@@ -4,18 +4,20 @@ group: Systems
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Compilers
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
@@ -34,6 +36,8 @@ and code generation. [[Code/Computer Systems/Assembly/Assembly & Compilation Pip
 covers the later stages concretely.
 
 ## Implementation
+
+The preprocessor is the first compiler pass and the one you can actually read: `#include` textual expansion, macros, conditional compilation, and header guards — [[Code/Computer Systems/C/The Preprocessor/The Preprocessor|The Preprocessor]], [[Code/Computer Systems/C/The Preprocessor/Include|Include]], [[Code/Computer Systems/C/The Preprocessor/Macros|Macros]], [[Code/Computer Systems/C/The Preprocessor/Header Files|Header Files]]. Compiler output is assembly, which the assembler and linker take from there — [[Code/Computer Systems/Assembly/Assembly & Compilation Pipeline|Assembly & Compilation Pipeline]].
 
 ## Complexity
 

@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Bloom Filters
 
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

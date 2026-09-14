@@ -4,21 +4,23 @@ group: Graphs
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 4
+coverage: 0.67
+status: learning
+updated: 2026-09-13
 ---
 
 # Depth-First Search
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
+> [!abstract]- Coverage — 4/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -26,6 +28,8 @@ Explore as far as possible along each branch before backtracking, using a
 stack (explicit or the call stack) instead of a queue.
 
 ## How it works
+
+Discovery and finish times drive everything: the `d[v]` / `f[v]` stamps classify every edge as tree, forward, back, or cross, and a back edge is exactly a cycle — [[Code/Algorithms/Graphs/Depth First Search|Depth First Search]] § Edge Classification, § Determining Edge Types; [[Code/Algorithms/Depth First Search|Depth First Search]] § Edge Classification Using Discovery/Finish Times.
 
 ## Implementation
 
@@ -41,13 +45,19 @@ Still open:
 
 ## Complexity
 
+O(V+E) time on an adjacency list, O(V²) on a matrix; O(V) space, or O(h) for the recursion stack on a tree — [[Code/Algorithms/Graphs/Depth First Search|Depth First Search]] § Complexity Analysis.
+
 ## When to use it
 
 Cycle detection, connected components, and as the basis for topological sort
 and strongly connected components — know its complexity and trade-offs
 against BFS before reaching for either.
 
+Each of those applications worked out from the edge classification, plus path finding — [[Code/Algorithms/Graphs/Depth First Search|Depth First Search]] § Applications.
+
 ## Gotchas
+
+Undirected DFS has no forward or cross edges — only tree and back — so the classification you memorise for digraphs does not transfer unchanged — [[Code/Algorithms/Depth First Search|Depth First Search]] § DFS in Undirected Graphs. A disconnected graph needs an outer loop over all vertices, giving a DFS *forest*, not one tree.
 
 ## Resources
 

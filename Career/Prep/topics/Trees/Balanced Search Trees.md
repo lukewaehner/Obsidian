@@ -4,20 +4,22 @@ group: Trees
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 4
+coverage: 0.67
+status: learning
+updated: 2026-09-13
 ---
 
 # Balanced Search Trees
 
-> [!abstract]- Coverage — 0/6
-> - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+← [[Career/Prep/topics/Trees/Trees|Trees]]
+
+> [!abstract]- Coverage — 4/6
+> - [x] [[#Idea]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -32,6 +34,8 @@ key to the root." — Skiena.
 Chose to aim at a splay tree, on the theory you rarely implement a balanced
 search tree in an interview but the exposure is worth having; read a lot of
 red-black tree code alongside it. No splay tree code has been written yet.
+
+Spend a little work on every mutation to keep height Θ(log n), so no input ordering can degrade the tree to a list — [[Code/Algorithms/Binary Search Trees/Self-Balancing BSTs|Self-Balancing BSTs]].
 
 ## How it works
 
@@ -48,12 +52,16 @@ red-black tree code alongside it. No splay tree code has been written yet.
 - **N-ary (K-ary, M-ary) trees** — N/K is the branching factor; a binary tree
   is 2-ary, a 2-3 tree is 3-ary.
 
+Rotations are the primitive: O(1), local, and BST-invariant-preserving. The four cases (LL, RR, LR, RL) and why the two double cases reduce to two single rotations — [[Code/Algorithms/Binary Search Trees/Tree Rotations|Tree Rotations]].
+
 ## Implementation
 
 ## Complexity
 
 AVL trees support O(log n) search, insertion, and removal — more rigidly
 balanced than red-black trees, so slower insert/remove but faster retrieval.
+
+AVL vs red-black: AVL is more strictly balanced so lookups are faster, red-black rotates less so writes are faster — both O(log n), the constant is the trade — [[Code/Algorithms/Binary Search Trees/Self-Balancing BSTs|Self-Balancing BSTs]] § Comparison, § Rotation Overhead.
 
 ## When to use it
 
@@ -70,6 +78,8 @@ balanced than red-black trees, so slower insert/remove but faster retrieval.
   simply.
 - **2-3-4 trees**: not often used in practice directly; valuable for
   understanding the logic behind red-black trees.
+
+And when not to: a hash table if you never need ordering, a sorted array if the data is near-static and you want the cache-friendly layout — [[Code/Algorithms/Binary Search Trees/Self-Balancing BSTs|Self-Balancing BSTs]] § When NOT to Use.
 
 ## Gotchas
 

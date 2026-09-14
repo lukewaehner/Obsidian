@@ -4,27 +4,31 @@ group: Trees
 tier: core
 confidence:
 sections_total: 6
-sections_done: 1
-coverage: 0.17
+sections_done: 5
+coverage: 0.83
 status: learning
-updated: 2026-09-01
+updated: 2026-09-13
 ---
 
 # Binary Search Trees
 
-> [!abstract]- Coverage — 1/6
+← [[Career/Prep/topics/Trees/Trees|Trees]]
+
+> [!abstract]- Coverage — 5/6
 > - [x] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
 What the BST invariant is — [[Tree]].
 
 ## How it works
+
+Search, insert, and delete, with delete's three cases (leaf, one child, two children → replace with in-order successor) worked through — [[Code/Algorithms/Binary Search Trees/BST Operations|BST Operations]].
 
 ## Implementation
 
@@ -36,7 +40,11 @@ Still pending: `is_in_tree(value)`, `get_height()`, `delete_value(value)`,
 
 ## Complexity
 
+Every operation is O(h), so the whole question is height: O(log n) balanced, O(n) degenerate, plus the comparison table against arrays and hash tables — [[Code/Algorithms/Binary Search Trees/BST Time Complexity|BST Time Complexity]].
+
 ## When to use it
+
+The four things a BST buys over a hash table — sets, ordered maps, priority queues, and order-statistic queries — [[Code/Algorithms/Binary Search Trees/BST Applications|BST Applications]]. Consolidated single-note version: [[Code/Algorithms/Graphs/Binary Search Trees|Binary Search Trees]].
 
 ## Gotchas
 
@@ -46,6 +54,8 @@ Still pending: `is_in_tree(value)`, `get_height()`, `delete_value(value)`,
 > [[Tree Rotations]] under `Code/Algorithms` cover search/insert/delete, height
 > analysis, AVL and red-black. Written for class, not re-read since — and not yet
 > reconciled with [[Tree]].
+
+Sorted input into a naive BST produces a linked list and O(n) operations — the degenerate case that motivates balancing. Duplicate handling is a design decision the invariant does not make for you — [[Code/Algorithms/Binary Search Trees/BST Time Complexity|BST Time Complexity]] § Worst Case: Degenerate Tree; [[Code/Algorithms/Binary Search Trees/BST Definition|BST Definition]] § Handling Duplicates.
 
 ## Resources
 

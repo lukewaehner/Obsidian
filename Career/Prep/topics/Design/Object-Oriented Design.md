@@ -4,21 +4,23 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Object-Oriented Design
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -28,6 +30,8 @@ by inheritance, composition, and well-defined interfaces — [[SOLID]] and
 particular design is good.
 
 ## How it works
+
+The four pillars with runnable examples in a second language, which is the useful way to see what is a language feature and what is the idea — encapsulation, inheritance, polymorphism, composition, and mixins — [[Code/Ruby/Object Oriented Programming/Object Oriented Programming|Object Oriented Programming]], [[Code/Ruby/Object Oriented Programming/Composition|Composition]], [[Code/Ruby/Object Oriented Programming/Polymorphism|Polymorphism]], [[Code/Ruby/Object Oriented Programming/Modules as Mixins|Modules as Mixins]].
 
 ## Implementation
 
@@ -41,7 +45,11 @@ systems (chess pieces, a calculator controller, MVC) that apply them.
 
 ## When to use it
 
+Cohesion and coupling as the actual objective — one purpose per component, and swapping a component should not disturb the rest — [[Code/OOD/Model, View, and Controller|Model, View, and Controller]].
+
 ## Gotchas
+
+Composition over inheritance, worked as a comparison rather than asserted — [[Code/OOD/Examples/Design Patterns|Design Patterns]] § Code Reuse: Inheritance vs Composition. Class invariants are what encapsulation is *for*; a public setter that can break one is the bug — [[Code/OOD/Encapsulation and Invariants|Encapsulation and Invariants]].
 
 ## Resources
 

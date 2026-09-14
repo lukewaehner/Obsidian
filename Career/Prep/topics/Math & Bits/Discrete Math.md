@@ -4,17 +4,19 @@ group: Math & Bits
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Discrete Math
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Math & Bits/Math & Bits|Math & Bits]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
@@ -27,6 +29,8 @@ technique (especially induction, which underwrites most correctness proofs
 for recursive algorithms).
 
 ## How it works
+
+Counting arguments on graphs: the degree-sum (handshake) identity, and the maximum edge count `C(n,2)` undirected / `n(n−1)` directed — plus colouring and Eulerian path exercises — [[Code/Algorithms/Graphs/Basic Graph Facts|Basic Graph Facts]].
 
 ## Implementation
 

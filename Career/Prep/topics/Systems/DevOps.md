@@ -4,18 +4,20 @@ group: Systems
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # DevOps
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
@@ -29,6 +31,8 @@ that closes the feedback cycle.
 ## How it works
 
 ## Implementation
+
+The parts of the loop that are written up: git workflow from a terminal UI ([[Code/Lazygit/Lazygit|Lazygit]]), dependency pinning and lockfiles ([[Code/Ruby/Frameworks/Rails/Gemfile Lock|Gemfile Lock]], [[Code/Rust/Cargo|Cargo]]), database migrations as versioned, reversible changes ([[Code/Databases/Practical Patterns/Migrations|Migrations]]), and structured logging ([[Code/Rust/Logging|Logging]]).
 
 ## Complexity
 

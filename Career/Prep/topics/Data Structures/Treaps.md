@@ -4,17 +4,19 @@ group: Data Structures
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Treaps
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
@@ -25,6 +27,8 @@ updated: 2026-09-01
 A combination of a binary search tree and a heap.
 
 ## How it works
+
+BST ordering on keys, heap ordering on a random priority per node, reconciled by rotations — randomised balancing that is simpler than the deterministic schemes and gives expected O(log n) operations — [[Code/Algorithms/Binary Search Trees/Self-Balancing BSTs|Self-Balancing BSTs]] § Treaps.
 
 ## Implementation
 

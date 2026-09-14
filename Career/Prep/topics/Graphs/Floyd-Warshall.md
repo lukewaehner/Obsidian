@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Floyd-Warshall
 
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
@@ -24,6 +26,9 @@ updated: 2026-09-01
 
 All-pairs shortest paths by dynamic programming: for every intermediate
 vertex k, try routing every pair (i, j) through k.
+
+> [!info] Vault coverage
+> The coursework mentions Floyd-Warshall only as the all-pairs alternative to running Dijkstra from every source — [[Code/Algorithms/Dijkstra's Algorithm|Dijkstra's Algorithm]] § All-Pairs Shortest Path. No worked DP write-up exists outside this note.
 
 ## How it works
 

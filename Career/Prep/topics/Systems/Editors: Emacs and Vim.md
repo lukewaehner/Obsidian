@@ -4,18 +4,20 @@ group: Systems
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Editors: Emacs and Vim
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#How it works]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
@@ -28,7 +30,11 @@ are the two long-standing options.
 
 ## How it works
 
+Modal editing as a grammar: operator + motion + text object, with counts and `.` to repeat — [[Code/Neovim/Neovim|Neovim]].
+
 ## Implementation
+
+Personal keymap for movement, search, edits, LSP, and gitsigns — [[Code/Neovim/Neovim Cheat Sheet|Neovim Cheat Sheet]].
 
 ## Complexity
 

@@ -4,21 +4,23 @@ group: Graphs
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Dijkstra's Algorithm
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -26,6 +28,8 @@ Single-source shortest path for graphs with non-negative edge weights: greedily
 extend the shortest known distance to the closest unvisited vertex.
 
 ## How it works
+
+Greedy frontier expansion: repeatedly settle the unsettled vertex with the smallest tentative distance, then relax its outgoing edges — with the loop invariant and the argument for why settling is final — [[Code/Algorithms/Dijkstra's Algorithm|Dijkstra's Algorithm]] § Algorithm Intuition, § Relaxation, § Correctness.
 
 ## Implementation
 
@@ -38,6 +42,8 @@ Still open:
 
 ## Complexity
 
+O((V+E) log V) with a binary heap, O(E + V log V) with a Fibonacci heap, O(V²) with a plain array scan — which is actually the right choice on a dense graph — [[Code/Algorithms/Dijkstra's Algorithm|Dijkstra's Algorithm]] § Time Complexity.
+
 ## When to use it
 
 Non-negative weighted shortest path. Use Bellman-Ford instead when edges can
@@ -48,6 +54,8 @@ be negative — [[Bellman-Ford]].
 Breaks silently on negative edge weights — it never revisits a vertex once
 finalized, so a later negative edge can never correct an already-settled
 distance.
+
+Why the negative-weight failure is structural rather than a fixable bug, plus the two implementation traps: path reconstruction needs a predecessor array, and a heap without decrease-key needs a settled check on pop to skip stale entries — [[Code/Algorithms/Dijkstra's Algorithm|Dijkstra's Algorithm]] § Why Non-Negative Weights Matter, § Common Mistakes.
 
 ## Resources
 

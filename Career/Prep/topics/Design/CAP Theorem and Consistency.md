@@ -4,17 +4,19 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # CAP Theorem and Consistency
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
@@ -30,7 +32,11 @@ consistency vs. availability during a partition.
 
 ## How it works
 
+The single-node version of the same trade-off, where it is concrete: isolation levels trade consistency for throughput, and each level is defined by which anomaly it permits — dirty read, non-repeatable read, phantom — [[Code/Databases/Transactions/Isolation Levels|Isolation Levels]], [[Code/Databases/Transactions/Transactions|Transactions]], [[Code/Databases/Transactions/Locking|Locking]].
+
 ## Implementation
+
+The distributed treatment is coursework in progress — [[Courses/Distributed Systems/Distributed Systems|Distributed Systems]] covers quorums, Paxos, and the Dynamo/Cassandra and GFS/BigTable/Spanner case studies from week 7 on. Those week notes are still scaffolds.
 
 ## Complexity
 

@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Boyer-Moore
 
+← [[Career/Prep/topics/Strings/Strings|Strings]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Consistent Hashing
 
+← [[Career/Prep/topics/Design/Design|Design]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Strongly Connected Components
 
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
@@ -24,6 +26,9 @@ updated: 2026-09-01
 
 A maximal set of vertices in a directed graph where every vertex can reach
 every other. Kosaraju's algorithm finds them with two DFS passes.
+
+> [!info] Vault coverage
+> The coursework names SCC only as a DFS application — [[Code/Algorithms/Depth First Search|Depth First Search]] § Applications. No worked Kosaraju or Tarjan write-up exists outside this note.
 
 ## How it works
 

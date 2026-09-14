@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Stacks
 
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
 > [!abstract]- Coverage — 6/6
 > - [x] [[#Idea]] ✅ 2026-09-01
 > - [x] [[#How it works]] ✅ 2026-09-01

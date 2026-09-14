@@ -4,31 +4,41 @@ group: Complexity
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Amortized Analysis
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Complexity/Complexity|Complexity]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
 
+When a algorithm can run theoretically at different rates per different input, we claim the average to be the true runtime, but note the best and worst case.
+
+Like in a binary search, the worst case is the item not being in the list at all, we would check all log(n) iterations, but if it's the midpoint, we have a best case O(1) - just one single call. But on average we check log(n) items
+
 ## How it works
+
+Worked case in the vault: `push`/`pop` on a dynamic array are O(1) amortised even though an individual resize is O(n) — [[Code/Algorithms/Stack|Stack]] § Array vs Linked List Implementation.
 
 ## Implementation
 
 ## Complexity
 
 ## When to use it
+
+Splay trees are the canonical "amortised, not worst-case" structure: O(log n) amortised per operation with no balance metadata stored at all, at the cost of an individual operation that can be O(n) — [[Code/Algorithms/Binary Search Trees/BST Time Complexity|BST Time Complexity]] § Amortized Analysis.
 
 ## Gotchas
 

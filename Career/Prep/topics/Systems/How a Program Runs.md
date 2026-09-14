@@ -4,21 +4,23 @@ group: Systems
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 5
+coverage: 0.83
+status: learning
+updated: 2026-09-13
 ---
 
 # How a Program Runs
 
-> [!abstract]- Coverage — 0/6
-> - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 5/6
+> - [x] [[#Idea]]
+> - [x] [[#How it works]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -33,6 +35,8 @@ executes it (often via the ALU for arithmetic/logic), then advances to the
 next instruction — registers and RAM hold the state this cycle reads and
 writes.
 
+The build side of the same story: `hello.c → preprocessor → .i → compiler → .s → assembler → .o → linker → executable`, and where bytecode VMs (JVM, CPython) diverge from it — [[Code/Computer Systems/Assembly/Assembly & Compilation Pipeline|Assembly & Compilation Pipeline]]. The ISA is the contract between the two halves — [[Code/Computer Systems/CPU Basics|CPU Basics]].
+
 ## Implementation
 
 [[Code/Computer Systems/CPU Basics|CPU Basics]],
@@ -40,11 +44,17 @@ writes.
 [[Code/Computer Systems/Kernels/OS Boot Process|OS Boot Process]] cover this
 in more depth from the coursework side.
 
+Also: the stack frame built on call and torn down on return via `%rsp`/`%rbp` ([[Code/Computer Systems/Stack & Functions|Stack & Functions]]), the instruction set itself ([[Code/Computer Systems/Assembly/Assembly Instructions|Assembly Instructions]], [[Code/Computer Systems/Assembly/x86_64 Architecture|x86_64 Architecture]]), and the user→kernel crossing ([[Code/Computer Systems/Kernels/System Calls|System Calls]]).
+
 ## Complexity
 
 ## When to use it
 
+One layer down: how the machine gets to the point of running anything at all — POST → BIOS → MBR → bootloader → kernel, traced through xv6 — [[Code/Computer Systems/Kernels/OS Boot Process|OS Boot Process]], [[Code/Computer Systems/Kernels/XV6 Boot Sequence|XV6 Boot Sequence]], [[Code/Computer Systems/Kernels/Kernel Architecture|Kernel Architecture]].
+
 ## Gotchas
+
+The stack grows down and the heap grows up; they are the same address space approaching each other — [[Code/Computer Systems/Stack & Functions|Stack & Functions]] § The Stack vs Heap.
 
 ## Resources
 

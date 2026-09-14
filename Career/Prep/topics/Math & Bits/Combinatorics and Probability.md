@@ -4,19 +4,21 @@ group: Math & Bits
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Combinatorics and Probability
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Math & Bits/Math & Bits|Math & Bits]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
@@ -40,6 +42,8 @@ independence, and simple Markov chains.
 ## Implementation
 
 ## Complexity
+
+Where the counting shows up in analysis: `C(n,2) ≈ n²` for all-pairs comparison, `10ⁿ` for a brute-forced n-digit code, `n!` for an n-point pattern — [[Code/Algorithms/Times/Times|Times]] § Simple Exercises. And the expectation argument behind a random pivot's Θ(n) expected selection time — [[Code/Algorithms/Order Statistics|Order Statistics]] § Good and Bad Pivots.
 
 ## When to use it
 

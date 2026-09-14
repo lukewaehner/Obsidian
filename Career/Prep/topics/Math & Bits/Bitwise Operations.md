@@ -4,21 +4,23 @@ group: Math & Bits
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Bitwise Operations
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Math & Bits/Math & Bits|Math & Bits]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -39,6 +41,8 @@ of 2 from 2^1 to 2^16 and 2^32 well enough to not have to compute them.
 
 ## Implementation
 
+Bit operations as machine instructions — `and`, `or`, `xor`, `not`, `shl`/`shr`/`sar` — [[Code/Computer Systems/Assembly/Assembly Instructions|Assembly Instructions]]. Worked systems uses: permission bits masked out of a page-table entry ([[Code/Computer Systems/Memory Virtualization/Memory Protection|Memory Protection]]) and buddy-allocator addresses XORed to find a block's buddy ([[Code/Computer Systems/Memory Virtualization/Buddy Allocation|Buddy Allocation]]).
+
 ## Complexity
 
 O(1) per operation, O(w) per pass over an integer's w bits (e.g. counting
@@ -55,6 +59,8 @@ Brian Kernighan's bit-counting trick (`n & (n-1)` clears the lowest set bit)
 runs in O(popcount) rather than O(w) — worth knowing by name, since it comes
 up as its own question. Right-shifting a negative signed integer is
 implementation/language-defined territory; don't assume it zero-fills.
+
+Hex is not a different number system, it is binary in groups of four bits — reading masks in hex is the whole reason it is used — [[Code/Computer Systems/Number Bases|Number Bases]].
 
 ## Resources
 

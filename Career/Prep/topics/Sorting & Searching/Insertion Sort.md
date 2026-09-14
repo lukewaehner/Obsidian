@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Insertion Sort
 
+← [[Career/Prep/topics/Sorting & Searching/Sorting & Searching|Sorting & Searching]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

@@ -4,32 +4,38 @@ group: Algorithm Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 1
-coverage: 0.17
+sections_done: 3
+coverage: 0.50
 status: learning
-updated: 2026-09-01
+updated: 2026-09-13
 ---
 
 # Recursion
 
-> [!abstract]- Coverage — 1/6
-> - [ ] [[#Idea]]
+← [[Career/Prep/topics/Algorithm Design/Algorithm Design|Algorithm Design]]
+
+> [!abstract]- Coverage — 3/6
+> - [x] [[#Idea]]
 > - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
 
+Recursion runs on the call stack: each call pushes a frame holding its own locals and return address, and the base case is what stops the stack from growing — [[Code/Algorithms/Stack|Stack]] § 1. Function Call Stack; [[Code/Computer Systems/Stack & Functions|Stack & Functions]] § Stack Frames.
+
 ## How it works
 
 How the call stack works and how recursion uses it —
-[[Code/Algorithms/Stack|Stack]] § Function Call Stack.
+[[Code/Algorithms/Stack|Stack]] § 1. Function Call Stack.
 
 ## Implementation
 
 ## Complexity
+
+The runtime of a recursive function is a recurrence, and the depth is the space — [[Code/Algorithms/Recurrences|Recurrences]], [[Code/Algorithms/Master Theorem|Master Theorem]].
 
 ## When to use it
 

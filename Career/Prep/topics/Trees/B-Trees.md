@@ -4,25 +4,29 @@ group: Trees
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # B-Trees
 
-> [!abstract]- Coverage — 0/6
-> - [ ] [[#Idea]]
+← [[Career/Prep/topics/Trees/Trees|Trees]]
+
+> [!abstract]- Coverage — 2/6
+> - [x] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
 
 Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (co-inventor).
+
+Generalise a BST to many children per node, keeping each node between `t−1` and `2t−1` keys, so one node fills one disk block and the tree stays shallow — [[Code/Algorithms/Binary Search Trees/Self-Balancing BSTs|Self-Balancing BSTs]] § B-Trees.
 
 ## How it works
 
@@ -35,6 +39,8 @@ Fun fact: it's a mystery, but the B could stand for Boeing, Balanced, or Bayer (
 Widely used in databases. Most modern filesystems use B-trees (or variants)
 for quick random access to an arbitrary block in a file — turning a file
 block address into a disk block (or cylinder/head/sector) address.
+
+This is what a database index actually is: the B-tree is why `WHERE email = ...` becomes an O(log n) seek instead of a sequential scan, and why every index also costs disk and write throughput — [[Code/Databases/Indexes/Indexes|Indexes]].
 
 ## Gotchas
 

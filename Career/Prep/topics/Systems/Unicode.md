@@ -4,18 +4,20 @@ group: Systems
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Unicode
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
@@ -34,6 +36,8 @@ common encodings, each with different tradeoffs for space and fixed- vs
 variable-width indexing.
 
 ## Implementation
+
+UTF-8 in a language that refuses to paper over it: byte length vs character count, why `s[i]` does not compile, and iterating `.chars()` versus `.bytes()` — [[Code/Rust/Strings|Strings]].
 
 ## Complexity
 

@@ -4,19 +4,21 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Scalability
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Implementation]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
@@ -41,7 +43,11 @@ services together once you're past a single machine.
 
 ## Implementation
 
+Concrete techniques with measurements behind them: sharded lock-free routing so one symbol's writes never block another's, a per-symbol read/write lock so market-data reads run in parallel, batch amortisation of lock acquisition, and O(1) lazy cancellation — [[Code/Rust/HFT-Ledger/09 - Performance Notes|Performance Notes]].
+
 ## Complexity
+
+The database-side levers: what an index buys and costs, how to read a query plan, and why keyset pagination beats `OFFSET` as the table grows — [[Code/Databases/Indexes/Indexes|Indexes]], [[Code/Databases/Indexes/Query Performance|Query Performance]], [[Code/Databases/Indexes/EXPLAIN|EXPLAIN]], [[Code/Databases/Practical Patterns/Pagination|Pagination]].
 
 ## When to use it
 

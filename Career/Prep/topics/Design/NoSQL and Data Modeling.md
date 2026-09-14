@@ -4,19 +4,21 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # NoSQL and Data Modeling
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
@@ -40,6 +42,8 @@ entirely in exchange for O(1) lookup.
 ## Implementation
 
 ## Complexity
+
+Normalisation and the relational baseline you have to be able to argue against: keys and constraints, join shapes and their costs, and the aggregation layer — [[Code/Databases/Keys and Constraints/Keys and Constraints|Keys and Constraints]], [[Code/Databases/Joins/Joins|Joins]], [[Code/Databases/Aggregation/Aggregation|Aggregation]], [[Code/Databases/Subqueries/Subqueries|Subqueries]], [[Code/Databases/Window Functions/Window Functions|Window Functions]].
 
 ## When to use it
 

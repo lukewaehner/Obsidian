@@ -4,21 +4,23 @@ group: Trees
 tier: core
 confidence:
 sections_total: 6
-sections_done: 4
-coverage: 0.67
-status: learning
-updated: 2026-09-01
+sections_done: 6
+coverage: 1.00
+status: solid
+updated: 2026-09-13
 ---
 
 # Tree Traversals
 
-> [!abstract]- Coverage — 4/6
+← [[Career/Prep/topics/Trees/Trees|Trees]]
+
+> [!abstract]- Coverage — 6/6
 > - [x] [[#Idea]]
 > - [x] [[#How it works]]
 > - [x] [[#Implementation]]
 > - [x] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -47,7 +49,11 @@ Traversal complexity overall: O(n) time, O(h) or O(n) space — [[Tree]].
 
 ## When to use it
 
+Traversal choice follows the job: in-order for sorted output from a BST, pre-order for structural copies and prefix serialisation, post-order for teardown and bottom-up aggregation, level-order for anything depth-banded — [[Code/Algorithms/Tree|Tree]]. Parsing HTML/XML and abstract syntax trees are the everyday cases.
+
 ## Gotchas
+
+Every traversal is O(n); the difference is space — O(h) for the recursive forms (which degrades to O(n) on a degenerate tree) versus O(n) for the BFS queue — [[Code/Algorithms/Tree|Tree]].
 
 ## Resources
 

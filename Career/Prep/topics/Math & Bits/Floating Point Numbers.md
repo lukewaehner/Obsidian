@@ -4,20 +4,22 @@ group: Math & Bits
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Floating Point Numbers
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Math & Bits/Math & Bits|Math & Bits]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -34,6 +36,8 @@ binary.
 ## Complexity
 
 ## When to use it
+
+The systems answer is: don't, where you can help it. Prices in the order book are `i64` ticks specifically to keep floating-point rounding out of financial arithmetic — [[Code/Rust/HFT-Ledger/00 - Overview|HFT-Ledger: Project Overview]] § Key Design Choices. Address and offset arithmetic stays integer for the same reason — [[Code/Computer Systems/Number Bases|Number Bases]].
 
 ## Gotchas
 

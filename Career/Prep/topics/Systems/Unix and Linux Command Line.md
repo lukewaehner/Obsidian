@@ -4,18 +4,20 @@ group: Systems
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Unix and Linux Command Line
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
@@ -29,6 +31,8 @@ to see what a process or the network is actually doing.
 ## How it works
 
 ## Implementation
+
+What the shell is driving underneath: file descriptors and the `open`/`read`/`write`/`close` calls that pipes and redirection are built from — [[Code/Computer Systems/Processes/File Descriptors|File Descriptors]], [[Code/Computer Systems/Processes/File IO|File IO]]. Shell-side keybindings and config — [[Code/Zsh/Keybinds|Keybinds]]. Git driven from the terminal — [[Code/Lazygit/Lazygit|Lazygit]].
 
 ## Complexity
 

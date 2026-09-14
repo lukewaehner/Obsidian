@@ -4,19 +4,21 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Messaging, Serialization, and Queues
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Implementation]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
@@ -42,7 +44,11 @@ asynchronism story together.
 
 ## Implementation
 
+Wire format chosen on measured cost — MessagePack binary frames on the high-rate order stream, JSON where readability wins — [[Code/Rust/HFT-Ledger/07 - Wire Formats|Wire Formats]], [[Code/Rust/HFT-Ledger/05 - API and WebSocket Layer|API and WebSocket Layer]]. JSON and YAML round-tripping, and what serialisation does to object identity — [[Code/Ruby/Files and Serialization/Serialization|Serialization]], [[Code/Ruby/Files and Serialization/JSON in Ruby|JSON in Ruby]].
+
 ## Complexity
+
+Queues as the backpressure mechanism, and the producer/consumer pattern they exist to serve — [[Code/Algorithms/Queue|Queue]] § 5. Producer-Consumer Pattern, § 4. Task Scheduling.
 
 ## When to use it
 

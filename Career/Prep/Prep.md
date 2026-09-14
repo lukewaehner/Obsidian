@@ -44,28 +44,28 @@ The *Needs review* view in `Topics.base` stays empty until `/prep:review` sets
 
 ## Progress
 
-`██░░░░░░░░░░░░░░░░░░░░░░`  **38 / 374 sections** across 62 core topics
+`██████████░░░░░░░░░░░░░░`  **158 / 374 sections** across 62 core topics
 
 | Group | Coverage | Sections | Topics |
 |---|---|---|---|
-| [[Career/Prep/topics/Complexity/Complexity\|Complexity]] | `░░░░░░░░░░░░░░░░` | 0/24 | 4 |
-| [[Career/Prep/topics/Data Structures/Data Structures\|Data Structures]] | `████████░░░░░░░░` | 27/56 | 9 |
-| [[Career/Prep/topics/Trees/Trees\|Trees]] | `█████░░░░░░░░░░░` | 7/24 | 4 |
-| [[Career/Prep/topics/Graphs/Graphs\|Graphs]] | `░░░░░░░░░░░░░░░░` | 0/48 | 8 |
-| [[Career/Prep/topics/Sorting & Searching/Sorting & Searching\|Sorting & Searching]] | `█░░░░░░░░░░░░░░░` | 3/60 | 10 |
-| [[Career/Prep/topics/Algorithm Design/Algorithm Design\|Algorithm Design]] | `█░░░░░░░░░░░░░░░` | 1/30 | 5 |
-| [[Career/Prep/topics/Strings/Strings\|Strings]] | `░░░░░░░░░░░░░░░░` | 0/18 | 3 |
-| [[Career/Prep/topics/Math & Bits/Math & Bits\|Math & Bits]] | `░░░░░░░░░░░░░░░░` | 0/18 | 3 |
-| [[Career/Prep/topics/Systems/Systems\|Systems]] | `░░░░░░░░░░░░░░░░` | 0/36 | 6 |
-| [[Career/Prep/topics/Design/Design\|Design]] | `░░░░░░░░░░░░░░░░` | 0/60 | 10 |
+| [[Career/Prep/topics/Complexity/Complexity\|Complexity]] | `███████░░░░░░░░░` | 10/24 | 4 |
+| [[Career/Prep/topics/Data Structures/Data Structures\|Data Structures]] | `█████████░░░░░░░` | 32/56 | 9 |
+| [[Career/Prep/topics/Trees/Trees\|Trees]] | `█████████████░░░` | 20/24 | 4 |
+| [[Career/Prep/topics/Graphs/Graphs\|Graphs]] | `███████░░░░░░░░░` | 21/48 | 8 |
+| [[Career/Prep/topics/Sorting & Searching/Sorting & Searching\|Sorting & Searching]] | `████░░░░░░░░░░░░` | 14/60 | 10 |
+| [[Career/Prep/topics/Algorithm Design/Algorithm Design\|Algorithm Design]] | `███████░░░░░░░░░` | 14/30 | 5 |
+| [[Career/Prep/topics/Strings/Strings\|Strings]] | `█░░░░░░░░░░░░░░░` | 1/18 | 3 |
+| [[Career/Prep/topics/Math & Bits/Math & Bits\|Math & Bits]] | `████░░░░░░░░░░░░` | 4/18 | 3 |
+| [[Career/Prep/topics/Systems/Systems\|Systems]] | `██████████░░░░░░` | 22/36 | 6 |
+| [[Career/Prep/topics/Design/Design\|Design]] | `█████░░░░░░░░░░░` | 20/60 | 10 |
 
 ## Weakest topics
 
-- [[Career/Prep/topics/Complexity/Amortized Analysis|Amortized Analysis]] — 0/6
-- [[Career/Prep/topics/Algorithm Design/Backtracking|Backtracking]] — 0/6
-- [[Career/Prep/topics/Trees/Balanced Search Trees|Balanced Search Trees]] — 0/6
-- [[Career/Prep/topics/Graphs/Bellman-Ford|Bellman-Ford]] — 0/6
-- [[Career/Prep/topics/Complexity/Big-O and Asymptotic Notation|Big-O and Asymptotic Notation]] — 0/6
+- [[Career/Prep/topics/Sorting & Searching/Bubble Sort|Bubble Sort]] — 0/6
+- [[Career/Prep/topics/Design/Consistent Hashing|Consistent Hashing]] — 0/6
+- [[Career/Prep/topics/Sorting & Searching/Counting and Radix Sort|Counting and Radix Sort]] — 0/6
+- [[Career/Prep/topics/Sorting & Searching/Heapsort|Heapsort]] — 0/6
+- [[Career/Prep/topics/Sorting & Searching/Insertion Sort|Insertion Sort]] — 0/6
 
 ## Problems
 

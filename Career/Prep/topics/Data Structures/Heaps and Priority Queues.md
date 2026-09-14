@@ -4,20 +4,22 @@ group: Data Structures
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # Heaps and Priority Queues
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -44,6 +46,8 @@ Implement a max-heap:
 ## Complexity
 
 ## When to use it
+
+A balanced BST is the other priority queue: `min`/`max` in O(log n) by walking to the leftmost/rightmost node, and it wins over a binary heap when you also need sorted iteration or deletion of an arbitrary element — [[Code/Algorithms/Binary Search Trees/BST Applications|BST Applications]] § 3. Priority Queues.
 
 ## Gotchas
 

@@ -4,21 +4,23 @@ group: Strings
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 1
+coverage: 0.17
+status: learning
+updated: 2026-09-13
 ---
 
 # String Manipulation
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Strings/Strings|Strings]]
+
+> [!abstract]- Coverage — 1/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -43,6 +45,8 @@ algorithms all improve on this; see each note's Complexity section.
 ## When to use it
 
 ## Gotchas
+
+Strings are UTF-8, not arrays of characters: byte index ≠ character index, and slicing mid-codepoint is a bug — the Rust notes make this explicit because the language refuses to hide it — [[Code/Rust/Strings|Strings]]. The owned/borrowed split (`String` vs `&str`) is the same distinction every language has, just named.
 
 ## Resources
 

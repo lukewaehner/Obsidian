@@ -4,20 +4,22 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Design Patterns
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -40,7 +42,11 @@ several of these concretely.
 
 ## Complexity
 
+MVC as the architectural pattern the others sit inside, worked end to end with interfaces per layer — [[Code/OOD/Examples/MVC Complete|MVC Complete]], [[Code/OOD/Model, View, and Controller|Model, View, and Controller]] § MVC.
+
 ## When to use it
+
+Adapter, Strategy, Command, Decorator, and Builder, each with the situation that calls for it and Java code — [[Code/OOD/Examples/Design Patterns|Design Patterns]]; [[Code/OOD/Command Design Pattern|Command Design Pattern]] takes Command to depth (undo, queuing, macro commands).
 
 ## Gotchas
 

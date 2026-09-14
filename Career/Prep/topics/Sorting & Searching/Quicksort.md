@@ -4,20 +4,22 @@ group: Sorting & Searching
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Quicksort
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Sorting & Searching/Sorting & Searching|Sorting & Searching]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -26,6 +28,8 @@ Divide and conquer: pick a pivot, partition the array around it, recurse on
 each side — [[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## How it works
+
+Hoare-style in-place partition, the correctness sketch, and pivot selection — why median-of-three or a random pivot, and what adversarial input does to a fixed pivot — [[Code/Algorithms/Sorts/Quick Sort|Quick Sort]] § Pseudocode (Hoare-style; in-place), § Pivot Selection, § Randomized Approach.
 
 ## Implementation
 
@@ -43,6 +47,8 @@ pivot choice) — randomized pivot selection makes the worst case
 astronomically unlikely rather than eliminating it.
 
 ## When to use it
+
+The default in-place sort when stability is not required: no auxiliary array, good cache behaviour, and O(log n) stack with tail-recursion on the larger side — [[Code/Algorithms/Sorts/Quick Sort|Quick Sort]] § Practical Optimizations, § When to Use.
 
 ## Gotchas
 

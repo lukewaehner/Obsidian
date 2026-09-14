@@ -4,19 +4,21 @@ group: Data Structures
 tier: core
 confidence:
 sections_total: 6
-sections_done: 5
-coverage: 0.83
-status: learning
-updated: 2026-09-01
+sections_done: 6
+coverage: 1.00
+status: solid
+updated: 2026-09-13
 ---
 
 # Linked Lists
 
-> [!abstract]- Coverage — 5/6
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
+> [!abstract]- Coverage — 6/6
 > - [x] [[#Idea]]
 > - [x] [[#How it works]]
 > - [x] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Complexity]]
 > - [x] [[#When to use it]]
 > - [x] [[#Gotchas]]
 
@@ -43,6 +45,8 @@ Implemented a singly linked list — [[Code/Algorithms/Linked List|Linked List]]
 `reverse()`, `remove_value(value)`.
 
 ## Complexity
+
+Per-operation costs for singly vs doubly linked, and the comparison against arrays on access, insert, and delete — [[Code/Algorithms/Linked List|Linked List]] § Core Operations, § When to Use Linked Lists; [[Code/Algorithms/Doubly Linked List|Doubly Linked List]] § Comparison: Singly vs Doubly.
 
 ## When to use it
 

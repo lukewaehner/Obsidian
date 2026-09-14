@@ -4,20 +4,22 @@ group: Systems
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Caches
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
+> - [x] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -38,9 +40,13 @@ the further they sit from the CPU.
 
 ## Implementation
 
+The TLB is the cache that matters for address translation — without it every memory access costs an extra page-table walk — [[Code/Computer Systems/Memory Virtualization/Page Tables|Page Tables]], [[Code/Computer Systems/Memory Virtualization/Paging|Paging]]. The slab allocator is a cache of pre-initialised kernel objects, built for exactly this reason — [[Code/Computer Systems/Memory Virtualization/Slab Allocator|Slab Allocator]].
+
 ## Complexity
 
 ## When to use it
+
+Cache-friendliness as a design constraint, not an afterthought: a sorted array beats a balanced tree partly on linear memory layout ([[Code/Algorithms/Binary Search Trees/Self-Balancing BSTs|Self-Balancing BSTs]] § When NOT to Use), and merge sort's sequential access is why it survives despite the extra array ([[Code/Algorithms/Sorts/Merge Sort|Merge Sort]] § Cache & Parallelism).
 
 ## Gotchas
 

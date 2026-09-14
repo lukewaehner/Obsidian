@@ -4,20 +4,22 @@ group: Systems
 tier: extra
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Computer Security
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -29,11 +31,15 @@ enforcing a boundary correctly.
 
 ## How it works
 
+Memory protection as the hardware's enforcement point — per-page read/write/execute bits checked on every access, which is what makes one process unable to read another's memory — [[Code/Computer Systems/Memory Virtualization/Memory Protection|Memory Protection]]. Pointer hazards on the other side of that boundary: dangling pointers, use-after-free, buffer overruns — [[Code/Computer Systems/C/Pointers/Pointer Safety|Pointer Safety]].
+
 ## Implementation
 
 ## Complexity
 
 ## When to use it
+
+Authentication versus authorisation, and session handling in a real web stack — [[Code/Ruby/Frameworks/Rails/The Web/Authentication and Authorization|Authentication and Authorization]], [[Code/Ruby/Frameworks/Rails/The Web/Cookies and Sessions|Cookies and Sessions]].
 
 ## Gotchas
 

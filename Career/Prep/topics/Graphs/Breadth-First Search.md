@@ -4,20 +4,22 @@ group: Graphs
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Breadth-First Search
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -26,6 +28,8 @@ Level-by-level traversal from a source vertex, using a queue instead of a
 stack — the graph analog of tree level order.
 
 ## How it works
+
+A queue is the whole algorithm: dequeue, visit, enqueue unvisited neighbours. Level-order traversal is the same loop with a per-level size snapshot — [[Code/Algorithms/Queue|Queue]] § 1. BFS (Breadth-First Search), § 2. Level Order Traversal; [[Code/Algorithms/Tree|Tree]].
 
 ## Implementation
 
@@ -36,10 +40,14 @@ Still open:
 
 ## Complexity
 
+O(V+E) time on an adjacency list; O(V) space for the queue and visited set, which is the cost BFS pays over DFS's O(h) — [[Code/Algorithms/Queue|Queue]] § Time Complexity Summary.
+
 ## When to use it
 
 Shortest path in an unweighted graph; know its complexity and trade-offs
 against DFS before reaching for either.
+
+Recognition cues for reaching for a queue at all — "nearest", "fewest steps", "level by level" — and the red flags that mean it is not a queue problem — [[Code/Algorithms/Queue|Queue]] § Problem-Solving Patterns: When to Think "Queue".
 
 ## Gotchas
 

@@ -4,20 +4,22 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # SOLID
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
@@ -36,6 +38,8 @@ without becoming fragile:
 
 ## How it works
 
+All five stated in one place, with Liskov given in its substitutability form rather than as a slogan — [[Code/OOD/Model, View, and Controller|Model, View, and Controller]] § SOLID.
+
 ## Implementation
 
 [[Code/OOD/OOD|OOD]] covers SOLID alongside worked examples —
@@ -44,6 +48,8 @@ without becoming fragile:
 ## Complexity
 
 ## When to use it
+
+Each principle mapped to the worked example that demonstrates it — [[Code/OOD/Examples Index|Examples Index]] § SOLID Principles Examples, § Quick Reference: Concept → Example.
 
 ## Gotchas
 

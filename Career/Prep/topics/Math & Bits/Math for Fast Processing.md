@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Math for Fast Processing
 
+← [[Career/Prep/topics/Math & Bits/Math & Bits|Math & Bits]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

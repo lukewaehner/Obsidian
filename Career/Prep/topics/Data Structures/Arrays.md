@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Arrays
 
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
 > [!abstract]- Coverage — 7/7
 > - [x] [[#Idea]]
 > - [x] [[#How it works]]

@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Segment and Fenwick Trees
 
+← [[Career/Prep/topics/Trees/Trees|Trees]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

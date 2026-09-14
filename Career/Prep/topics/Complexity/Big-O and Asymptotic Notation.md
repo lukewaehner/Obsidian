@@ -4,31 +4,39 @@ group: Complexity
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # Big-O and Asymptotic Notation
 
-> [!abstract]- Coverage — 0/6
-> - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+← [[Career/Prep/topics/Complexity/Complexity|Complexity]]
+
+> [!abstract]- Coverage — 3/6
+> - [x] [[#Idea]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 
 ## Idea
 
+Why asymptotics at all: resource use has to be measured machine-independently, so constant factors are dropped and only growth as `n → ∞` is kept, on the worst case because it is the one bound every input respects — [[Code/Algorithms/Times/Times|Times]] § Empirical Measuring, § Core Ideas.
+
 ## How it works
+
+The five relations — `O`, `Ω`, `Θ`, `o`, `ω` — as a table of intuitions, plus the formal `∃k>0, ∃n₀, ∀n>n₀ : |f(n)| ≤ k·g(n)` definition of big-O — [[Code/Algorithms/Times/Times|Times]] § Five Types of Relationships. The growth hierarchy `1 < log n < n < n log n < n² < n³ < 2ⁿ < n! < nⁿ` — [[Code/Algorithms/Recurrences|Recurrences]] § Common Growth Rate Hierarchy.
 
 ## Implementation
 
 ## Complexity
 
 ## When to use it
+
+One note per growth class, each with the exercise that produces it (word count → linear, guessing game → log n, pairwise plagiarism check → n², pattern lock → n!) — [[Code/Algorithms/Times/Constant Time|Constant Time]], [[Code/Algorithms/Times/Logarithmic Time|Logarithmic Time]], [[Code/Algorithms/Times/Linear Time|Linear Time]], [[Code/Algorithms/Times/Loglinear Time|Loglinear Time]], [[Code/Algorithms/Times/Quadratic Time|Quadratic Time]], [[Code/Algorithms/Times/Polynomial Time|Polynomial Time]], [[Code/Algorithms/Times/Exponential Times|Exponential Times]], [[Code/Algorithms/Times/Factorial Time|Factorial Time]].
 
 ## Gotchas
 

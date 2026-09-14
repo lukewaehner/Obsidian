@@ -4,21 +4,23 @@ group: Sorting & Searching
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 2
+coverage: 0.33
+status: learning
+updated: 2026-09-13
 ---
 
 # Merge Sort
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Sorting & Searching/Sorting & Searching|Sorting & Searching]]
+
+> [!abstract]- Coverage — 2/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
 > - [ ] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -26,6 +28,8 @@ Divide and conquer: split the input in half, sort each half recursively,
 then merge the two sorted halves — [[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]].
 
 ## How it works
+
+Top-down pseudocode, the correctness sketch by induction on the merge step, and the variants worth knowing (bottom-up, insertion-sort cutoff on small runs, skipping the merge when already ordered) — [[Code/Algorithms/Sorts/Merge Sort|Merge Sort]].
 
 ## Implementation
 
@@ -48,6 +52,8 @@ the merge step) — see [Merge Sort For Linked List](http://www.geeksforgeeks.or
 in Resources.
 
 ## Gotchas
+
+Merge sort is stable and quicksort is not — that, and the O(n) auxiliary array, are the two facts the head-to-head turns on — [[Code/Algorithms/Sorts/Merge Sort|Merge Sort]] § Quicksort vs Mergesort (At a Glance), § Cache & Parallelism.
 
 ## Resources
 

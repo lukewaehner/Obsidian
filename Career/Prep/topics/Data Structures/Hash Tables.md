@@ -4,20 +4,22 @@ group: Data Structures
 tier: core
 confidence:
 sections_total: 7
-sections_done: 4
-coverage: 0.57
+sections_done: 5
+coverage: 0.71
 status: learning
-updated: 2026-09-01
+updated: 2026-09-13
 ---
 
 # Hash Tables
 
-> [!abstract]- Coverage — 4/7
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
+> [!abstract]- Coverage — 5/7
 > - [x] [[#Idea]]
 > - [x] [[#How it works]]
 > - [x] [[#Implementation]]
 > - [x] [[#Complexity]]
-> - [ ] [[#When to use it]]
+> - [x] [[#When to use it]]
 > - [ ] [[#Gotchas]]
 > - [ ] [[#Distributed hash tables]]
 
@@ -43,6 +45,8 @@ Implemented a hash set — [[Hashtable]] § `HashTable`.
 Average vs. worst-case complexity, and what causes the worst case — [[Hashtable]].
 
 ## When to use it
+
+Common use cases and the head-to-head against arrays, linked lists, and BSTs on lookup, ordering, and memory — [[Code/Algorithms/Hashtable|Hashtable]] § Common Use Cases, § Comparison with Other Structures.
 
 ## Gotchas
 

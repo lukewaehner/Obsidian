@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Cryptography
 
+← [[Career/Prep/topics/Systems/Systems|Systems]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

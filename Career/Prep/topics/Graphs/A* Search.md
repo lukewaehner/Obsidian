@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # A* Search
 
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
 > [!abstract]- Coverage — 0/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]

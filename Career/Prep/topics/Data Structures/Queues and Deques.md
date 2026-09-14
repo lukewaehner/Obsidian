@@ -12,6 +12,8 @@ updated: 2026-09-01
 
 # Queues and Deques
 
+← [[Career/Prep/topics/Data Structures/Data Structures|Data Structures]]
+
 > [!abstract]- Coverage — 5/6
 > - [x] [[#Idea]]
 > - [ ] [[#How it works]]

@@ -4,21 +4,23 @@ group: Design
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 3
+coverage: 0.50
+status: learning
+updated: 2026-09-13
 ---
 
 # System Design
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Design/Design|Design]]
+
+> [!abstract]- Coverage — 3/6
 > - [ ] [[#Idea]]
 > - [ ] [[#How it works]]
-> - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
+> - [x] [[#Implementation]]
+> - [x] [[#Complexity]]
 > - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -43,11 +45,15 @@ A repeatable flow for working through a design in an interview:
 
 ## Implementation
 
+A full system designed and built in the vault, at a level of detail interviews ask for: a limit-order-book exchange with a pure synchronous matching core, an async service layer around it, REST plus WebSocket surfaces, and a documented rationale for every choice — [[Code/Rust/HFT-Ledger/00 - Overview|HFT-Ledger: Project Overview]] (§ Key Design Choices is the interview-shaped part), [[Code/Rust/HFT-Ledger/02 - Order Book Engine|Order Book Engine]], [[Code/Rust/HFT-Ledger/04 - Exchange Service|Exchange Service]], [[Code/Rust/HFT-Ledger/08 - Key Workflows|Key Workflows]], [[Code/Rust/HFTX/HFTX|HFTX]].
+
 ## Complexity
 
 Back-of-envelope capacity estimates (requests/sec, storage growth) are the
 concrete deliverable of the constraints step above — see Resources for
 reference numbers.
+
+Data-structure choice justified against the access pattern rather than in the abstract: `BTreeMap<i64, VecDeque<Order>>` gives O(log n) price-level lookup with O(1) FIFO inside a level, and lazy cancellation makes cancel O(1) — [[Code/Rust/HFTX/PriceLevels|PriceLevels]], [[Code/Rust/HFT-Ledger/01 - Data Structures|Data Structures]].
 
 ## When to use it
 
@@ -66,6 +72,8 @@ above, then compare to how they were handled in the real world:
 Skipping straight to a design without pinning down scope and constraints
 first is the most common failure mode — the constraints (read/write ratio,
 scale) should drive the design, not the other way around.
+
+Invariants written down explicitly, which is the part that separates a design from a diagram — [[Code/Rust/HFTX/Invariants|Invariants]].
 
 ## Resources
 

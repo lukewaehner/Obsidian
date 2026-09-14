@@ -4,21 +4,23 @@ group: Graphs
 tier: core
 confidence:
 sections_total: 6
-sections_done: 0
-coverage: 0.00
-status: untouched
-updated: 2026-09-01
+sections_done: 4
+coverage: 0.67
+status: learning
+updated: 2026-09-13
 ---
 
 # Graph Representations
 
-> [!abstract]- Coverage — 0/6
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
+
+> [!abstract]- Coverage — 4/6
 > - [ ] [[#Idea]]
-> - [ ] [[#How it works]]
+> - [x] [[#How it works]]
 > - [ ] [[#Implementation]]
-> - [ ] [[#Complexity]]
-> - [ ] [[#When to use it]]
-> - [ ] [[#Gotchas]]
+> - [x] [[#Complexity]]
+> - [x] [[#When to use it]]
+> - [x] [[#Gotchas]]
 
 ## Idea
 
@@ -55,7 +57,11 @@ When a question is asked, look for a graph-based solution first, then move on
 if there isn't one. BFS and DFS trade-offs (queue vs. stack, level order vs.
 depth-first) matter for picking a representation.
 
+Picking between them: dense graphs and repeated edge-existence queries favour the matrix, sparse graphs and traversal favour the list — [[Code/Algorithms/Graphs/Graph Representations|Graph Representations]] § When to Use.
+
 ## Gotchas
+
+The vocabulary a problem statement leans on — degree, path, cycle, connectedness, subgraph, complete, bipartite — and directed vs undirected, weighted vs unweighted, simple vs multigraph — [[Code/Algorithms/Graphs/Graph Terminology|Graph Terminology]], [[Code/Algorithms/Graphs/Graph Types|Graph Types]].
 
 ## Resources
 
