@@ -25,9 +25,10 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
-- [ ] "Why are Distributed Systems so Hard?"
-- [ ] Intro slides
+- [ ] [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/)
+- [ ] ["Why are Distributed Systems so Hard?"](https://www.usenix.org/conference/srecon19americas/presentation/yu) — Yu, SREcon19 Americas
+- [ ] Slides: [Intro](https://4730.network/slides/cs4730_intro_awj.pptx) (pptx)
+- [ ] [[Docker Tutorial]] — [starter](https://github.khoury.northeastern.edu/cs4730/docker-tutorial/), complete by 9/15
 
 ## Due This Session
 

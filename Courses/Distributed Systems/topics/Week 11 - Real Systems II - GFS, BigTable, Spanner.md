@@ -26,7 +26,11 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] GFS, BigTable, Spanner slides
+> [!warning] No slide deck published — readings only. Papers are in the Resources section of the [schedule](https://4730.network/docs/schedule/).
+
+- [ ] *The Google File System* — Ghemawat, Gobioff, Leung, SOSP 2003
+- [ ] *Bigtable: A Distributed Storage System for Structured Data* — TOCS 2008
+- [ ] *Spanner: Google's Globally Distributed Database* — OSDI 2012
 
 ## Notes
 

@@ -26,7 +26,9 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] Network primer slides
+- [ ] Slides: [Network refresh](https://4730.network/slides/cs4730_network_primer.pptx) (pptx)
+- [ ] Lecture examples: `udpecho.py`, `udpecho-timer.py`, `udpecho-wo-select.py`, `udpecho-with-select.py` — linked from the [schedule](https://4730.network/docs/schedule/)
+- [ ] [Python Socket Programming HOWTO](https://docs.python.org/3/howto/sockets.html)
 
 ## Notes
 

@@ -26,7 +26,7 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] 2 & 3 phase commit slides
+- [ ] Slides: [2 and 3 phase commit](https://4730.network/slides/cs4730_2pc3pc_awj.pptx) (pptx)
 
 ## Notes
 

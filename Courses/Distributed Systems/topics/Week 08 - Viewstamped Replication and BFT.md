@@ -26,7 +26,7 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] Paxos and related topics slides
+- [ ] Slides: [Quorums, Paxos, View-stamped Replication, RAFT, BFT](https://4730.network/slides/cs4730_paxos_awj.pptx) (pptx) — same deck as [[Week 07 - Quorums and Paxos]]; the schedule lists Week 8 as "continued…"
 
 ## Notes
 

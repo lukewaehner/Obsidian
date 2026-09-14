@@ -26,7 +26,9 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] Consensus slides
+- [ ] Slides: [Consensus](https://4730.network/slides/cs4730_consensus_awj.pptx) (pptx)
+
+> [!tip] Ben-Or is on page 85 of this deck — it's the spec for [[Project 4 - Randomized Consensus Protocol]].
 
 ## Notes
 

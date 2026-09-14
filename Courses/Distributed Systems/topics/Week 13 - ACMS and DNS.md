@@ -26,8 +26,10 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] ACMS slides
-- [ ] DNS slides
+> [!warning] No slide deck published — readings only. Papers are in the Resources section of the [schedule](https://4730.network/docs/schedule/).
+
+- [ ] ACMS
+- [ ] DNS
 
 ## Notes
 

@@ -26,8 +26,7 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] Leader Election slides
-- [ ] Multicast slides
+- [ ] Slides: [Leader Election, Multicast, …](https://4730.network/slides/cs4730_leader_membership_multicast_awj.pptx) (pptx) — one deck covering leader election, membership, reliable multicast, and virtual synchrony
 
 ## Notes
 

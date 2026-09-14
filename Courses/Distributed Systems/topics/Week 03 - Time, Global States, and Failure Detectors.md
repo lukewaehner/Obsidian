@@ -26,7 +26,7 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] Event Ordering slides
+- [ ] Slides: [Event Ordering](https://4730.network/slides/cs4730_ds_time_awj.pptx) (pptx)
 
 ## Notes
 

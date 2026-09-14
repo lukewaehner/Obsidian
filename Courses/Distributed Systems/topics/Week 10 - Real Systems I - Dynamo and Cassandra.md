@@ -26,7 +26,11 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] Dynamo and Cassandra slides
+> [!warning] No slide deck published for this week
+> The schedule lists **readings**, not slides, from here on. Papers are in the Resources section of the [schedule](https://4730.network/docs/schedule/).
+
+- [ ] Dynamo (starred on the schedule)
+- [ ] Cassandra
 
 ## Notes
 

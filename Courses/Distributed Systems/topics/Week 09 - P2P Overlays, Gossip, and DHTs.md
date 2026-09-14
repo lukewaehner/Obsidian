@@ -26,8 +26,7 @@ Lecture for [[Distributed Systems]].
 
 ## Assigned Material
 
-- [ ] P2P slides
-- [ ] Overlays and DHT slides
+- [ ] Slides: [P2P, Overlays DHT](https://4730.network/slides/cs4730_dht_awj.pptx) (pptx) — one deck
 
 ## Notes
 
