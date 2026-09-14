@@ -98,8 +98,13 @@ projects is prohibited**.
 > [!todo] Not yet scaffolded
 > The syllabus counts **8 homeworks and quizzes together**, without naming or dating them, so
 > there are no homework notes yet — creating a file named `Homework 1` under `assignments/` will
-> scaffold itself from the course template. Project due dates aren't published either; the
-> project pages on the course site are index stubs so far.
+> scaffold itself from the course template.
+
+> [!info] Spec status as of 2026-09-13
+> Projects **1**, **4**, and **5/6** now have full specs on the course site and are written up.
+> Projects **2** and **3** are still `Description: TBD`. **No project has a published Fall 2026
+> due date.** The Projects 5/6 page is stale — its body numbers the milestones 3/4/5 and lists
+> **2025** deadlines, so its numbering and dates need confirming on Piazza.
 
 ## Map of These Notes
 
