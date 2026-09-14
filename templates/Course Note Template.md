@@ -15,26 +15,43 @@
  *   Tutorial - Vitest                → tutorial
  *   Individual Project 2             → assignment
  *   <anything else>                  → plain note
+ *
+ * No tp.file.* and no cursor placeholders: the file is read through
+ * tp.config.target_file, so nothing has to be tabbed through after creation.
  */
 
+/* Assembled at runtime: the Waypoint plugin scans the whole vault, and a bare
+ * flag literal in this file would make it treat the template itself as a
+ * waypoint host and overwrite it. */
+const waypoint = `%% ${"Waypoint"} %%`;
+const ROOT = "Courses";
 const fence = "```";
+const target = tp.config.target_file;
+const title = target.basename;
+
+const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 /* --- guard -------------------------------------------------------------
  * Templater fires on every file creation, including notes syncing down from
  * another device. Never overwrite a file that already has content. */
-const preexisting = tp.file.content.trim().length > 0;
+let existing = "";
+try { existing = await app.vault.read(target); } catch (e) { existing = ""; }
+const preexisting = existing.trim().length > 0;
 
 /* --- derive the course from the folder path ---------------------------- */
-const segments = tp.file.folder(true).split("/");
-const course   = segments[segments.indexOf("Courses") + 1] ?? "";
-const isFolderNote = course && tp.file.title === course;
+const segments = target.parent.path.split("/");
+const course = segments[segments.indexOf(ROOT) + 1] ?? "";
+const isFolderNote = course && title === course;
 
-/* --- read the course MOC's frontmatter --------------------------------- */
+/* --- read the course MOC's frontmatter ---------------------------------
+ * A course's MOC lives inside its folder and shares its name. */
 let mocTags = [];
 let semesterStart = null;
 if (course && !isFolderNote && !preexisting) {
-  const mocFile = app.metadataCache.getFirstLinkpathDest(course, tp.file.path(true));
-  const moc = mocFile ? (app.metadataCache.getFileCache(mocFile)?.frontmatter ?? {}) : {};
+  const mocFile = app.vault.getAbstractFileByPath(`${ROOT}/${course}/${course}.md`);
+  const moc = mocFile?.extension === "md"
+    ? (app.metadataCache.getFileCache(mocFile)?.frontmatter ?? {})
+    : {};
   mocTags = [].concat(moc.tags ?? []).filter(t => !["hub", "moc", "index"].includes(t));
   semesterStart = moc.semester_start ?? null;
 }
@@ -48,7 +65,6 @@ const week = !start || !start.isValid()               ? ""
   :                                                     0;
 
 /* --- classify from the filename ---------------------------------------- */
-const title = tp.file.title;
 const kind =
   /^(module|lecture|week|session)\b/i.test(title) ? "lecture" :
   /^topic\s+\d+\s*[-—:]/i.test(title)   ? "lecture"    :
@@ -61,34 +77,31 @@ const kind =
 const numbered    = /^(?:module|lecture|activity|week|topic|session)\s+(\d+)/i;
 const moduleNumber = ["lecture", "activity"].includes(kind) ? ((title.match(numbered) ?? [])[1] ?? "") : "";
 const topic = title.replace(/^(?:module|lecture|activity|tutorial|week|topic|session)\s*\d*\s*[-—:]\s*/i, "").trim();
-const slug  = topic.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
 /* --- headings use an em dash; filenames can't ------------------------- */
 const heading = title.replace(/\s+-\s+/, " — ");
 
 /* --- assemble frontmatter ---------------------------------------------- */
 const hasRealTopic = ["lecture", "activity", "tutorial"].includes(kind) && topic !== title;
-const tags = [...new Set([kind, ...mocTags, hasRealTopic ? slug : ""].filter(Boolean))];
+const tags = [...new Set([kind, ...mocTags, hasRealTopic ? slug(topic) : ""].filter(Boolean))];
 const fm = ["---", "tags:", ...tags.map(t => `  - ${t}`), `type: ${kind}`];
 if (course)       fm.push(`course: "[[${course}]]"`);
 if (moduleNumber) fm.push(`module: ${Number(moduleNumber)}`);
 if (week !== "")  fm.push(`week: ${week}`);
 if (["assignment", "exam"].includes(kind)) fm.push("due:");
-fm.push(`date: ${tp.date.now("YYYY-MM-DD")}`, "status: raw", "---");
+fm.push(`date: ${moment().format("YYYY-MM-DD")}`, "status: raw", "---");
 
 /* --- the folder note for a course is a MOC, not a course note ---------- */
 const mocSkeleton = `---
 tags:
-  - ${course.toLowerCase().replace(/[^a-z0-9]+/g, "-")}
+  - ${slug(course)}
   - hub
 type: moc
-semester_start: ${tp.date.now("YYYY-MM-DD")}
+semester_start: ${moment().format("YYYY-MM-DD")}
 ---
 # ${course}
 
-${tp.file.cursor(1)}
-
-%% Waypoint %%
+${waypoint}
 `;
 
 /* --- skeletons ---------------------------------------------------------- */
@@ -97,17 +110,15 @@ const context = course ? `${kind === "lecture" ? "Lecture" : "Note"} for [[${cou
 const bodies = {
   lecture: `# ${heading}
 
-${context} ${tp.file.cursor(1)}
+${context}
 
 ## Learning Objectives
 
 After this lecture you will be able to:
 
-- ${tp.file.cursor(2)}
+- 
 
 ## Notes
-
-${tp.file.cursor(3)}
 
 > [!note] Definition
 > **Term** — what it means, in your own words.
@@ -119,18 +130,17 @@ ${tp.file.cursor(3)}
 **Setup.** What the problem is.
 
 ${fence}
-${tp.file.cursor(4)}
 ${fence}
 
 **Why it works.** The reasoning, not just the answer.
 
 ## Key Takeaways
 
-- ${tp.file.cursor(5)}
+- 
 
 ## Homework
 
-- [ ] ${tp.file.cursor(6)}
+- [ ] 
 
 ## Open Questions
 
@@ -146,19 +156,15 @@ ${fence}
 
   activity: `# ${heading}
 
-In-class activity${course ? ` for [[${course}]]` : ""}. ${tp.file.cursor(1)}
+In-class activity${course ? ` for [[${course}]]` : ""}.
 
 ## Scenario
 
-${tp.file.cursor(2)}
-
 ## Requirements
 
-1. ${tp.file.cursor(3)}
+1. 
 
 ## My Work
-
-${tp.file.cursor(4)}
 
 ## Takeaways
 
@@ -170,21 +176,18 @@ ${tp.file.cursor(4)}
 
   tutorial: `# ${heading}
 
-Tutorial${course ? ` for [[${course}]]` : ""}. ${tp.file.cursor(1)}
+Tutorial${course ? ` for [[${course}]]` : ""}.
 
 ## Setup
 
 ${fence}bash
-${tp.file.cursor(2)}
 ${fence}
 
 ## Steps
 
-1. ${tp.file.cursor(3)}
+1. 
 
 ## Reference
-
-${tp.file.cursor(4)}
 
 ## Gotchas
 
@@ -196,19 +199,15 @@ ${tp.file.cursor(4)}
 
   assignment: `# ${heading}
 
-Assignment${course ? ` for [[${course}]]` : ""}. ${tp.file.cursor(1)}
+Assignment${course ? ` for [[${course}]]` : ""}. Due date goes in the \`due\` key above.
 
-**Due:** ${tp.file.cursor(2)}
-
-- [ ] ${heading} 📅 ${tp.file.cursor(3)}
+- [ ] ${heading}
 
 ## Requirements
 
-- [ ] ${tp.file.cursor(3)}
+- [ ] 
 
 ## Approach
-
-${tp.file.cursor(4)}
 
 ## Notes While Working
 
@@ -224,13 +223,13 @@ ${tp.file.cursor(4)}
 
   exam: `# ${heading}
 
-${context} ${tp.file.cursor(1)}
+${context}
 
-**Format:** ${tp.file.cursor(2)}
+**Format:** 
 
 ## Topics Covered
 
-- ${tp.file.cursor(3)}
+- 
 
 ## Weak Spots
 
@@ -246,11 +245,9 @@ ${context} ${tp.file.cursor(1)}
 
   note: `# ${heading}
 
-${context} ${tp.file.cursor(1)}
+${context}
 
 ## Notes
-
-${tp.file.cursor(2)}
 
 ## Related
 
@@ -258,7 +255,7 @@ ${tp.file.cursor(2)}
 };
 
 /* --- single exit: pre-existing content wins, then folder notes, then skeletons */
-tR = preexisting  ? tp.file.content
+tR = preexisting  ? existing
    : isFolderNote ? mocSkeleton
    :                fm.join("\n") + "\n" + bodies[kind];
 %>

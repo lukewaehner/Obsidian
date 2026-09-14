@@ -2,17 +2,14 @@
 tags:
   - meeting
 type: note
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: <% moment().format("YYYY-MM-DD") %>
 ---
-# <% tp.date.now("YYYY-MM-DD") %> — <% tp.file.cursor(1) %>
+# <% tp.config.target_file.basename %>
 
-**Attendees:** <% tp.file.cursor(2) %>
+**Attendees:** 
 
 ## Notes
 
-<% tp.file.cursor(3) %>
-
 ## Action Items
 
-- [ ] <% tp.file.cursor(4) %>
-
+- [ ] 
