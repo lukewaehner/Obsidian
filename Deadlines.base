@@ -1,0 +1,62 @@
+filters:
+  and:
+    - file.inFolder("Courses")
+    - or:
+        - type == "assignment"
+        - type == "exam"
+properties:
+  file.name:
+    displayName: Deliverable
+  due:
+    displayName: Due
+  course:
+    displayName: Course
+views:
+  - type: table
+    name: Upcoming
+    filters:
+      and:
+        - due >= today()
+    order:
+      - file.name
+      - course
+      - due
+      - type
+      - status
+    sort:
+      - property: due
+        direction: ASC
+  - type: table
+    name: By course
+    groupBy:
+      property: course
+      direction: ASC
+    order:
+      - file.name
+      - due
+      - type
+      - status
+    sort:
+      - property: due
+        direction: ASC
+  - type: table
+    name: All
+    order:
+      - file.name
+      - course
+      - due
+      - type
+      - status
+    sort:
+      - property: due
+        direction: ASC
+  - type: table
+    name: No due date
+    filters:
+      and:
+        - "!due"
+    order:
+      - file.name
+      - course
+      - type
+      - status
