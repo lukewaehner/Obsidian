@@ -35,7 +35,7 @@ TypeScript is a **superset of JavaScript** that adds *optional* typing. All vali
 ## Course Requirements Attached to This Material
 
 - [x] Typing is optional in TypeScript — **not optional in this course** → [[Code/TypeScript/Tooling|Tooling]]
-- [x] Always use strict equality jj=== enforced by the linter → [[Code/TypeScript/Control Flow|Control Flow]]
+- [x] Always use strict equality `===`, enforced by the linter → [[Code/TypeScript/Control Flow|Control Flow]]
 - [x] File names in kebab-case, variables/functions in camelCase, classes in PascalCase → [[Code/TypeScript/Tooling|Tooling]]
 - [x] Private property names must start with `_` → [[Code/TypeScript/Classes|Classes]] · [[Code/TypeScript/OOP Principles|OOP Principles]]
 - [x] Prefer descriptive names over single letters → [[Code/TypeScript/Tooling|Tooling]]
@@ -74,7 +74,7 @@ Three ways to type one, worst to best: `any` → inline object type → [[Code/T
 
 If-else · switch (**`break` is required** or you fall through) · ternary.
 
-**Equality vs Strict Equality** — `0 == '0'` is `true`, `0 === '0'` is `false`. `===` in all cases; the linter enforces it. Objects and arrays compare **by reference**.
+**Equality vs Strict Equality** — == coerces before comparing, so the string zero equals the number zero; === checks type as well as value, so it does not. Use === in all cases; the linter enforces it. Objects and arrays compare **by reference**.
 
 ### Loops → [[Code/TypeScript/Loops|Loops]]
 
