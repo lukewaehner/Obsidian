@@ -86,7 +86,7 @@ topics/       one note per topic, with its class meetings
 ### Topics
 
 - [[Topic 00 - Course Intro and Setup]]
-- [[Topic 01 - Python Basics]]
+- [[Topic 01 - Python Basics]] — notebooks Part I & Part II written up
 - [[Topic 02 - Data Structures and Functions]]
 - [[Topic 03 - NumPy]]
 - [[Topic 04 - Pandas Introduction]]
@@ -105,6 +105,7 @@ topics/       one note per topic, with its class meetings
 - `FINA 4335_Course introduction-Fall 2026.pdf`
 - `Introduction to CodeGrade.pdf`
 - `Topic 1 Python Language Basics-Part I.ipynb` / `.pdf`
+- `Topic 1 Python Language Basics-Part II.ipynb` — control flow and imports
 
 ---
 
@@ -112,4 +113,41 @@ topics/       one note per topic, with its class meetings
 **Semester**: Fall 2026
 **Topics**: Python, NumPy, Pandas, Time Series, Stock Returns, Portfolio Theory, Factor Models, Portfolio Optimization, Quantitative Trading
 
-%% Waypoint %%
+%% Begin Waypoint %%
+- **assignments**
+	- [[DataCamp Assignment 1]]
+	- [[DataCamp Assignment 2]]
+	- [[DataCamp Classroom Enrollment]]
+	- [[Exam 1]]
+	- [[Final Group Project]]
+	- [[Group Project Sign-Up]]
+	- [[HW1]]
+	- [[HW2]]
+	- [[HW3]]
+	- [[Quiz 1]]
+	- [[Quiz 2]]
+	- [[Quiz 3]]
+	- [[Quiz 4]]
+	- [[Topic 1 Extra Practice]]
+	- [[Topic 2 Extra Practice]]
+	- [[Topics 3-4 Extra Practice]]
+	- [[Topics 5-8 Extra Practice]]
+	- [[Topics 9-12 After-Topic Practice]]
+- **topics**
+	- [[Topic 00 - Course Intro and Setup]]
+	- [[Topic 01 - Python Basics]]
+	- [[Topic 02 - Data Structures and Functions]]
+	- [[Topic 03 - NumPy]]
+	- [[Topic 04 - Pandas Introduction]]
+	- [[Topic 05 - Pandas Group Operations]]
+	- [[Topic 06 - Pandas Data Wrangling]]
+	- [[Topic 07 - Pandas Time Series]]
+	- [[Topic 08 - Stock Returns]]
+	- [[Topic 09 - Portfolio Risk and Return]]
+	- [[Topic 10 - Factor Models]]
+	- [[Topic 11 - Portfolio Optimization]]
+	- [[Topic 12 - Quant Trading Strategies]]
+- [[Computational Methods in Finance]]
+- [[FINA4335 Assignments.base|FINA4335 Assignments]]
+
+%% End Waypoint %%
