@@ -295,6 +295,72 @@ _None yet._
 TODAY = datetime.date(2026, 9, 1)
 
 
+class EnsureGroupLinkTest(unittest.TestCase):
+    def test_inserts_the_breadcrumb_directly_under_the_h1(self):
+        # arrange
+        body = ["", "# Bloom Filters", "", "> [!abstract]- Coverage — 0/1"]
+
+        # act
+        out = prep_sync.ensure_group_link(body, "Data Structures")
+
+        # assert
+        self.assertEqual(
+            [
+                "",
+                "# Bloom Filters",
+                "",
+                "← [[Career/Prep/topics/Data Structures/Data Structures"
+                "|Data Structures]]",
+                "",
+                "> [!abstract]- Coverage — 0/1",
+            ],
+            out,
+        )
+
+    def test_repoints_an_existing_breadcrumb_when_the_group_changes(self):
+        # arrange
+        body = [
+            "# Tries",
+            "",
+            "← [[Career/Prep/topics/Strings/Strings|Strings]]",
+            "",
+            "## Idea",
+        ]
+
+        # act
+        out = prep_sync.ensure_group_link(body, "Data Structures")
+
+        # assert
+        self.assertEqual(
+            "← [[Career/Prep/topics/Data Structures/Data Structures"
+            "|Data Structures]]",
+            out[2],
+        )
+        self.assertEqual(5, len(out))
+
+    def test_qualifies_the_link_so_a_shared_group_name_cannot_misresolve(self):
+        # arrange / act
+        link = prep_sync.group_link("Trees")
+
+        # assert
+        self.assertEqual("← [[Career/Prep/topics/Trees/Trees|Trees]]", link)
+
+    def test_does_not_mutate_the_input_list(self):
+        # arrange
+        body = ["# Arrays", "", "## Idea"]
+
+        # act
+        prep_sync.ensure_group_link(body, "Data Structures")
+
+        # assert
+        self.assertEqual(["# Arrays", "", "## Idea"], body)
+
+    def test_raises_when_there_is_no_h1_to_anchor_under(self):
+        # arrange / act / assert
+        with self.assertRaises(prep_sync.PrepError):
+            prep_sync.ensure_group_link(["## Idea"], "Graphs")
+
+
 class SyncTopicTest(unittest.TestCase):
     def test_writes_the_derived_counts_into_frontmatter(self):
         # arrange / act
@@ -387,6 +453,29 @@ class SyncTopicTest(unittest.TestCase):
 
         # assert
         self.assertIn("## Problems\n\n_None yet._\n", text)
+
+    def test_links_the_note_back_to_its_group_hub(self):
+        # arrange / act
+        text, _, _ = prep_sync.sync_topic(Path("d.md"), TOPIC, TODAY, [])
+
+        # assert
+        self.assertIn(
+            "# Dijkstra's Algorithm\n\n"
+            "← [[Career/Prep/topics/Graphs/Graphs|Graphs]]\n",
+            text,
+        )
+
+    def test_falls_back_to_the_parent_directory_when_group_is_unset(self):
+        # arrange
+        ungrouped = TOPIC.replace("group: Graphs", "group:")
+
+        # act
+        text, _, _ = prep_sync.sync_topic(
+            Path("topics/Strings/Rabin-Karp.md"), ungrouped, TODAY, []
+        )
+
+        # assert
+        self.assertIn("← [[Career/Prep/topics/Strings/Strings|Strings]]", text)
 
     def test_rewriting_the_problems_section_does_not_eat_the_next_section(self):
         # arrange / act

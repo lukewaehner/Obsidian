@@ -38,6 +38,16 @@ class IterLinksTest(unittest.TestCase):
     def test_strips_a_trailing_md_extension(self):
         self.assertEqual(["Arrays"], list(check_links.iter_links("[[Arrays.md]]")))
 
+    def test_strips_an_alias_whose_pipe_is_escaped_for_a_table(self):
+        self.assertEqual(
+            ["Career/Prep/topics/Systems/Systems"],
+            list(
+                check_links.iter_links(
+                    "| [[Career/Prep/topics/Systems/Systems\\|Systems]] | 0/36 |"
+                )
+            ),
+        )
+
 
 class CheckTest(unittest.TestCase):
     def test_reports_nothing_when_every_link_resolves(self):

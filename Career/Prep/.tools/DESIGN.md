@@ -123,6 +123,14 @@ Career/Prep/
 Each `topics/<Group>/` and `problems/<Pattern>/` directory gets a folder-note of
 the same name, embedding that slice of the relevant Base.
 
+An embedded Base is a query, not a set of links, so the graph view cannot see
+it — a folder-note listing thirty topics has no edge to any of them. Every note
+therefore carries an explicit `← [[parent]]` line: group and pattern folder-notes
+point at `Prep`, and each topic note points at its group folder-note. Without it
+the whole `topics/` tree renders as orphans. `prep_sync` maintains the topic
+half of that from the `group` property; the folder-notes' own line is
+hand-written and static.
+
 Depth is expressed by a `tier: core | extra` property, not by folder. Skip lists
 sit beside Hash Tables in `Data Structures/`; the Base filters them out of the
 core progress number.
@@ -156,6 +164,8 @@ updated: 2026-09-01
 ---
 
 # Dijkstra's Algorithm
+
+← [[Career/Prep/topics/Graphs/Graphs|Graphs]]
 
 > [!abstract]- Coverage — 4/6
 > - [x] [[#Idea]]
@@ -193,6 +203,12 @@ Properties:
 
 `confidence` is the only hand-set property in the system, and it is set from the
 database table, not by opening the note.
+
+The `← [[group]]` breadcrumb under the H1 is derived too: `prep_sync` inserts it
+from `group`, repoints it if `group` changes, and leaves an existing one alone.
+It sits above the Coverage callout rather than at the foot of the note because
+everything from `## Problems` to the end of the file belongs to the generated
+problems list.
 
 `status` is derived, never authored. A `rusty` state is not derived — a topic
 becomes review-worthy through low `confidence` or a stale `updated`, both of
@@ -329,7 +345,8 @@ Responsibilities, in order:
 2. Walk `problems/`. Derive `pattern` from the parent directory name. Collect
    the `topics` backlinks.
 3. For each topic note, rebuild the `## Problems` section from the collected
-   backlinks.
+   backlinks, and ensure the `← [[group]]` breadcrumb under the H1 matches the
+   note's `group`.
 4. Write frontmatter — but only for keys whose value changed. If a file's
    computed frontmatter and `## Problems` section both match what is on disk,
    the file is not opened for writing at all.
@@ -338,8 +355,9 @@ Responsibilities, in order:
 
 Correctness requirements:
 
-- Never touch anything outside the derived key set and the two marked regions.
-  Hand-written frontmatter keys and all prose survive untouched.
+- Never touch anything outside the derived key set, the two marked regions, and
+  the group breadcrumb. Hand-written frontmatter keys and all prose survive
+  untouched.
 - Preserve frontmatter key order and the file's existing line endings.
 - `updated` advances only when `sections_done` changes, not on every run.
 - Exit non-zero on a malformed note (missing Coverage block, unparseable

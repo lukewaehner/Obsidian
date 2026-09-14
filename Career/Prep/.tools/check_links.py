@@ -28,9 +28,14 @@ def iter_links(text):
     Bare intra-note anchors ([[#Heading]]) always resolve to the current note.
     A trailing `.md` or `.base` is stripped, matching how the index stores
     notes and Bases files.
+
+    An alias pipe inside a Markdown table has to be written `\\|` or the table
+    parser splits the row on it, so the escape is undone before the alias is
+    stripped -- otherwise every generated roll-up table reads as a broken link.
     """
     for match in LINK_RE.finditer(text):
-        target = match.group(2).split("|", 1)[0].split("#", 1)[0].strip()
+        target = match.group(2).replace("\\|", "|")
+        target = target.split("|", 1)[0].split("#", 1)[0].strip()
         if not target:
             continue
         if match.group(1) == "!" and target.lower().endswith(ATTACHMENT_EXTS):

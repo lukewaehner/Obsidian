@@ -25,6 +25,7 @@ COVERAGE_ITEM_RE = re.compile(r"^> - \[([ xX])\] ")
 DERIVED_KEYS = ("sections_total", "sections_done", "coverage", "status", "updated")
 PROBLEMS_HEADING = "## Problems"
 NO_PROBLEMS = "_None yet._"
+GROUP_LINK_RE = re.compile(r"^← \[\[Career/Prep/topics/")
 TOPIC_LINK_RE = re.compile(r"\[\[([^\]|#]+)")
 PREP_BEGIN = "<!-- prep:begin -->"
 PREP_END = "<!-- prep:end -->"
@@ -216,6 +217,40 @@ def replace_problems_section(body_lines, entries):
     return list(body_lines[:start + 1]) + content + list(body_lines[end:])
 
 
+def group_link(group):
+    """Render the breadcrumb a topic note carries back up to its group hub.
+
+    Fully qualified because the group names are not unique across the vault:
+    'Trees', 'Graphs' and 'Tries' each name both a topic group and a problem
+    pattern, so a bare [[Trees]] would resolve to whichever Obsidian picked.
+    """
+    return "← [[Career/Prep/topics/%s/%s|%s]]" % (group, group, group)
+
+
+def ensure_group_link(body_lines, group):
+    """Return *body_lines* with the group breadcrumb present and correct.
+
+    The group hubs list their topics through an embedded Bases query, which
+    the graph view cannot see -- so without this line every topic note is an
+    orphan there. It sits directly under the H1 rather than at the foot of the
+    note because replace_problems_section owns everything from '## Problems'
+    to the end of the file.
+    """
+    wanted = group_link(group)
+    out = list(body_lines)
+
+    for i, line in enumerate(out):
+        if GROUP_LINK_RE.match(line):
+            out[i] = wanted
+            return out
+
+    for i, line in enumerate(out):
+        if line.startswith("# "):
+            return out[:i + 1] + ["", wanted] + out[i + 1:]
+
+    raise PrepError("no H1 heading to anchor the group link under")
+
+
 def sync_topic(path, text, today, problem_entries):
     """Return (new_text, done, total) for one topic note.
 
@@ -231,6 +266,10 @@ def sync_topic(path, text, today, problem_entries):
         "Coverage — %d/%d" % (done, total),
         body[header_index],
     )
+    try:
+        body = ensure_group_link(body, fm_get(fm, "group") or path.parent.name)
+    except PrepError as error:
+        raise PrepError("%s: %s" % (path, error))
     body = replace_problems_section(body, problem_entries)
 
     previous_done = fm_get(fm, "sections_done")
