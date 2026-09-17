@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] Due Mon 2026-12-07 · slides submitted the day before presentations begin
 
-Assignment for [[Organizational Behavior]]. [Open in Canvas](https://northeastern.instructure.com/courses/266576)
+Assignment for [[Organizational Behavior]]. [Open in Canvas](https://northeastern.instructure.com/courses/266576/assignments/3470196)
 
 - [ ] In-The-Wild Presentation Slides 📅 2026-12-07
 

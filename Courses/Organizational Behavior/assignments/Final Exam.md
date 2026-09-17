@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] In class Fri 2026-12-04 · open note · 20% of the final grade
 
-Exam for [[Organizational Behavior]].
+Exam for [[Organizational Behavior]]. [Open in Canvas](https://northeastern.instructure.com/courses/266576/assignments/3470156)
 
 - [ ] Final Exam 📅 2026-12-04
 

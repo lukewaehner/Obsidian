@@ -27,6 +27,10 @@ Lecture for [[Organizational Behavior]].
 - [ ] # Configurations of Strategy and Structure
 - [ ] * Foundations of Organization Structure
 
+## Slides
+
+- `02_Org Structure_Liao_26F.pdf` — posted 2026-09-16, Canvas module "02 Org Structure"
+
 ## Notes
 
 Structure first:

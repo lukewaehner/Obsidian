@@ -26,6 +26,10 @@ Lecture for [[Organizational Behavior]].
 
 - [ ] * What is Organizational Behavior?
 
+## Slides
+
+- `01_Intro_Teaming_Liao_26F.pdf` — posted 2026-09-16, Canvas module "01 Introduction and Teaming"
+
 ## Notes
 
 

@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] Due Mon 2026-12-14 · 20% of the final grade
 
-Assignment for [[Organizational Behavior]]. [Open in Canvas](https://northeastern.instructure.com/courses/266576)
+Assignment for [[Organizational Behavior]]. [Open in Canvas](https://northeastern.instructure.com/courses/266576/assignments/3470198)
 
 - [ ] In-The-Wild Case Analysis Report 📅 2026-12-14
 
