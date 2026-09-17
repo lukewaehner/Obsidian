@@ -29,6 +29,50 @@ Lecture for [[Organizational Behavior]].
 
 ## Notes
 
+Structure first:
+Most organizations base them self off of the environment
+We then figure out what kind of an informal organization we need to set up.
+This links to Talent, Formal Organization, and Critical Tasks, 
+Leadership impacts the four: formal & informal organization, talent & critical tasks.
+
+Coordinated Capabilities, Coordinated Activities, Coordinated Goods, Coordinated Boundaries all work together to feed into the Organizational Needs and Individual Needs of an Org
+
+Differentiation
+- Innovation
+	- Sales from new products
+	- R&D as a percentage of sales
+	- Frequency of product changes
+- Marketing
+	- Product quality & image | Marketing Costs
+Focus
+- Product line breadth
+- Breadth of customer types
+- Geographic coverage
+Cost leadership
+- Relative directive costs / units
+- Newness of plant and equipment
+- Product pricing
+
+CEO - Steve Kingdom
+
+Finance 
+Malcom Denton + **Matt Dudley** + Sarah Parkins + Jo McDonald + Carole Mockie
+
+Marketing
+Jake Peod + Ryan Wintey
+
+HR
+
+Production
+Kay Patterson  + Sarah Holmes + Kate Wood + 
+
+Martint Melchoit + Steve Martin + Jody Kipling
+
+
+
+
+
+
 
 ## Key Takeaways
 
