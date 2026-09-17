@@ -16,7 +16,7 @@ status: raw
 
 > [!danger] Due Sun 2026-10-04, 11:59pm ET · 20 points · upload to Canvas
 
-Assignment for [[Computational Methods in Finance]]. [Open in Canvas](https://northeastern.instructure.com/courses/263536/assignments)
+Assignment for [[Computational Methods in Finance]]. [Open in Canvas](https://northeastern.instructure.com/courses/263536/assignments/3274866)
 
 > [!info] Pick any DataCamp course you like, then submit the completion PDF plus a screenshot of your XP. You need at least 3000 XP as of the deadline.
 

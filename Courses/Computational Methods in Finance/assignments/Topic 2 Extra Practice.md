@@ -16,7 +16,7 @@ status: raw
 
 > [!danger] Due Sun 2026-09-27, 11:59pm ET · submitted through CodeGrade
 
-Assignment for [[Computational Methods in Finance]]. [Open in Canvas](https://northeastern.instructure.com/courses/263536/assignments)
+Assignment for [[Computational Methods in Finance]]. [Open in Canvas](https://northeastern.instructure.com/courses/263536/assignments/3371464)
 
 - [ ] Topic 2 Extra Practice 📅 2026-09-27
 

@@ -27,6 +27,13 @@ Lecture for [[Computational Methods in Finance]].
 - [[Quiz 1]] — in class Sep 25
 - [[Topic 2 Extra Practice]] — Sep 27
 
+## Materials
+
+Posted to Canvas ahead of the lectures, under "Lecture notes":
+
+- `Topic 2 Built-in Data Structures and Functions-Part I.ipynb` / `.pdf` — posted 2026-09-16
+- `Topic 2 Built-in Data Structures and Functions-Part II.ipynb` — posted 2026-09-17 (no PDF yet)
+
 ## Notes
 
 
