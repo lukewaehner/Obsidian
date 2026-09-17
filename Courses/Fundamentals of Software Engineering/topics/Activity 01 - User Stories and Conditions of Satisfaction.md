@@ -9,11 +9,19 @@ tags:
 type: activity
 course: "[[Fundamentals of Software Engineering]]"
 module: 1
+due: 2026-09-14
 status: raw
 ---
 # Activity 01 — User Stories and Conditions of Satisfaction
 
 In-class activity for [[Module 01 - Orientation and User Stories]]. Practice soliciting and documenting user requirements, refining them into conditions of satisfaction, and assigning priorities. Review the lecture slides first.
+
+> [!danger] Graded on Canvas — 10 points, due 2026-09-14
+> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218515). Submitted 2026-09-14, ungraded so far.
+> One submission per group in Bhutta's sections — **name your partners in a comment** under the submission. `.txt` or `.pdf`.
+> **Attendance is required to get credit** — doing the work without being in class scores zero.
+
+- [ ] Submit Activity 01 - User Stories and Conditions of Satisfaction 📅 2026-09-14
 
 ## Scenario
 

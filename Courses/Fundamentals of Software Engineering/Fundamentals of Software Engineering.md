@@ -15,7 +15,23 @@ semester_start: 2026-09-07
 **Course Focus**: The tools and processes used to design, construct, and maintain programs over time — "the multi-person development of multi-version programs." Development processes that work for one developer building a one-off program break down on a codebase maintained by a team over years. The course walks the full software lifecycle with a bias toward how each decision affects resulting *quality*.
 
 > [!info] Source
-> Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-13. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds awaiting lecture notes.
+> Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-13; Canvas checked
+> 2026-09-17. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds
+> awaiting lecture notes.
+
+> [!warning] The module activities are graded, and attendance gates the credit
+> Canvas carries each in-class activity as a **10-point assignment** with its own deadline — they
+> are not just practice. Bhutta's sections state plainly: *"Attendance is REQUIRED to get credit
+> for this activity."* Doing the work from home scores zero.
+>
+> | Activity | Due | Submit as | Status |
+> | --- | --- | --- | --- |
+> | [[Activity 01 - User Stories and Conditions of Satisfaction\|Module 1: Requirements]] | 2026-09-14, 5:00 PM | one per group, name partners | submitted |
+> | [[Activity 02 - Test-Driven Development\|Module 2: TDD]] | 2026-09-17, 5:00 PM | individually | **not submitted** |
+>
+> [[Activity 03 - Mutation Testing with Stryker]] has no Canvas assignment yet. These notes carry
+> `type: activity`, so they do not appear in [[CS4530 Assignments.base|CS4530 Assignments]] — add
+> `type == "activity"` to the base's filters if you want them in the tracker.
 
 ## Logistics
 
@@ -26,6 +42,7 @@ semester_start: 2026-09-07
 | 5 | Prof Adeel Bhutta | Tue 11:45am–1:25pm & Thu 2:50pm–4:30pm | West Village G 104 |
 | 12 | Prof Mitch Wand | Wed, 6:00pm–9:20pm | Online (Zoom link on Canvas) |
 
+You are registered in **Section 01** — Bhutta, Mon & Thu 11:45am–1:25pm, West Village G 104.
 Section 12 is fully virtual; all others are fully on-the-ground with no virtual option. **You must attend your registered section, and you may not partner with students in other sections for the term project.**
 
 - **Canvas** — gradebook, SSO to Piazza, submission instructions

@@ -10,11 +10,19 @@ tags:
 type: activity
 course: "[[Fundamentals of Software Engineering]]"
 module: 2
+due: 2026-09-17
 status: raw
 ---
 # Activity 02 — Test-Driven Development
 
 In-class activity for [[Module 02 - From Requirements to Tests]]. Requires a working dev environment — see [[Tutorial - Development Environment Setup]].
+
+> [!danger] Graded on Canvas — 10 points, due 2026-09-17
+> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218517). **Not submitted.** Due 5:00 PM ET Thu 2026-09-17.
+> Submit **individually** in Bhutta's sections, even though you may form a group to discuss.
+> **Attendance is required to get credit** — doing the work without being in class scores zero.
+
+- [ ] Submit Activity 02 - Test-Driven Development 📅 2026-09-17
 
 ## Setup
 
