@@ -17,10 +17,19 @@ reliable distributed systems and services. The back half of the course reads rea
 (Dynamo, Cassandra, GFS, BigTable, Spanner, DNS) against those concepts.
 
 > [!info] Source
-> Canvas for CS 4730 is empty — no assignments, no modules, no files, no syllabus body. The real
-> course lives at **[4730.network](https://4730.network/)**. Everything below is from
-> [the syllabus](https://4730.network/docs/syllabus/) and [schedule](https://4730.network/docs/schedule/),
-> retrieved 2026-09-10.
+> Canvas for CS 4730 carries no assignments, no modules, and no files — only announcements and
+> grades. The real course lives at **[4730.network](https://4730.network/)**. Everything below is
+> from [the syllabus](https://4730.network/docs/syllabus/) and
+> [schedule](https://4730.network/docs/schedule/), retrieved 2026-09-10; Canvas announcements
+> checked through 2026-09-17.
+
+> [!warning] Grouper signup — **3:00 PM Thu 2026-09-17**
+> Homework discussion groups run through [grouper](https://grouper.fish/c/uijpbxd70ko26oxx) this
+> term (announced 9/16, 15:57). Join an existing group or submit your availability and grouper
+> matches you and emails when the group forms. Nothing about this is on Gradescope or the course
+> site — it only exists in the Canvas announcement.
+>
+> - [ ] Sign up for a CS4730 homework discussion group on grouper 📅 2026-09-17
 
 ## Logistics
 
@@ -41,6 +50,7 @@ In-person attendance is expected and there are **no regular recordings**.
 - [Piazza](https://piazza.com/northeastern/fall2026/cs473013196202710/home) — the class forum
 - [Gradescope](https://www.gradescope.com/courses/1388933) — all submissions
 - [Canvas](https://northeastern.instructure.com/courses/260754) — grades and SSO only
+- [grouper](https://grouper.fish/c/uijpbxd70ko26oxx) — homework discussion group matching
 - Canvas also exposes Poll Everywhere, Panopto, Qwickly Attendance, and Zoom tabs
 
 ## Materials

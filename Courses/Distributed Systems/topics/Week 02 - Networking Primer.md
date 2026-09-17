@@ -21,8 +21,10 @@ Lecture for [[Distributed Systems]].
 
 ## Meetings
 
-- **Tue Sep 15**
-- **Thu Sep 17**
+- **Tue Sep 15** — ~~cancelled~~. Jackson had a personal emergency and announced it the same
+  afternoon. His instruction: review the Network Refresh slides on your own, they get discussed
+  Thursday instead.
+- **Thu Sep 17** — Network Refresh discussion, pushed from Tuesday
 
 ## Assigned Material
 
