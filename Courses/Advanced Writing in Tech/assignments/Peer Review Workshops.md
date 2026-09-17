@@ -14,7 +14,7 @@ status: raw
 
 > [!danger] 4 workshops · 1 point each · drafts emailed to your group by midnight the day they are due
 
-Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments)
+Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments/3410591)
 
 > [!info] Workshop dates from the calendar: Oct 1, Oct 29, Nov 16, and the Assignment 4 critique on Dec 9. Groups are 4–5 people and set their own workflow.
 

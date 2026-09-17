@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] Due Sun 2026-11-15, 11:59pm ET · 3 points · email to Abbie and your workshop group
 
-Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments)
+Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments/3410587)
 
 - [ ] Assignment 3 — Research Proposal 📅 2026-11-15
 

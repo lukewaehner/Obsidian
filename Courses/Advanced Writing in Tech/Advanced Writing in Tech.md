@@ -18,18 +18,25 @@ revision as the core skills.
 > [!info] Source
 > Logistics and policies from `3302 syllabus fall 26.1.docx`, assignment specs from
 > `spec grading and assignments 3302 fall 26.docx`, and the class-by-class schedule from
-> `Calendar 3302 fall 26.docx` — all on Canvas, retrieved 2026-09-09.
+> `Calendar 3302 fall 26.docx` — all on Canvas, retrieved 2026-09-09. Canvas assignments and
+> announcements re-checked 2026-09-17; nothing new since the 9/9 introductions post.
+
+> [!tip] Outstanding from the 9/9 announcement
+> Post an introduction — name, nickname, major — to the Introductions discussion board.
+> Student hours started Mon 9/14 (they were cancelled the first week).
+>
+> - [ ] Post to the ENGW3302 Introductions discussion board
 
 ## Logistics
 
-|  |  |
-| --- | --- |
-| **Instructor** | Abbie DeCamp — ab.levesque@northeastern.edu |
-| **Room** | International Village 018 |
-| **Time** | Mon / Wed / Thu, 10:30–11:35 AM |
-| **Student Hours** | Mon & Wed, 4:30–6:00 PM |
-| **Office** | 429 Lake Hall |
-| **English Dept. Office** | 617-373-4540 |
+|                          |                                             |
+| ------------------------ | ------------------------------------------- |
+| **Instructor**           | Abbie DeCamp — ab.levesque@northeastern.edu |
+| **Room**                 | International Village 018                   |
+| **Time**                 | Mon / Wed / Thu, 10:30–11:35 AM             |
+| **Student Hours**        | Mon & Wed, 4:30–6:00 PM                     |
+| **Office**               | 429 Lake Hall                               |
+| **English Dept. Office** | 617-373-4540                                |
 
 > [!info] Syllabus is subject to change.
 
@@ -61,7 +68,7 @@ values, and your point total sets your grade.
 
 | Points | Component |
 | --- | --- |
-| 8 | Classroom citizenship |
+| 8 | Classroom citizenship — but [[Classroom Citizenship\|Canvas has it at 6]] |
 | 5 | Final portfolio (3 without the memo) |
 | 4 | Peer review — 1 point each, 4 workshops |
 | 3 each | Assignments 1–4, each with a memo |

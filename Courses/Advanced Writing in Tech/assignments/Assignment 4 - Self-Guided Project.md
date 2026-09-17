@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] Due Tue 2026-12-08, 11:59pm ET · 3 points · presented in class Dec 9
 
-Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments)
+Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments/3410588)
 
 > [!info] Negotiated individually — decide the project and how it is graded in discussion with Prof DeCamp.
 

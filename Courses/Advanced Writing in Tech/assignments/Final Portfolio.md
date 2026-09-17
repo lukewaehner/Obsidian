@@ -14,7 +14,7 @@ status: raw
 
 > [!danger] Due Thu 2026-12-17, midnight ET · 5 points (3 without the memo)
 
-Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments)
+Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments/3410590)
 
 - [ ] Final Portfolio 📅 2026-12-17
 

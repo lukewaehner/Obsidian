@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] Due Wed 2026-09-30, 11:59pm ET · 3 points · email to Abbie and your workshop group
 
-Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments)
+Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments/3410584)
 
 > [!info] Builds on the work of Dr. Blake Huggins.
 

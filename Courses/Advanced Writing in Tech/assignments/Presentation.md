@@ -15,7 +15,7 @@ status: raw
 
 > [!danger] No Canvas due date · 2 points · posted by the start of your slot (Oct 5 / 7 / 8)
 
-Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments)
+Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeastern.instructure.com/courses/263160/assignments/3410592)
 
 > [!info] A 10–15 minute recorded presentation, embedded as a reply to your presentation slot's discussion thread. Watching the others is part of your participation grade.
 
