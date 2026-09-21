@@ -17,12 +17,12 @@ status: raw
 
 In-class activity for [[Module 02 - From Requirements to Tests]]. Requires a working dev environment — see [[Tutorial - Development Environment Setup]].
 
-> [!danger] Graded on Canvas — 10 points, due 2026-09-17
-> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218517). **Not submitted.** Due 5:00 PM ET Thu 2026-09-17.
+> [!success] Graded — **10/10** · due 2026-09-17
+> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218517). Submitted 2026-09-17, 4:20pm ET (on time); grade posted 2026-09-19.
 > Submit **individually** in Bhutta's sections, even though you may form a group to discuss.
 > **Attendance is required to get credit** — doing the work without being in class scores zero.
 
-- [ ] Submit Activity 02 - Test-Driven Development 📅 2026-09-17
+- [x] Submit Activity 02 - Test-Driven Development 📅 2026-09-17 ✅ 2026-09-17
 
 ## Setup
 

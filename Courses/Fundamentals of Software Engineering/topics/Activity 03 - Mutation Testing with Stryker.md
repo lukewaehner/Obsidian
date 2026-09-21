@@ -10,14 +10,25 @@ tags:
 type: activity
 course: "[[Fundamentals of Software Engineering]]"
 module: 3
+due: 2026-09-21
 status: raw
 ---
 # Activity 03 — Mutation Testing with Stryker
 
 In-class activity for [[Module 03 - Test Adequacy]].
 
+> [!danger] Graded on Canvas — 10 points, due 2026-09-21
+> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218519). **Not submitted.** Due 5:00 PM ET Mon 2026-09-21.
+> Submit the file `additional.spec.ts`.
+> One submission per group in Bhutta's sections — **name your partners in a comment** under the submission.
+> **Attendance is required to get credit** — doing the work without being in class scores zero.
+
+- [ ] Submit Activity 03 - Mutation Testing with Stryker 📅 2026-09-21
+
 > [!info] Source
-> <https://neu-se.github.io/CS4530-Fall-2026/Activities/Module03%20Activity/> — scaffold only, not yet read.
+> Instructions live on <https://neu-se.github.io/CS4530-Fall-2026/modules/3-test-adequacy> — the
+> Canvas assignment only points at that page. Section bodies below are still a scaffold; the
+> Canvas-side logistics above are current as of 2026-09-20.
 
 ## Setup
 

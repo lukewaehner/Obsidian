@@ -16,7 +16,7 @@ semester_start: 2026-09-07
 
 > [!info] Source
 > Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-13; Canvas checked
-> 2026-09-17. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds
+> 2026-09-20. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds
 > awaiting lecture notes.
 
 > [!warning] The module activities are graded, and attendance gates the credit

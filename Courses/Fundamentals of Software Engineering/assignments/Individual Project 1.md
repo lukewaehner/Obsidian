@@ -15,7 +15,9 @@ status: raw
 
 > [!danger] Due Wednesday 2026-09-23, 5:00pm ET · submit code through Pawtograder · 100 points
 
-Part of [[Fundamentals of Software Engineering]]. Changelog on the course site: *no changes yet* as of 2026-09-09.
+Part of [[Fundamentals of Software Engineering]]. Changelog on the course site, as of 2026-09-20:
+
+- **2026-09-15** — corrected the line references in section 1.2 (lines 35 and 34 for the `getList` and `postCreate` controllers), and fixed the Task 4 property to `storedAuth[user.username].userId` to match the actual `AuthRecord` structure. Both corrections are folded in below.
 
 - [ ] Individual Project 1 📅 2026-09-23
 
@@ -73,8 +75,8 @@ A login page means you're up. Create a user or use the four auto-created account
 
 **The server** — TypeScript on [Express](https://expressjs.com/), used only to send and receive JSON (line 19 of `server/src/app.ts` configures that).
 
-- **HTTP GET** — what your browser sends when you type a URL. Visiting <http://localhost:8000/api/thread/list> dumps JSON. Line 37 of `app.ts` routes that to the `getList` controller in `server/src/controllers/thread.controller.ts`. **GET must never change state** — no adding comments, creating posts, or initializing games.
-- **HTTP POST** — sends information and may change state. Line 36 of `app.ts` routes `/api/thread/create` to `postCreate` in the same controller.
+- **HTTP GET** — what your browser sends when you type a URL. Visiting <http://localhost:8000/api/thread/list> dumps JSON. Line 35 of `app.ts` routes that to the `getList` controller in `server/src/controllers/thread.controller.ts`. **GET must never change state** — no adding comments, creating posts, or initializing games.
+- **HTTP POST** — sends information and may change state. Line 34 of `app.ts` routes `/api/thread/create` to `postCreate` in the same controller.
 
   ```bash
   curl --location 'localhost:8000/api/thread/create' \
@@ -206,7 +208,7 @@ On user creation: generate a random user ID, add `storedUsers[id] = record`, and
 Requirements:
 
 - Remove the `password` field from `UserRecord`
-- Maintain the invariant: whenever `storedUsers[id] === user`, then `storedAuth[user.username].user === id`
+- Maintain the invariant: whenever storedUsers[id] === user, then storedAuth[user.username].userId === id
 - No functions in `user.service.ts` that loop over all elements of an object to find one in particular
 - All tests still pass, and `user.service.ts` still has total branch coverage
 
