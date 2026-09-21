@@ -5,6 +5,8 @@ Run from the vault root:  python3 -m unittest discover -s Courses/.tools
 """
 
 import datetime as dt
+import pathlib
+import tempfile
 import unittest
 
 import week_report as wr
@@ -102,6 +104,56 @@ class ResolveWindow(unittest.TestCase):
         # act / assert
         with self.assertRaises(ValueError):
             wr.resolve_window(dt.date(2026, 9, 20), frm=dt.date(2026, 10, 1))
+
+
+class DiscoverCourses(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.courses = pathlib.Path(self.tmp.name) / "Courses"
+        self.courses.mkdir()
+        self.addCleanup(self.tmp.cleanup)
+
+    def _course(self, name, code):
+        folder = self.courses / name
+        folder.mkdir()
+        (folder / f"{code} Assignments.base").write_text("filters:\n")
+        (folder / f"{name}.md").write_text(
+            "---\ntype: moc\nsemester_start: 2026-09-07\n---\n")
+        return folder
+
+    def test_course_code_comes_from_the_base_filename(self):
+        # arrange
+        self._course("Distributed Systems", "CS4730")
+
+        # act
+        courses, unmapped = wr.discover_courses(self.courses)
+
+        # assert
+        self.assertEqual(([c.code for c in courses], unmapped),
+                         (["CS4730"], []))
+
+    def test_a_loose_note_beside_the_course_folders_is_ignored(self):
+        # arrange -- Weekly.md is this script's own output and sits directly
+        # in Courses/; only directories are candidate courses
+        self._course("Distributed Systems", "CS4730")
+        (self.courses / "Weekly.md").write_text("# Week of Sep 21\n- [ ] a\n")
+
+        # act
+        courses, unmapped = wr.discover_courses(self.courses)
+
+        # assert
+        self.assertEqual(([c.code for c in courses], unmapped),
+                         (["CS4730"], []))
+
+    def test_a_real_folder_without_a_code_is_still_reported(self):
+        # arrange
+        (self.courses / "Mystery Course").mkdir()
+
+        # act
+        _, unmapped = wr.discover_courses(self.courses)
+
+        # assert
+        self.assertEqual(unmapped, ["Mystery Course"])
 
 
 class ParseMeeting(unittest.TestCase):
