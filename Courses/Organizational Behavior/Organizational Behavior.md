@@ -35,14 +35,21 @@ a team goes through the [teaming sheet](https://docs.google.com/spreadsheets/d/1
 The team has to settle before it can pick its one group case, and that case can be due as early
 as **Sep 28**.
 
+> [!warning] Non-laptop policy — announcement 2026-09-19
+> Devices are to be put away during lecture, case study, and group discussion, and used only when
+> an activity specifically requires them. Liao states that frequent or consistent unauthorized
+> laptop use **"will significantly compromise the participation grade"** — 25 of 100 points.
+> The same announcement defines what counts as high-quality participation and asks students to
+> minimize movement in and out of the room. Full text in [[Class Participation]].
+
 ## Course Materials
 
 - **Case packet** — cases and simulations must be purchased through **Harvard Business Publishing**. Copying or posting them is copyright infringement.
 - **Articles** — available through the Northeastern University Library databases.
 - **Textbook chapters** — recommended, not required.
-- **Slides** — posted to Canvas *after* each class, one module per session. Sessions 01 and 02
-  are up (`01_Intro_Teaming_Liao_26F.pdf`, `02_Org Structure_Liao_26F.pdf`); modules 03-26 exist
-  but are still empty.
+- **Slides** — posted to Canvas *after* each class, one module per session. Sessions 01-03 are up
+  (`01_Intro_Teaming_Liao_26F.pdf`, `02_Org Structure_Liao_26F.pdf`,
+  `03_Network_Liao_26F.pdf`); modules 04-26 exist but are still empty.
 
 Reading markers used in the session notes: **#** online reading · **†** packet reading ·
 **\*** recommended textbook chapter.
