@@ -19,7 +19,7 @@ revision as the core skills.
 > Logistics and policies from `3302 syllabus fall 26.1.docx`, assignment specs from
 > `spec grading and assignments 3302 fall 26.docx`, and the class-by-class schedule from
 > `Calendar 3302 fall 26.docx` — all on Canvas, retrieved 2026-09-09. Canvas assignments and
-> announcements re-checked 2026-09-17; nothing new since the 9/9 introductions post.
+> announcements re-checked 2026-09-20; nothing new since the 9/9 introductions post.
 
 > [!tip] Outstanding from the 9/9 announcement
 > Post an introduction — name, nickname, major — to the Introductions discussion board.
