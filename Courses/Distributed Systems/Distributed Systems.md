@@ -21,7 +21,7 @@ reliable distributed systems and services. The back half of the course reads rea
 > grades. The real course lives at **[4730.network](https://4730.network/)**. Everything below is
 > from [the syllabus](https://4730.network/docs/syllabus/) and
 > [schedule](https://4730.network/docs/schedule/), retrieved 2026-09-10; Canvas announcements
-> checked through 2026-09-17.
+> checked through 2026-09-20 — nothing new since the 9/16 grouper announcement.
 
 > [!warning] Grouper signup — **3:00 PM Thu 2026-09-17**
 > Homework discussion groups run through [grouper](https://grouper.fish/c/uijpbxd70ko26oxx) this
@@ -29,7 +29,7 @@ reliable distributed systems and services. The back half of the course reads rea
 > matches you and emails when the group forms. Nothing about this is on Gradescope or the course
 > site — it only exists in the Canvas announcement.
 >
-> - [ ] Sign up for a CS4730 homework discussion group on grouper 📅 2026-09-17
+> - [x] Sign up for a CS4730 homework discussion group on grouper 📅 2026-09-17 ✅ 2026-09-17
 
 ## Logistics
 
