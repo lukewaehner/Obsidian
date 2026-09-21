@@ -58,11 +58,11 @@ optimization, and quantitative trading.
 
 | Due | Deliverable |
 | --- | --- |
-| Sun 2026-09-20 | [[DataCamp Classroom Enrollment]] · [[Topic 1 Extra Practice]] |
-| Fri 2026-09-25 | [[Quiz 1]] (in class) |
-| Sun 2026-09-27 | [[Topic 2 Extra Practice]] |
+| Sun 2026-09-20 | [[DataCamp Classroom Enrollment]] |
+| Thu 2026-09-24 | [[Topic 1 Extra Practice]] — *extended from Sep 20* |
+| Fri 2026-09-25 | [[Quiz 1]] (in class, 1:38–1:59pm, LockDown Browser) · [[Quiz 1 Prep]] (practice, 0%) |
 | Fri 2026-10-02 | [[Quiz 2]] (in class) |
-| Sun 2026-10-04 | [[HW1]] · [[DataCamp Assignment 1]] |
+| Sun 2026-10-04 | [[HW1]] · [[DataCamp Assignment 1]] · [[Topic 2 Extra Practice]] — *extended from Sep 27* |
 | Fri 2026-10-16 | [[Exam 1]] (in class) |
 | Sun 2026-10-18 | [[Topics 3-4 Extra Practice]] · [[Group Project Sign-Up]] |
 | Tue 2026-10-27 | [[Quiz 3]] (in class) |
@@ -101,11 +101,18 @@ topics/       one note per topic, with its class meetings
 
 ## Canvas Files
 
+*As of 2026-09-20.*
+
 - `FINA 4335_Syllabus_Fall 2026_Kong.pdf`
 - `FINA 4335_Course introduction-Fall 2026.pdf`
 - `Introduction to CodeGrade.pdf`
 - `Topic 1 Python Language Basics-Part I.ipynb` / `.pdf`
-- `Topic 1 Python Language Basics-Part II.ipynb` — control flow and imports
+- `Topic 1 Python Language Basics-Part II.ipynb` / `.pdf` — control flow and imports
+- `Topic 2 Built-in Data Structures and Functions-Part I.ipynb` / `.pdf` — posted 2026-09-19
+- `Topic 2 Built-in Data Structures and Functions-Part II.ipynb` / `.pdf`
+- **`with solution/`** — new folder, added 2026-09-20. Currently holds
+  `Topic 1 Python Language Basics-Part I-with Solution.pdf`. Worked solutions to the topic
+  notebooks land here; check it before [[Quiz 1]].
 
 ---
 
@@ -124,6 +131,7 @@ topics/       one note per topic, with its class meetings
 	- [[HW1]]
 	- [[HW2]]
 	- [[HW3]]
+	- [[Quiz 1 Prep]]
 	- [[Quiz 1]]
 	- [[Quiz 2]]
 	- [[Quiz 3]]
