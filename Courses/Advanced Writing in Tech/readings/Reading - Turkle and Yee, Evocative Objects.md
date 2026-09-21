@@ -30,10 +30,7 @@ Reading for [[Week 03 - Discourse Communities]] · [[Advanced Writing in Tech]]
 > essayists do to objects.
 
 > [!abstract] One-line version
-> Objects are not just useful or beautiful — they are thinking partners, and taking them
-> seriously means rejecting the Western ranking that puts abstract propositional knowledge above
-> concrete, hands-on knowing; Yee then shows what gets lost when a physical archive becomes a
-> searchable database.
+> Objects are not just useful or beautiful — they are thinking partners, and taking them seriously means rejecting the Western ranking that puts abstract propositional knowledge above concrete, hands-on knowing; Yee then shows what gets lost when a physical archive becomes a searchable database.
 
 > [!tip] This is the assignment's method, not just its theme
 > Thursday is the **Archive activity** and [[Assignment 1 - Discourse Community Archive]] wants
@@ -48,8 +45,7 @@ family keepsakes. From six to thirteen or fourteen she climbed onto the kitchen 
 weekend to reach it. "The rules were that I was allowed to look at anything in the closet, but I
 was always to put it back. The closet seemed to me of infinite dimensions, infinite depth."
 
-Her biological father had left when she was two and was unmentionable. She was searching without
-knowing it:
+Her biological father had left when she was two and was unmentionable. She was searching without knowing it:
 
 > "At the time I didn't know what I was looking for. I think they did. I was looking, without
 > awareness, for the one who was missing."

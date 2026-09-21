@@ -84,8 +84,7 @@ constitute common sense for particular groups."
 The claim that gives the chapter its edge:
 
 > "Most importantly, genres are inherently ideological; they embody the unexamined or tacit way
-> of performing some social action. Hence they can represent the ways that a dominant élite does
-> things."
+> of performing some social action. Hence they can represent the ways that a dominant élite does things."
 
 Her five questions — a usable analytic kit for any genre, including the ones you write at work:
 
@@ -114,9 +113,7 @@ Scientifique* against *Concours Médical* — and settled by a deal: the Pasteur
 diphtheria serums usable only *after* a physician had diagnosed, so doctors "could retain their
 control over curing diseases." Dr Jeanne's 1958 lament is the sound of the losing side:
 
-> "The ardor and skill of the champion of our old clinical methods were wasted, for the adversary
-> advancing against him was not a theoretician, one of those dreamers who create a fashion... but
-> it was a scientist, it was the experimental method, it was progress..."
+> "The ardor and skill of the champion of our old clinical methods were wasted, for the adversary advancing against him was not a theoretician, one of those dreamers who create a fashion... but it was a scientist, it was the experimental method, it was progress..."
 
 ## What It Looks Like on the Ground
 
