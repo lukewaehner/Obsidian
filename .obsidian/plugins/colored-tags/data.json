@@ -437,7 +437,22 @@
     "assembly": 400,
     "operating-systems": 401,
     "mobile": 402,
-    "climate": 403
+    "climate": 403,
+    "raft": 404,
+    "test-adequacy": 405,
+    "coverage": 406,
+    "mutation-testing": 407,
+    "stryker": 408,
+    "docker": 409,
+    "containers": 410,
+    "linux": 411,
+    "virtualization": 412,
+    "images": 413,
+    "dockerfile": 414,
+    "registry": 415,
+    "networking": 416,
+    "compose": 417,
+    "orchestration": 418
   },
   "_version": 3
 }
