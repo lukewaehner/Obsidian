@@ -1,0 +1,1079 @@
+{
+ "folders": {
+  "CS4530": "Fundamentals of Software Engineering",
+  "CS4730": "Distributed Systems",
+  "ENGW3302": "Advanced Writing in Tech",
+  "FINA4335": "Computational Methods in Finance",
+  "ORGB3201": "Organizational Behavior"
+ },
+ "last_sync": "2026-09-21T01:58:22+00:00",
+ "snapshots": {
+  "CS4530": {
+   "announcements:3340891": {
+    "_body": "fa6a9f4e4b696e3a",
+    "posted_at": "2026-09-06T12:56:07Z",
+    "title": "Welcome to CS4530 - Fall 2026"
+   },
+   "announcements:3350954": {
+    "_body": "b0c38d0779b3fb13",
+    "posted_at": "2026-09-09T16:17:33Z",
+    "title": "Individual Project Deliverable 1 Posted"
+   },
+   "assignment_groups:669493": {
+    "group_weight": 30.0,
+    "name": "Individual Projects / Assignments"
+   },
+   "assignment_groups:669494": {
+    "group_weight": 10.0,
+    "name": "In-Class Activities / Participation"
+   },
+   "assignment_groups:669495": {
+    "group_weight": 8.0,
+    "name": "Group Project: Planning"
+   },
+   "assignment_groups:669496": {
+    "group_weight": 8.0,
+    "name": "Group Project: Process - Activities during the Project"
+   },
+   "assignment_groups:669497": {
+    "group_weight": 24.0,
+    "name": "Group Project: Final Deliverables"
+   },
+   "assignment_groups:669498": {
+    "group_weight": 20.0,
+    "name": "Midterm Exam"
+   },
+   "assignments:3218515": {
+    "_body": "18b40e12285b0a1b",
+    "_score": 10.0,
+    "_state": "graded",
+    "allowed_extensions": null,
+    "due_at": "2026-09-14T21:00:00Z",
+    "lock_at": null,
+    "name": "Module 1 Activity: Requirements",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_text_entry",
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3218517": {
+    "_body": "7494cbc8c6422f43",
+    "_score": 10.0,
+    "_state": "graded",
+    "allowed_extensions": [
+     "ts"
+    ],
+    "due_at": "2026-09-17T21:00:00Z",
+    "lock_at": null,
+    "name": "Module 2 Activity: TDD",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3218519": {
+    "_body": "9bdfbe17cc425e35",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-09-21T21:00:00Z",
+    "lock_at": null,
+    "name": "Module 3 Activity: Test Adequacy - Stryker",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_text_entry",
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3218535": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-02T21:00:00Z",
+    "lock_at": null,
+    "name": "Team Formation Survey",
+    "omit_from_final_grade": true,
+    "points_possible": 0.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-09-30T16:00:00Z"
+   },
+   "assignments:3489293": {
+    "_body": "5335a6753de3f111",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-09-23T17:00:00Z",
+    "lock_at": null,
+    "name": "Individual Project 1",
+    "omit_from_final_grade": false,
+    "points_possible": 100.0,
+    "published": true,
+    "submission_types": [
+     "external_tool"
+    ],
+    "unlock_at": null
+   },
+   "files:41722683": {
+    "display_name": "Sprint Report Template.docx",
+    "folder_id": 4411993,
+    "size": 16406
+   },
+   "files:41844713": {
+    "display_name": "se.png",
+    "folder_id": 4423952,
+    "size": 441251
+   },
+   "files:42371212": {
+    "display_name": "se5.jpg",
+    "folder_id": 4423952,
+    "size": 27137
+   },
+   "files:42371214": {
+    "display_name": "swe-1.webp",
+    "folder_id": 4423952,
+    "size": 22984
+   },
+   "modules:1766266": {
+    "items_count": 1,
+    "name": "0-Miscellaneous",
+    "published": null
+   },
+   "modules:1866594": {
+    "items_count": 8,
+    "name": "1 - Orientation & User Stories",
+    "published": null
+   },
+   "modules:1905649": {
+    "items_count": 4,
+    "name": "2 - From Requirements to Tests",
+    "published": null
+   },
+   "modules:1919710": {
+    "items_count": 4,
+    "name": "3 - Test Adequacy",
+    "published": null
+   },
+   "modules:1919711": {
+    "items_count": 4,
+    "name": "4 - Design Patterns for Web Applications",
+    "published": null
+   },
+   "modules:1923297": {
+    "items_count": 4,
+    "name": "5 - React",
+    "published": null
+   },
+   "modules:1923363": {
+    "items_count": 4,
+    "name": "6 - React Hooks",
+    "published": null
+   }
+  },
+  "CS4730": {
+   "announcements:3353091": {
+    "_body": "70e5f2047be00b72",
+    "posted_at": "2026-09-10T03:59:24Z",
+    "title": "Welcome!"
+   },
+   "announcements:3361440": {
+    "_body": "9b92c2866b1ceae7",
+    "posted_at": "2026-09-15T16:44:20Z",
+    "title": "Lecture cancelled today"
+   },
+   "announcements:3362897": {
+    "_body": "c591ec78489dd0a3",
+    "posted_at": "2026-09-16T15:57:07Z",
+    "title": "Setting up "
+   },
+   "assignment_groups:673598": {
+    "group_weight": 0.0,
+    "name": "Assignments"
+   }
+  },
+  "ENGW3302": {
+   "announcements:3352064": {
+    "_body": "5bafbfd143b63d70",
+    "posted_at": "2026-09-09T20:29:14Z",
+    "title": "introductions"
+   },
+   "assignment_groups:669767": {
+    "group_weight": 0.0,
+    "name": "Assignments"
+   },
+   "assignments:3410584": {
+    "_body": "b4f137260f1d6cfb",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-01T03:59:59Z",
+    "lock_at": null,
+    "name": "Assignment 1",
+    "omit_from_final_grade": false,
+    "points_possible": 3.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410586": {
+    "_body": "ffdec106c777cf6d",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-29T03:59:59Z",
+    "lock_at": null,
+    "name": "Assignment 2",
+    "omit_from_final_grade": false,
+    "points_possible": 3.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410587": {
+    "_body": "66bd0ad22b0969f0",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-16T04:59:59Z",
+    "lock_at": null,
+    "name": "Assignment 3",
+    "omit_from_final_grade": false,
+    "points_possible": 3.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410588": {
+    "_body": "d25b5373d7015476",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-09T04:59:59Z",
+    "lock_at": null,
+    "name": "Assignment 4",
+    "omit_from_final_grade": false,
+    "points_possible": 3.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410589": {
+    "_body": "b941d885167f0886",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-09T04:59:59Z",
+    "lock_at": null,
+    "name": "Classroom Citizenship",
+    "omit_from_final_grade": false,
+    "points_possible": 6.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410590": {
+    "_body": "085464eabec4488a",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-18T04:59:59Z",
+    "lock_at": null,
+    "name": "Final Portfolio",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410591": {
+    "_body": "37992b93ea3295f8",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": null,
+    "lock_at": null,
+    "name": "Peer Review",
+    "omit_from_final_grade": false,
+    "points_possible": 4.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3410592": {
+    "_body": "e0c52acabc48859b",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": null,
+    "lock_at": null,
+    "name": "Presentation",
+    "omit_from_final_grade": false,
+    "points_possible": 2.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "discussions:3319211": {
+    "_body": "19ae7bc8628ac1bf",
+    "locked": false,
+    "posted_at": null,
+    "title": "Other classroom citizenship responses"
+   },
+   "discussions:3319212": {
+    "_body": "de8d6f7c5107fc09",
+    "locked": false,
+    "posted_at": null,
+    "title": "Class lecture and discussion notes"
+   },
+   "discussions:3319213": {
+    "_body": "181fb57b34123379",
+    "locked": false,
+    "posted_at": null,
+    "title": "Class reading notes"
+   },
+   "discussions:3319214": {
+    "_body": "5bb6f238e1141197",
+    "locked": false,
+    "posted_at": null,
+    "title": "Introductions"
+   },
+   "discussions:3319215": {
+    "_body": "10f61c16801d5363",
+    "locked": false,
+    "posted_at": null,
+    "title": "Presentations"
+   },
+   "modules:1875558": {
+    "items_count": 3,
+    "name": "Syllabi, spec grading, and calendar",
+    "published": null
+   },
+   "modules:1875559": {
+    "items_count": 14,
+    "name": "Important links and documents",
+    "published": null
+   },
+   "modules:1875560": {
+    "items_count": 9,
+    "name": "Week 2",
+    "published": null
+   },
+   "modules:1875561": {
+    "items_count": 7,
+    "name": "Week 4",
+    "published": null
+   },
+   "modules:1875562": {
+    "items_count": 8,
+    "name": "Week 7",
+    "published": null
+   },
+   "modules:1875563": {
+    "items_count": 19,
+    "name": "Library Module",
+    "published": null
+   },
+   "modules:1875564": {
+    "items_count": 4,
+    "name": "Week 9",
+    "published": null
+   },
+   "modules:1875565": {
+    "items_count": 7,
+    "name": "Week 10",
+    "published": null
+   },
+   "modules:1875566": {
+    "items_count": 4,
+    "name": "Week 14",
+    "published": null
+   },
+   "modules:1875567": {
+    "items_count": 10,
+    "name": "Week 13",
+    "published": null
+   },
+   "modules:1875569": {
+    "items_count": 9,
+    "name": "Example assignments",
+    "published": null
+   },
+   "modules:1882387": {
+    "items_count": 4,
+    "name": "Week 1",
+    "published": null
+   },
+   "modules:1882389": {
+    "items_count": 5,
+    "name": "Week 3",
+    "published": null
+   },
+   "modules:1882423": {
+    "items_count": 1,
+    "name": "Week 5",
+    "published": null
+   },
+   "modules:1882425": {
+    "items_count": 1,
+    "name": "Week 6",
+    "published": null
+   },
+   "modules:1882426": {
+    "items_count": 3,
+    "name": "Week 8",
+    "published": null
+   },
+   "modules:1882509": {
+    "items_count": 6,
+    "name": "Week 11",
+    "published": null
+   },
+   "modules:1882568": {
+    "items_count": 1,
+    "name": "Week 12",
+    "published": null
+   }
+  },
+  "FINA4335": {
+   "announcements:3315373": {
+    "_body": "699906375c8d43c8",
+    "posted_at": "2026-09-08T15:00:12Z",
+    "title": "Welcome to FINA 4335 (Computational Methods); Some preparations for the first lecture (Sept 11)"
+   },
+   "announcements:3361533": {
+    "_body": "5e7f1bd359663ccc",
+    "posted_at": "2026-09-15T17:29:01Z",
+    "title": "Morning@Morgan (career event)"
+   },
+   "assignment_groups:673190": {
+    "group_weight": 7.0,
+    "name": "after-topic practice"
+   },
+   "assignment_groups:675672": {
+    "group_weight": 10.0,
+    "name": "Homework"
+   },
+   "assignment_groups:680856": {
+    "group_weight": 28.0,
+    "name": "Quizzes"
+   },
+   "assignment_groups:680956": {
+    "group_weight": 0.0,
+    "name": "Practice quiz/exam-0 %"
+   },
+   "assignment_groups:681266": {
+    "group_weight": 5.0,
+    "name": "DataCamp Assignments"
+   },
+   "assignment_groups:712687": {
+    "group_weight": 28.0,
+    "name": "Exam "
+   },
+   "assignment_groups:712688": {
+    "group_weight": 21.0,
+    "name": "Group project"
+   },
+   "assignment_groups:712689": {
+    "group_weight": 1.0,
+    "name": "Attendance"
+   },
+   "assignment_groups:720559": {
+    "group_weight": 0.0,
+    "name": "Imported Assignments"
+   },
+   "assignments:3273031": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-09-25T17:57:00Z",
+    "lock_at": "2026-09-25T17:59:59Z",
+    "name": "Quiz 1-Sept 25 beginning of class- Requires Respondus LockDown Browser",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_quiz"
+    ],
+    "unlock_at": "2026-09-25T17:38:00Z"
+   },
+   "assignments:3273431": {
+    "_body": "e7d929f53add2956",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-09-25T17:35:00Z",
+    "lock_at": "2026-09-28T03:59:59Z",
+    "name": "Quiz 1 prep+ Lockdown browser installation- Requires Respondus LockDown Browser",
+    "omit_from_final_grade": false,
+    "points_possible": 14.0,
+    "published": true,
+    "submission_types": [
+     "online_quiz"
+    ],
+    "unlock_at": "2026-09-18T20:00:00Z"
+   },
+   "assignments:3274806": {
+    "_body": "8b0d848427bcc3fb",
+    "_score": 10.0,
+    "_state": "graded",
+    "allowed_extensions": [
+     "jpg",
+     "png",
+     "gif",
+     "jpeg",
+     "pdf",
+     "docx"
+    ],
+    "due_at": "2026-09-21T03:59:59Z",
+    "lock_at": "2026-12-17T04:59:59Z",
+    "name": "Enroll in our DataCamp course (free!) and submit a screenshot here",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": "2026-08-17T17:00:00Z"
+   },
+   "assignments:3274866": {
+    "_body": "c6d430d3f165a3a1",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "jpg",
+     "png",
+     "gif",
+     "jpeg",
+     "pdf",
+     "and docx"
+    ],
+    "due_at": "2026-10-05T03:59:59Z",
+    "lock_at": "2026-12-17T04:59:59Z",
+    "name": "DataCamp Assignment 1: complete a cool course and earn 3000 XP",
+    "omit_from_final_grade": false,
+    "points_possible": 20.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": "2026-08-23T18:30:00Z"
+   },
+   "assignments:3371464": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-05T03:59:59Z",
+    "lock_at": "2026-12-14T04:59:59Z",
+    "name": "Topic 2: Built-in Data Structures and Function - Extra Practice",
+    "omit_from_final_grade": false,
+    "points_possible": 100.0,
+    "published": true,
+    "submission_types": [
+     "external_tool"
+    ],
+    "unlock_at": "2026-09-16T12:00:00Z"
+   },
+   "assignments:3388765": {
+    "_body": "b6e4d5249a3c3878",
+    "_score": 100.0,
+    "_state": "graded",
+    "allowed_extensions": null,
+    "due_at": "2026-09-25T03:59:59Z",
+    "lock_at": "2026-12-17T04:59:59Z",
+    "name": "Topic 1: Python Language Basics -Part I-Extra Practice",
+    "omit_from_final_grade": false,
+    "points_possible": 100.0,
+    "published": true,
+    "submission_types": [
+     "external_tool"
+    ],
+    "unlock_at": "2026-08-29T13:30:00Z"
+   },
+   "assignments:3388772": {
+    "_body": null,
+    "_score": 100.0,
+    "_state": "graded",
+    "allowed_extensions": null,
+    "due_at": "2026-09-25T03:59:59Z",
+    "lock_at": "2026-12-17T04:59:59Z",
+    "name": "Topic 1: Python Language Basics -Part II-Extra Practice",
+    "omit_from_final_grade": false,
+    "points_possible": 100.0,
+    "published": true,
+    "submission_types": [
+     "external_tool"
+    ],
+    "unlock_at": "2026-09-01T13:30:00Z"
+   },
+   "assignments:3502738": {
+    "_body": "b85ef3f3732838e6",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "jpg",
+     "png",
+     "gif",
+     "jpeg",
+     "pdf",
+     "docx"
+    ],
+    "due_at": "2026-11-23T04:59:59Z",
+    "lock_at": "2026-11-23T04:59:59Z",
+    "name": "DataCamp Assignment 2: complete another cool course and earn 8000 XP",
+    "omit_from_final_grade": false,
+    "points_possible": 100.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "files:43511200": {
+    "display_name": "Topic 1 Python Language Basics-Part I.ipynb",
+    "folder_id": 4557447,
+    "size": 44061
+   },
+   "files:43525741": {
+    "display_name": "FINA 4335_Course introduction-Fall 2026.pdf",
+    "folder_id": 4570492,
+    "size": 2220599
+   },
+   "files:43527100": {
+    "display_name": "Topic 1_ Python Language Basics-Part I.pdf",
+    "folder_id": 4557447,
+    "size": 431159
+   },
+   "files:43527213": {
+    "display_name": "FINA 4335_Syllabus_Fall 2026_Kong.pdf",
+    "folder_id": 4570492,
+    "size": 284857
+   },
+   "files:43663788": {
+    "display_name": "Introduction to CodeGrade.pdf",
+    "folder_id": 4570492,
+    "size": 796132
+   },
+   "files:43736397": {
+    "display_name": "Topic 1 Python Language Basics-Part II.ipynb",
+    "folder_id": 4557447,
+    "size": 123905
+   },
+   "files:44073920": {
+    "display_name": "Topic 1 Python Language Basics-Part II.pdf",
+    "folder_id": 4557447,
+    "size": 374327
+   },
+   "files:44156799": {
+    "display_name": "Topic 2 Built-in Data Structures and Functions-Part II.ipynb",
+    "folder_id": 4660937,
+    "size": 18121
+   },
+   "files:44171453": {
+    "display_name": "Topic 2 Built-in Data Structures and Functions-Part II.pdf",
+    "folder_id": 4660937,
+    "size": 337458
+   },
+   "files:44200392": {
+    "display_name": "Topic 2 Built-in Data Structures and Functions-Part I.ipynb",
+    "folder_id": 4660937,
+    "size": 28001
+   },
+   "files:44200404": {
+    "display_name": "Topic 2 Built-in Data Structures and Functions-Part I.pdf",
+    "folder_id": 4660937,
+    "size": 460814
+   },
+   "files:44202185": {
+    "display_name": "Topic 1 Python Language Basics-Part I-with Solution.pdf",
+    "folder_id": 4678508,
+    "size": 595570
+   },
+   "modules:1783224": {
+    "items_count": 2,
+    "name": "Course Overview and resources",
+    "published": null
+   },
+   "modules:1854386": {
+    "items_count": 8,
+    "name": "Lecture notes",
+    "published": null
+   },
+   "quizzes:796860": {
+    "_body": null,
+    "allowed_attempts": 1,
+    "due_at": "2026-09-25T17:57:00Z",
+    "lock_at": "2026-09-25T17:59:59Z",
+    "points_possible": 10.0,
+    "published": true,
+    "question_count": 6,
+    "require_lockdown_browser": true,
+    "time_limit": 16,
+    "title": "Quiz 1-Sept 25 beginning of class- Requires Respondus LockDown Browser",
+    "unlock_at": "2026-09-25T17:38:00Z"
+   },
+   "quizzes:796899": {
+    "_body": "e7d929f53add2956",
+    "allowed_attempts": 10,
+    "due_at": "2026-09-25T17:35:00Z",
+    "lock_at": "2026-09-28T03:59:59Z",
+    "points_possible": 14.0,
+    "published": true,
+    "question_count": 7,
+    "require_lockdown_browser": true,
+    "time_limit": 60,
+    "title": "Quiz 1 prep+ Lockdown browser installation- Requires Respondus LockDown Browser",
+    "unlock_at": "2026-09-18T20:00:00Z"
+   }
+  },
+  "ORGB3201": {
+   "announcements:3341457": {
+    "_body": "46651d970bad3bac",
+    "posted_at": "2026-09-06T17:12:29Z",
+    "title": "Welcome to Organizational Behavior "
+   },
+   "announcements:3363450": {
+    "_body": "e4b02136dcb237f9",
+    "posted_at": "2026-09-16T20:19:50Z",
+    "title": "Slides, Teaming, Office Hours"
+   },
+   "announcements:3366173": {
+    "_body": "8f809926839447f1",
+    "posted_at": "2026-09-19T01:49:26Z",
+    "title": "Participation, Non-Laptop Use Policy, and Classroom Movement"
+   },
+   "assignment_groups:728116": {
+    "group_weight": 0.0,
+    "name": "Assignments"
+   },
+   "assignments:3470153": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-24T03:59:59Z",
+    "lock_at": null,
+    "name": "Mid Term Exam",
+    "omit_from_final_grade": false,
+    "points_possible": 15.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470156": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-05T04:59:59Z",
+    "lock_at": null,
+    "name": "Final Exam",
+    "omit_from_final_grade": false,
+    "points_possible": 20.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470157": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-15T04:59:59Z",
+    "lock_at": null,
+    "name": "Class Participation ",
+    "omit_from_final_grade": false,
+    "points_possible": 25.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470158": {
+    "_body": "6f71401d67880011",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "doc",
+     "docx"
+    ],
+    "due_at": "2026-09-29T03:59:59Z",
+    "lock_at": null,
+    "name": "Group Case 1: Cynthia Carroll at Anglo American",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470159": {
+    "_body": "4da4cbc8fb86fc45",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "doc",
+     "docx"
+    ],
+    "due_at": "2026-11-03T04:59:59Z",
+    "lock_at": null,
+    "name": "Group Case 2: Rob Parson at Morgan Stanley ",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470186": {
+    "_body": "4da4cbc8fb86fc45",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "doc",
+     "docx"
+    ],
+    "due_at": "2026-12-01T04:59:59Z",
+    "lock_at": null,
+    "name": "Group Case 3: Unilever's Response to the Future of Work",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470196": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "ppt",
+     "pptx"
+    ],
+    "due_at": "2026-12-08T04:59:59Z",
+    "lock_at": null,
+    "name": "In The Wild Case Analysis Presentation Slide ",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3470198": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "doc",
+     "docx"
+    ],
+    "due_at": "2026-12-15T04:59:59Z",
+    "lock_at": null,
+    "name": "In The Wild Case Analysis Write Up",
+    "omit_from_final_grade": false,
+    "points_possible": 20.0,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "files:43664152": {
+    "display_name": "OB1.jpg",
+    "folder_id": 4602860,
+    "size": 117591
+   },
+   "files:43946703": {
+    "display_name": "00_OB3201_26F_Syllabus_LIAO.pdf",
+    "folder_id": 4417700,
+    "size": 411871
+   },
+   "files:44146849": {
+    "display_name": "01_Intro_Teaming_Liao_26F.pdf",
+    "folder_id": 4417700,
+    "size": 812447
+   },
+   "files:44146969": {
+    "display_name": "02_Org Structure_Liao_26F.pdf",
+    "folder_id": 4417700,
+    "size": 2409059
+   },
+   "files:44192760": {
+    "display_name": "03_Network_Liao_26F.pdf",
+    "folder_id": 4417700,
+    "size": 2343246
+   },
+   "modules:1904307": {
+    "items_count": 1,
+    "name": "00 Syllabus and Materials",
+    "published": null
+   },
+   "modules:1904308": {
+    "items_count": 1,
+    "name": "02 Org Structure",
+    "published": null
+   },
+   "modules:1904309": {
+    "items_count": 1,
+    "name": "01 Introduction and Teaming",
+    "published": null
+   },
+   "modules:1904310": {
+    "items_count": 1,
+    "name": "03 Network Structure",
+    "published": null
+   },
+   "modules:1904311": {
+    "items_count": 0,
+    "name": "04 Org Culture & Case Study 1",
+    "published": null
+   },
+   "modules:1904315": {
+    "items_count": 0,
+    "name": "05 Org Change",
+    "published": null
+   },
+   "modules:1904316": {
+    "items_count": 0,
+    "name": "06 Case Study II",
+    "published": null
+   },
+   "modules:1904317": {
+    "items_count": 0,
+    "name": "07 Team Framework and Processes",
+    "published": null
+   },
+   "modules:1904318": {
+    "items_count": 0,
+    "name": "08 Team Composition and Effectiveness",
+    "published": null
+   },
+   "modules:1904323": {
+    "items_count": 0,
+    "name": "09 Motivation I",
+    "published": null
+   },
+   "modules:1904338": {
+    "items_count": 0,
+    "name": "10 Motivation II & Performance Management",
+    "published": null
+   },
+   "modules:1904339": {
+    "items_count": 0,
+    "name": "11 Leadership I",
+    "published": null
+   },
+   "modules:1904340": {
+    "items_count": 0,
+    "name": "12 Leadership II",
+    "published": null
+   },
+   "modules:1904341": {
+    "items_count": 0,
+    "name": "13 Mid Term & In-The-Wild Project Discussion",
+    "published": null
+   },
+   "modules:1904342": {
+    "items_count": 0,
+    "name": "14 Creativity and Entrepreneurship I",
+    "published": null
+   },
+   "modules:1904343": {
+    "items_count": 0,
+    "name": "15 Creativity and Entrepreneurship II",
+    "published": null
+   },
+   "modules:1904344": {
+    "items_count": 0,
+    "name": "16 Case Study III",
+    "published": null
+   },
+   "modules:1904345": {
+    "items_count": 0,
+    "name": "17 Personality, Meaning, and Happiness",
+    "published": null
+   },
+   "modules:1904346": {
+    "items_count": 0,
+    "name": "18 Individual Decision Making",
+    "published": null
+   },
+   "modules:1904347": {
+    "items_count": 0,
+    "name": "19 Power and Influence",
+    "published": null
+   },
+   "modules:1904348": {
+    "items_count": 0,
+    "name": "20 Negotiation I",
+    "published": null
+   },
+   "modules:1904349": {
+    "items_count": 0,
+    "name": "21 Negotiation II",
+    "published": null
+   },
+   "modules:1904351": {
+    "items_count": 0,
+    "name": "23 Case Study IV",
+    "published": null
+   },
+   "modules:1904353": {
+    "items_count": 0,
+    "name": "24 Final Exam",
+    "published": null
+   },
+   "modules:1904354": {
+    "items_count": 0,
+    "name": "25/26 Group Project Presentation",
+    "published": null
+   },
+   "pages:organizational-behavior-3201": {
+    "_body": null,
+    "published": true,
+    "title": "Organizational Behavior 3201"
+   }
+  }
+ }
+}
