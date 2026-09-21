@@ -15,6 +15,7 @@ A hub for all programming knowledge, languages, tools, and career resources.
 - [[React]] — JavaScript UI library
 
 ## Tools
+- [[Docker]] — Containers, images, networking, Compose
 - [[Neovim]] — Modal text editor
 - [[Zsh]] — Shell configuration
 
@@ -32,6 +33,7 @@ A hub for all programming knowledge, languages, tools, and career resources.
 - **[[Algorithms]]**
 - **[[Computer Systems]]**
 - **[[Databases]]**
+- **[[Docker]]**
 - **[[iOS]]**
 - **[[Java]]**
 - **[[JavaScript]]**
