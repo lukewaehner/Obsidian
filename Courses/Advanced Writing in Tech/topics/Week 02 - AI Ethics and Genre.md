@@ -51,11 +51,10 @@ worth naming on Monday.
 
 ### The one claim they'd fight about: where responsibility sits
 
-Slater et al. want blame pushed *onto* users and programmers — that's the whole reason they object
-to "hallucination," which they say launders responsibility by granting the machine agency.
-Mazzucato pushes blame the opposite direction, off individuals entirely and onto the states and
-funders who could make disclosure a condition of support. The BBC piece won't adjudicate. The
-ethics page explicitly refuses to.
+**Slater et al**. want blame pushed *onto* users and programmers — that's the whole reason they object to "hallucination," which they say launders responsibility by granting the machine agency. 
+**Mazzucato** pushes blame the opposite direction, off individuals entirely and onto the states and
+funders who could make disclosure a condition of support.
+The **BBC** piece won't adjudicate. The ethics page explicitly refuses to.
 
 **Position worth defending:** these aren't in conflict, because they're answering different
 questions. Slater et al. are asking who's accountable for a *specific false output*. Mazzucato is
@@ -123,12 +122,14 @@ object, and the form determines what each is allowed to do:
 - The **teaching-resource page** is organized as a briefing with "further reading" lists and takes
   no position by design. Its refusal to draw lines *is* its stance.
 - The **news feature** sources every claim to an institution and balances a critic against a
-  vendor. Balance is a convention, not a judgment — and it's how a commercially interested party
-  gets equal standing with an EEG study.
+  vendor. Balance is a convention, not a judgment — and it's how a commercially interested party gets equal standing with an EEG study.
 
 Connects straight back to [[Reading - Shipka, Rethinking Composition|Shipka]]: what makes a piece
 of writing good stops being mysterious once you ask what it accomplishes for whom under what
 constraints. Genre is the name for those constraints.
+
+Genre has a rhetorically strong definition when it is not centered on the substance or form of the discourse, but the action it is used to accomplish. Genre can be said to represent typified rhetorical action.
+
 
 ## Key Takeaways
 
