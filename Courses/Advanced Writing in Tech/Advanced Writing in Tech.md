@@ -160,6 +160,13 @@ week note carries the synthesis across that week's readings.
 | --- | --- |
 | [[Reading - Lamott, Shitty First Drafts]] | [[Week 01 - Writing Process]] |
 | [[Reading - Shipka, Rethinking Composition]] | [[Week 01 - Writing Process]] |
+| [[Reading - Slater et al., ChatGPT Isn't Hallucinating]] | [[Week 02 - AI Ethics and Genre]] |
+| [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]] | [[Week 02 - AI Ethics and Genre]] |
+| [[Reading - Ethics and AI]] | [[Week 02 - AI Ethics and Genre]] |
+| [[Reading - Are These AI Prompts Damaging Your Thinking Skills]] | [[Week 02 - AI Ethics and Genre]] |
+| [[Reading - Swales, The Concept of a Discourse Community]] | [[Week 03 - Discourse Communities]] |
+| [[Reading - Schryer, The Lab vs the Clinic]] | [[Week 03 - Discourse Communities]] |
+| [[Reading - Turkle and Yee, Evocative Objects]] | [[Week 03 - Discourse Communities]] |
 
 ## Reference Material on Canvas
 
@@ -198,8 +205,11 @@ research actually function inside a specific discipline.
 	- [[Reading - Ethics and AI]]
 	- [[Reading - Lamott, Shitty First Drafts]]
 	- [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]]
+	- [[Reading - Schryer, The Lab vs the Clinic]]
 	- [[Reading - Shipka, Rethinking Composition]]
 	- [[Reading - Slater et al., ChatGPT Isn't Hallucinating]]
+	- [[Reading - Swales, The Concept of a Discourse Community]]
+	- [[Reading - Turkle and Yee, Evocative Objects]]
 - **topics**
 	- [[Week 01 - Writing Process]]
 	- [[Week 02 - AI Ethics and Genre]]
