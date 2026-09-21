@@ -23,7 +23,7 @@ Typing is optional to the language. It is **not optional in [[Fundamentals of So
 
 ## Control
 
-- [[Control Flow]] — if/else, switch, ternary, == vs === narrowing
+- [[Control Flow]] — if/else, switch, ternary, == vs ===, narrowing
 - [[Loops]] — for, while, do-while, and why to prefer array operators
 - [[Array Functions]] — `forEach`, `map`, `filter`, `reduce`
 
