@@ -216,6 +216,77 @@ class ParseTask(unittest.TestCase):
         # act / assert
         self.assertIsNone(wr.parse_task("- Education"))
 
+    def test_completion_stamp_is_stripped_from_the_text(self):
+        # arrange -- a ticked box keeps its ✅ date; leaving it in stops the
+        # text matching the note, which read Activity 01 as overdue.
+        line = "- [x] Submit Activity 01 - User Stories 📅 2026-09-14 ✅ 2026-09-17"
+
+        # act
+        task = wr.parse_task(line)
+
+        # assert
+        self.assertEqual(task.text, "Submit Activity 01 - User Stories")
+
+    def test_priority_marker_is_stripped_from_the_text(self):
+        # act
+        task = wr.parse_task("- [ ] Finish HW2 ⏫ 📅 2026-11-01")
+
+        # assert
+        self.assertEqual(task.text, "Finish HW2")
+
+
+class IsSelfTask(unittest.TestCase):
+    def test_action_verb_before_the_title_still_counts_as_the_same_item(self):
+        # arrange -- the box says "Submit X", the note is titled "X"
+        # act / assert
+        self.assertTrue(wr.is_self_task(
+            "Submit Activity 03 - Mutation Testing with Stryker",
+            "Activity 03 - Mutation Testing with Stryker"))
+
+    def test_bare_title_counts_as_the_same_item(self):
+        # act / assert
+        self.assertTrue(wr.is_self_task("HW3", "HW3"))
+
+    def test_em_dash_in_the_body_matches_the_hyphen_in_the_filename(self):
+        # act / assert
+        self.assertTrue(wr.is_self_task(
+            "Group Case Report 1 — Cynthia Carroll at Anglo American",
+            "Group Case Report 1 - Cynthia Carroll at Anglo American"))
+
+    def test_setup_task_merely_mentioning_the_deliverable_is_kept(self):
+        # arrange -- the LockDown install is the reason to read the report;
+        # a containment test would hide it behind Quiz 1.
+        # act / assert
+        self.assertFalse(wr.is_self_task(
+            "Install and test Respondus LockDown Browser via [[Quiz 1 Prep]]",
+            "Quiz 1"))
+
+
+class IsOpen(unittest.TestCase):
+    def test_submitted_activity_is_not_open(self):
+        # arrange -- status stays "raw" on graded notes, so the ticked box
+        # is the only signal that the work is done
+        text = ("# Activity 01 - User Stories\n"
+                "- [x] Submit Activity 01 - User Stories 📅 2026-09-14 "
+                "✅ 2026-09-17\n")
+
+        # act / assert
+        self.assertFalse(wr.is_open({"status": "raw"}, text,
+                                    "Activity 01 - User Stories"))
+
+    def test_unticked_activity_is_open(self):
+        # arrange
+        text = ("# Activity 03 - Mutation Testing\n"
+                "- [ ] Submit Activity 03 - Mutation Testing 📅 2026-09-21\n")
+
+        # act / assert
+        self.assertTrue(wr.is_open({"status": "raw"}, text,
+                                   "Activity 03 - Mutation Testing"))
+
+    def test_frontmatter_status_done_closes_the_item(self):
+        # act / assert
+        self.assertFalse(wr.is_open({"status": "done"}, "# HW1\n", "HW1"))
+
 
 class Callouts(unittest.TestCase):
     def test_single_line_danger_callout_is_returned(self):

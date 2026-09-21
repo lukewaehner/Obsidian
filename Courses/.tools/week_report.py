@@ -81,6 +81,11 @@ HEADING = re.compile(r"^#{2,}\s+(.*?)\s*$")
 ISO_DATE = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
 TASK_LINE = re.compile(r"^\s*[-*]\s+\[([ xX])\]\s+(.*)$")
 TASK_DUE = re.compile(r"📅\s*(\d{4}-\d{2}-\d{2})")
+TASK_META = re.compile(r"\s*[📅⏳🛫➕✅❌]\s*\d{4}-\d{2}-\d{2}")
+TASK_PRIORITY = re.compile(r"\s*[⏫🔼🔽🔺⏬]")
+ACTION_PREFIX = re.compile(r"^(submit|complete|finish|hand in|turn in|do)\s+",
+                           re.I)
+LONG_DASH = re.compile(r"[‐-―]")
 CALLOUT_OPEN = re.compile(r"^>\s*\[!(\w+)\]\s*(.*)$")
 COURSE_NUMBER = re.compile(r"\*\*Course Number\*\*:\s*([A-Z]{2,4})\s*(\d{4})")
 
@@ -156,15 +161,39 @@ def parse_meeting(line, semester_start):
 
 
 def parse_task(line):
-    """A Tasks-plugin checkbox line, or None."""
+    """A Tasks-plugin checkbox line, or None.
+
+    Every dated marker is stripped from the text, not just the 📅 due date:
+    a finished box keeps its ✅ completion stamp, and leaving that in makes
+    the text stop matching the note it belongs to.
+    """
     m = TASK_LINE.match(line)
     if not m:
         return None
     body = m.group(2).strip()
     found = TASK_DUE.search(body)
     due = as_date(found.group(1)) if found else None
-    text = TASK_DUE.sub("", body).strip() if found else body
-    return Task(m.group(1).lower() == "x", text.rstrip(" ·-—"), due)
+    text = TASK_PRIORITY.sub("", TASK_META.sub("", body))
+    return Task(m.group(1).lower() == "x", text.strip().rstrip(" ·-—"), due)
+
+
+def normalize(s):
+    """Lowercased, dash- and wikilink-flattened, for comparing note titles."""
+    s = LONG_DASH.sub("-", s.lower().replace("[[", "").replace("]]", ""))
+    return re.sub(r"\s+", " ", s).strip(" .·-")
+
+
+def is_self_task(task_text, title):
+    """Whether a checkbox merely restates the note's own deliverable.
+
+    Notes write the box either as the deliverable ("HW3") or as the action
+    ("Submit Activity 03 ..."), and punctuation drifts between an em dash in
+    the body and a hyphen in the filename. Equality after normalising is
+    deliberately strict: a containment test would swallow "Install LockDown
+    Browser via [[Quiz 1 Prep]]" as though it were Quiz 1 itself, hiding the
+    setup task that is the whole reason to look.
+    """
+    return normalize(ACTION_PREFIX.sub("", task_text)) == normalize(title)
 
 
 def callouts(text, kinds=("danger", "warning")):
@@ -291,7 +320,7 @@ def is_open(fm, text, title):
         return False
     for line in text.splitlines():
         task = parse_task(line)
-        if task and task.done and task.text.lower().startswith(title.lower()[:24]):
+        if task and task.done and is_self_task(task.text, title):
             return False
     return True
 
@@ -326,7 +355,7 @@ def collect(course, vault):
                 continue
             # The self-named checkbox restates the frontmatter due date; the
             # interesting tasks are the setup steps that have no note.
-            if task.text.lower().startswith(title.lower()[:24]):
+            if is_self_task(task.text, title):
                 continue
             tasks.append(Item(task.due, "TASK", course, task.text,
                               None, rel, title))
