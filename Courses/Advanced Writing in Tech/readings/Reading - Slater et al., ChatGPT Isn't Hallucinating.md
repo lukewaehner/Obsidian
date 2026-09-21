@@ -25,10 +25,7 @@ Reading for [[Week 02 - AI Ethics and Genre]] · [[Advanced Writing in Tech]]
 
 ## Thesis
 
-"Hallucination" is the wrong word for what LLMs do when they produce falsehoods, and the wrong
-word does real damage. The right word — in Harry Frankfurt's technical philosophical sense — is
-**bullshit**: speech produced with no regard whatsoever for whether it is true. This is not a
-rhetorical insult. It is a claim about the architecture: nothing in next-token prediction ever
+"Hallucination" is the wrong word for what LLMs do when they produce falsehoods, and the wrong word does real damage. The right word — in Harry Frankfurt's technical philosophical sense — is **bullshit**: speech produced with no regard whatsoever for whether it is true. This is not a rhetorical insult. It is a claim about the architecture: nothing in next-token prediction ever
 attempts to represent the world, so the model cannot be failing at representation. It was never
 trying.
 
@@ -68,12 +65,9 @@ trying.
 
 ## Quotes Worth Keeping
 
-> "What characterizes the bullshitter, Frankfurt said, is that they just don't care whether what
-> they say is true. ChatGPT and its peers cannot care, and they are instead, in a technical
-> sense, bullshit machines."
+> "What characterizes the bullshitter, Frankfurt said, is that they just don't care whether what they say is true. ChatGPT and its peers cannot care, and they are instead, in a technical sense, bullshit machines."
 
-> "When it goes wrong, it isn't because it hasn't succeeded in representing the world this time;
-> it never tries to represent the world!"
+> "When it goes wrong, it isn't because it hasn't succeeded in representing the world this time; it never tries to represent the world!"
 
 > "And crucially, it's bullshitting even when it says true things!"
 
@@ -93,20 +87,16 @@ imperative closing line. The scholarly claim is identical; the uptake target is 
   truth-tracking step in it.
 - "Hallucination" smuggles in a working perceptual faculty that isn't there. The metaphor
   flatters the machine.
-- Naming is an ethical act. Which word you pick determines who gets blamed when the output is
-  wrong.
+- Naming is an ethical act. Which word you pick determines who gets blamed when the output is wrong.
 - Truth-indifference, not falsehood, is the defining property. A true answer from a bullshit
   machine is still bullshit.
 
 ## Open Questions
 
-- Does the argument survive retrieval-augmented systems and tool use, where the model *is* wired
-  to external sources? Or does grounding just add a verification layer on top of a process that
-  is still indifferent underneath?
+- Does the argument survive retrieval-augmented systems and tool use, where the model *is* wired to external sources? Or does grounding just add a verification layer on top of a process that is still indifferent underneath?
 - If the model is a bullshit machine, what exactly is my responsibility as a user who ships its
   output under my name — in a PR description, a design doc, a paper?
-- The authors want blame to land on users and programmers. Is that distribution stable when the
-  user cannot inspect the training data or the weights?
+- The authors want blame to land on users and programmers. Is that distribution stable when the user cannot inspect the training data or the weights?
 
 ## Related
 

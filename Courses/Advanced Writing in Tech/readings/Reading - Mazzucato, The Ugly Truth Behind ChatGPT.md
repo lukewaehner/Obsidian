@@ -62,8 +62,7 @@ travel.
    support; extend the same conditionality to mineral supply chains and human rights compliance.
 8. **Systemic, not piecemeal** (¶closing). Flexible strategies integrating knowledge from local
    to global, not outdated top-down methods. With 1.5C expected to be exceeded, "it's time we
-   approach today's grand challenges systemically, so that the solution to one problem does not
-   exacerbate another."
+   approach today's grand challenges systemically, so that the solution to one problem does not exacerbate another."
 
 ## The Costs She Enumerates
 
@@ -79,8 +78,7 @@ travel.
 > "Despite its name, the infrastructure used by the 'cloud' accounts for more global greenhouse
 > emissions than commercial flights."
 
-> "The companies that produce such models have stayed remarkably quiet about the amount of energy
-> they consume – probably because they don't want to spark our concern."
+> "The companies that produce such models have stayed remarkably quiet about the amount of energy they consume – probably because they don't want to spark our concern."
 
 > "Policy needs to be designed not to pick sectors or technologies as 'winners', but to pick the
 > willing by providing support that is conditional on companies moving in the right direction."

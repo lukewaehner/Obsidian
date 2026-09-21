@@ -16,14 +16,6 @@ status: raw
 
 Reading for [[Week 02 - AI Ethics and Genre]] · [[Advanced Writing in Tech]]
 
-> [!cite] Citation — incomplete
-> "Are These AI Prompts Damaging Your Thinking Skills?" *BBC News*. Posted on Canvas; local copy
-> `ai-prompts-damaging-brain.txt`. Byline and publication date are not present in the copy
-> provided — **get both from the Canvas link before citing.** Attribution to the BBC is from
-> internal evidence ("She tells the BBC"; sidebar links to BBC explainers). Internal evidence
-> dates it to late 2025 or later: it cites an OUP survey "published in October," an MIT study
-> from "earlier this year," and Sam Altman's 800m weekly ChatGPT users.
-
 ## Thesis
 
 A news feature, not an argument — it assembles four studies and three interviewees around one
@@ -55,25 +47,17 @@ one.
   prohibition: "I never say to my students, you shouldn't use AI… But what I do try to say is
   look, we need to understand all these different things about it so that you can make informed
   decisions."
-- **Dr. Alexandra Tomescu (OUP)** — the nuance position. Not necessarily decline; "quite a nuanced
-  picture," and many pupils want more guidance on how to use AI.
+- **Dr. Alexandra Tomescu (OUP)** — the nuance position. Not necessarily decline; "quite a nuanced picture," and many pupils want more guidance on how to use AI.
 - **Jayna Devani (OpenAI, international education)** — the vendor. "We definitely don't think
-  students should be using ChatGPT to outsource work." Her frame is **tutor, not answer-provider**
-  — study mode, back-and-forth decomposition of a question, the midnight-before-a-presentation
-  case where you can't email your tutor. "The potential is truly there for ChatGPT to accelerate
-  learning when it's used in a targeted way."
+  students should be using ChatGPT to outsource work." Her frame is **tutor, not answer-provider** — study mode, back-and-forth decomposition of a question, the midnight-before-a-presentation case where you can't email your tutor. "The potential is truly there for ChatGPT to accelerate learning when it's used in a targeted way."
 
-Context worth holding onto: OpenAI published 100 student prompts, and Oxford began giving students
-and staff free ChatGPT in September. Devani helped secure that deal. The piece places her quote
-next to that fact without comment.
+Context worth holding onto: OpenAI published 100 student prompts, and Oxford began giving students and staff free ChatGPT in September. Devani helped secure that deal. The piece places her quote next to that fact without comment.
 
 ## Quotes Worth Keeping
 
 > "Their outputs are better but actually their learning is worse." — Wayne Holmes
 
-> "While GenAI can improve worker efficiency, it can inhibit critical engagement with work and can
-> potentially lead to long-term overreliance on the tool and diminished skill for independent
-> problem-solving." — Carnegie Mellon / Microsoft
+> "While GenAI can improve worker efficiency, it can inhibit critical engagement with work and can potentially lead to long-term over-reliance on the tool and diminished skill for independent problem-solving." — Carnegie Mellon / Microsoft
 
 > "It is not just the latest iteration of the calculator." — Holmes
 
@@ -104,15 +88,10 @@ this one reports.
 
 ## Open Questions
 
-- Is the calculator analogy actually wrong, or just premature? Calculators were also accused of
-  atrophy and the answer depended on what got assessed afterward. Holmes rejects it by pointing to
-  breadth of capability, not to a difference in the atrophy mechanism.
-- Does "AI as tutor" survive contact with incentives? Study mode is slower than asking for the
-  answer, and nothing makes a student pick the slow path at midnight.
-- MIT's n=54, drawn from MIT and neighboring universities, is a small and very unrepresentative
-  sample for a headline claim about brains. How much weight can it hold?
-- If reduced encoding is the harm, the fix might be assessment design rather than tool policy —
-  which is the bridge to Wednesday's policy session.
+- Is the calculator analogy actually wrong, or just premature? Calculators were also accused of atrophy and the answer depended on what got assessed afterward. Holmes rejects it by pointing to breadth of capability, not to a difference in the atrophy mechanism.
+- Does "AI as tutor" survive contact with incentives? Study mode is slower than asking for the answer, and nothing makes a student pick the slow path at midnight.
+- MIT's n=54, drawn from MIT and neighboring universities, is a small and very unrepresentative sample for a headline claim about brains. How much weight can it hold?
+- If reduced encoding is the harm, the fix might be assessment design rather than tool policy — which is the bridge to Wednesday's policy session.
 
 ## Related
 
