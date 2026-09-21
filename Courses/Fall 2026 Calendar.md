@@ -22,6 +22,7 @@ see each hub for the authoritative source.
 not done
 due before tomorrow
 path includes Courses
+path does not include Courses/Weekly
 sort by due
 ```
 
@@ -31,6 +32,7 @@ sort by due
 not done
 due after yesterday
 path includes Courses
+path does not include Courses/Weekly
 sort by due
 limit 20
 ```
@@ -41,6 +43,7 @@ limit 20
 not done
 no due date
 path includes Courses
+path does not include Courses/Weekly
 ```
 
 ## Week by Week

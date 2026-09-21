@@ -43,6 +43,11 @@ const segments = target.parent.path.split("/");
 const course = segments[segments.indexOf(ROOT) + 1] ?? "";
 const isFolderNote = course && title === course;
 
+/* Courses/Weekly.md belongs to no course -- it is the /courses:summary output
+ * for the whole term. This folder template fires on it anyway, so hand it off
+ * rather than stamping a course-note skeleton over it. */
+const isWeekly = !course && title === "Weekly";
+
 /* --- read the course MOC's frontmatter ---------------------------------
  * A course's MOC lives inside its folder and shares its name. */
 let mocTags = [];
@@ -256,6 +261,7 @@ ${context}
 
 /* --- single exit: pre-existing content wins, then folder notes, then skeletons */
 tR = preexisting  ? existing
+   : isWeekly     ? await tp.file.include("[[Weekly Summary Template]]")
    : isFolderNote ? mocSkeleton
    :                fm.join("\n") + "\n" + bodies[kind];
 %>
