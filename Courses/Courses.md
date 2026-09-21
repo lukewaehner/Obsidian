@@ -9,7 +9,6 @@ type: moc
 - **[[Distributed Systems]]**
 - **[[Fundamentals of Software Engineering]]**
 - **[[Organizational Behavior]]**
-- **[[Strategy and Action]]**
 - [[Courses]]
 - [[Fall 2026 Calendar]]
 

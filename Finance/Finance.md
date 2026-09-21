@@ -8,6 +8,7 @@
 - **[[Financial Accounting]]**
 - **[[Investments]]**
 - **[[Managerial Accounting]]**
+- **[[Strategy and Action]]**
 - [[Finance]]
 
 %% End Waypoint %%
