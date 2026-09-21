@@ -5,12 +5,17 @@ number: 23
 url: https://neetcode.io/problems/merge-k-sorted-linked-lists
 difficulty: Hard
 pattern: Linked List
-patterns: ["Linked List", "Heap & Priority Queue"]
-topics: ["[[Career/Prep/topics/Data Structures/Linked Lists|Linked Lists]]", "[[Career/Prep/topics/Sorting & Searching/Merge Sort|Merge Sort]]", "[[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]]"]
+patterns:
+  - Linked List
+  - Heap & Priority Queue
+topics:
+  - "[[Career/Prep/topics/Data Structures/Linked Lists|Linked Lists]]"
+  - "[[Career/Prep/topics/Sorting & Searching/Merge Sort|Merge Sort]]"
+  - "[[Career/Prep/topics/Algorithm Design/Divide and Conquer|Divide and Conquer]]"
 solved_on: 2026-09-08
 attempts: 3
 aid: hint
-revisit: false
+revisit: true
 time: O(N log k) for N total nodes across k lists
 space: O(1) extra
 language: python

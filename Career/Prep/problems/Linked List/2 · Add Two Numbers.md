@@ -5,12 +5,14 @@ number: 2
 url: https://neetcode.io/problems/add-two-numbers
 difficulty: Medium
 pattern: Linked List
-patterns: ["Linked List"]
-topics: ["[[Career/Prep/topics/Data Structures/Linked Lists|Linked Lists]]"]
+patterns:
+  - Linked List
+topics:
+  - "[[Career/Prep/topics/Data Structures/Linked Lists|Linked Lists]]"
 solved_on: 2026-09-08
 attempts: 3
 aid: unaided
-revisit: false
+revisit: true
 time: O(max(n, m))
 space: O(1) extra, excluding the output list
 language: python
@@ -55,16 +57,14 @@ class Solution:
         return d.next
 ```
 
-> [!warning] Defect
-> `for c in nv[::-1]` iterates a string, so `ListNode(c)` stores the **character**
-> `'7'`, not the integer `7`. Every node in the returned list holds a `str`, and
-> any judge that compares values with `==` reports a wrong answer even though the
-> arithmetic was right. The fix is one call:
->
-> ```python
-> n.next = ListNode(int(c))
-> ```
->
+ `'7'`, not the integer `7`. Every node in the returned list holds a `str`, and
+ any judge that compares values with == reports a wrong answer even though the
+ arithmetic was right. The fix is one call:
+
+ ```python
+ n.next = ListNode(int(c))
+ ```
+
 > The second problem is not a bug in Python but is one everywhere else: this
 > approach only works because Python integers are arbitrary-precision. The same
 > code in Java or C++ overflows a 64-bit integer at 20 digits, and the problem's

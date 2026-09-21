@@ -36,16 +36,17 @@ class Solution:
         while l < r:
             height = min(heights[l], heights[r])
             area = height * (r - l)
-            # print(area)
-            if area > max_water:
-                max_water = area
+			max_water = max(max_water, area)
 
+			# Since shrinking the gates width, we can only
+			# Decrease the area unless we increase the heights bar, so we
+			# shrink the window from the lowest height edge
+			# in hopes of finding a larger border 
+		    # somewhere else down the list
             if heights[l] < heights[r]:
                 l += 1
             else:
                 r -= 1
-            # print(l,r)
-            # print(heights[l], heights[r])
         return max_water
 ```
 

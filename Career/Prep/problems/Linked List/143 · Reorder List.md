@@ -5,12 +5,15 @@ number: 143
 url: https://neetcode.io/problems/reorder-linked-list
 difficulty: Medium
 pattern: Linked List
-patterns: ["Linked List", "Two Pointers"]
-topics: ["[[Career/Prep/topics/Data Structures/Linked Lists|Linked Lists]]"]
+patterns:
+  - Linked List
+  - Two Pointers
+topics:
+  - "[[Career/Prep/topics/Data Structures/Linked Lists|Linked Lists]]"
 solved_on: 2026-09-08
 attempts: 1
 aid: unaided
-revisit: false
+revisit: true
 time: O(n)
 space: O(1)
 language: python
@@ -38,6 +41,7 @@ class Solution:
             fast = fast.next.next
         # Two halves of the LL are rendered with the start being the slow pointer
         second = slow.next
+		# setup a dummy node, and clear the next value of our iterator slow
         prev = slow.next = None
         
         # reverse second half of the list

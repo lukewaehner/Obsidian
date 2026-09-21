@@ -5,12 +5,15 @@ number: 875
 url: https://neetcode.io/problems/eating-bananas
 difficulty: Medium
 pattern: Binary Search
-patterns: ["Binary Search"]
-topics: ["[[Career/Prep/topics/Sorting & Searching/Binary Search|Binary Search]]", "[[Career/Prep/topics/Complexity/Big-O and Asymptotic Notation|Big-O and Asymptotic Notation]]"]
+patterns:
+  - Binary Search
+topics:
+  - "[[Career/Prep/topics/Sorting & Searching/Binary Search|Binary Search]]"
+  - "[[Career/Prep/topics/Complexity/Big-O and Asymptotic Notation|Big-O and Asymptotic Notation]]"
 solved_on: 2026-09-07
 attempts: 1
 aid: hint
-revisit: false
+revisit: true
 time: O(n log m)
 space: O(1)
 language: python

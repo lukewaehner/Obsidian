@@ -5,12 +5,15 @@ number: 739
 url: https://neetcode.io/problems/daily-temperatures
 difficulty: Medium
 pattern: Stack
-patterns: ["Stack"]
-topics: ["[[Career/Prep/topics/Data Structures/Stacks|Stacks]]", "[[Career/Prep/topics/Data Structures/Arrays|Arrays]]"]
+patterns:
+  - Stack
+topics:
+  - "[[Career/Prep/topics/Data Structures/Stacks|Stacks]]"
+  - "[[Career/Prep/topics/Data Structures/Arrays|Arrays]]"
 solved_on: 2026-09-02
 attempts: 1
 aid: unaided
-revisit: false
+revisit: true
 time: O(n)
 space: O(n)
 language: python
