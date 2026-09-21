@@ -11,6 +11,7 @@ type: moc
 - **[[Organizational Behavior]]**
 - [[Courses]]
 - [[Fall 2026 Calendar]]
+- [[Weekly]]
 
 %% End Waypoint %%
 
