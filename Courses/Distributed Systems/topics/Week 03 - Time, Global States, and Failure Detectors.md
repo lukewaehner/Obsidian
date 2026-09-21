@@ -30,6 +30,35 @@ Lecture for [[Distributed Systems]].
 
 ## Notes
 
+Challenge 1: Global State
+No host has global knowledge
+Need to use network to exchange state information
+- Network capacity is limited, it can't send everything
+Information may be incorrect, out of date, etc
+- New information takes time to propagate
+- Other changes may happen in the meantime
+Key issue: how can you detect and address inconsistencies?
+
+Challenge 2: Time
+Time cannot be measured perfectly
+- Hosts have different clocks, skew
+- Network can delay / duplicate messages
+How do we determine what happened first?
+- Who shot first in a game
+- Who bought the last seat on a plane?
+Need a more nuanced abstraction to represent time
+
+Ordering events:
+Message based:
+- Send & receive
+Time is essential for ordering events:
+- Physical Time
+	- Global time
+	- Local time
+- Logical time
+	- Lamport clock
+	- Vector clock
+
 
 ## Key Takeaways
 
