@@ -17,7 +17,8 @@ semester_start: 2026-09-07
 > [!info] Source
 > Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-13; Canvas checked
 > 2026-09-20. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds
-> awaiting lecture notes.
+> awaiting lecture notes. Module 5 (React), its activity, and the week-3 React tutorial added
+> 2026-09-24.
 
 > [!warning] The module activities are graded, and attendance gates the credit
 > Canvas carries each in-class activity as a **10-point assignment** with its own deadline — they
@@ -172,10 +173,12 @@ reference/    schedule, staff, policies, style guide
 ### Modules
 - [[Module 01 - Orientation and User Stories]] — what SE is, the people/processes/programs grid, course mechanics, then user stories and conditions of satisfaction
 - [[Module 02 - From Requirements to Tests]] — TDD, conditions of satisfaction to testable behaviors
+- [[Module 05 - React Basics]] — components, props, and state (scaffold)
 
 ### Activities
 - [[Activity 01 - User Stories and Conditions of Satisfaction]]
 - [[Activity 02 - Test-Driven Development]]
+- [[Activity 05 - Enhancing a TODO Tracker in React]] — numeric priority, sort, bulk delete; zip upload
 
 ### Assignments
 - [[Individual Project 1]] — Connect4, Tic-Tac-Toe coverage, user service bugs, auth refactor
@@ -190,6 +193,7 @@ reference/    schedule, staff, policies, style guide
 - [[Tutorial - Unit Testing with Vitest]] — suites, matchers, AAA, mocks, async
 - [[Tutorial - API Requests]] — HTTP verbs, headers, status codes, testing endpoints
 - [[Tutorial - Git and GitHub Basics]] — repos, branches, forks, PRs, issues
+- [[Tutorial - React Basics]] — Vite scaffold, components, events, `useState`, `useEffect`
 
 ### Standards
 - [[CS4530 Code Style Guide]] — ESLint rules, naming, JSDoc requirements
@@ -228,14 +232,17 @@ Inspired by SE courses at Columbia (COMS W4156), CMU ([17-313](https://cmu-313.g
 	- [[Activity 01 - User Stories and Conditions of Satisfaction]]
 	- [[Activity 02 - Test-Driven Development]]
 	- [[Activity 03 - Mutation Testing with Stryker]]
+	- [[Activity 05 - Enhancing a TODO Tracker in React]]
 	- [[Module 01 - Orientation and User Stories]]
 	- [[Module 02 - From Requirements to Tests]]
 	- [[Module 03 - Test Adequacy]]
 	- [[Module 04 - Design Patterns for Web Applications]]
+	- [[Module 05 - React Basics]]
 - **tutorials**
 	- [[Tutorial - API Requests]]
 	- [[Tutorial - Development Environment Setup]]
 	- [[Tutorial - Git and GitHub Basics]]
+	- [[Tutorial - React Basics]]
 	- [[Tutorial - TypeScript Basics]]
 	- [[Tutorial - Unit Testing with Vitest]]
 - [[CS4530 Assignments.base|CS4530 Assignments]]
