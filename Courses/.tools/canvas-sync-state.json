@@ -6,7 +6,7 @@
   "FINA4335": "Computational Methods in Finance",
   "ORGB3201": "Organizational Behavior"
  },
- "last_sync": "2026-09-21T01:58:22+00:00",
+ "last_sync": "2026-09-25T05:31:30+00:00",
  "snapshots": {
   "CS4530": {
    "announcements:3340891": {
@@ -378,7 +378,7 @@
     "published": null
    },
    "modules:1875559": {
-    "items_count": 14,
+    "items_count": 15,
     "name": "Important links and documents",
     "published": null
    },
@@ -464,19 +464,24 @@
    }
   },
   "FINA4335": {
-   "announcements:3315373": {
-    "_body": "699906375c8d43c8",
-    "posted_at": "2026-09-08T15:00:12Z",
-    "title": "Welcome to FINA 4335 (Computational Methods); Some preparations for the first lecture (Sept 11)"
-   },
    "announcements:3361533": {
     "_body": "5e7f1bd359663ccc",
     "posted_at": "2026-09-15T17:29:01Z",
     "title": "Morning@Morgan (career event)"
    },
+   "announcements:3367570": {
+    "_body": "a5594019c4d5f5a8",
+    "posted_at": "2026-09-22T19:15:02Z",
+    "title": "reminder: quiz 1 this Friday (sept 25); last day to drop class today (sept 22)"
+   },
+   "announcements:3368483": {
+    "_body": "d392fa9a3acd8339",
+    "posted_at": "2026-09-21T19:27:22Z",
+    "title": "The only way to reschedule quiz 1"
+   },
    "assignment_groups:673190": {
     "group_weight": 7.0,
-    "name": "after-topic practice"
+    "name": "after-topic practice-will drop 2"
    },
    "assignment_groups:675672": {
     "group_weight": 10.0,
@@ -527,7 +532,7 @@
     "unlock_at": "2026-09-25T17:38:00Z"
    },
    "assignments:3273431": {
-    "_body": "e7d929f53add2956",
+    "_body": "d5d534e688adbb39",
     "_score": null,
     "_state": "unsubmitted",
     "allowed_extensions": null,
@@ -719,6 +724,11 @@
     "folder_id": 4678508,
     "size": 595570
    },
+   "files:44279333": {
+    "display_name": "Topic 1_ Python Language Basics-Part II-with Solution.pdf",
+    "folder_id": 4678508,
+    "size": 420605
+   },
    "modules:1783224": {
     "items_count": 2,
     "name": "Course Overview and resources",
@@ -743,7 +753,7 @@
     "unlock_at": "2026-09-25T17:38:00Z"
    },
    "quizzes:796899": {
-    "_body": "e7d929f53add2956",
+    "_body": "d5d534e688adbb39",
     "allowed_attempts": 10,
     "due_at": "2026-09-25T17:35:00Z",
     "lock_at": "2026-09-28T03:59:59Z",
@@ -771,6 +781,11 @@
     "_body": "8f809926839447f1",
     "posted_at": "2026-09-19T01:49:26Z",
     "title": "Participation, Non-Laptop Use Policy, and Classroom Movement"
+   },
+   "announcements:3367862": {
+    "_body": "a22d547151b98f2d",
+    "posted_at": "2026-09-21T13:40:57Z",
+    "title": "SMA Case Discussion"
    },
    "assignment_groups:728116": {
     "group_weight": 0.0,
@@ -944,6 +959,11 @@
     "folder_id": 4417700,
     "size": 2343246
    },
+   "files:44270472": {
+    "display_name": "04_SMA_Liao_26F.pdf",
+    "folder_id": 4417700,
+    "size": 461524
+   },
    "modules:1904307": {
     "items_count": 1,
     "name": "00 Syllabus and Materials",
@@ -965,7 +985,7 @@
     "published": null
    },
    "modules:1904311": {
-    "items_count": 0,
+    "items_count": 1,
     "name": "04 Org Culture & Case Study 1",
     "published": null
    },
