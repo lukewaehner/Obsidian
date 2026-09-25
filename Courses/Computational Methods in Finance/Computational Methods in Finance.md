@@ -52,7 +52,15 @@ optimization, and quantitative trading.
 | 1% | Attendance |
 
 **Late policy** — 10% penalty per day unless specified otherwise. The final group project takes
-10% per day and is not accepted after two days. Missing a quiz caps you at 80% of the quiz score.
+10% per day and is not accepted after two days.
+
+**Quizzes** — the **lowest quiz is dropped, including a 0**; that drop is the accommodation for
+illness, interviews, and the like (tell Kong 3 business days ahead). **Missing the midterm** with a
+documented reason Kong accepts gets it scored at 80% of your quiz score — that is where the
+80% figure comes from; it is not a quiz penalty.
+
+**After-class practice** (7%) — Canvas renamed the group "after-topic practice-will drop 2" between
+2026-09-21 and 2026-09-25: the two lowest after-topic sets are dropped.
 
 ## Deadlines
 
@@ -111,7 +119,8 @@ topics/       one note per topic, with its class meetings
 - `Topic 2 Built-in Data Structures and Functions-Part I.ipynb` / `.pdf` — posted 2026-09-19
 - `Topic 2 Built-in Data Structures and Functions-Part II.ipynb` / `.pdf`
 - **`with solution/`** — new folder, added 2026-09-20. Currently holds
-  `Topic 1 Python Language Basics-Part I-with Solution.pdf`. Worked solutions to the topic
+  `Topic 1 Python Language Basics-Part I-with Solution.pdf` and (first seen 2026-09-25)
+  `Topic 1_ Python Language Basics-Part II-with Solution.pdf`. Worked solutions to the topic
   notebooks land here; check it before [[Quiz 1]].
 
 ---

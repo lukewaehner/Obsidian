@@ -32,6 +32,7 @@ Lecture for [[Computational Methods in Finance]].
 - [ ] `Topic 1 Python Language Basics-Part I.ipynb` (Canvas)
 - [ ] `Topic 1 Python Language Basics-Part II.ipynb` (Canvas)
 - [ ] `Topic 1_ Python Language Basics-Part I.pdf` (Canvas)
+- [ ] `Topic 1_ Python Language Basics-Part II-with Solution.pdf` (Canvas, `with solution/`, first seen 2026-09-25)
 - [ ] McKinney ch. 2 §2.3 — [Python Language Basics](https://wesmckinney.com/book/python-basics)
 
 ## Due This Session
