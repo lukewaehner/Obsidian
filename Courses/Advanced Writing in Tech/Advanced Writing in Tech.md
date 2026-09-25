@@ -106,6 +106,26 @@ Classroom runs on respect. Disrespectful behavior explicitly includes non-partic
 distracting the class, skipping class, late assignments, failing to return peer review, and
 harmful or bigoted speech. Escalates to a required meeting, then to higher offices.
 
+### AI Use
+From `AI 3302 26.1.docx`, added to the Important links module on 2026-09-22, after the
+[[Week 02 - AI Ethics and Genre]] discussion. Uses outside the allowed list are treated as
+**plagiarism and referred to OSCCR**.
+
+| Not allowed | Allowed, with documentation |
+| --- | --- |
+| Writing, revising, or generating sections or whole sentences | Formatting |
+| Forming your opinions or ideas, or replacing critical thinking | Finding sources, getting more information on a topic |
+| Major process tasks: generating ideas or a whole outline | Spelling and grammar checks |
+| Avoiding a writing skill you find difficult | Rewording and flow |
+| Discussion posts, peer reviews, other human interaction | Checking whether you've met the requirements, with the prompt restated **in your own words**, not pasted |
+| Putting other people's work into it | |
+
+Every allowed use costs three things: **full chat logs or screenshots**, a paragraph addressing
+the use in that assignment's **reflection/memo**, and a **citation** in the paper's sources. The
+two rows most easily broken by accident are *rewording/flow* (allowed) next to *generating whole
+sentences* (not). Also note that pasting a **peer's draft** into a model during peer review is
+explicitly banned.
+
 ### Negotiation
 All assignments can be negotiated. Unconventional approaches are allowed as long as you talk to
 her first. Papers use the citation style of your choosing, Times New Roman 12pt, double spaced.
@@ -172,7 +192,7 @@ week note carries the synthesis across that week's readings.
 
 Not mirrored into notes — go to the Canvas module when you need them:
 
-- **Important links and documents** — terms for genre, Freadman terms, research proposal outline, peer review guidelines, university boilerplate
+- **Important links and documents** — terms for genre, Freadman terms, research proposal outline, peer review guidelines, university boilerplate, AI policy (summarized under [[#AI Use]])
 - **Library Module** — 19 items on OneSearch, building searches, evaluating sources, annotated bibliographies, open access
 - **Example assignments** — sample multimodal projects, research proposals, literature reviews, and a recorded presentation
 
