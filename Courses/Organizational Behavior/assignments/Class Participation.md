@@ -32,6 +32,17 @@ recommended, so presence plus contribution is the baseline.*
 - [ ] Come prepared for the four case-application sessions (S06, S16, S23, and the Session 04 case)
 - [ ] Engage in the Everest simulation ([[Session 11 - Leadership I - Everest Simulation]]) and the negotiation exercises (S20, S21)
 
+### Case Prep Standard — announcement 2026-09-21
+
+Posted the day before the first case (SMA, [[Session 04 - Organizational Culture]]). It reads as
+the template for every case session after it (S06, S16, S23):
+
+- Review the case carefully **before** class, and bring **written notes**
+- Focus on three things: the organization's **current structure**, the **key challenges** it
+  faces, and the **underlying organizational design issues**
+- Expect to be probed on your **observations, questions, and recommendations**. Have at least
+  one of each ready
+
 ### Liao's Expectations — announcement 2026-09-19
 
 Posted the night after [[Session 03 - Social Network Structure]], this is the first time the
