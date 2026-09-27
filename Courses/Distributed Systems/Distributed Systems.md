@@ -21,7 +21,7 @@ reliable distributed systems and services. The back half of the course reads rea
 > grades. The real course lives at **[4730.network](https://4730.network/)**. Everything below is
 > from [the syllabus](https://4730.network/docs/syllabus/) and
 > [schedule](https://4730.network/docs/schedule/), retrieved 2026-09-10; Canvas announcements
-> checked through 2026-09-20 — nothing new since the 9/16 grouper announcement.
+> checked through 2026-09-27. Homework 1 was released on Gradescope 9/25, and groups were emailed on 9/26.
 
 > [!warning] Grouper signup — **3:00 PM Thu 2026-09-17**
 > Homework discussion groups run through [grouper](https://grouper.fish/c/uijpbxd70ko26oxx) this
@@ -30,6 +30,11 @@ reliable distributed systems and services. The back half of the course reads rea
 > site — it only exists in the Canvas announcement.
 >
 > - [x] Sign up for a CS4730 homework discussion group on grouper 📅 2026-09-17 ✅ 2026-09-17
+>
+> **Groups formed 2026-09-26** and were assigned by email. No email means checking the signup
+> (Piazza @9) and joining an existing group. Each group gets a TA soon, "a group resource" for
+> when the group can't reach consensus. Until TAs are assigned, homework questions go on
+> **Gradescope**.
 
 ## Logistics
 
@@ -98,6 +103,7 @@ projects is prohibited**.
 | Due | Deliverable |
 | --- | --- |
 | Tue 2026-09-15 | [[Docker Tutorial]] |
+| Fri 2026-10-02 | [[Homework 1]] (time on Gradescope) |
 | TBD | [[Project 1 - HELLO-ACK Protocol]] |
 | TBD | [[Project 2 - Time Agreement Protocol]] |
 | TBD | [[Project 3 - Chandy-Lamport]] |
@@ -105,10 +111,10 @@ projects is prohibited**.
 | TBD | [[Project 5 - Distributed Key-Value Database (Part 1)]] |
 | TBD | [[Project 6 - Distributed Key-Value Database (Part 2)]] |
 
-> [!todo] Not yet scaffolded
-> The syllabus counts **8 homeworks and quizzes together**, without naming or dating them, so
-> there are no homework notes yet — creating a file named `Homework 1` under `assignments/` will
-> scaffold itself from the course template.
+> [!todo] Homeworks arrive one at a time
+> The syllabus counts **8 homeworks and quizzes together** without naming or dating them. They
+> show up on Gradescope as they are released, and [[Homework 1]] is the first. Create
+> `Homework N` under `assignments/` as each one lands.
 
 > [!info] Spec status as of 2026-09-13
 > Projects **1**, **4**, and **5/6** now have full specs on the course site and are written up.
@@ -158,6 +164,7 @@ topics/       one note per week, following the course site's own week structure
 %% Begin Waypoint %%
 - **assignments**
 	- [[Docker Tutorial]]
+	- [[Homework 1]]
 	- [[Project 1 - HELLO-ACK Protocol]]
 	- [[Project 2 - Time Agreement Protocol]]
 	- [[Project 3 - Chandy-Lamport]]
