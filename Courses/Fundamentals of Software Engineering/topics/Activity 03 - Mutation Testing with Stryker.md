@@ -17,8 +17,8 @@ status: raw
 
 In-class activity for [[Module 03 - Test Adequacy]].
 
-> [!danger] Graded on Canvas — 10 points, due 2026-09-21
-> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218519). **Not submitted.** Due 5:00 PM ET Mon 2026-09-21.
+> [!success] Submitted — 10 points, due 2026-09-21
+> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218519). Submitted Mon 2026-09-21, 2:28 PM ET (on time, before the 5:00 PM deadline); not graded as of 2026-09-27.
 > Submit the file `additional.spec.ts`.
 > One submission per group in Bhutta's sections — **name your partners in a comment** under the submission.
 > **Attendance is required to get credit** — doing the work without being in class scores zero.

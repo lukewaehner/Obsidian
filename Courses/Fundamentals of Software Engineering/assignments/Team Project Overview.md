@@ -81,6 +81,33 @@ Based on staff feedback, produce a more detailed plan:
 
 Your team then self-organizes, as agile teams do, using the work breakdown and schedule as the basis for weekly TA check-ins.
 
+## Process Deliverables on Canvas
+
+Canvas posted the recurring Process items on 2026-09-27. They are all in the "Group Project:
+Process" group, which is **8% of the final grade**. Each opens a week before it is due, and every
+one is due at **5:00 PM ET**. Group deliverables take **no late submissions**.
+
+| Due | Peer Evaluation (5 pts) | TA Meeting (5 pts) | Sprint Report + Retro (7.5 pts) |
+| --- | --- | --- | --- |
+| Fri 2026-10-16 | Week 6 | Week 6 | — |
+| Fri 2026-10-30 | Week 8 | Week 8 | Sprint 0 |
+| Fri 2026-11-06 | Week 9 | Week 9 | Sprint 1 |
+| Fri 2026-11-13 | Week 10 | Week 10 | — |
+| Fri 2026-11-20 | Week 11 | Week 11 | Sprint 2 |
+| **Mon** 2026-11-30 | Week 12 | Week 12 | — |
+| Fri 2026-12-04 | Week 13 | Week 13 | Sprint 3 |
+
+That comes to 14 items at 5 points and 4 at 7.5, or 100 points. Week 7 has no items.
+
+- Week 12's items are due on a **Monday**, the one exception to the Friday pattern. It covers
+  the November break, so it's easy to miss.
+- Each sprint report is due the day its sprint ends (see [[#Sprints]]), and on the same day as
+  that week's peer evaluation and TA meeting.
+- Week 9 (Nov 6) stacks Sprint 1's report on top of the **exam week**.
+- The Week 6 items are due the same day as the [[Preliminary Project Plan (tp2)]].
+
+Use the `Sprint Report Template.docx` from Canvas Files for the sprint reports.
+
 ## Software Development Process
 
 Expected throughout: pull requests and code reviews for regular commits, roughly equal division of labor, regular progress reports / sprint retrospectives, and honest feedback on individual and team surveys.

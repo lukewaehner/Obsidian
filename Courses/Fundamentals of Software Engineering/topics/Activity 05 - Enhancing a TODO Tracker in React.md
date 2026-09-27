@@ -9,17 +9,20 @@ tags:
 type: activity
 course: "[[Fundamentals of Software Engineering]]"
 module: 5
+due: 2026-10-01
 status: raw
 ---
 # Activity 05 — Enhancing a TODO Tracker in React
 
 In-class activity for [[Module 05 - React Basics]].
 
-> [!warning] No Canvas assignment yet, so no due date
-> As of 2026-09-24 Canvas has no Module 5 activity. Earlier activities were **10-point Canvas
-> assignments** in the 10% participation group, due a day or so after the lecture, and
-> **attendance was required for credit** in Bhutta's sections. Expect the same here. Set `due:`
-> when the Canvas assignment appears.
+> [!danger] Graded on Canvas — 10 points, due Thu 2026-10-01, 5:00 PM ET
+> [Open in Canvas](https://northeastern.instructure.com/courses/260680/assignments/3218520). Part
+> of the 10% participation group. **Individual submission** in Bhutta's sections: you may discuss
+> it with your group, but each person submits their own zip.
+> **Attendance is required to get credit.**
+
+- [ ] Submit Activity 05 - Enhancing a TODO Tracker in React 📅 2026-10-01
 
 > [!info] Source
 > <https://neu-se.github.io/CS4530-Fall-2026/Activities/Module05%20Activity/>, retrieved

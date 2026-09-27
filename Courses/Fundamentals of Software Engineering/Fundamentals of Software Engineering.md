@@ -18,7 +18,8 @@ semester_start: 2026-09-07
 > Mirrored from <https://neu-se.github.io/CS4530-Fall-2026/> as of 2026-09-13; Canvas checked
 > 2026-09-20. Modules 1–4, Week 1 tutorials, and IP1 are published; Modules 3 and 4 are scaffolds
 > awaiting lecture notes. Module 5 (React), its activity, and the week-3 React tutorial added
-> 2026-09-24.
+> 2026-09-24. Canvas re-synced 2026-09-27: IP2 spec published, activities 4 and 5 posted, and the
+> team-project Process items (peer evaluations, TA meetings, sprint reports) scheduled.
 
 > [!warning] The module activities are graded, and attendance gates the credit
 > Canvas carries each in-class activity as a **10-point assignment** with its own deadline — they
@@ -28,9 +29,12 @@ semester_start: 2026-09-07
 > | Activity | Due | Submit as | Status |
 > | --- | --- | --- | --- |
 > | [[Activity 01 - User Stories and Conditions of Satisfaction\|Module 1: Requirements]] | 2026-09-14, 5:00 PM | one per group, name partners | submitted |
-> | [[Activity 02 - Test-Driven Development\|Module 2: TDD]] | 2026-09-17, 5:00 PM | individually | **not submitted** |
+> | [[Activity 02 - Test-Driven Development\|Module 2: TDD]] | 2026-09-17, 5:00 PM | individually | 10/10 |
+> | [[Activity 03 - Mutation Testing with Stryker\|Module 3: Stryker]] | 2026-09-21, 5:00 PM | one per group, name partners | submitted 09-21 |
+> | [[Activity 04 - Modifying the Persistent Server\|Module 4: Persistent server]] | 2026-09-25, 5:00 PM | one per group, name partners | **not submitted, past the late window** |
+> | [[Activity 05 - Enhancing a TODO Tracker in React\|Module 5: React]] | 2026-10-01, 5:00 PM | individually | open |
 >
-> [[Activity 03 - Mutation Testing with Stryker]] has no Canvas assignment yet. These notes carry
+> These notes carry
 > `type: activity`, so they do not appear in [[CS4530 Assignments.base|CS4530 Assignments]] — add
 > `type == "activity"` to the base's filters if you want them in the tracker.
 
@@ -140,15 +144,17 @@ deadline. Use the regrade mechanism, not Piazza or email to your TA.
 
 | Due | Deliverable |
 | --- | --- |
-| Wed 2026-09-23, 5:00pm ET | [[Individual Project 1]] |
-| Fri 2026-10-02, 5:00pm ET | [[Team Formation Survey (tp1)]] |
+| Wed 2026-09-23, 5:00pm ET | [[Individual Project 1]] (Canvas says 1:00 PM) |
+| Thu 2026-10-01, 5:00pm ET | [[Activity 05 - Enhancing a TODO Tracker in React\|Module 5 Activity]] |
+| Fri 2026-10-02, 5:00pm ET | [[Team Formation Survey (tp1)]] (opens Mon 09-28, 12:00 PM) |
 | Week of 2026-10-05 | Project kick-off meeting with Mentor TA |
-| Wed 2026-10-07, 5:00pm ET | [[Individual Project 2]] |
-| Fri 2026-10-16, 5:00pm ET | [[Preliminary Project Plan (tp2)]] |
+| Wed 2026-10-07, **1:00pm** ET | [[Individual Project 2]]. Canvas says 1:00 PM and the syllabus says 5:00 PM, so aim for 1 |
+| Fri 2026-10-16, 5:00pm ET | [[Preliminary Project Plan (tp2)]] + Week 6 peer eval and TA meeting |
 | Wed 2026-10-21, 5:00pm ET | [[Individual Project 3]] |
 | Week 9, Nov 4–6 | **Exam** (20%) — exact per-section date TBD, check the calendar |
-| Fri 2026-10-30, 5:00pm ET | [[Revised Project Plan (tp3)]] |
-| Fri 2026-12-04, 5:00pm ET | [[Project Final Deliverable (tp4)]] |
+| Fri 2026-10-30, 5:00pm ET | [[Revised Project Plan (tp3)]] + Sprint 0 report |
+| Fri 2026-11-06 → Mon 2026-11-30 | Weekly peer evals, TA meetings, sprint reports; see [[Team Project Overview#Process Deliverables on Canvas]] |
+| Fri 2026-12-04, 5:00pm ET | [[Project Final Deliverable (tp4)]] + Sprint 3 report |
 | Mon 2026-12-14, 5:00pm ET | [[Individual Reflection (tp5)]] |
 
 Full week-by-week breakdown per section: [[CS4530 Course Schedule]].
@@ -178,11 +184,13 @@ reference/    schedule, staff, policies, style guide
 ### Activities
 - [[Activity 01 - User Stories and Conditions of Satisfaction]]
 - [[Activity 02 - Test-Driven Development]]
+- [[Activity 03 - Mutation Testing with Stryker]]
+- [[Activity 04 - Modifying the Persistent Server]] — `persistentService.spec.ts`; scaffold
 - [[Activity 05 - Enhancing a TODO Tracker in React]] — numeric priority, sort, bulk delete; zip upload
 
 ### Assignments
 - [[Individual Project 1]] — Connect4, Tic-Tac-Toe coverage, user service bugs, auth refactor
-- [[Individual Project 2]] — not yet published
+- [[Individual Project 2]] — profile navigation, "you" references, Checkers frontend, kings and multi-captures
 - [[Individual Project 3]] — not yet published
 - [[Team Project Overview]] — team formation through final demo
 - [[Team Formation Survey (tp1)]] · [[Preliminary Project Plan (tp2)]] · [[Revised Project Plan (tp3)]] · [[Project Final Deliverable (tp4)]] · [[Individual Reflection (tp5)]]
@@ -232,6 +240,7 @@ Inspired by SE courses at Columbia (COMS W4156), CMU ([17-313](https://cmu-313.g
 	- [[Activity 01 - User Stories and Conditions of Satisfaction]]
 	- [[Activity 02 - Test-Driven Development]]
 	- [[Activity 03 - Mutation Testing with Stryker]]
+	- [[Activity 04 - Modifying the Persistent Server]]
 	- [[Activity 05 - Enhancing a TODO Tracker in React]]
 	- [[Module 01 - Orientation and User Stories]]
 	- [[Module 02 - From Requirements to Tests]]
