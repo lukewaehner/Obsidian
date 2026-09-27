@@ -4,218 +4,287 @@ tags:
   - courses
   - northeastern
 type: weekly
-week_start: 2026-09-21
-week_end: 2026-09-27
-generated: 2026-09-21
+week_start: 2026-09-28
+week_end: 2026-10-04
+generated: 2026-09-27
 status: raw
 ---
-# Week of Mon Sep 21 — Sun Sep 27, 2026
+# Week of Mon Sep 28 — Sun Oct 4, 2026
 
 > [!abstract] Window
-> Mon 2026-09-21 → Sun 2026-09-27 23:59 ET · five active courses
+> Mon 2026-09-28 → Sun 2026-10-04 23:59 ET · five active courses · Canvas synced 2026-09-27
 > Regenerate with `/courses:summary`. Overwritten each run; history is in git.
 
 ## Do First
 
-1. **Be in CS 4530 today at 11:45.** [[Activity 03 - Mutation Testing with Stryker]] is done in
-   class and due 5:00pm the same day, and attendance is required for credit — doing the work from
-   home scores zero. Nothing else this week is unrecoverable; this is.
-2. **[[Individual Project 1]], started tonight, submitted before Wed 5:00pm.** 100 points, one of
-   three equally weighted individual projects in a 30% bucket — the largest graded item of the
-   week. The CI gate means finishing the code is not finishing the assignment.
-3. **LockDown Browser installed and tested by Thursday.** A 0%-weight task guarding a 28%-weight
-   bucket behind a 16-minute, one-attempt window on Friday.
+1. **ORGB3201: settle the group case with your team on Monday.** If the team takes Cynthia
+   Carroll, the report (10% of the grade) is due that same day. If nobody decides, the team
+   drifts into the one case that is due first without having chosen it.
+2. **ENGW3302: start Assignment 1 on Monday, not Wednesday.** It needs 7 annotated objects, an
+   Archivist's Note, and a 1–2 page memo, roughly 2,000 words. It is 3 of 31 course points,
+   where one point is one grade step. The same email is your draft for Thursday's workshop, which
+   is worth another point.
+3. **CS4730: open Homework 1 on Gradescope by Tuesday.** It is 7.5% of the course and due
+   Friday, and nobody has sized it yet. Friday already holds FINA Quiz 2 and the CS4530 team
+   survey.
 
-## Monday — Sep 21
+## Monday — Sep 28
 
-### ENGW3302 · Week 03 — Discourse Communities
+### ENGW3302 · Week 04 — Archives, DJing, and Metadata
 
-`10:30–11:35 · International Village 018 · Lecture — Genre`
+`10:30–11:35 · DJing and technical communication activity`. One unit covers three classes, so
+each reading gets done once, before the first class that uses it.
 
-All three readings cover the whole Week 03 unit — Wednesday and Thursday reuse them, so this is
-the only time they need reading. PDFs are in
-`~/Documents/Northeastern/fall-2026/advanced-writing-in-tech/week-3/` (35 pages).
+- [ ] Read Del Hierro, "DJs, Playlists, and Community" 📅 2026-09-27
+- [ ] Assignment 1: pick the discourse community, the theme, and the 7 objects 📅 2026-09-28
 
-- [x] Read Swales, "The Concept of a Discourse Community" 📅 2026-09-21 ✅ 2026-09-21
-- [x] Read Schryer, "The Lab vs. the Clinic" 📅 2026-09-21 ✅ 2026-09-21
-- [ ] Read the *Evocative Objects* excerpt — Turkle intro, Yee's "The Archive", Piaget 📅 2026-09-21
+Notes go in [[Week 04 - Archives, DJing, and Metadata]].
 
-Lecture notes go in [[Week 03 - Discourse Communities]]. Per-reading notes are written:
-[[Reading - Swales, The Concept of a Discourse Community]] ·
-[[Reading - Schryer, The Lab vs the Clinic]] ·
-[[Reading - Turkle and Yee, Evocative Objects]]
+### CS4530 · Module 6 — React Pt 2 (Hooks)
 
-### CS4530 · Module 04 — Design Patterns for Web Applications
+`11:45–1:25 · West Village G 104 · Section 01`. From [[CS4530 Course Schedule]]. No Module 06
+note exists yet, so create one for lecture notes. Hooks are what IP2's Checkers task runs on.
 
-`11:45–1:25 · West Village G 104 · Section 01`
+- [ ] Attend Module 6 (React hooks) 📅 2026-09-28
 
-- [x] Attend — [[Activity 03 - Mutation Testing with Stryker]] is graded on attendance 📅 2026-09-21 ✅ 2026-09-21
+### CS4530 · Activity 04 — missed
 
-Lecture notes go in [[Module 04 - Design Patterns for Web Applications]].
+Canvas shows no submission, and the 24-hour late window closed Saturday. The assignment was not
+on Canvas at the Sep 25 sync on the morning it was due.
 
-### CS4530 · Activity 03 — Mutation Testing with Stryker, due 5:00pm
+- [ ] Confirm on Canvas whether a group submission lists you; if not, ask Bhutta about Activity 04 📅 2026-09-28
 
-10 points, in the 10% participation bucket. Submit `additional.spec.ts` on Canvas, one submission
-per group, **naming your partners in a comment**. Instructions live on the course site, not on
-Canvas — the Canvas assignment only links out to the Module 3 page.
+See [[Activity 04 - Modifying the Persistent Server]].
 
-- [x] Submit `additional.spec.ts` with partners named in a comment 📅 2026-09-21 ✅ 2026-09-21
+### CS4530 · Team Formation Survey opens 12:00 PM
 
-Write it up in [[Activity 03 - Mutation Testing with Stryker]].
+0 points, but it is your only input before instructors assign your team for the 40%
+project. It takes five minutes, so don't leave it for Friday.
 
-### CS4530 · Individual Project 1 — start tonight
+- [ ] Fill in teammate preferences 📅 2026-09-28
 
-Due Wednesday, but the CI gate makes this a two-evening job, not a Wednesday-afternoon one.
+See [[Team Formation Survey (tp1)]].
 
-- [x] Confirm Pawtograder ↔ GitHub org link is live (enrollments sync hourly) 📅 2026-09-21 ✅ 2026-09-21
-- [x] IP1 — first pass through the GameNite codebase 📅 2026-09-21 ✅ 2026-09-21
+### ORGB3201 · Group Case Report 1 due, only if your team chose it
 
-## Tuesday — Sep 22
+A group submission. See the syllabus for the format. Worth 10% of the grade, and it is the
+team's only case.
 
-### ORGB3201 · Session 04 — Organizational Culture
+- [ ] Agree with the team on which of the three cases to write 📅 2026-09-28
+- [ ] Confirm the roster on the Section 02 tab of the teaming sheet 📅 2026-09-28
 
-`9:50–11:30 · Richards Hall 165`
+See [[Group Case Report 1 - Cynthia Carroll at Anglo American]].
 
-Three assigned readings, so this is Monday-evening work. Worth doing properly —
-[[Class Participation]] is 25 of ORGB's 100 points, the largest single component in the course.
-Case Application I is discussed in class.
+### Monday evening — for Tuesday's classes
 
-- [x] † Case: SMA — Micro-Electronic Products Division (A) 📅 2026-09-21 ✅ 2026-09-22
-- [x] # Leading by Leveraging Culture 📅 2026-09-21 ✅ 2026-09-22
-- [ ] \* Organizational Culture (textbook chapter) 📅 2026-09-21
+- [ ] ORGB3201: read and prepare the Cynthia Carroll case (packet) 📅 2026-09-28
+- [ ] CS4730: skim the Consensus slide deck; Ben-Or on p. 85 is Project 4's spec 📅 2026-09-28
+- [ ] ENGW3302: read "Metadata Guide: Metadata Basics" (CMU Library) for Wednesday 📅 2026-09-29
 
-Notes go in [[Session 04 - Organizational Culture]].
+## Tuesday — Sep 29
 
-- [x] Switch to paper notes for ORGB sessions 📅 2026-09-22 ✅ 2026-09-22
+### ORGB3201 · Session 06 — Case Application II
 
-### CS4730 · Week 03 — Time, Global States, and Failure Detectors
+`9:50–11:30 AM`. This session discusses Cynthia Carroll and closes Parts A–B. Everyone
+prepares the case, since preparation counts toward the 25-point
+[[Class Participation]] grade. Devices stay away.
 
-`11:45–1:25 · Shillman Hall 105`
+Notes go in [[Session 06 - Case Application II]].
 
-- [ ] Skim the Event Ordering slides before class 📅 2026-09-21
+### CS4730 · Week 04 — Consensus Algorithms
 
-Notes go in [[Week 03 - Time, Global States, and Failure Detectors]] — that note already has
-lecture notes from the first pass, so add to them rather than starting over.
+`11:45–1:25 · Shillman 105`. Meeting dates are derived from the Tue/Thu pattern; the course
+site doesn't date them.
 
-### FINA4335 · Topic 02 — Data Structures and Functions
+Notes go in [[Week 04 - Consensus Algorithms]].
 
-`1:35–3:15 · 231 Richards Hall`
+### FINA4335 · Topic 03 — NumPy
 
-The only Topic 02 teaching before Friday's quiz. Coverage is Part I — lists, tuples, dicts;
-Kong's notebook says explicitly *"we will ignore sets."* Part II (comprehensions, functions) is
-Friday, after the quiz.
+`1:35–3:15 PM · Richards 231`. The first NumPy lecture. The notebook is already on Canvas. Quiz 2
+covers NumPy only as far as the course has gotten, which after this class means one lecture.
 
-- [x] Note which Part I material Kong emphasizes — that is the quiz scope 📅 2026-09-22 ✅ 2026-09-21
+- [ ] CS4730: open Homework 1 on Gradescope; note the cutoff time and size the work 📅 2026-09-29
 
-Notes go in [[Topic 02 - Data Structures and Functions]].
+Notes go in [[Topic 03 - NumPy]].
 
-## Wednesday — Sep 23
+## Wednesday — Sep 30
 
-### CS4530 · Individual Project 1 due 5:00pm
+### ENGW3302 · Week 04 — Metadata
 
-Due **Wednesday 2026-09-23, 5:00pm ET**, submitted through Pawtograder. 100 points.
+`10:30–11:35`.
 
-Up to **25% of the total grade** can be deducted for CI failures — 5% prettier, 10% TypeScript,
-10% ESLint — and in severe cases staff may decline to grade it at all. Leave time for a green CI
-run, not just working code.
+- [ ] Read the *Data Empire* excerpt (Risam) 📅 2026-09-29
+- [ ] Watch "The Secret to Giving Great Feedback" before Thursday's workshop 📅 2026-09-30
 
-- [ ] IP1 — finish the tasks 📅 2026-09-22
-- [ ] IP1 — CI green (prettier, tsc, eslint) then submit 📅 2026-09-23
+Notes go in [[Week 04 - Archives, DJing, and Metadata]].
 
-Working notes go in [[Individual Project 1]].
+### ENGW3302 · Assignment 1 due 11:59pm ET, by email
 
-### ENGW3302 · Week 03 — class discussion and activity
+**Email Abbie and your workshop group.** Canvas is only a reminder, and the email is the
+submission. Pass/fail against the spec: 7 objects · 150–200 words each · 250–300 word
+Archivist's Note · a bolded class term in every annotation and in the note · a theme that
+runs through all of it · a 1–2 page memo, due with it.
 
-`10:30–11:35 · International Village 018`. Same unit as Monday — no new reading.
+- [ ] Draft the 7 annotations 📅 2026-09-29
+- [ ] Write the Archivist's Note and memo; check the spec and send the email 📅 2026-09-30
 
-Notes go in [[Week 03 - Discourse Communities]].
+Work in [[Assignment 1 - Discourse Community Archive]].
 
-## Thursday — Sep 24
+### Wednesday evening — the Friday crunch starts here
 
-### FINA4335 · LockDown Browser setup — gates Friday's quiz
+- [ ] FINA4335: Topic 2 Extra Practice on CodeGrade. It is due Sunday, but it's Quiz 2 prep. 📅 2026-09-30
 
-[[Quiz 1 Prep]] exists to force this install ahead of time. It is worth **0% of the grade**; its
-whole value is that a broken Respondus install discovered Friday at 1:38pm costs you the real
-quiz. Both [[Quiz 1]] and [[Quiz 1 Prep]] carry this as a task.
+See [[Topic 2 Extra Practice]]. It is after-topic practice (7% group, two lowest dropped), so
+probably an evening's work.
 
-- [ ] Install and test Respondus LockDown Browser, run the prep quiz once 📅 2026-09-24
+## Thursday — Oct 1
 
-### CS4530 · Module 05 — React Part 1
+### ENGW3302 · Peer Review Workshop 1
 
-`11:45–1:25 · West Village G 104`. No note exists for Module 05 yet — see
-[[CS4530 Course Schedule]] for the module roadmap.
+`10:30–11:35`. Worth 1 point, earned by having sent your draft on time and speaking up in the
+workshop. Read your group's drafts beforehand.
 
-### ENGW3302 · Week 03 — Archive activity
+- [ ] Read the workshop group's Assignment 1 drafts 📅 2026-10-01
 
-`10:30–11:35 · International Village 018`
+See [[Peer Review Workshops]].
 
-Susan Yee's "The Archive" is the reading that matters for this session, and the activity feeds
-[[Assignment 1 - Discourse Community Archive]] (due Wed Sep 30, just outside this window).
+### CS4530 · Module 7 — Processes & Agile
 
-Notes go in [[Week 03 - Discourse Communities]].
+`11:45–1:25 · West Village G 104`. From [[CS4530 Course Schedule]]. No Module 07 note exists yet.
+This is the sprint vocabulary the team project's process grade uses.
 
-### CS4730 · Week 03 — continued
+- [ ] Attend Module 7 (processes and agile) 📅 2026-10-01
 
-`2:50–4:30 · Shillman Hall 105`. Same unit as Tuesday.
+### CS4530 · Activity 05 due 5:00 PM ET, individual zip on Canvas
 
-Notes go in [[Week 03 - Time, Global States, and Failure Detectors]].
+10 points in the 10% participation group. You get 5 points for any 2 of the 3 enhancements and 10
+for all 3. Submit a zip of the `ToDoApp` files only, **not** `npm run zip` output (that scores 0).
+Remember that `main.tsx` mounts `SimpleClock` by default.
 
-## Friday — Sep 25
+- [ ] Numeric priority, sort button, bulk delete over N; zip and submit 📅 2026-09-30
 
-### FINA4335 · Quiz 1 — 1:38–1:59pm, in class
+See [[Activity 05 - Enhancing a TODO Tracker in React]].
 
-10 points · quizzes are **28% of the FINA grade** · 6 questions · **16-minute limit** · **one
-attempt** · answers shuffled · results hidden · Respondus LockDown Browser required.
+### CS4730 · Week 04 — Consensus Algorithms (second meeting)
 
-The quiz unlocks at 1:38pm and locks at 1:59:59pm. It runs at the *beginning* of class, so being
-a few minutes late means missing it outright. Missing a quiz caps you at 80% of the quiz score.
+`2:50–4:30 · Shillman 105`. Notes go in [[Week 04 - Consensus Algorithms]].
 
-Coverage, from Kong's list: `range`, Boolean conditions, arithmetic operators, loops and if/else
-(Topic 01) plus data structures (Topic 02 Part I).
+### FINA4335 · Quiz 2 setup — tonight, not Friday
 
-Allowed: the McKinney book online (the only permitted link, Cmd+F searchable), a **1-page,
-1-sided** cheat sheet, and a calculator.
+Quiz 1 had LockDown switched off after the fact, so it didn't prove your install works. Quiz 2
+requires LockDown with an 18-minute limit, and there is no time to reinstall at 1:37 PM.
 
-- [ ] Write the one-page cheat sheet 📅 2026-09-24
-- [ ] Quiz 1 — be seated before 1:38 📅 2026-09-25
+- [ ] Run Quiz 2 Prep under LockDown Browser (0%, 10 attempts) 📅 2026-10-01
+- [ ] Write the 1-page, 1-sided cheat sheet: dicts, functions, comprehensions, mutability, NumPy basics 📅 2026-10-01
+- [ ] Print the relevant McKinney chapters as the no-internet fallback 📅 2026-10-01
+- [ ] ORGB3201: read "The Secrets of Great Teamwork" and the Understanding Work Teams chapter 📅 2026-10-01
 
-Record what was actually on it in [[Quiz 1]].
+See [[Quiz 2 Prep]].
 
-### ORGB3201 · Session 05 — Organizational Change
+## Friday — Oct 2
 
-`9:50–11:30 · Richards Hall 165`. One reading, so Thursday evening.
+### ORGB3201 · Session 07 — Team Framework and Processes
 
-- [x] # Leading Change: Why Transformation Efforts Fail 📅 2026-09-24 ✅ 2026-09-22
+`9:50–11:30 AM`. Part C, Team Management, begins.
 
-Notes go in [[Session 05 - Organizational Change]].
+Notes go in [[Session 07 - Team Framework and Processes]].
+
+### FINA4335 · Quiz 2, in class 1:37–2:00 PM
+
+`1:35–3:15 PM · Richards 231`. 10 points, one of four quizzes in the 28% group. The lowest is
+dropped, and Quiz 1 was 10/10, so missing this one spends the drop. 5 questions · 18 minutes · one
+attempt · LockDown Browser · the last questions are on paper. Get there on time, since the window
+closes at 2:00 whether or not you started.
+
+- [ ] Take Quiz 2 with laptop charged, cheat sheet, calculator, and printed chapters 📅 2026-10-02
+
+See [[Quiz 2]]. Notes go in [[Topic 03 - NumPy]].
+
+### CS4730 · Homework 1 due, Gradescope
+
+The time is on Gradescope only (the Docker Tutorial's cutoff was 11:59:59 PM). No LLMs. Slip days
+apply: 6 for the term, 20% off per late day once they run out.
+
+- [ ] Finish and submit Homework 1 📅 2026-10-01
+
+See [[Homework 1]].
+
+### CS4530 · Team Formation Survey closes 5:00 PM ET
+
+If you did it Monday, there's nothing left to do. See [[Team Formation Survey (tp1)]].
+
+## Saturday — Oct 3
+
+### CS4530 · Individual Project 2 head start
+
+Not due this week (Wed Oct 7, **1:00 PM** per Canvas). It is 100 points with a CI gate. Two
+tasks are refactors graded on style, and a Checkers frontend follows. Starting it Monday night
+would be too late.
+
+- [ ] Accept IP2 in Pawtograder, `npm install`, set up MongoDB and `server/.env` 📅 2026-10-03
+- [ ] IP2 Tasks 1–3: profile links, read-only profile view, "you" everywhere 📅 2026-10-04
+
+See [[Individual Project 2]].
+
+## Sunday — Oct 4
+
+### FINA4335 · HW1 due 11:59pm ET, CodeGrade
+
+100 points. Homework is 10% of the grade across three assignments. The rubric is in CodeGrade and
+there is no spec in the vault, so the scope is unknown until you open it. Submissions are
+unlimited until the deadline.
+
+- [ ] Open HW1 in CodeGrade and read the rubric 📅 2026-10-02
+- [ ] Finish and submit HW1 📅 2026-10-04
+
+See [[HW1]].
+
+### FINA4335 · DataCamp Assignment 1 due 11:59pm ET, Canvas upload
+
+20 points in the 5% DataCamp group. It needs a completed course's PDF plus a screenshot showing
+**≥3000 XP**. Your current XP isn't recorded, so the workload could be anywhere from nothing to
+several hours.
+
+- [ ] Check DataCamp XP; finish a course if short 📅 2026-10-03
+- [ ] Upload the completion PDF and XP screenshot 📅 2026-10-04
+
+See [[DataCamp Assignment 1]].
+
+### FINA4335 · Topic 2 Extra Practice due 11:59pm ET
+
+Should already be done from Wednesday. See [[Topic 2 Extra Practice]].
 
 ## Overdue
 
-Nothing. Activities 01 and 02 are both submitted and graded 10/10.
+- **CS4530 · Activity 04** (due Sep 25): genuinely missed, and the note has the details. See Monday.
+- **CS4530 · Individual Project 1** (due Sep 23): the box is unticked. Canvas shows "unsubmitted",
+  which is normal for Pawtograder work. If you pushed to `main` with green CI, tick it in
+  [[Individual Project 1]].
+- **FINA4335 · Quiz 1 Prep** (due Sep 25): done. It scored 9.5/14 in a 0% group. The report lists
+  it only because the note's checkbox text doesn't match its title. See Flags.
 
 ## No Due Date
 
-CS 4730's six projects still have no published deadlines — see [[Distributed Systems]] and
-re-check [4730.network](https://4730.network/docs/projects/). ENGW's [[Peer Review Workshops]]
-and [[Presentation]] are also undated; the presentation slots are Oct 5/7/8.
+CS4730's six projects still have no Fall 2026 dates on the course site, and ENGW3302's
+presentation is undated. The work is coming, just unscheduled.
 
 ## Flags
 
-- **[[Fundamentals of Software Engineering]] contradicts its own activity notes.** The MOC's
-  activity table lists Activity 02 as "not submitted" (the note records it submitted 2026-09-17
-  at 4:20pm, graded 10/10) and says Activity 03 "has no Canvas assignment yet" (it now has one,
-  id 3218519, due 5:00pm today). The notes look right and the MOC looks stale — worth a
-  `/courses:sync` pass.
-- **No CS 4530 class days come out of the report.** No CS 4530 topic note carries a
-  `## Meetings` section, so Monday's and Thursday's classes above were filled in by hand from
-  [[CS4530 Course Schedule]] (Section 01, Mon & Thu 11:45–1:25). Adding `## Meetings` to the
-  module notes would close the gap permanently.
-- **Quiz 1 tests Topic 02 before Topic 02 finishes being taught.** Tuesday is the only Topic 02
-  session before Friday's quiz; Part II lands after it. Tuesday's class is the only signal for
-  which Part I material is in scope.
-- **[[Quiz 1 Prep]] has two due dates in play.** Frontmatter and the warning callout say Fri
-  2026-09-25 1:35pm; the same callout says the quiz closes Sun 2026-09-27 11:59pm. Both come
-  from Canvas. Harmless at 0% weight, but the note says two things.
+- **IP2 deadline.** Canvas says 1:00 PM ET on Oct 7; the syllabus says 5:00 PM. IP1 had the
+  same mismatch. This plan uses 1:00 PM. Worth one Piazza question.
+- **CS4530 module notes out of date.** [[Module 04 - Design Patterns for Web Applications]] and
+  [[Module 05 - React Basics]] still say IP1 and IP2 are due at 5:00 PM. Both have uncommitted
+  edits of yours, so the sync left them alone.
+- **CS4530 has no `## Meetings` sections**, so this week's class days came from
+  [[CS4530 Course Schedule]]. There are no Module 06 or 07 notes yet.
+- **Activity 05 attendance.** It requires attendance for credit and is tied to Module 5 (Sep 24).
+  Whether any in-class piece remains this week isn't recorded.
+- **Stale callout.** [[Topic 2 Extra Practice]] still calls itself prep for Quiz 1 on Sep 25.
+  It is now Quiz 2 prep. Leave it for the next `/courses:sync`.
+- **Quiz 1 Prep reads as overdue.** Its checkbox mirrors the LockDown task, not the note title,
+  so the report can't tell it's closed. Setting `status: done` in the note would fix that.
+- **Unknown scope.** FINA HW1 (spec in CodeGrade), CS4730 HW1 (spec on Gradescope), and
+  DataCamp XP can't be sized from the vault.
 
 ## Related
 
