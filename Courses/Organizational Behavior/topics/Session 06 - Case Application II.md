@@ -24,7 +24,7 @@ Lecture for [[Organizational Behavior]].
 
 ## Assigned Material
 
-- [ ] † Case: Cynthia Carroll at Anglo American
+- [ ] † Case: Cynthia Carroll at Anglo American: [[Case - Cynthia Carroll at Anglo American (A)]]
 
 ## Due This Session
 
