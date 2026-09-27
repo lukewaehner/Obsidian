@@ -26,7 +26,7 @@ Assignment for [[Computational Methods in Finance]]. Prep for [[Quiz 1]].
 > of class** on Fri 2026-09-25 — discovering a broken Respondus install then costs the real quiz.
 > Do this before Friday even if you skip the questions.
 
-- [ ] Install Respondus LockDown Browser and complete Quiz 1 Prep 📅 2026-09-24
+- [x] Install Respondus LockDown Browser and complete Quiz 1 Prep 📅 2026-09-24 ✅ 2026-09-25
 
 ## Kong's Note
 
@@ -56,6 +56,10 @@ as additional test prep.
 
 | Attempt | Date | Score | What I missed |
 | ------- | ---- | ----- | ------------- |
+| latest on Canvas | 2026-09-25, 12:19pm | 9.5 / 14, pending review | |
+
+The score is still "pending review" because the written question needs manual grading. It counts
+for nothing either way, since the group is weighted 0%.
 
 ## Weak Spots
 

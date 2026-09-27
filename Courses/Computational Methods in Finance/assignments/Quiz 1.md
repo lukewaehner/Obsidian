@@ -14,10 +14,15 @@ status: raw
 
 # Quiz 1
 
-> [!danger] In class Fri Sep 25, **1:38–1:59pm ET** · 10 points · quizzes are 28% of the grade
-> [Open in Canvas](https://northeastern.instructure.com/courses/263536/quizzes/796860). **Requires Respondus LockDown Browser.**
-> 6 questions · **16-minute limit** · **one attempt** · answers shuffled · results hidden after submission.
-> The quiz unlocks at 1:38pm and locks at 1:59:59pm — it runs at the *beginning* of class, so being late means missing it.
+> [!success] Graded — **10/10** · Fri Sep 25, in class · quizzes are 28% of the grade
+> [Open in Canvas](https://northeastern.instructure.com/courses/263536/quizzes/796860). Canvas
+> now titles it "solution available", so the worked solution is up for review.
+> 6 questions · one attempt. The quiz was scheduled for 1:38–1:59pm with a 16-minute limit and
+> LockDown Browser. After the fact, Canvas shows the lock moved to **2:40pm**, the limit raised to
+> **25 minutes**, and **LockDown Browser switched off**. The Quiz 2 prep text mentions "the
+> internet problem", which suggests a connectivity failure in class forced the change.
+> The Canvas description now also reads "lowest grade =80%". That is most likely the class's
+> lowest score, not a policy. See [[Computational Methods in Finance#Grading]] for the drop rule.
 
 Exam for [[Computational Methods in Finance]].
 
@@ -32,8 +37,8 @@ Exam for [[Computational Methods in Finance]].
 > Syllabus format: 5 multiple-choice/multiple-answer questions plus one written question, ~15 minutes.
 > No AI tools during quizzes.
 
-- [ ] Quiz 1 📅 2026-09-25
-- [ ] Install and test Respondus LockDown Browser via [[Quiz 1 Prep]] 📅 2026-09-24
+- [x] Quiz 1 📅 2026-09-25 ✅ 2026-09-25
+- [x] Install and test Respondus LockDown Browser via [[Quiz 1 Prep]] 📅 2026-09-24 ✅ 2026-09-25
 
 ## Topics Covered
 
@@ -66,6 +71,9 @@ doesn't name them here. Presumably he said so in class (Tue 2026-09-22), and you
 
 
 ## What Was Actually On It
+
+Scored 10/10. The last questions were on paper. Kong says Quiz 2 does the same "for security
+reason".
 
 
 ## Related

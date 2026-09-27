@@ -68,8 +68,8 @@ documented reason Kong accepts gets it scored at 80% of your quiz score — that
 | --- | --- |
 | Sun 2026-09-20 | [[DataCamp Classroom Enrollment]] |
 | Thu 2026-09-24 | [[Topic 1 Extra Practice]] — *extended from Sep 20* |
-| Fri 2026-09-25 | [[Quiz 1]] (in class, 1:38–1:59pm, LockDown Browser) · [[Quiz 1 Prep]] (practice, 0%) |
-| Fri 2026-10-02 | [[Quiz 2]] (in class) |
+| Fri 2026-09-25 | [[Quiz 1]]: **10/10** · [[Quiz 1 Prep]] (practice, 0%): 9.5/14 |
+| Fri 2026-10-02 | [[Quiz 2]] (in class, 1:37–2:00pm, 18 min, LockDown Browser) · [[Quiz 2 Prep]] (practice, 0%, open to Oct 4) |
 | Sun 2026-10-04 | [[HW1]] · [[DataCamp Assignment 1]] · [[Topic 2 Extra Practice]] — *extended from Sep 27* |
 | Fri 2026-10-16 | [[Exam 1]] (in class) |
 | Sun 2026-10-18 | [[Topics 3-4 Extra Practice]] · [[Group Project Sign-Up]] |
@@ -109,7 +109,8 @@ topics/       one note per topic, with its class meetings
 
 ## Canvas Files
 
-*As of 2026-09-20.*
+*As of 2026-09-27.* Canvas renamed the "Lecture notes" module to **"Notes: python basics"** and
+added a **"Notes: numpy"** module.
 
 - `FINA 4335_Syllabus_Fall 2026_Kong.pdf`
 - `FINA 4335_Course introduction-Fall 2026.pdf`
@@ -121,7 +122,11 @@ topics/       one note per topic, with its class meetings
 - **`with solution/`** — new folder, added 2026-09-20. Currently holds
   `Topic 1 Python Language Basics-Part I-with Solution.pdf` and (first seen 2026-09-25)
   `Topic 1_ Python Language Basics-Part II-with Solution.pdf`. Worked solutions to the topic
-  notebooks land here; check it before [[Quiz 1]].
+  notebooks land here. First seen 2026-09-27: `Topic 2 Built-in Data Structures and
+  Functions-Part I-with Solution.pdf` and `…-Part II-with solution.pdf`. Those two cover all of
+  [[Quiz 2]] except NumPy.
+- `Topic 3 NumPy Basics.ipynb` / `Topic 3 - NumPy Basics.pdf` — first seen 2026-09-27, before
+  the Sep 29 lecture
 
 ---
 
@@ -142,6 +147,7 @@ topics/       one note per topic, with its class meetings
 	- [[HW3]]
 	- [[Quiz 1 Prep]]
 	- [[Quiz 1]]
+	- [[Quiz 2 Prep]]
 	- [[Quiz 2]]
 	- [[Quiz 3]]
 	- [[Quiz 4]]

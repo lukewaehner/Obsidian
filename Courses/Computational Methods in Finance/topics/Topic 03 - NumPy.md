@@ -28,6 +28,13 @@ Lecture for [[Computational Methods in Finance]].
 - [[HW1]] — Oct 4
 - [[DataCamp Assignment 1]] — Oct 4
 
+## Materials
+
+Posted to Canvas before the first lecture, first seen 2026-09-27, under the new "Notes: numpy"
+module:
+
+- `Topic 3 NumPy Basics.ipynb` / `Topic 3 - NumPy Basics.pdf`
+
 ## Notes
 
 
