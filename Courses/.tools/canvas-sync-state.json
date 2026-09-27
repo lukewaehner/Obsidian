@@ -6,7 +6,7 @@
   "FINA4335": "Computational Methods in Finance",
   "ORGB3201": "Organizational Behavior"
  },
- "last_sync": "2026-09-25T05:31:30+00:00",
+ "last_sync": "2026-09-27T22:12:14+00:00",
  "snapshots": {
   "CS4530": {
    "announcements:3340891": {
@@ -81,7 +81,7 @@
    "assignments:3218519": {
     "_body": "9bdfbe17cc425e35",
     "_score": null,
-    "_state": "unsubmitted",
+    "_state": "submitted",
     "allowed_extensions": null,
     "due_at": "2026-09-21T21:00:00Z",
     "lock_at": null,
@@ -94,6 +94,41 @@
      "online_upload"
     ],
     "unlock_at": null
+   },
+   "assignments:3218520": {
+    "_body": "3ecc1964588a9d03",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": [
+     "zip"
+    ],
+    "due_at": "2026-10-01T21:00:00Z",
+    "lock_at": null,
+    "name": "Module 5 Activity: React",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_text_entry",
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3218531": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-30T21:00:00Z",
+    "lock_at": null,
+    "name": "Sprint Reports and Retrospectives (Sprint 0)",
+    "omit_from_final_grade": false,
+    "points_possible": 7.5,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": "2026-10-23T04:00:00Z"
    },
    "assignments:3218535": {
     "_body": null,
@@ -109,10 +144,42 @@
     "submission_types": [
      "none"
     ],
-    "unlock_at": "2026-09-30T16:00:00Z"
+    "unlock_at": "2026-09-28T16:00:00Z"
+   },
+   "assignments:3218536": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-16T21:00:00Z",
+    "lock_at": null,
+    "name": "Week6: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-10-09T04:00:00Z"
+   },
+   "assignments:3218537": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-16T21:00:00Z",
+    "lock_at": null,
+    "name": "Week6: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-10-09T04:00:00Z"
    },
    "assignments:3489293": {
-    "_body": "5335a6753de3f111",
+    "_body": "6459870b2b3130d4",
     "_score": null,
     "_state": "unsubmitted",
     "allowed_extensions": null,
@@ -126,6 +193,279 @@
      "external_tool"
     ],
     "unlock_at": null
+   },
+   "assignments:3505653": {
+    "_body": "b98831d41d462541",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-09-25T21:00:00Z",
+    "lock_at": null,
+    "name": "Module 4 Activity: Modifying the Persistent Server",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_text_entry",
+     "online_upload"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3510209": {
+    "_body": "9fb01834c023cfab",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-07T17:00:00Z",
+    "lock_at": null,
+    "name": "Individual Project 2",
+    "omit_from_final_grade": false,
+    "points_possible": 0.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": null
+   },
+   "assignments:3512499": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-04T22:00:00Z",
+    "lock_at": null,
+    "name": "Week13: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-27T05:00:00Z"
+   },
+   "assignments:3512500": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-30T22:00:00Z",
+    "lock_at": null,
+    "name": "Week12: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-20T05:00:00Z"
+   },
+   "assignments:3512501": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-20T22:00:00Z",
+    "lock_at": null,
+    "name": "Week11: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-13T05:00:00Z"
+   },
+   "assignments:3512502": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-13T22:00:00Z",
+    "lock_at": null,
+    "name": "Week10: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-06T05:00:00Z"
+   },
+   "assignments:3512503": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-06T22:00:00Z",
+    "lock_at": null,
+    "name": "Week9: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-10-30T04:00:00Z"
+   },
+   "assignments:3512504": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-30T21:00:00Z",
+    "lock_at": null,
+    "name": "Week8: Peer Evaluations",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-10-23T04:00:00Z"
+   },
+   "assignments:3512512": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-04T22:00:00Z",
+    "lock_at": null,
+    "name": "Week13: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-27T05:00:00Z"
+   },
+   "assignments:3512513": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-30T22:00:00Z",
+    "lock_at": null,
+    "name": "Week12: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-20T05:00:00Z"
+   },
+   "assignments:3512514": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-20T22:00:00Z",
+    "lock_at": null,
+    "name": "Week11: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-13T05:00:00Z"
+   },
+   "assignments:3512515": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-13T22:00:00Z",
+    "lock_at": null,
+    "name": "Week10: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-11-06T05:00:00Z"
+   },
+   "assignments:3512516": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-06T22:00:00Z",
+    "lock_at": null,
+    "name": "Week9: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-10-30T04:00:00Z"
+   },
+   "assignments:3512517": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-30T21:00:00Z",
+    "lock_at": null,
+    "name": "Week8: TA Meeting",
+    "omit_from_final_grade": false,
+    "points_possible": 5.0,
+    "published": true,
+    "submission_types": [
+     "none"
+    ],
+    "unlock_at": "2026-10-23T04:00:00Z"
+   },
+   "assignments:3512520": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-12-04T22:00:00Z",
+    "lock_at": null,
+    "name": "Sprint Reports and Retrospectives (Sprint 3)",
+    "omit_from_final_grade": false,
+    "points_possible": 7.5,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": "2026-11-27T05:00:00Z"
+   },
+   "assignments:3512522": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-20T22:00:00Z",
+    "lock_at": null,
+    "name": "Sprint Reports and Retrospectives (Sprint 2)",
+    "omit_from_final_grade": false,
+    "points_possible": 7.5,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": "2026-11-13T05:00:00Z"
+   },
+   "assignments:3512523": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-11-06T22:00:00Z",
+    "lock_at": null,
+    "name": "Sprint Reports and Retrospectives (Sprint 1)",
+    "omit_from_final_grade": false,
+    "points_possible": 7.5,
+    "published": true,
+    "submission_types": [
+     "online_upload"
+    ],
+    "unlock_at": "2026-10-30T04:00:00Z"
    },
    "files:41722683": {
     "display_name": "Sprint Report Template.docx",
@@ -198,6 +538,11 @@
     "_body": "c591ec78489dd0a3",
     "posted_at": "2026-09-16T15:57:07Z",
     "title": "Setting up "
+   },
+   "announcements:3374345": {
+    "_body": "9bebd05421bba9e6",
+    "posted_at": "2026-09-26T19:25:13Z",
+    "title": "HW 1 released; Group assignments emailed "
    },
    "assignment_groups:673598": {
     "group_weight": 0.0,
@@ -469,16 +814,6 @@
     "posted_at": "2026-09-15T17:29:01Z",
     "title": "Morning@Morgan (career event)"
    },
-   "announcements:3367570": {
-    "_body": "a5594019c4d5f5a8",
-    "posted_at": "2026-09-22T19:15:02Z",
-    "title": "reminder: quiz 1 this Friday (sept 25); last day to drop class today (sept 22)"
-   },
-   "announcements:3368483": {
-    "_body": "d392fa9a3acd8339",
-    "posted_at": "2026-09-21T19:27:22Z",
-    "title": "The only way to reschedule quiz 1"
-   },
    "assignment_groups:673190": {
     "group_weight": 7.0,
     "name": "after-topic practice-will drop 2"
@@ -516,13 +851,13 @@
     "name": "Imported Assignments"
    },
    "assignments:3273031": {
-    "_body": null,
-    "_score": null,
-    "_state": "unsubmitted",
+    "_body": "a7b7fe2d78c125dc",
+    "_score": 10.0,
+    "_state": "graded",
     "allowed_extensions": null,
     "due_at": "2026-09-25T17:57:00Z",
-    "lock_at": "2026-09-25T17:59:59Z",
-    "name": "Quiz 1-Sept 25 beginning of class- Requires Respondus LockDown Browser",
+    "lock_at": "2026-09-25T18:40:00Z",
+    "name": "Quiz 1-Sept 25 beginning of class-solution available",
     "omit_from_final_grade": false,
     "points_possible": 10.0,
     "published": true,
@@ -533,8 +868,8 @@
    },
    "assignments:3273431": {
     "_body": "d5d534e688adbb39",
-    "_score": null,
-    "_state": "unsubmitted",
+    "_score": 9.5,
+    "_state": "pending_review",
     "allowed_extensions": null,
     "due_at": "2026-09-25T17:35:00Z",
     "lock_at": "2026-09-28T03:59:59Z",
@@ -641,6 +976,38 @@
     ],
     "unlock_at": "2026-09-01T13:30:00Z"
    },
+   "assignments:3397001": {
+    "_body": null,
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-02T17:57:00Z",
+    "lock_at": "2026-10-02T18:00:00Z",
+    "name": "Quiz 2- Oct 2 beginning of class- Requires Respondus LockDown Browser",
+    "omit_from_final_grade": false,
+    "points_possible": 10.0,
+    "published": true,
+    "submission_types": [
+     "online_quiz"
+    ],
+    "unlock_at": "2026-10-02T17:37:00Z"
+   },
+   "assignments:3465061": {
+    "_body": "a5c476ec483459e9",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-05T03:59:59Z",
+    "lock_at": "2026-12-14T04:59:59Z",
+    "name": "HW1",
+    "omit_from_final_grade": false,
+    "points_possible": 100.0,
+    "published": true,
+    "submission_types": [
+     "external_tool"
+    ],
+    "unlock_at": "2026-09-25T04:00:00Z"
+   },
    "assignments:3502738": {
     "_body": "b85ef3f3732838e6",
     "_score": null,
@@ -663,6 +1030,22 @@
      "online_upload"
     ],
     "unlock_at": null
+   },
+   "assignments:3512301": {
+    "_body": "64fe129d0f34c9b2",
+    "_score": null,
+    "_state": "unsubmitted",
+    "allowed_extensions": null,
+    "due_at": "2026-10-02T17:35:00Z",
+    "lock_at": "2026-10-05T03:59:59Z",
+    "name": "Quiz 2 prep+ Lockdown browser installation- Requires Respondus LockDown Browser",
+    "omit_from_final_grade": false,
+    "points_possible": 6.5,
+    "published": true,
+    "submission_types": [
+     "online_quiz"
+    ],
+    "unlock_at": "2026-09-26T17:30:00Z"
    },
    "files:43511200": {
     "display_name": "Topic 1 Python Language Basics-Part I.ipynb",
@@ -724,10 +1107,30 @@
     "folder_id": 4678508,
     "size": 595570
    },
+   "files:44279307": {
+    "display_name": "Topic 2 Built-in Data Structures and Functions-Part II-with solution.pdf",
+    "folder_id": 4678508,
+    "size": 409829
+   },
    "files:44279333": {
     "display_name": "Topic 1_ Python Language Basics-Part II-with Solution.pdf",
     "folder_id": 4678508,
     "size": 420605
+   },
+   "files:44314798": {
+    "display_name": "Topic 3 NumPy Basics.ipynb",
+    "folder_id": 4706315,
+    "size": 56638
+   },
+   "files:44314843": {
+    "display_name": "Topic 3 - NumPy Basics.pdf",
+    "folder_id": 4706315,
+    "size": 757907
+   },
+   "files:44314857": {
+    "display_name": "Topic 2 Built-in Data Structures and Functions-Part I-with Solution.pdf",
+    "folder_id": 4678508,
+    "size": 439173
    },
    "modules:1783224": {
     "items_count": 2,
@@ -736,20 +1139,25 @@
    },
    "modules:1854386": {
     "items_count": 8,
-    "name": "Lecture notes",
+    "name": "Notes: python basics",
+    "published": null
+   },
+   "modules:1925195": {
+    "items_count": 2,
+    "name": "Notes: numpy",
     "published": null
    },
    "quizzes:796860": {
     "_body": null,
     "allowed_attempts": 1,
     "due_at": "2026-09-25T17:57:00Z",
-    "lock_at": "2026-09-25T17:59:59Z",
+    "lock_at": "2026-09-25T18:40:00Z",
     "points_possible": 10.0,
     "published": true,
     "question_count": 6,
-    "require_lockdown_browser": true,
-    "time_limit": 16,
-    "title": "Quiz 1-Sept 25 beginning of class- Requires Respondus LockDown Browser",
+    "require_lockdown_browser": false,
+    "time_limit": 25,
+    "title": "Quiz 1-Sept 25 beginning of class-solution available",
     "unlock_at": "2026-09-25T17:38:00Z"
    },
    "quizzes:796899": {
@@ -764,6 +1172,32 @@
     "time_limit": 60,
     "title": "Quiz 1 prep+ Lockdown browser installation- Requires Respondus LockDown Browser",
     "unlock_at": "2026-09-18T20:00:00Z"
+   },
+   "quizzes:816979": {
+    "_body": null,
+    "allowed_attempts": 1,
+    "due_at": "2026-10-02T17:57:00Z",
+    "lock_at": "2026-10-02T18:00:00Z",
+    "points_possible": 10.0,
+    "published": true,
+    "question_count": 5,
+    "require_lockdown_browser": true,
+    "time_limit": 18,
+    "title": "Quiz 2- Oct 2 beginning of class- Requires Respondus LockDown Browser",
+    "unlock_at": "2026-10-02T17:37:00Z"
+   },
+   "quizzes:838642": {
+    "_body": "64fe129d0f34c9b2",
+    "allowed_attempts": 10,
+    "due_at": "2026-10-02T17:35:00Z",
+    "lock_at": "2026-10-05T03:59:59Z",
+    "points_possible": 6.5,
+    "published": true,
+    "question_count": 6,
+    "require_lockdown_browser": true,
+    "time_limit": 60,
+    "title": "Quiz 2 prep+ Lockdown browser installation- Requires Respondus LockDown Browser",
+    "unlock_at": "2026-09-26T17:30:00Z"
    }
   },
   "ORGB3201": {
@@ -786,6 +1220,16 @@
     "_body": "a22d547151b98f2d",
     "posted_at": "2026-09-21T13:40:57Z",
     "title": "SMA Case Discussion"
+   },
+   "announcements:3374063": {
+    "_body": "248aabfb1ee5d9a6",
+    "posted_at": "2026-09-26T02:49:50Z",
+    "title": "Group Case Analysis"
+   },
+   "announcements:3374461": {
+    "_body": "d58fdecc64e10c86",
+    "posted_at": "2026-09-26T22:38:47Z",
+    "title": "Group Project Teaming and Cynthia Carroll Case Preparation"
    },
    "assignment_groups:728116": {
     "group_weight": 0.0,
