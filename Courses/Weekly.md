@@ -36,8 +36,8 @@ All three readings cover the whole Week 03 unit — Wednesday and Thursday reuse
 the only time they need reading. PDFs are in
 `~/Documents/Northeastern/fall-2026/advanced-writing-in-tech/week-3/` (35 pages).
 
-- [ ] Read Swales, "The Concept of a Discourse Community" 📅 2026-09-21
-- [ ] Read Schryer, "The Lab vs. the Clinic" 📅 2026-09-21
+- [x] Read Swales, "The Concept of a Discourse Community" 📅 2026-09-21 ✅ 2026-09-21
+- [x] Read Schryer, "The Lab vs. the Clinic" 📅 2026-09-21 ✅ 2026-09-21
 - [ ] Read the *Evocative Objects* excerpt — Turkle intro, Yee's "The Archive", Piaget 📅 2026-09-21
 
 Lecture notes go in [[Week 03 - Discourse Communities]]. Per-reading notes are written:
@@ -49,7 +49,7 @@ Lecture notes go in [[Week 03 - Discourse Communities]]. Per-reading notes are w
 
 `11:45–1:25 · West Village G 104 · Section 01`
 
-- [ ] Attend — [[Activity 03 - Mutation Testing with Stryker]] is graded on attendance 📅 2026-09-21
+- [x] Attend — [[Activity 03 - Mutation Testing with Stryker]] is graded on attendance 📅 2026-09-21 ✅ 2026-09-21
 
 Lecture notes go in [[Module 04 - Design Patterns for Web Applications]].
 
@@ -59,7 +59,7 @@ Lecture notes go in [[Module 04 - Design Patterns for Web Applications]].
 per group, **naming your partners in a comment**. Instructions live on the course site, not on
 Canvas — the Canvas assignment only links out to the Module 3 page.
 
-- [ ] Submit `additional.spec.ts` with partners named in a comment 📅 2026-09-21
+- [x] Submit `additional.spec.ts` with partners named in a comment 📅 2026-09-21 ✅ 2026-09-21
 
 Write it up in [[Activity 03 - Mutation Testing with Stryker]].
 
@@ -67,8 +67,8 @@ Write it up in [[Activity 03 - Mutation Testing with Stryker]].
 
 Due Wednesday, but the CI gate makes this a two-evening job, not a Wednesday-afternoon one.
 
-- [ ] Confirm Pawtograder ↔ GitHub org link is live (enrollments sync hourly) 📅 2026-09-21
-- [ ] IP1 — first pass through the GameNite codebase 📅 2026-09-21
+- [x] Confirm Pawtograder ↔ GitHub org link is live (enrollments sync hourly) 📅 2026-09-21 ✅ 2026-09-21
+- [x] IP1 — first pass through the GameNite codebase 📅 2026-09-21 ✅ 2026-09-21
 
 ## Tuesday — Sep 22
 
@@ -80,13 +80,13 @@ Three assigned readings, so this is Monday-evening work. Worth doing properly �
 [[Class Participation]] is 25 of ORGB's 100 points, the largest single component in the course.
 Case Application I is discussed in class.
 
-- [ ] † Case: SMA — Micro-Electronic Products Division (A) 📅 2026-09-21
-- [ ] # Leading by Leveraging Culture 📅 2026-09-21
+- [x] † Case: SMA — Micro-Electronic Products Division (A) 📅 2026-09-21 ✅ 2026-09-22
+- [x] # Leading by Leveraging Culture 📅 2026-09-21 ✅ 2026-09-22
 - [ ] \* Organizational Culture (textbook chapter) 📅 2026-09-21
 
 Notes go in [[Session 04 - Organizational Culture]].
 
-- [ ] Switch to paper notes for ORGB sessions 📅 2026-09-22
+- [x] Switch to paper notes for ORGB sessions 📅 2026-09-22 ✅ 2026-09-22
 
 ### CS4730 · Week 03 — Time, Global States, and Failure Detectors
 
@@ -105,7 +105,7 @@ The only Topic 02 teaching before Friday's quiz. Coverage is Part I — lists, t
 Kong's notebook says explicitly *"we will ignore sets."* Part II (comprehensions, functions) is
 Friday, after the quiz.
 
-- [ ] Note which Part I material Kong emphasizes — that is the quiz scope 📅 2026-09-22
+- [x] Note which Part I material Kong emphasizes — that is the quiz scope 📅 2026-09-22 ✅ 2026-09-21
 
 Notes go in [[Topic 02 - Data Structures and Functions]].
 
@@ -185,7 +185,7 @@ Record what was actually on it in [[Quiz 1]].
 
 `9:50–11:30 · Richards Hall 165`. One reading, so Thursday evening.
 
-- [ ] # Leading Change: Why Transformation Efforts Fail 📅 2026-09-24
+- [x] # Leading Change: Why Transformation Efforts Fail 📅 2026-09-24 ✅ 2026-09-22
 
 Notes go in [[Session 05 - Organizational Change]].
 
