@@ -35,6 +35,17 @@ a team goes through the [teaming sheet](https://docs.google.com/spreadsheets/d/1
 The team has to settle before it can pick its one group case, and that case can be due as early
 as **Sep 28**.
 
+> [!danger] Announcements 2026-09-25 and 09-26: confirm the team, and decide on Case 1 now
+> Liao asks everyone to check the teaming sheet and make sure the team members listed are
+> correct. The sheet has **one tab per class session**, so use the Section 02 (Tue/Fri 9:50) tab.
+> He restated the case rule: each team completes **one** of the three group cases. Choosing
+> [[Group Case Report 1 - Cynthia Carroll at Anglo American|Case 1]] means it is due **Mon
+> 2026-09-28**, tomorrow as of this sync. Cases 2 and 3 keep their schedule dates. The format
+> is in the syllabus.
+>
+> - [ ] Confirm the team roster on the Section 02 tab of the teaming sheet 📅 2026-09-28
+> - [ ] Agree with the team on which group case to write 📅 2026-09-28
+
 > [!warning] Non-laptop policy — announcement 2026-09-19
 > Devices are to be put away during lecture, case study, and group discussion, and used only when
 > an activity specifically requires them. Liao states that frequent or consistent unauthorized
