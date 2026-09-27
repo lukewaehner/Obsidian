@@ -24,7 +24,10 @@ Lecture for [[Advanced Writing in Tech]].
 
 ## Assigned Material
 
-- [ ] Del Hierro, "DJs, Playlists, and Community"
+PDFs are in `~/Documents/Northeastern/fall-2026/advanced-writing-in-tech/week-4/`, pulled from the
+Canvas Week 4 module on 2026-09-27, along with the class slides and the giving-feedback handout.
+
+- [ ] Del Hierro, "DJs, Playlists, and Community" (Mon): [[Reading - Del Hierro, DJs, Playlists, and Community]]
 - [ ] Excerpt from *Data Empire* by Roopika Risam
 - [ ] "Metadata Guide: Metadata Basics" (Carnegie Mellon University Library)
 - [ ] Watch "The Secret to Giving Great Feedback" before the workshop
@@ -47,4 +50,5 @@ Lecture for [[Advanced Writing in Tech]].
 ## Related
 
 - [[Advanced Writing in Tech]]
+- [[Reading - Del Hierro, DJs, Playlists, and Community]] — the DJ as technical communicator; playlists as insider genre
 - [[Reading - Shipka, Rethinking Composition]] — an archive documents the party, not just the remnants (Brandt)
