@@ -183,16 +183,18 @@ week note carries the synthesis across that week's readings.
 | [[Reading - Slater et al., ChatGPT Isn't Hallucinating]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Ethics and AI]] | [[Week 02 - AI Ethics and Genre]] |
+| [[Lecture - Intro to Genre]] (with the genre and Freadman term sheets) | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Are These AI Prompts Damaging Your Thinking Skills]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Swales, The Concept of a Discourse Community]] | [[Week 03 - Discourse Communities]] |
 | [[Reading - Schryer, The Lab vs the Clinic]] | [[Week 03 - Discourse Communities]] |
 | [[Reading - Turkle and Yee, Evocative Objects]] | [[Week 03 - Discourse Communities]] |
+| [[Reading - Del Hierro, DJs, Playlists, and Community]] | [[Week 04 - Archives, DJing, and Metadata]] |
 
 ## Reference Material on Canvas
 
-Not mirrored into notes — go to the Canvas module when you need them:
+Mostly not mirrored into notes — go to the Canvas module when you need them:
 
-- **Important links and documents** — terms for genre, Freadman terms, research proposal outline, peer review guidelines, university boilerplate, AI policy (summarized under [[#AI Use]])
+- **Important links and documents** — research proposal outline and university boilerplate. The terms for genre and Freadman terms are in [[Lecture - Intro to Genre]], the peer review guidelines are in [[Peer Review Workshops]], and the AI policy is summarized under [[#AI Use]]. All downloaded to `~/Documents/Northeastern/fall-2026/advanced-writing-in-tech/reference/` on 2026-09-29
 - **Library Module** — 19 items on OneSearch, building searches, evaluating sources, annotated bibliographies, open access
 - **Example assignments** — sample multimodal projects, research proposals, literature reviews, and a recorded presentation
 
@@ -221,7 +223,9 @@ research actually function inside a specific discipline.
 	- [[Peer Review Workshops]]
 	- [[Presentation]]
 - **readings**
+	- [[Lecture - Intro to Genre]]
 	- [[Reading - Are These AI Prompts Damaging Your Thinking Skills]]
+	- [[Reading - Del Hierro, DJs, Playlists, and Community]]
 	- [[Reading - Ethics and AI]]
 	- [[Reading - Lamott, Shitty First Drafts]]
 	- [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]]

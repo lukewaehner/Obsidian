@@ -29,7 +29,8 @@ Lecture for [[Advanced Writing in Tech]].
 - [x] "Ethics and AI" → [[Reading - Ethics and AI]]
 - [x] "Are these AI prompts damaging your thinking skills?" → [[Reading - Are These AI Prompts Damaging Your Thinking Skills]]
 - [ ] Optional: AI productivity in engineering study
-- [ ] Optional: "Why AI Breaks Bad"
+- [ ] Optional: "Why AI Breaks Bad" (PDF in `week-2/`, not written up)
+- Thursday's lecture script and slides → [[Lecture - Intro to Genre]]
 
 ## Notes
 
@@ -172,5 +173,6 @@ Genre has a rhetorically strong definition when it is not centered on the substa
 - [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]]
 - [[Reading - Ethics and AI]]
 - [[Reading - Are These AI Prompts Damaging Your Thinking Skills]]
+- [[Lecture - Intro to Genre]]
 - [[Week 01 - Writing Process]]
 - [[Advanced Writing in Tech]]

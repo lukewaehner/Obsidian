@@ -30,6 +30,32 @@ Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeaste
 - [ ] Participate verbally in workshops
 - [ ] Comments must be substantive — explain *why* something did or didn't work
 
+## Guidelines
+
+From `Peer review guidelines 3302.docx` (Important links and documents, retrieved 2026-09-29).
+
+- Mark up a copy of the paper with thoughts, critiques, compliments, and ideas, and hand it to the
+  writer at the end of the session.
+- **Keep all feedback you receive until the end of the semester.** You'll need it to revise for the
+  [[Final Portfolio]].
+- Don't call things good or bad. Say whether they're **effective, and why or why not**.
+- Guide questions (you don't need to answer every one):
+  - What is the thesis? Does this answer the assignment prompt?
+  - Is the thesis clear and well argued?
+  - Is the paper well organized? Are transitions between ideas clear?
+  - Do the writer's rhetorical choices make sense?
+  - Is the argument convincing? Does it provide evidence? If it has no argument, what is it doing?
+  - What sources or quotes are used, and why?
+  - Where are you confused or unsure?
+  - Which sections need more clarity or elaboration?
+  - Does the paper flow well? Is the style well executed?
+- Watch "The Secret to Giving Great Feedback" (TED) before Workshop 1. Class slides are in
+  `week-4/Giving feedback.pdf`.
+
+> [!warning] AI policy
+> Pasting a peer's draft into an AI tool is explicitly banned. See the AI Use section of
+> [[Advanced Writing in Tech]].
+
 ## My Group
 
 

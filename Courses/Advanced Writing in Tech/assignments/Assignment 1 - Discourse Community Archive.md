@@ -33,6 +33,18 @@ Assignment for [[Advanced Writing in Tech]]. [Open in Canvas](https://northeaste
 - [ ] A cohesive overarching theme for the archive
 - [ ] 1–2 page writer's memo, due at the same time as the assignment: subject and why it interests you · conventions of the genre · choices you made as a writer · what you want the reader to take away
 
+> [!warning] The clay object from the Thu 9/24 archive activity
+> The slide says: "Using the clay provided, build an object to include in your archive paper. Be
+> sure to document the object!" It may be meant as one of the seven. See
+> [[Week 03 - Discourse Communities]].
+
+> [!tip] Where the bolded terms come from
+> [[Lecture - Intro to Genre]] has the course's official term sheets (genre, Freadman). Also see
+> [[Reading - Swales, The Concept of a Discourse Community|Swales]],
+> [[Reading - Turkle and Yee, Evocative Objects|Turkle and Yee]],
+> [[Reading - Schryer, The Lab vs the Clinic|Schryer]], and
+> [[Reading - Del Hierro, DJs, Playlists, and Community|Del Hierro]].
+
 ## Discourse Community
 
 
