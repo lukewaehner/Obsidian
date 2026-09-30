@@ -107,9 +107,12 @@ distracting the class, skipping class, late assignments, failing to return peer 
 harmful or bigoted speech. Escalates to a required meeting, then to higher offices.
 
 ### AI Use
-From `AI 3302 26.1.docx`, added to the Important links module on 2026-09-22, after the
-[[Week 02 - AI Ethics and Genre]] discussion. Uses outside the allowed list are treated as
-**plagiarism and referred to OSCCR**.
+From `AI 3302 26.1.docx` (listed in the Important links module as "AI Policy 3302 26.1.docx"),
+added on 2026-09-22 after the [[Week 02 - AI Ethics and Genre]] discussion. Checked against
+Canvas on 2026-09-30; the text hasn't changed since 9/22. Writing uses outside the allowed list
+**without permission** are treated as **plagiarism and referred to OSCCR**. Because of the
+permission clause, an unlisted use can be negotiated with Abbie ahead of time, like everything
+else in the course.
 
 | Not allowed | Allowed, with documentation |
 | --- | --- |
@@ -120,8 +123,10 @@ From `AI 3302 26.1.docx`, added to the Important links module on 2026-09-22, aft
 | Discussion posts, peer reviews, other human interaction | Checking whether you've met the requirements, with the prompt restated **in your own words**, not pasted |
 | Putting other people's work into it | |
 
-Every allowed use costs three things: **full chat logs or screenshots**, a paragraph addressing
-the use in that assignment's **reflection/memo**, and a **citation** in the paper's sources. The
+Every allowed use costs three things: **full chat logs or screenshots**, a paragraph in that
+assignment's **reflection/memo** that documents the use **and justifies it**, and a **citation**
+in the paper's sources. She expects "extensive" documentation. The policy's own test: if you
+can't justify a use, it probably isn't helping you build the skill. The
 two rows most easily broken by accident are *rewording/flow* (allowed) next to *generating whole
 sentences* (not). Also note that pasting a **peer's draft** into a model during peer review is
 explicitly banned.
