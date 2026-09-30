@@ -189,6 +189,7 @@ week note carries the synthesis across that week's readings.
 | [[Reading - Schryer, The Lab vs the Clinic]] | [[Week 03 - Discourse Communities]] |
 | [[Reading - Turkle and Yee, Evocative Objects]] | [[Week 03 - Discourse Communities]] |
 | [[Reading - Del Hierro, DJs, Playlists, and Community]] | [[Week 04 - Archives, DJing, and Metadata]] |
+| [[Reading - Risam, Data Empire]] | [[Week 04 - Archives, DJing, and Metadata]] |
 
 ## Reference Material on Canvas
 
@@ -229,6 +230,7 @@ research actually function inside a specific discipline.
 	- [[Reading - Ethics and AI]]
 	- [[Reading - Lamott, Shitty First Drafts]]
 	- [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]]
+	- [[Reading - Risam, Data Empire]]
 	- [[Reading - Schryer, The Lab vs the Clinic]]
 	- [[Reading - Shipka, Rethinking Composition]]
 	- [[Reading - Slater et al., ChatGPT Isn't Hallucinating]]
