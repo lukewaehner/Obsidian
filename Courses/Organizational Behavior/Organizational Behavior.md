@@ -113,6 +113,7 @@ assignments, No due date, and Topics views.
 ```
 assignments/  case reports, exams, the In-The-Wild project
 topics/       one note per session, S01-S26
+readings/     one note per assigned reading or case, linked from the session that assigns it
 ```
 
 ### Part A — OB in the Context of Business
@@ -169,6 +170,13 @@ topics/       one note per session, S01-S26
 	- [[In-The-Wild Presentation Slides]]
 	- [[In-The-Wild Project Proposal]]
 	- [[Midterm Exam]]
+- **readings**
+	- [[Case - Cynthia Carroll at Anglo American (A)]]
+	- [[Case - SMA, Micro-Electronic Products Division (A)]]
+	- [[Reading - Chatman and Cha, Leading by Leveraging Culture]]
+	- [[Reading - Haas and Mortensen, The Secrets of Great Teamwork]]
+	- [[Reading - Kotter, Leading Change]]
+	- [[Reading - Robbins and Judge, Understanding Work Teams]]
 - **topics**
 	- [[Session 01 - Introduction and Teaming]]
 	- [[Session 02 - Organizational Structure]]

@@ -24,10 +24,18 @@ Lecture for [[Organizational Behavior]].
 
 ## Assigned Material
 
-- [ ] # Leading Change: Why Transformation Efforts Fail
+- [ ] # Leading Change: Why Transformation Efforts Fail — notes written:
+      [[Reading - Kotter, Leading Change]]
 
 ## Notes
 
+
+> [!tip] Going in
+> The eight errors map almost completely onto Spichty's two years at MEPD — see the table in
+> [[Reading - Kotter, Leading Change]]. Error 5 (appraisal systems forcing people to choose
+> against the vision) is the plant-gross-margin profit centers, and it is the one obstacle
+> Spichty may not have the authority to remove. Same eight steps are required for the
+> [[In-The-Wild Case Analysis Report]] implementation plan.
 
 ## Key Takeaways
 

@@ -24,9 +24,11 @@ Lecture for [[Organizational Behavior]].
 
 ## Assigned Material
 
-- [ ] † Case: SMA: Micro-Electronic Products Division (A)
-- [ ] # Leading by Leveraging Culture
-- [ ] * Organizational Culture
+- [ ] † Case: SMA: Micro-Electronic Products Division (A) — notes written:
+      [[Case - SMA, Micro-Electronic Products Division (A)]]
+- [ ] # Leading by Leveraging Culture — notes written:
+      [[Reading - Chatman and Cha, Leading by Leveraging Culture]]
+- [ ] * Organizational Culture (recommended textbook chapter)
 
 ## Due This Session
 
@@ -34,6 +36,13 @@ Lecture for [[Organizational Behavior]].
 
 ## Notes
 
+
+> [!tip] Going in
+> Read the case through Chatman & Cha's grid: MEPD is **warring factions** — high intensity, low
+> agreement — not a vacuous culture. Spichty pulled lever 1 (selection: five of six managers
+> replaced) and left levers 2 and 3 untouched, then cancelled the OD program mid-downturn, which
+> is Chatman's named trigger for the **hypocrisy attribution dynamic**. Dreyer's is the
+> counterfactual: same squeeze, opposite move.
 
 ## Key Takeaways
 
