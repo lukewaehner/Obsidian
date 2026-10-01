@@ -56,19 +56,13 @@ The (A) case stops at the decision. Argue from what it gives you, not from what 
 
 ## Current Structure
 
-Liao's first prep question.
-
 **Group level: a holding company of independent fiefdoms.**
 
 - Operations or exploration in **40 countries**. **162,000 employees**, two-thirds in South
   Africa. 90% of operations in developing countries.
-- "Largely a collection of mining businesses that operated independently." On whether the mining
-  heads ever met: "We don't."
-- "The heads of the businesses acted like **tribal chiefs**. If they were asked to do something
-  around safety or people development, etc., they would tell you to get lost."
-- The history explains the structure. Apartheid-era sanctions and capital controls pushed the
-  company into unrelated South African businesses. By the 1990s it controlled about 25% of the
-  Johannesburg stock market. Trahar (CEO 2000–07) had started selling off non-core assets.
+- "Largely a collection of mining businesses that operated independently." On whether the mining heads ever met: "We don't."
+- "The heads of the businesses acted like **tribal chiefs**. If they were asked to do something around safety or people development, etc., they would tell you to get lost."
+- The history explains the structure. Apartheid-era sanctions and capital controls pushed the company into unrelated South African businesses. By the 1990s it controlled about 25% of the Johannesburg stock market. Trahar (CEO 2000–07) had started selling off non-core assets.
 
 **The chain of command to the problem:**
 
@@ -80,21 +74,20 @@ Carroll (Group CEO, London)
                  └─ middle managers → front-line supervisors → miners
 ```
 
-Carroll is **several layers removed** from the rock face, and the unit she wants to shut down is a
-subsidiary with its own CEO. Whether the call is hers alone is itself a structural question.
+Carroll is **several layers removed** from the rock face, and the unit she wants to shut down is a subsidiary with its own CEO. Whether the call is hers alone is itself a structural question.
 
 **Rustenburg by the numbers:**
 
-| | |
-| --- | --- |
-| Share of Amplats | 20% of tons mined, **35% of steady-state operating profit** |
-| Revenue | about **$8 million per day** |
-| Depth | shafts 1.5 km down, then 3–4 km horizontal. The rock face can be 5.5 km from the surface |
-| Working height | stopes about **1 m high**. All mined rock goes to the surface, so there is pressure to mine only the 1 m reef |
-| Yield | about 3 g platinum per ton. One ring takes about 280 tons of ore |
-| Labor intensity | about 20,000 people where an open pit needs about 2,000 |
-| Deaths | **16 of the 29** group deaths, Jan–Jul 2007 |
-| Workforce | about 70% illiterate, 11 official languages, migrants from Botswana and Zimbabwe |
+|                  |                                                                                                               |
+| ---------------- | ------------------------------------------------------------------------------------------------------------- |
+| Share of Amplats | 20% of tons mined, **35% of steady-state operating profit**                                                   |
+| Revenue          | about **$8 million per day**                                                                                  |
+| Depth            | shafts 1.5 km down, then 3–4 km horizontal. The rock face can be 5.5 km from the surface                      |
+| Working height   | stopes about **1 m high**. All mined rock goes to the surface, so there is pressure to mine only the 1 m reef |
+| Yield            | about 3 g platinum per ton. One ring takes about 280 tons of ore                                              |
+| Labor intensity  | about 20,000 people where an open pit needs about 2,000                                                       |
+| Deaths           | **16 of the 29** group deaths, Jan–Jul 2007                                                                   |
+| Workforce        | about 70% illiterate, 11 official languages, migrants from Botswana and Zimbabwe                              |
 
 ## Key Challenges
 
@@ -162,14 +155,14 @@ root causes are designed into the organization.
 
 ## The Shutdown Tradeoff
 
-| For shutting Rustenburg | Against |
-| --- | --- |
-| A shock the whole system can't ignore: a credible signal that safety outranks output | About **$8M a day** lost, with a high fixed cost base, while the board wants cost cuts |
-| 16 of 29 deaths happened there, so the shutdown is targeted where the problem is | **Idle mines get more dangerous.** Geology shifts without miners noticing, and "continuity of operations was considered essential" to safety |
-| The law already allows it. Section 54 (Exhibit 6) lets inspectors halt a mine, so a voluntary halt runs ahead of the regulator | About 30,000 workers, many migrants with families to support. Who gets paid during the halt? |
-| It fits her track record: 80% fewer lost-time accidents at Alcan, and "even if you are the only person with that view… that's what you do" | Anglo is "not markedly different" from its peers. Singling itself out could look like an admission of guilt |
-| It creates time to retrain, re-audit, and reset standards before restarting | The government relationship she was hired to repair. A halt that hurts output and jobs could strain it |
-| She frames it as the industry's responsibility, not only Anglo's | A shutdown alone treats the symptom. Supervisors, Fanagalo, and the incentives are all still there when the mine reopens |
+| For shutting Rustenburg                                                                                                                    | Against                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| A shock the whole system can't ignore: a credible signal that safety outranks output                                                       | About **$8M a day** lost, with a high fixed cost base, while the board wants cost cuts                                                       |
+| 16 of 29 deaths happened there, so the shutdown is targeted where the problem is                                                           | **Idle mines get more dangerous.** Geology shifts without miners noticing, and "continuity of operations was considered essential" to safety |
+| The law already allows it. Section 54 (Exhibit 6) lets inspectors halt a mine, so a voluntary halt runs ahead of the regulator             | About 30,000 workers, many migrants with families to support. Who gets paid during the halt?                                                 |
+| It fits her track record: 80% fewer lost-time accidents at Alcan, and "even if you are the only person with that view… that's what you do" | Anglo is "not markedly different" from its peers. Singling itself out could look like an admission of guilt                                  |
+| It creates time to retrain, re-audit, and reset standards before restarting                                                                | The government relationship she was hired to repair. A halt that hurts output and jobs could strain it                                       |
+| She frames it as the industry's responsibility, not only Anglo's                                                                           | A shutdown alone treats the symptom. Supervisors, Fanagalo, and the incentives are all still there when the mine reopens                     |
 
 ## The Exhibits Worth Reading Closely
 
@@ -251,6 +244,9 @@ Liao will probe for **at least one each**:
 Reply: halting under monitoring is safer than running on a 16-deaths-in-six-months trajectory.
 And a sign that the company is serious is worth more than the lost days of output, because the
 real cost is the supervisors' belief that "it will never happen in our lifetime."
+
+**Change action plan**: 
+This is not Carroll's decision to make on her own, the best process is for carroll to bring up the problem to someone like Havenstein to have the initiative come from him. On one hand, Havenstein is the CEO of the parent company, but the other is that that board hired her partly for her safety and culture initiatives. She cannot ignore the idea, but cannot spreadhead / be the face of the change. The board launches? CEO incompetence. Middle managers? Already the problem. Third party auditor? Compliance, not culture change. A strong plan to actually puruse is to just shut rustenburg, but only as the first move. KEep paying the workers, bring in unions and departments to audit safety. 
 
 ## Quotes Worth Keeping
 
