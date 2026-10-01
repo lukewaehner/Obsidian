@@ -96,7 +96,7 @@ topics/       one note per topic, with its class meetings
 - [[Topic 00 - Course Intro and Setup]]
 - [[Topic 01 - Python Basics]] — notebooks Part I & Part II written up
 - [[Topic 02 - Data Structures and Functions]]
-- [[Topic 03 - NumPy]]
+- [[Topic 03 - NumPy]] — `Topic 3 NumPy Basics.ipynb` written up, exercise answers worked
 - [[Topic 04 - Pandas Introduction]]
 - [[Topic 05 - Pandas Group Operations]]
 - [[Topic 06 - Pandas Data Wrangling]]
