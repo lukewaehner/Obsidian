@@ -24,8 +24,10 @@ Lecture for [[Organizational Behavior]].
 
 ## Assigned Material
 
-- [ ] # The Secrets of Great Teamwork
-- [ ] * Understanding Work Teams
+- [ ] # The Secrets of Great Teamwork — notes written:
+      [[Reading - Haas and Mortensen, The Secrets of Great Teamwork]]
+- [ ] * Understanding Work Teams — notes written:
+      [[Reading - Robbins and Judge, Understanding Work Teams]]
 
 ## Notes
 
