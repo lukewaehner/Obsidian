@@ -23,7 +23,7 @@ In-class activity for [[Module 03 - Test Adequacy]].
 > One submission per group in Bhutta's sections — **name your partners in a comment** under the submission.
 > **Attendance is required to get credit** — doing the work without being in class scores zero.
 
-- [ ] Submit Activity 03 - Mutation Testing with Stryker 📅 2026-09-21
+- [x] Submit Activity 03 - Mutation Testing with Stryker 📅 2026-09-21 ✅ 2026-09-22
 
 > [!info] Source
 > Instructions live on <https://neu-se.github.io/CS4530-Fall-2026/modules/3-test-adequacy> — the
