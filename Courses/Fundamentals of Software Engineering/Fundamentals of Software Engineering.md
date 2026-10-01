@@ -182,6 +182,7 @@ reference/    schedule, staff, policies, style guide
 - [[Module 04 - Design Patterns for Web Applications]] — client/server, WebSockets vs HTTP/REST, controller-service-repository, async persistence
 - [[Module 05 - React Basics]] — components, props, state, batched setters, keyed lists
 - [[Module 06 - React Hook Patterns]] — `useEffect` and cleanup, custom hooks, Playwright UI testing
+- [[Module 07 - Software Process]] — waterfall vs agile, teams and post-mortems, Scrum planning and estimation (scaffold)
 
 ### Activities
 - [[Activity 01 - User Stories and Conditions of Satisfaction]]
@@ -250,6 +251,7 @@ Inspired by SE courses at Columbia (COMS W4156), CMU ([17-313](https://cmu-313.g
 	- [[Module 04 - Design Patterns for Web Applications]]
 	- [[Module 05 - React Basics]]
 	- [[Module 06 - React Hook Patterns]]
+	- [[Module 07 - Software Process]]
 - **tutorials**
 	- [[Tutorial - API Requests]]
 	- [[Tutorial - Development Environment Setup]]
