@@ -179,7 +179,9 @@ reference/    schedule, staff, policies, style guide
 ### Modules
 - [[Module 01 - Orientation and User Stories]] — what SE is, the people/processes/programs grid, course mechanics, then user stories and conditions of satisfaction
 - [[Module 02 - From Requirements to Tests]] — TDD, conditions of satisfaction to testable behaviors
-- [[Module 05 - React Basics]] — components, props, and state (scaffold)
+- [[Module 04 - Design Patterns for Web Applications]] — client/server, WebSockets vs HTTP/REST, controller-service-repository, async persistence
+- [[Module 05 - React Basics]] — components, props, state, batched setters, keyed lists
+- [[Module 06 - React Hook Patterns]] — `useEffect` and cleanup, custom hooks, Playwright UI testing
 
 ### Activities
 - [[Activity 01 - User Stories and Conditions of Satisfaction]]
@@ -247,6 +249,7 @@ Inspired by SE courses at Columbia (COMS W4156), CMU ([17-313](https://cmu-313.g
 	- [[Module 03 - Test Adequacy]]
 	- [[Module 04 - Design Patterns for Web Applications]]
 	- [[Module 05 - React Basics]]
+	- [[Module 06 - React Hook Patterns]]
 - **tutorials**
 	- [[Tutorial - API Requests]]
 	- [[Tutorial - Development Environment Setup]]
