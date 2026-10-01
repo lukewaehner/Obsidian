@@ -21,8 +21,13 @@ Lecture for [[Distributed Systems]].
 
 ## Meetings
 
-- **Tue Sep 29**
-- **Thu Oct 1**
+- ~~**Tue Sep 29**~~ — cancelled by Prof Jackson
+- **Thu Oct 1** — Consensus, day 1
+- **Tue Oct 6** (probably) — Consensus, day 2
+
+> [!warning] Schedule slipped one meeting
+> The Sep 29 lecture was cancelled, so consensus starts Thu Oct 1. The derived dates in later
+> week notes are probably one meeting late from here on. Confirm with the course site or Canvas.
 
 ## Assigned Material
 
