@@ -189,6 +189,8 @@ week note carries the synthesis across that week's readings.
 | [[Reading - Mazzucato, The Ugly Truth Behind ChatGPT]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Ethics and AI]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Lecture - Intro to Genre]] (with the genre and Freadman term sheets) | [[Week 02 - AI Ethics and Genre]] |
+| [[Handout - Terms for Genre]] | [[Week 02 - AI Ethics and Genre]] |
+| [[Handout - Freadman Terms]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Are These AI Prompts Damaging Your Thinking Skills]] | [[Week 02 - AI Ethics and Genre]] |
 | [[Reading - Swales, The Concept of a Discourse Community]] | [[Week 03 - Discourse Communities]] |
 | [[Reading - Schryer, The Lab vs the Clinic]] | [[Week 03 - Discourse Communities]] |
@@ -229,6 +231,8 @@ research actually function inside a specific discipline.
 	- [[Peer Review Workshops]]
 	- [[Presentation]]
 - **readings**
+	- [[Handout - Freadman Terms]]
+	- [[Handout - Terms for Genre]]
 	- [[Lecture - Intro to Genre]]
 	- [[Reading - Are These AI Prompts Damaging Your Thinking Skills]]
 	- [[Reading - Del Hierro, DJs, Playlists, and Community]]

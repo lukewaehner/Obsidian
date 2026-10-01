@@ -22,6 +22,13 @@ Lecture notes for [[Week 02 - AI Ethics and Genre]] · [[Advanced Writing in Tec
 > Important links and documents. Retrieved 2026-09-29. Local copies are in
 > `~/Documents/Northeastern/fall-2026/advanced-writing-in-tech/` (`week-2/` and `reference/`).
 
+> [!cite] Citation
+> DeCamp, Abbie. "Intro to Genre." ENGW 3302: Advanced Writing in the Technical Professions,
+> 17 Sept. 2026, Northeastern University. Lecture.
+>
+> The two term sheets have their own notes and citations:
+> [[Handout - Terms for Genre]] and [[Handout - Freadman Terms]].
+
 > [!abstract] One-line version
 > Genre is not a set of formal features but **typified social action**: a recurring response to a
 > recurring situation, defined by what it does, who it addresses, and how it gets taken up.
@@ -199,6 +206,7 @@ you need to think about how genres are fuzzy, unstable, social, and interconnect
 ## Related
 
 - [[Week 02 - AI Ethics and Genre]]: the Thursday lecture
+- [[Handout - Terms for Genre]] and [[Handout - Freadman Terms]]: the term sheets as handed out
 - [[Reading - Swales, The Concept of a Discourse Community]]: the six criteria, in full
 - [[Reading - Schryer, The Lab vs the Clinic]]: chronotope, and "stabilized-for-now"
 - [[Assignment 1 - Discourse Community Archive]]
