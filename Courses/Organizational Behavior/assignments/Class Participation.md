@@ -73,7 +73,7 @@ Volume of talking is not on that list; three of the four require having done the
 discussion; restroom and health breaks should be as discreet as possible and, when it can be
 planned, taken during transitions, activities, or group exercises.
 
-- [ ] Switch to paper notes for ORGB sessions 📅 2026-09-22
+- [x] Switch to paper notes for ORGB sessions 📅 2026-09-22 ✅ 2026-09-22
 
 ## Midterm Feedback
 
