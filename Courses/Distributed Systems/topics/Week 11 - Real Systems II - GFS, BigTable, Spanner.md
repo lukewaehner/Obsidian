@@ -21,8 +21,12 @@ Lecture for [[Distributed Systems]].
 
 ## Meetings
 
-- **Tue Nov 17**
 - **Thu Nov 19**
+- **Tue Nov 24** — if class meets during November Break; otherwise Tue Dec 1
+
+> [!note] Running one meeting behind
+> The Tue Sep 15 lecture was cancelled (see [[Week 02 - Networking Primer]]), so from Week 03 on
+> each topic lands one meeting later than the course site's week grid. Dates below include that slip.
 
 ## Assigned Material
 

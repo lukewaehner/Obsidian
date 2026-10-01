@@ -23,6 +23,11 @@ Lecture for [[Distributed Systems]].
 
 - **Tue Sep 22**
 - **Thu Sep 24**
+- **Tue Sep 29** — spillover from the one-meeting slip
+
+> [!note] Running one meeting behind
+> The Tue Sep 15 lecture was cancelled (see [[Week 02 - Networking Primer]]), so from Week 03 on
+> each topic lands one meeting later than the course site's week grid. Dates below include that slip.
 
 ## Assigned Material
 

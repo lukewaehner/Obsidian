@@ -136,8 +136,8 @@ topics/       one note per week, following the course site's own week structure
 > The course site's schedule is week-based with no calendar dates. The Tue/Thu dates in the week
 > notes are computed from the first class (Thu 2026-09-10, per Prof Jackson's welcome
 > announcement). Week 12 is listed as "November Break" — confirm whether either day meets.
-> **Tue Sep 29 was cancelled**, so from Week 04 on, the actual topics probably run one meeting
-> behind the derived dates.
+> **Running one meeting behind.** The Tue Sep 15 cancellation pushed every topic from Week 03 on back
+> one meeting. The week notes' Meetings dates already include the slip. Weeks 12–14 are unconfirmed.
 
 ### Weeks
 

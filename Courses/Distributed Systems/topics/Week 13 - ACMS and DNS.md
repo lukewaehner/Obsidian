@@ -24,6 +24,10 @@ Lecture for [[Distributed Systems]].
 - **Tue Dec 1**
 - **Thu Dec 3**
 
+> [!note] One-meeting slip may reach this week
+> The Sep 15 cancellation pushed Weeks 03–11 back one meeting. Unless the break or a skipped
+> topic absorbs it, this week's dates are probably one meeting late too. Confirm closer to the date.
+
 ## Assigned Material
 
 > [!warning] No slide deck published — readings only. Papers are in the Resources section of the [schedule](https://4730.network/docs/schedule/).
