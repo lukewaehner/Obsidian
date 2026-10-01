@@ -452,7 +452,27 @@
     "registry": 415,
     "networking": 416,
     "compose": 417,
-    "orchestration": 418
+    "orchestration": 418,
+    "genre": 419,
+    "archives": 420,
+    "materiality": 421,
+    "weekly": 422,
+    "courses": 423,
+    "case": 424,
+    "frontend": 425,
+    "tsx": 426,
+    "hooks": 427,
+    "web-apps": 428,
+    "technical-communication": 429,
+    "hip-hop": 430,
+    "safety-culture": 431,
+    "ui-testing": 432,
+    "data": 433,
+    "metadata": 434,
+    "textbook": 435,
+    "scrum": 436,
+    "teams": 437,
+    "estimation": 438
   },
   "_version": 3
 }
