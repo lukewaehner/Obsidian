@@ -74,7 +74,7 @@ Her definition, which is the sentence people cite her for:
 > a genre is a "stabilized-for-now or stabilized-enough site of social and ideological action"
 
 It builds on Miller's "recurrent, significant action" and on Bakhtin, and the hyphenated hedge is
-doing the work — genres look permanent and are not. From Bakhtin she takes the paradox that
+doing the work - genres look permanent and are not. From Bakhtin she takes the paradox that
 genres are "sites of both stability and instability," and the notion of *addressivity*: an
 utterance's boundaries are set by "a change of speaking subjects," so every genre has a built-in
 attitude toward its audience. Genres "knit together with specific objects and with the belief
@@ -143,16 +143,16 @@ college."
 
 **The binary.** Schryer's own summary table of the competing values:
 
-| Research | Practice |
-| --- | --- |
-| Science | Medicine |
-| Information development | Case problem solving |
-| Memorization of facts | Problem or case-oriented teaching |
-| Communalistic | Individualistic |
-| Long term | Short term, immediate |
-| Validity | Ambiguity and complexity |
-| Methods | Skills |
-| Education | Training |
+| Research                | Practice                          |
+| ----------------------- | --------------------------------- |
+| Science                 | Medicine                          |
+| Information development | Case problem solving              |
+| Memorization of facts   | Problem or case-oriented teaching |
+| Communalistic           | Individualistic                   |
+| Long term               | Short term, immediate             |
+| Validity                | Ambiguity and complexity          |
+| Methods                 | Skills                            |
+| Education               | Training                          |
 
 She immediately qualifies it — "it would be simplistic to suggest that all health professions
 divide simply and easily along these lines" — and the Purdue reformulation report shows the
@@ -176,9 +176,7 @@ to cooperate with the writer in reconstructing the experiment."
 And it is a reconstruction. Knorr-Cetina found "the published account is a reversed version of
 the actual research process." Prelli:
 
-> "Research articles are thus more persuasive because the articles present an image of
-> determinacy in science and obscure the influences of historical and situational circumstances
-> and possibilities of alternate approaches and judgments."
+> "Research articles are thus more persuasive because the articles present an image of determinacy in science and obscure the influences of historical and situational circumstances and possibilities of alternate approaches and judgments."
 
 Swales's own CARS moves show up here as what an introduction must do: establish the relevance of
 the field, locate the project within it, and "occupy and defend a particular niche."
@@ -215,16 +213,16 @@ the record cycles as data changes the assessment which changes the plan which pr
 
 ## The Comparison, Which Is the Point
 
-| | IMRDS | POVMR |
-| --- | --- | --- |
-| Kind | **Reporting** — "the writer goes back in time towards a set of events" | **Recording** — "as little time as possible must elapse between events and their recording" |
-| Epistemology | Research is "an effort of 'bricolage'; yet IMRDS turns it into a work of 'engineering'" | "Variables cannot be eliminated; they can only be discovered, identified and managed" |
-| Problems | Selected, simplified, controlled | Given — "'zebra' cases, cases with multiple and rare interacting problems" |
-| Purpose | Persuade; "inherently argumentative" | Intervene — records "order treatments" and act "immediately to change phenomenological events"; and, "in today's litigious world, records are acts of justification" |
-| Audience | Hyperaware of a critical, wide audience | Narrow, socialized insiders; prose "extraordinarily elliptical" |
-| Structure | Moves visually signalled by headings | "never signalled in these kinds of texts with heading or with any other typographical feature" |
-| References | Extensive bibliographies, aligning the lab with other labs | "rarely have extensive reference sections" |
-| Status | "simply deemed more valid, more 'real' (i.e. scientific)" | — |
+|              | IMRDS                                                                                   | POVMR                                                                                                                                                                |
+| ------------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Kind         | **Reporting** — "the writer goes back in time towards a set of events"                  | **Recording** — "as little time as possible must elapse between events and their recording"                                                                          |
+| Epistemology | Research is "an effort of 'bricolage'; yet IMRDS turns it into a work of 'engineering'" | "Variables cannot be eliminated; they can only be discovered, identified and managed"                                                                                |
+| Problems     | Selected, simplified, controlled                                                        | Given — "'zebra' cases, cases with multiple and rare interacting problems"                                                                                           |
+| Purpose      | Persuade; "inherently argumentative"                                                    | Intervene — records "order treatments" and act "immediately to change phenomenological events"; and, "in today's litigious world, records are acts of justification" |
+| Audience     | Hyperaware of a critical, wide audience                                                 | Narrow, socialized insiders; prose "extraordinarily elliptical"                                                                                                      |
+| Structure    | Moves visually signalled by headings                                                    | "never signalled in these kinds of texts with heading or with any other typographical feature"                                                                       |
+| References   | Extensive bibliographies, aligning the lab with other labs                              | "rarely have extensive reference sections"                                                                                                                           |
+| Status       | "simply deemed more valid, more 'real' (i.e. scientific)"                               | —                                                                                                                                                                    |
 
 Law's funnel is the best image for what IMRDS does to a reader:
 
@@ -281,15 +279,11 @@ The genre trained them out of producing knowledge, and then the college wondered
   by IMRDS and POVMR; it's reproduced by them, every time someone learns to write one.
 - **"Stabilized-for-now"** is the whole theory in one hyphenated phrase — conventions that look
   like natural form are a truce, and truces can be renegotiated.
-- **The hierarchy is enforced by which genre counts as knowledge.** Same college, same patients,
-  same technical vocabulary; one genre gets you tenure and one doesn't.
+- **The hierarchy is enforced by which genre counts as knowledge.** Same college, same patients, same technical vocabulary; one genre gets you tenure and one doesn't.
 - **Objectivity is a rhetorical achievement.** Virtual witnesses, reversed accounts, omitted
   methods, funnelled discussions. IMRDS earns its authority by hiding the bricolage.
-- **Direct rebuttal to Swales.** Criterion 1 assumes broadly agreed common public goals. Schryer's
-  college nominally has them and is still two communities — so genre can subdivide a discourse
-  community below the level Swales's criteria can see.
-- Schryer is not anti-IMRDS. Her recommendation is that both groups learn both genres, and she
-  notes consultancy work as an emerging role needing "both sets of skills."
+- **Direct rebuttal to Swales.** Criterion 1 assumes broadly agreed common public goals. Schryer's college nominally has them and is still two communities — so genre can subdivide a discourse community below the level Swales's criteria can see.
+- Schryer is not anti-IMRDS. Her recommendation is that both groups learn both genres, and she notes consultancy work as an emerging role needing "both sets of skills."
 
 ## Open Questions
 

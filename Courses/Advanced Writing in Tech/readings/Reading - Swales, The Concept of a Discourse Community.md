@@ -18,9 +18,13 @@ status: raw
 Reading for [[Week 03 - Discourse Communities]] · [[Advanced Writing in Tech]]
 
 > [!cite] Citation
-> Swales, John. "The Concept of a Discourse Community." *Genre Analysis: English in Academic
-> and Research Settings*, Cambridge UP, 1990, pp. 21–32. Reprinted in *Writing about Writing*,
-> pp. 466–480.
+> Swales, John. "The Concept of Discourse Community." *Genre Analysis: English in Academic and
+> Research Settings*, Cambridge UP, 1990, pp. 21–32. Reprinted in *Writing about Writing*, edited
+> by Elizabeth Wardle and Doug Downs, Bedford/St. Martin's, pp. 466–480.
+>
+> The chapter title has no "a"; the reprint's own header uses "The Concept of Discourse
+> Community." The course PDF is the *Writing about Writing* reprint, but which edition it comes
+> from isn't printed on the scanned pages, so the reprint line has no year.
 
 > [!abstract] One-line version
 > "Discourse community" had become a warm, vague, circular term, so Swales replaces it with a
@@ -73,8 +77,7 @@ discourse activity builds one.
 Three reasons to keep them apart, and the second is the one that actually matters:
 
 1. **Medium.** "Speech" won't do as the modifier for heavily literate groups. "Literacy takes
-   away locality and parochiality" — members communicate with distant members and respond to
-   writing from the past.
+   away locality and parochiality" — members communicate with distant members and respond to writing from the past.
 2. **Sociolinguistic vs. sociorhetorical.** In a speech community the communicative needs *of
    the group* — socialization, solidarity — drive its discourse. In a discourse community the
    needs *of the goals* do. The determinants are functional, not social: people "link up in
@@ -92,14 +95,14 @@ His summary tag: "an archetypal discourse community tends to be a Specific Inter
 Proposed as **necessary and sufficient**, which is a much stronger claim than a list of family
 resemblances.
 
-| # | Criterion | The teeth in it |
-| --- | --- | --- |
-| 1 | A broadly agreed set of **common public goals** | *Public*, "because spies may join speech and discourse communities for hidden purposes of subversion." Commonality of goal is criterial, not shared object of study |
-| 2 | **Mechanisms of intercommunication** among members | The stringent one — it is what kills the Café Owner Problem |
-| 3 | Uses those mechanisms primarily to **provide information and feedback** | Membership implies *uptake*. Paying dues without reading anything doesn't count |
-| 4 | Utilizes and hence possesses **one or more genres** | "Genres are how things get done, when language is used to accomplish them" (Martin 1985) |
-| 5 | Has acquired some specific **lexis** | Usually abbreviations and acronyms; specialized senses of ordinary words |
-| 6 | A threshold level of **members with relevant content and discoursal expertise** | Survival "depends on a reasonable ratio between novices and experts" |
+| #   | Criterion                                                                       | The teeth in it                                                                                                                                                     |
+| --- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | A broadly agreed set of **common public goals**                                 | *Public*, "because spies may join speech and discourse communities for hidden purposes of subversion." Commonality of goal is criterial, not shared object of study |
+| 2   | **Mechanisms of intercommunication** among members                              | The stringent one — it is what kills the Café Owner Problem                                                                                                         |
+| 3   | Uses those mechanisms primarily to **provide information and feedback**         | Membership implies *uptake*. Paying dues without reading anything doesn't count                                                                                     |
+| 4   | Utilizes and hence possesses **one or more genres**                             | "Genres are how things get done, when language is used to accomplish them" (Martin 1985)                                                                            |
+| 5   | Has acquired some specific **lexis**                                            | Usually abbreviations and acronyms; specialized senses of ordinary words                                                                                            |
+| 6   | A threshold level of **members with relevant content and discoursal expertise** | Survival "depends on a reasonable ratio between novices and experts"                                                                                                |
 
 **Criterion 1's sharp edge.** Shared goals are not the same as a shared subject. "The fact that
 the shared object of study is, say, the Vatican, does not imply that students of the Vatican in

@@ -43,52 +43,31 @@ communication activity) · [[Advanced Writing in Tech]]
 
 ## The Argument in Five Moves
 
-1. **The field's gap.** Technical and professional communication (TPC) has been calling for
-   social-justice, culturally sensitive, community-honoring research, and for attention to
-   localization by global users. Hip Hop has been doing exactly that for 40 years and is absent
-   from the conversation.
+1. **The field's gap.** Technical and professional communication (TPC) has been calling for social-justice, culturally sensitive, community-honoring research, and for attention to localization by global users. Hip Hop has been doing exactly that for 40 years and is absent from the conversation.
 2. **The definitional move.** If the value of a technical communicator is "their ability to make
    information more useable and accessible" (the Society for Technical Communication's
    definition), then "within a Hip Hop context, the DJ is almost entirely responsible for being
    the technical communicators of their culture."
-3. **The DJ's position.** DJs sit in the "in-between space" of consumer and producer. They
-   consume other people's records constantly, and they produce a text of their own: the
-   *selection*, the *order*, and the *style*. Crowds consume the curation as well as the songs.
-4. **The case: DJ Screw, Houston, 1990–2001.** Screw slowed records down and repeated phrases so
-   that you "can hear everything and feel everything." That is localization for a specific
-   listening practice: long, hot, slow drives across Houston's highways with a cassette deck.
-5. **The documents.** Handwritten request playlists in the archive look like bad technical
-   writing, but they work. They leave information out because the community already shares it,
-   and that shared context is what makes them effective.
+3. **The DJ's position.** DJs sit in the "in-between space" of consumer and producer. They consume other people's records constantly, and they produce a text of their own: the *selection*, the *order*, and the *style*. Crowds consume the curation as well as the songs.
+4. **The case: DJ Screw, Houston, 1990–2001.** Screw slowed records down and repeated phrases so that you "can hear everything and feel everything." That is localization for a specific listening practice: long, hot, slow drives across Houston's highways with a cassette deck.
+5. **The documents.** Handwritten request playlists in the archive look like bad technical writing, but they work. They leave information out because the community already shares it, and that shared context is what makes them effective.
 
 ## Hip Hop's Origin as a Communication Story
 
 - The **four elements** (DJing, breaking, graffiti, emceeing) can each exist outside Hip Hop.
-  What makes them Hip Hop is "a relationship to community." Without that tie, an element "on its
-  own does not represent Hip Hop."
-- Early 1970s South Bronx: Hip Hop grew as "a response to the lack of community resources" in
-  education, housing, representation, and employment. DJs were credited as the founders "because
-  they had the ability to create and hold space."
+  What makes them Hip Hop is "a relationship to community." Without that tie, an element "on its own does not represent Hip Hop."
+- Early 1970s South Bronx: Hip Hop grew as "a response to the lack of community resources" in education, housing, representation, and employment. DJs were credited as the founders "because they had the ability to create and hold space."
 - **Kool Herc's looping** is the founding example of user-driven design. He noticed that break
-  dancers waited for the instrumental break, so he bought records for a fifteen-second solo and
-  used two turntables and a crossfader to extend the break "for as long as he wanted." Del Hierro
-  calls this "one of the first places we see Hip Hop practitioners convert texts for better
+  dancers waited for the instrumental break, so he bought records for a fifteen-second solo and used two turntables and a crossfader to extend the break "for as long as he wanted." Del Hierro calls this "one of the first places we see Hip Hop practitioners convert texts for better
   accessibility and usability for local users."
-- Tricia Rose's frame: sampling and turntablism are "at once destructive... and recuperative."
-  They take recordings apart and recontextualize them to create "new meanings for cultural sounds
-  that have been relegated to commercial waste bins."
+- Tricia Rose's frame: sampling and turntablism are "at once destructive... and recuperative." They take recordings apart and recontextualize them to create "new meanings for cultural sounds that have been relegated to commercial waste bins."
 
 ## The DJ as Technical Communicator
 
 Two scholars carry the theory:
 
-- **Natasha N. Jones (2016):** technical communicators "must be aware of the ways that texts and
-  technologies that they create and critique reinforce certain ideologies." The technical
-  communicator mediates between the information that needs to be communicated and what actually
-  gets communicated and consumed.
-- **Adam J. Banks (2010), *Digital Griots*:** DJs are not "ventriloquist[s], playing other
-  people's stories for us; rather [DJs] are arranging, layering, sampling, and remixing… keeping
-  the culture, telling stories and binding time as they move the crowd."
+- **Natasha N. Jones (2016):** technical communicators "must be aware of the ways that texts and technologies that they create and critique reinforce certain ideologies." The technical communicator mediates between the information that needs to be communicated and what actually gets communicated and consumed.
+- **Adam J. Banks (2010), *Digital Griots*:** DJs are not "ventriloquist[s], playing other people's stories for us; rather [DJs] are arranging, layering, sampling, and remixing… keeping the culture, telling stories and binding time as they move the crowd."
 
 Del Hierro's synthesis is **call and response** as a user-feedback loop. The DJ reads the crowd
 live and decides when to *preserve* and when to *expand*. For example, a DJ might play a local
@@ -103,10 +82,8 @@ agent for social change through an added attention to curation."
   take part in telling the culture's story.
 - Screw died in 2000 (the paper says both 2000 and 2001), so Del Hierro adds **archival
   research**. He spent three visits and 25 hours in the University of Houston's Houston Hip Hop
-  Archive, kept in contact with curator Julie Grob, bought two Screw Tape CDs, listened to 10 more
-  online, and read Hip Hop journalism.
-- The tapes count as data because Screw "continues to speak through his performances," both
-  verbally and through his turntablism.
+  Archive, kept in contact with curator Julie Grob, bought two Screw Tape CDs, listened to 10 more online, and read Hip Hop journalism.
+- The tapes count as data because Screw "continues to speak through his performances," both verbally and through his turntablism.
 
 ## DJ Screw and the Screwed-and-Chopped Style
 
@@ -205,6 +182,10 @@ Datpiff.com.
 > "Like an outline, these written lists are not meant to be authoritative, but rather to aid the
 > compositional process."
 
+## The Killers
+- Mr. Brightside
+- Childhood memories evoked, song consistently played in a specific location brings back memories of that location. 
+- A direct cognitive linkage with feelings, stronger the feelings / emotions unlocks more vivid memories
 ## Key Takeaways
 
 - **Redefinition by function.** Del Hierro doesn't argue that DJs *resemble* technical

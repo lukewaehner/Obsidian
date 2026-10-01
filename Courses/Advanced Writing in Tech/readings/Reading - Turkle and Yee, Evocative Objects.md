@@ -23,12 +23,6 @@ Reading for [[Week 03 - Discourse Communities]] · [[Advanced Writing in Tech]]
 > With*, edited by Sherry Turkle, MIT Press, 2007, pp. 12–18. · Yee, Susan. "The Archive." Same
 > volume, pp. 33–37. · Closing excerpt from Jean Piaget, *Genetic Epistemology*.
 
-> [!warning] It is three texts, not one
-> The Canvas PDF is `evocative objects combined.pdf` and stitches together Turkle's editorial
-> introduction, one of the book's essays, and a Piaget excerpt of the kind the book pairs with
-> each essay. Read Yee second and notice she is doing to an archive exactly what Turkle says the
-> essayists do to objects.
-
 > [!abstract] One-line version
 > Objects are not just useful or beautiful — they are thinking partners, and taking them seriously means rejecting the Western ranking that puts abstract propositional knowledge above concrete, hands-on knowing; Yee then shows what gets lost when a physical archive becomes a searchable database.
 
@@ -66,12 +60,7 @@ experience of bricolage with a high emotional intensity." Hence her correction t
 
 ## The Thesis
 
-> "We find it familiar to consider objects as useful or aesthetic, as necessities or vain
-> indulgences. We are on less familiar ground when we consider objects as companions to our
-> emotional lives or as provocations to thought. The notion of evocative objects brings together
-> these two less familiar ideas, underscoring the inseparability of thought and feeling in our
-> relationship to things. **We think with the objects we love; we love the objects we think
-> with.**"
+> "We find it familiar to consider objects as useful or aesthetic, as necessities or vain indulgences. We are on less familiar ground when we consider objects as companions to our emotional lives or as provocations to thought. The notion of evocative objects brings together these two less familiar ideas, underscoring the inseparability of thought and feeling in our relationship to things. **We think with the objects we love; we love the objects we think with.**"
 
 The essayists' brief was never the object's instrumental power — "not on how fast the train
 travels or how fast the computer calculates — but on the object as a companion in life
@@ -132,11 +121,7 @@ object he became."
 
 ## Yee — "The Archive"
 
-Mid-1990s, Fondation Le Corbusier in Paris, housed in Le Corbusier's own Villa La Roche and Villa
-Jeanneret. Her task: build a virtual model of his unbuilt Palace of the Soviets. The pleasure is
-in the mess of the material — letters, a datebook, "hand-scrawled calculations in the margins of
-sketches" she did the math along with. And a newspaper clipping critiquing his design, on which he
-had written "Idiote":
+Mid-1990s, Fondation Le Corbusier in Paris, housed in Le Corbusier's own Villa La Roche and Villa Jeanneret. Her task: build a virtual model of his unbuilt Palace of the Soviets. The pleasure is in the mess of the material — letters, a datebook, "hand-scrawled calculations in the margins of sketches" she did the math along with. And a newspaper clipping critiquing his design, on which he had written "Idiote":
 
 > "I could trace the precision and force of the incision into the newsprint. I felt his
 > frustration, his spirit."
